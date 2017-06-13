@@ -1,0 +1,1991 @@
+[
+  {
+    "app_name": "aasm",
+    "versions": {
+      "4.12.0": 1
+    }
+  },
+  {
+    "app_name": "actionpack-page_caching",
+    "versions": {
+      "1.0.2": 1
+    }
+  },
+  {
+    "app_name": "active_hash",
+    "versions": {
+      "1.4.1": 1
+    }
+  },
+  {
+    "app_name": "active_link_to",
+    "versions": {
+      "1.0.3": 1
+    }
+  },
+  {
+    "app_name": "activejob-retry",
+    "versions": {
+      "0.6.2": 1
+    }
+  },
+  {
+    "app_name": "activerecord",
+    "versions": {
+      "5.1.1": 1
+    }
+  },
+  {
+    "app_name": "activerecord-import",
+    "versions": {
+      "0.17.2": 1,
+      "0.18.3": 1
+    }
+  },
+  {
+    "app_name": "activerecord-session_store",
+    "versions": {
+      "1.1.0": 1
+    }
+  },
+  {
+    "app_name": "activesupport",
+    "versions": {
+      "3.2.22.2": 1
+    }
+  },
+  {
+    "app_name": "acts-as-taggable-on",
+    "versions": {
+      "5.0.0": 1
+    }
+  },
+  {
+    "app_name": "addressable",
+    "versions": {
+      "2.3.8": 3,
+      "2.4.0": 1
+    }
+  },
+  {
+    "app_name": "airbrake",
+    "versions": {
+      "3.1.15": 2,
+      "3.1.17": 1,
+      "4.0.0": 5,
+      "4.1.0": 4,
+      "4.2.1": 1,
+      "4.3.1": 3,
+      "4.3.6": 2,
+      "4.3.8": 22,
+      "5.5.0": 6,
+      "5.8.1": 1,
+      "6.1.0": 1
+    }
+  },
+  {
+    "app_name": "airbrake-ruby",
+    "versions": {
+      "1.5.0": 6
+    }
+  },
+  {
+    "app_name": "alphabetical_paginate",
+    "versions": {
+      "2.2.3": 1
+    }
+  },
+  {
+    "app_name": "ancestry",
+    "versions": {
+      "2.0.0": 1,
+      "2.1.0": 1
+    }
+  },
+  {
+    "app_name": "arel",
+    "versions": {
+      "8.0.0": 1
+    }
+  },
+  {
+    "app_name": "ast",
+    "versions": {
+      "2.3.0": 1
+    }
+  },
+  {
+    "app_name": "auto_strip_attributes",
+    "versions": {
+      "2.0.6": 1
+    }
+  },
+  {
+    "app_name": "awesome_print",
+    "versions": {
+      "1.7.0": 3
+    }
+  },
+  {
+    "app_name": "aws-sdk",
+    "versions": {
+      "2.6.11": 1
+    }
+  },
+  {
+    "app_name": "aws-ses",
+    "versions": {
+      "0.5.0": 1
+    }
+  },
+  {
+    "app_name": "babosa",
+    "versions": {
+      "1.0.2": 1
+    }
+  },
+  {
+    "app_name": "better_errors",
+    "versions": {
+      "1.1.0": 1,
+      "2.1.0": 1,
+      "2.1.1": 17
+    }
+  },
+  {
+    "app_name": "binding_of_caller",
+    "versions": {
+      "0.7.2": 18
+    }
+  },
+  {
+    "app_name": "bootstrap-kaminari-views",
+    "versions": {
+      "0.0.3": 1,
+      "0.0.5": 6
+    }
+  },
+  {
+    "app_name": "bootstrap3-datetimepicker-rails",
+    "versions": {
+      "3.0.0.2": 1
+    }
+  },
+  {
+    "app_name": "bullet",
+    "versions": {
+      "5.1.0": 1
+    }
+  },
+  {
+    "app_name": "bunny",
+    "versions": {
+      "1.5.1": 1,
+      "2.6.5": 1
+    }
+  },
+  {
+    "app_name": "byebug",
+    "versions": {
+      "9.0.5": 2,
+      "9.0.6": 5
+    }
+  },
+  {
+    "app_name": "cancancan",
+    "versions": {
+      "1.16.0": 2
+    }
+  },
+  {
+    "app_name": "capistrano-rails",
+    "versions": {
+      "1.2.0": 1
+    }
+  },
+  {
+    "app_name": "capybara",
+    "versions": {
+      "2.1.0": 1,
+      "2.4.1": 1,
+      "2.5.0": 4,
+      "2.6.2": 2,
+      "2.7.1": 2,
+      "2.8.1": 4,
+      "2.10.1": 1,
+      "2.11.0": 1,
+      "2.12.1": 1,
+      "2.13.0": 3,
+      "2.14.0": 9
+    }
+  },
+  {
+    "app_name": "capybara-email",
+    "versions": {
+      "2.4.0": 1
+    }
+  },
+  {
+    "app_name": "capybara-webkit",
+    "versions": {
+      "1.14.0": 1
+    }
+  },
+  {
+    "app_name": "carrierwave",
+    "versions": {
+      "0.9.0": 1,
+      "0.10.0": 1
+    }
+  },
+  {
+    "app_name": "carrierwave-mongoid",
+    "versions": {
+      "0.8.1": 1
+    }
+  },
+  {
+    "app_name": "cdn_helpers",
+    "versions": {
+      "0.9": 1
+    }
+  },
+  {
+    "app_name": "chartkick",
+    "versions": {
+      "2.2.4": 1
+    }
+  },
+  {
+    "app_name": "chosen-rails",
+    "versions": {
+      "1.5.2": 1
+    }
+  },
+  {
+    "app_name": "chronic",
+    "versions": {
+      "0.10.2": 2
+    }
+  },
+  {
+    "app_name": "ci_reporter",
+    "versions": {
+      "1.7.0": 1,
+      "1.7.3": 1,
+      "2.0.0": 3
+    }
+  },
+  {
+    "app_name": "ci_reporter_minitest",
+    "versions": {
+      "1.0.0": 5
+    }
+  },
+  {
+    "app_name": "ci_reporter_rspec",
+    "versions": {
+      "1.0.0": 12
+    }
+  },
+  {
+    "app_name": "ci_reporter_test_unit",
+    "versions": {
+      "1.0.1": 1
+    }
+  },
+  {
+    "app_name": "colorize",
+    "versions": {
+      "0.8.1": 1
+    }
+  },
+  {
+    "app_name": "cucumber",
+    "versions": {
+      "2.2.0": 1
+    }
+  },
+  {
+    "app_name": "cucumber-rails",
+    "versions": {
+      "1.4.0": 1,
+      "1.4.4": 1,
+      "1.4.5": 4,
+      "1.5.0": 3
+    }
+  },
+  {
+    "app_name": "dalli",
+    "versions": {
+      "2.7.2": 1,
+      "2.7.6": 3
+    }
+  },
+  {
+    "app_name": "database_cleaner",
+    "versions": {
+      "1.2.0": 1,
+      "1.4.1": 1,
+      "1.5.0": 1,
+      "1.5.1": 2,
+      "1.5.3": 15,
+      "1.6.0": 1,
+      "1.6.1": 4
+    }
+  },
+  {
+    "app_name": "decent_exposure",
+    "versions": {
+      "2.3.3": 1
+    }
+  },
+  {
+    "app_name": "delayed_job",
+    "versions": {
+      "4.1.1": 1
+    }
+  },
+  {
+    "app_name": "delayed_job_mongoid",
+    "versions": {
+      "2.2.0": 1
+    }
+  },
+  {
+    "app_name": "deprecated_columns",
+    "versions": {
+      "0.1.0": 1,
+      "0.1.1": 2
+    }
+  },
+  {
+    "app_name": "devise",
+    "versions": {
+      "4.2.0": 1
+    }
+  },
+  {
+    "app_name": "devise-encryptable",
+    "versions": {
+      "0.2.0": 1
+    }
+  },
+  {
+    "app_name": "devise_invitable",
+    "versions": {
+      "1.7.0": 1
+    }
+  },
+  {
+    "app_name": "devise_zxcvbn",
+    "versions": {
+      "1.1.1": 1
+    }
+  },
+  {
+    "app_name": "diffy",
+    "versions": {
+      "3.0.6": 1,
+      "3.0.7": 1,
+      "3.1.0": 2
+    }
+  },
+  {
+    "app_name": "doorkeeper",
+    "versions": {
+      "4.2.0": 1
+    }
+  },
+  {
+    "app_name": "dotenv-rails",
+    "versions": {
+      "2.2.1": 1
+    }
+  },
+  {
+    "app_name": "draper",
+    "versions": {
+      "3.0.0": 1
+    }
+  },
+  {
+    "app_name": "elasticsearch",
+    "versions": {
+      "1.0.14": 1,
+      "1.0.18": 1,
+      "5.0.4": 1
+    }
+  },
+  {
+    "app_name": "equivalent-xml",
+    "versions": {
+      "0.6.0": 2
+    }
+  },
+  {
+    "app_name": "erubis",
+    "versions": {
+      "2.7.0": 2
+    }
+  },
+  {
+    "app_name": "exception_notification",
+    "versions": {
+      "4.0.1": 1
+    }
+  },
+  {
+    "app_name": "factory_girl",
+    "versions": {
+      "3.3.0": 1,
+      "4.8.0": 4
+    }
+  },
+  {
+    "app_name": "factory_girl_rails",
+    "versions": {
+      "3.3.0": 1,
+      "4.2.1": 1,
+      "4.5.0": 7,
+      "4.7.0": 6,
+      "4.8.0": 10
+    }
+  },
+  {
+    "app_name": "fakefs",
+    "versions": {
+      "0.9.0": 1,
+      "0.9.1": 1
+    }
+  },
+  {
+    "app_name": "faker",
+    "versions": {
+      "1.6.6": 1,
+      "1.7.3": 1
+    }
+  },
+  {
+    "app_name": "faraday",
+    "versions": {
+      "0.9.2": 1,
+      "0.11.0": 1,
+      "0.12.1": 1
+    }
+  },
+  {
+    "app_name": "faraday_middleware",
+    "versions": {
+      "0.10.0": 1
+    }
+  },
+  {
+    "app_name": "foreman",
+    "versions": {
+      "0.78.0": 1,
+      "0.84.0": 3
+    }
+  },
+  {
+    "app_name": "formtastic",
+    "versions": {
+      "2.3.0": 3,
+      "3.1.3": 1,
+      "3.1.5": 1
+    }
+  },
+  {
+    "app_name": "formtastic-bootstrap",
+    "versions": {
+      "3.0.0": 3,
+      "3.1.1": 3
+    }
+  },
+  {
+    "app_name": "friendly_id",
+    "versions": {
+      "5.1.0": 1,
+      "5.2.1": 2
+    }
+  },
+  {
+    "app_name": "fuubar",
+    "versions": {
+      "2.1.1": 1
+    }
+  },
+  {
+    "app_name": "gds-api-adapters",
+    "versions": {
+      "20.1.1": 1,
+      "32.0.0": 1,
+      "34.1.0": 2,
+      "36.0.1": 2,
+      "36.1.0": 1,
+      "36.4.1": 2,
+      "37.4.0": 1,
+      "37.5.1": 1,
+      "39.1.0": 1,
+      "39.2.0": 2,
+      "40.3.0": 1,
+      "40.5.0": 1,
+      "41.0.0": 3,
+      "41.2.0": 5,
+      "41.5.0": 5,
+      "42.0.0": 3,
+      "43.0.0": 1,
+      "45.0.0": 4,
+      "46.0.0": 5
+    }
+  },
+  {
+    "app_name": "gds-sso",
+    "versions": {
+      "11.2.0": 1,
+      "13.0.0": 6,
+      "13.2.0": 18
+    }
+  },
+  {
+    "app_name": "gds_zendesk",
+    "versions": {
+      "2.2.0": 1,
+      "2.4.0": 1
+    }
+  },
+  {
+    "app_name": "gelf",
+    "versions": {
+      "3.0.0": 1
+    }
+  },
+  {
+    "app_name": "generic_form_builder",
+    "versions": {
+      "0.13.0": 4
+    }
+  },
+  {
+    "app_name": "globalize",
+    "versions": {
+      "5.0.1": 1
+    }
+  },
+  {
+    "app_name": "google-api-client",
+    "versions": {
+      "0.9.19": 1,
+      "0.10.3": 1,
+      "0.11.2": 1,
+      "0.11.3": 1
+    }
+  },
+  {
+    "app_name": "govspeak",
+    "versions": {
+      "3.3.0": 2,
+      "3.4.0": 1,
+      "3.5.2": 1,
+      "3.6.2": 4,
+      "5.0.2": 2,
+      "5.0.3": 2
+    }
+  },
+  {
+    "app_name": "govuk-content-schema-test-helpers",
+    "versions": {
+      "1.0.2": 2,
+      "1.1.0": 2,
+      "1.3.0": 4,
+      "1.4.0": 18
+    }
+  },
+  {
+    "app_name": "govuk-lint",
+    "versions": {
+      "0.3.0": 1,
+      "0.5.1": 1,
+      "0.5.3": 3,
+      "0.6.1": 1,
+      "0.7.0": 1,
+      "0.8.1": 3,
+      "1.1.0": 1,
+      "1.2.1": 16,
+      "2.0.0": 3,
+      "2.1.0": 12
+    }
+  },
+  {
+    "app_name": "govuk_ab_testing",
+    "versions": {
+      "2.0.0": 1,
+      "2.1.0": 1,
+      "2.2.0": 2,
+      "2.3.0": 2,
+      "2.4.0": 1
+    }
+  },
+  {
+    "app_name": "govuk_admin_template",
+    "versions": {
+      "4.2.0": 1,
+      "4.3.0": 3,
+      "4.4.1": 1,
+      "4.4.2": 2,
+      "5.0.1": 5,
+      "6.0.0": 4,
+      "6.1.0": 4
+    }
+  },
+  {
+    "app_name": "govuk_content_models",
+    "versions": {
+      "47.0.0": 1
+    }
+  },
+  {
+    "app_name": "govuk_document_types",
+    "versions": {
+      "0.1.4": 2
+    }
+  },
+  {
+    "app_name": "govuk_elements_rails",
+    "versions": {
+      "2.2.1": 1,
+      "3.0.1": 2,
+      "3.0.2": 1
+    }
+  },
+  {
+    "app_name": "govuk_frontend_toolkit",
+    "versions": {
+      "0.44.0": 1,
+      "1.2.0": 2,
+      "1.4.0": 1,
+      "1.6.0": 1,
+      "1.6.1": 1,
+      "3.1.0": 1,
+      "4.3.0": 1,
+      "4.12.0": 1,
+      "4.14.0": 1,
+      "4.17.0": 1,
+      "4.18.1": 1,
+      "5.0.3": 1,
+      "5.1.0": 1,
+      "5.1.3": 1,
+      "6.0.1": 1,
+      "6.0.3": 3
+    }
+  },
+  {
+    "app_name": "govuk_message_queue_consumer",
+    "versions": {
+      "3.0.2": 1
+    }
+  },
+  {
+    "app_name": "govuk_navigation_helpers",
+    "versions": {
+      "2.0.0": 3,
+      "4.0.0": 1,
+      "5.1.0": 1,
+      "6.0.1": 3,
+      "6.2.0": 2
+    }
+  },
+  {
+    "app_name": "govuk_schemas",
+    "versions": {
+      "2.1.0": 4,
+      "2.1.1": 2
+    }
+  },
+  {
+    "app_name": "govuk_sidekiq",
+    "versions": {
+      "0.0.3": 1,
+      "0.0.4": 4,
+      "1.0.3": 7
+    }
+  },
+  {
+    "app_name": "govuk_taxonomy_helpers",
+    "versions": {
+      "0.1.0": 1
+    }
+  },
+  {
+    "app_name": "govuk_template",
+    "versions": {
+      "0.20.0": 1
+    }
+  },
+  {
+    "app_name": "graphviz_transitions",
+    "versions": {
+      "0.1.2": 1
+    }
+  },
+  {
+    "app_name": "gretel",
+    "versions": {
+      "3.0.9": 4
+    }
+  },
+  {
+    "app_name": "guard-rspec",
+    "versions": {
+      "4.7.3": 1
+    }
+  },
+  {
+    "app_name": "has_scope",
+    "versions": {
+      "0.7.1": 1
+    }
+  },
+  {
+    "app_name": "hashdiff",
+    "versions": {
+      "0.3.0": 1,
+      "0.3.2": 2
+    }
+  },
+  {
+    "app_name": "headless",
+    "versions": {
+      "2.3.1": 1
+    }
+  },
+  {
+    "app_name": "highline",
+    "versions": {
+      "1.7.8": 1
+    }
+  },
+  {
+    "app_name": "htmlentities",
+    "versions": {
+      "4.3.4": 4
+    }
+  },
+  {
+    "app_name": "httparty",
+    "versions": {
+      "0.15.5": 1
+    }
+  },
+  {
+    "app_name": "image_optim",
+    "versions": {
+      "0.17.1": 1
+    }
+  },
+  {
+    "app_name": "inherited_resources",
+    "versions": {
+      "1.7.2": 2
+    }
+  },
+  {
+    "app_name": "invalid_utf8_rejector",
+    "versions": {
+      "0.0.2": 1,
+      "0.0.3": 2
+    }
+  },
+  {
+    "app_name": "isbn_validation",
+    "versions": {
+      "1.2.2": 1
+    }
+  },
+  {
+    "app_name": "jasmine",
+    "versions": {
+      "2.1.0": 1,
+      "2.4.0": 1,
+      "2.5.2": 2,
+      "2.6.0": 3
+    }
+  },
+  {
+    "app_name": "jasmine-core",
+    "versions": {
+      "2.5.2": 1
+    }
+  },
+  {
+    "app_name": "jasmine-rails",
+    "versions": {
+      "0.7.0": 1,
+      "0.10.8": 1,
+      "0.14.1": 5
+    }
+  },
+  {
+    "app_name": "jbuilder",
+    "versions": {
+      "2.6.0": 1,
+      "2.6.4": 2
+    }
+  },
+  {
+    "app_name": "jc-validates_timeliness",
+    "versions": {
+      "3.1.1": 1
+    }
+  },
+  {
+    "app_name": "jquery-rails",
+    "versions": {
+      "4.1.1": 1,
+      "4.3.1": 1
+    }
+  },
+  {
+    "app_name": "jquery-ui-rails",
+    "versions": {
+      "4.1.2": 1,
+      "5.0.1": 1,
+      "5.0.5": 2,
+      "6.0.1": 1
+    }
+  },
+  {
+    "app_name": "json",
+    "versions": {
+      "1.8.3": 2,
+      "2.1.0": 1
+    }
+  },
+  {
+    "app_name": "json-schema",
+    "versions": {
+      "2.5.1": 1,
+      "2.5.2": 2
+    }
+  },
+  {
+    "app_name": "kaminari",
+    "versions": {
+      "0.16.3": 1,
+      "0.17.0": 5,
+      "1.0.1": 5
+    }
+  },
+  {
+    "app_name": "kaminari-actionview",
+    "versions": {
+      "1.0.1": 1
+    }
+  },
+  {
+    "app_name": "kaminari-mongoid",
+    "versions": {
+      "1.0.1": 3
+    }
+  },
+  {
+    "app_name": "launchy",
+    "versions": {
+      "2.4.2": 1,
+      "2.4.3": 9
+    }
+  },
+  {
+    "app_name": "link_header",
+    "versions": {
+      "0.0.8": 2
+    }
+  },
+  {
+    "app_name": "listen",
+    "versions": {
+      "3.0.8": 3,
+      "3.1.5": 4
+    }
+  },
+  {
+    "app_name": "logging",
+    "versions": {
+      "2.1.0": 1
+    }
+  },
+  {
+    "app_name": "logstasher",
+    "versions": {
+      "0.4.8": 12,
+      "0.4.9": 1,
+      "0.5.0": 1,
+      "0.5.3": 2,
+      "0.6.0": 1,
+      "0.6.1": 2,
+      "0.6.2": 8,
+      "0.6.5": 4,
+      "0.9.0": 2,
+      "1.1.0": 2,
+      "1.2.1": 6
+    }
+  },
+  {
+    "app_name": "lrucache",
+    "versions": {
+      "0.1.4": 3
+    }
+  },
+  {
+    "app_name": "maxitest",
+    "versions": {
+      "2.4.0": 1
+    }
+  },
+  {
+    "app_name": "method_source",
+    "versions": {
+      "0.8.2": 1
+    }
+  },
+  {
+    "app_name": "mime-types",
+    "versions": {
+      "1.25.1": 1
+    }
+  },
+  {
+    "app_name": "mini_magick",
+    "versions": {
+      "3.8.1": 1
+    }
+  },
+  {
+    "app_name": "minitest",
+    "versions": {
+      "5.5.1": 1,
+      "5.8.5": 1,
+      "5.9.1": 1,
+      "5.10.1": 1
+    }
+  },
+  {
+    "app_name": "minitest-capybara",
+    "versions": {
+      "0.7.2": 1
+    }
+  },
+  {
+    "app_name": "minitest-colorize",
+    "versions": {
+      "0.0.5": 1
+    }
+  },
+  {
+    "app_name": "minitest-fail-fast",
+    "versions": {
+      "0.1.0": 1
+    }
+  },
+  {
+    "app_name": "minitest-focus",
+    "versions": {
+      "1.1.2": 1
+    }
+  },
+  {
+    "app_name": "minitest-reporters",
+    "versions": {
+      "1.1.14": 2
+    }
+  },
+  {
+    "app_name": "minitest-spec-rails",
+    "versions": {
+      "5.3.0": 1
+    }
+  },
+  {
+    "app_name": "mlanett-redis-lock",
+    "versions": {
+      "0.2.2": 1,
+      "0.2.7": 6
+    }
+  },
+  {
+    "app_name": "mocha",
+    "versions": {
+      "0.13.3": 1,
+      "1.1.0": 10,
+      "1.2.1": 4
+    }
+  },
+  {
+    "app_name": "momentjs-rails",
+    "versions": {
+      "2.5.1": 1,
+      "2.17.1": 1
+    }
+  },
+  {
+    "app_name": "mongoid",
+    "versions": {
+      "4.0.2": 2,
+      "5.1.4": 1,
+      "6.0.0": 1,
+      "6.0.2": 1,
+      "6.0.3": 1,
+      "6.1.0": 6
+    }
+  },
+  {
+    "app_name": "mongoid-sadstory",
+    "versions": {
+      "0.0.2": 1
+    }
+  },
+  {
+    "app_name": "mongoid_paranoia",
+    "versions": {
+      "0.2.1": 1
+    }
+  },
+  {
+    "app_name": "mongoid_rails_migrations",
+    "versions": {
+      "1.0.1": 3,
+      "1.1.0": 6
+    }
+  },
+  {
+    "app_name": "mousetrap-rails",
+    "versions": {
+      "1.4.6": 1
+    }
+  },
+  {
+    "app_name": "mr-sparkle",
+    "versions": {
+      "0.3.0": 2
+    }
+  },
+  {
+    "app_name": "mysql2",
+    "versions": {
+      "0.3.18": 1,
+      "0.3.20": 1,
+      "0.4.4": 1,
+      "0.4.5": 2,
+      "0.4.6": 1
+    }
+  },
+  {
+    "app_name": "nested_form",
+    "versions": {
+      "0.3.1": 1,
+      "0.3.2": 1
+    }
+  },
+  {
+    "app_name": "newrelic_rpm",
+    "versions": {
+      "4.1.0.333": 1
+    }
+  },
+  {
+    "app_name": "nokogiri",
+    "versions": {
+      "1.6.6.4": 2,
+      "1.6.7.2": 1,
+      "1.6.8": 1,
+      "1.6.8.1": 1,
+      "1.7.1": 1,
+      "1.7.2": 4
+    }
+  },
+  {
+    "app_name": "notifications-ruby-client",
+    "versions": {
+      "2.0.0": 1
+    }
+  },
+  {
+    "app_name": "null_logger",
+    "versions": {
+      "0.0.1": 1
+    }
+  },
+  {
+    "app_name": "octokit",
+    "versions": {
+      "3.1.2": 1
+    }
+  },
+  {
+    "app_name": "oj",
+    "versions": {
+      "2.16.1": 1
+    }
+  },
+  {
+    "app_name": "oj_mimic_json",
+    "versions": {
+      "1.0.1": 1
+    }
+  },
+  {
+    "app_name": "optic14n",
+    "versions": {
+      "2.0.1": 2
+    }
+  },
+  {
+    "app_name": "pact",
+    "versions": {
+      "1.9.4": 1,
+      "1.10.0": 1
+    }
+  },
+  {
+    "app_name": "pact_broker-client",
+    "versions": {
+      "1.1.0": 1
+    }
+  },
+  {
+    "app_name": "paper_trail",
+    "versions": {
+      "4.1.0": 1,
+      "7.0.2": 1
+    }
+  },
+  {
+    "app_name": "parallel",
+    "versions": {
+      "1.11.2": 1
+    }
+  },
+  {
+    "app_name": "parallel_tests",
+    "versions": {
+      "2.14.1": 1
+    }
+  },
+  {
+    "app_name": "parser",
+    "versions": {
+      "2.3.1.4": 1
+    }
+  },
+  {
+    "app_name": "pdf-reader",
+    "versions": {
+      "2.0.0": 1
+    }
+  },
+  {
+    "app_name": "pg",
+    "versions": {
+      "0.18.4": 3,
+      "0.19.0": 3,
+      "0.20.0": 6
+    }
+  },
+  {
+    "app_name": "phantomjs",
+    "versions": {
+      "1.9.8.0": 1,
+      "2.1.1.0": 2
+    }
+  },
+  {
+    "app_name": "plek",
+    "versions": {
+      "1.7.0": 1,
+      "1.9.0": 1,
+      "1.10.0": 1,
+      "1.11.0": 13,
+      "1.12.0": 17,
+      "2.0.0": 13
+    }
+  },
+  {
+    "app_name": "poltergeist",
+    "versions": {
+      "1.5.0": 2,
+      "1.6.0": 4,
+      "1.7.0": 2,
+      "1.8.1": 2,
+      "1.9.0": 1,
+      "1.10.0": 1,
+      "1.12.0": 2,
+      "1.13.0": 2,
+      "1.14.0": 2,
+      "1.15.0": 4
+    }
+  },
+  {
+    "app_name": "pry",
+    "versions": {
+      "0.10.0": 1,
+      "0.10.3": 3,
+      "0.10.4": 7
+    }
+  },
+  {
+    "app_name": "pry-byebug",
+    "versions": {
+      "3.0.1": 1,
+      "3.4.0": 7,
+      "3.4.2": 19
+    }
+  },
+  {
+    "app_name": "pry-nav",
+    "versions": {
+      "0.2.4": 1
+    }
+  },
+  {
+    "app_name": "pry-rails",
+    "versions": {
+      "0.3.4": 4,
+      "0.3.5": 1,
+      "0.3.6": 2
+    }
+  },
+  {
+    "app_name": "pry-remote",
+    "versions": {
+      "0.1.8": 1
+    }
+  },
+  {
+    "app_name": "puma",
+    "versions": {
+      "3.8.2": 1
+    }
+  },
+  {
+    "app_name": "pundit",
+    "versions": {
+      "0.3.0": 1,
+      "1.1.0": 1
+    }
+  },
+  {
+    "app_name": "quiet_assets",
+    "versions": {
+      "1.0.2": 1,
+      "1.1.0": 3
+    }
+  },
+  {
+    "app_name": "rack",
+    "versions": {
+      "1.6.4": 1,
+      "1.6.6": 1,
+      "2.0.1": 1,
+      "2.0.3": 1
+    }
+  },
+  {
+    "app_name": "rack-logstasher",
+    "versions": {
+      "0.0.3": 1
+    }
+  },
+  {
+    "app_name": "rack-proxy",
+    "versions": {
+      "0.6.0": 1
+    }
+  },
+  {
+    "app_name": "rack-test",
+    "versions": {
+      "0.6.3": 4
+    }
+  },
+  {
+    "app_name": "rack_strip_client_ip",
+    "versions": {
+      "0.0.1": 7,
+      "0.0.2": 1
+    }
+  },
+  {
+    "app_name": "railroady",
+    "versions": {
+      "1.5.1": 1
+    }
+  },
+  {
+    "app_name": "rails",
+    "versions": {
+      "3.2.22.3": 1,
+      "4.2.5.2": 1,
+      "4.2.6": 1,
+      "4.2.7.1": 9,
+      "4.2.8": 1,
+      "5.0.0.1": 5,
+      "5.0.1": 2,
+      "5.0.2": 13,
+      "5.0.3": 4,
+      "5.1.0": 3,
+      "5.1.1": 5
+    }
+  },
+  {
+    "app_name": "rails-controller-testing",
+    "versions": {
+      "0.1.1": 2,
+      "1.0.0": 1,
+      "1.0.1": 9,
+      "1.0.2": 4
+    }
+  },
+  {
+    "app_name": "rails-html-sanitizer",
+    "versions": {
+      "1.0.3": 1
+    }
+  },
+  {
+    "app_name": "rails-i18n",
+    "versions": {
+      "0.7.4": 1,
+      "4.0.9": 2,
+      "5.0.0": 1,
+      "5.0.3": 1,
+      "5.0.4": 1
+    }
+  },
+  {
+    "app_name": "rails_autolink",
+    "versions": {
+      "1.1.6": 1
+    }
+  },
+  {
+    "app_name": "rails_stdout_logging",
+    "versions": {
+      "0.0.5": 1
+    }
+  },
+  {
+    "app_name": "rails_translation_manager",
+    "versions": {
+      "0.0.2": 3
+    }
+  },
+  {
+    "app_name": "raindrops",
+    "versions": {
+      "0.18.0": 2
+    }
+  },
+  {
+    "app_name": "rake",
+    "versions": {
+      "10.1.0": 2,
+      "10.4.1": 1,
+      "10.5.0": 2
+    }
+  },
+  {
+    "app_name": "redcarpet",
+    "versions": {
+      "3.3.4": 1
+    }
+  },
+  {
+    "app_name": "redis",
+    "versions": {
+      "3.1.0": 1,
+      "3.2.1": 2,
+      "3.3.1": 1,
+      "3.3.3": 1
+    }
+  },
+  {
+    "app_name": "redis-namespace",
+    "versions": {
+      "1.5.1": 1,
+      "1.5.2": 3,
+      "1.5.3": 3
+    }
+  },
+  {
+    "app_name": "responders",
+    "versions": {
+      "2.4.0": 3
+    }
+  },
+  {
+    "app_name": "rest-client",
+    "versions": {
+      "2.0.2": 1
+    }
+  },
+  {
+    "app_name": "retriable",
+    "versions": {
+      "3.0.2": 1
+    }
+  },
+  {
+    "app_name": "reverse_markdown",
+    "versions": {
+      "0.3.0": 1
+    }
+  },
+  {
+    "app_name": "rinku",
+    "versions": {
+      "2.0.0": 1,
+      "2.0.2": 1
+    }
+  },
+  {
+    "app_name": "rotp",
+    "versions": {
+      "2.1.2": 1
+    }
+  },
+  {
+    "app_name": "rqrcode",
+    "versions": {
+      "0.10.1": 1
+    }
+  },
+  {
+    "app_name": "rspec",
+    "versions": {
+      "3.4.0": 1,
+      "3.5.0": 1,
+      "3.6.0": 1
+    }
+  },
+  {
+    "app_name": "rspec-collection_matchers",
+    "versions": {
+      "1.1.2": 3,
+      "1.1.3": 1
+    }
+  },
+  {
+    "app_name": "rspec-core",
+    "versions": {
+      "3.1.4": 1
+    }
+  },
+  {
+    "app_name": "rspec-expectations",
+    "versions": {
+      "3.1.1": 1
+    }
+  },
+  {
+    "app_name": "rspec-its",
+    "versions": {
+      "1.0.1": 1,
+      "1.2.0": 1
+    }
+  },
+  {
+    "app_name": "rspec-mocks",
+    "versions": {
+      "3.1.1": 1
+    }
+  },
+  {
+    "app_name": "rspec-rails",
+    "versions": {
+      "3.1.0": 1,
+      "3.3.3": 3,
+      "3.4.2": 2,
+      "3.5.1": 2,
+      "3.5.2": 20,
+      "3.6.0": 4
+    }
+  },
+  {
+    "app_name": "rspec-sidekiq",
+    "versions": {
+      "3.0.0": 1
+    }
+  },
+  {
+    "app_name": "ruby-prof",
+    "versions": {
+      "0.16.2": 1
+    }
+  },
+  {
+    "app_name": "ruby-progressbar",
+    "versions": {
+      "1.8.1": 1
+    }
+  },
+  {
+    "app_name": "sass",
+    "versions": {
+      "3.4.22": 1,
+      "3.4.23": 2,
+      "3.4.24": 1
+    }
+  },
+  {
+    "app_name": "sass-rails",
+    "versions": {
+      "3.2.5": 1,
+      "5.0.4": 1,
+      "5.0.6": 32
+    }
+  },
+  {
+    "app_name": "sassc-rails",
+    "versions": {
+      "1.3.0": 1
+    }
+  },
+  {
+    "app_name": "sdoc",
+    "versions": {
+      "0.4.1": 1,
+      "0.4.2": 3
+    }
+  },
+  {
+    "app_name": "searchlight",
+    "versions": {
+      "4.1.0": 1
+    }
+  },
+  {
+    "app_name": "select2-rails",
+    "versions": {
+      "3.5.7": 1,
+      "3.5.9.1": 1,
+      "3.5.9.3": 1,
+      "3.5.10": 3,
+      "4.0.3": 2
+    }
+  },
+  {
+    "app_name": "selectize-rails",
+    "versions": {
+      "0.12.1": 1,
+      "0.12.4": 1
+    }
+  },
+  {
+    "app_name": "shared_mustache",
+    "versions": {
+      "0.1.3": 1,
+      "1.0.0": 2
+    }
+  },
+  {
+    "app_name": "shoulda",
+    "versions": {
+      "3.5.0": 6
+    }
+  },
+  {
+    "app_name": "shoulda-context",
+    "versions": {
+      "1.2.1": 4,
+      "1.2.2": 2
+    }
+  },
+  {
+    "app_name": "shoulda-matchers",
+    "versions": {
+      "2.8.0": 2,
+      "3.1.1": 5
+    }
+  },
+  {
+    "app_name": "sidekiq",
+    "versions": {
+      "3.2.1": 1,
+      "3.4.2": 1,
+      "4.1.4": 1,
+      "4.2.10": 1,
+      "5.0.0": 2
+    }
+  },
+  {
+    "app_name": "sidekiq-logging-json",
+    "versions": {
+      "0.0.18": 1
+    }
+  },
+  {
+    "app_name": "sidekiq-scheduler",
+    "versions": {
+      "2.1.3": 1
+    }
+  },
+  {
+    "app_name": "sidekiq-statsd",
+    "versions": {
+      "0.1.5": 4
+    }
+  },
+  {
+    "app_name": "sidekiq-unique-jobs",
+    "versions": {
+      "5.0.8": 1
+    }
+  },
+  {
+    "app_name": "simple_form",
+    "versions": {
+      "3.3.1": 1,
+      "3.4.0": 1
+    }
+  },
+  {
+    "app_name": "simplecov",
+    "versions": {
+      "0.8.2": 3,
+      "0.9.1": 1,
+      "0.9.2": 1,
+      "0.10.0": 6,
+      "0.11.2": 1,
+      "0.12.0": 4,
+      "0.14.1": 7
+    }
+  },
+  {
+    "app_name": "simplecov-rcov",
+    "versions": {
+      "0.2.3": 24
+    }
+  },
+  {
+    "app_name": "sinatra",
+    "versions": {
+      "1.0": 1,
+      "1.4.7": 1,
+      "2.0.0": 1
+    }
+  },
+  {
+    "app_name": "slimmer",
+    "versions": {
+      "9.0.0": 1,
+      "9.2.1": 1,
+      "10.0.0": 2,
+      "10.1.1": 3,
+      "10.1.3": 5,
+      "10.1.4": 2,
+      "11.0.0": 2
+    }
+  },
+  {
+    "app_name": "slop",
+    "versions": {
+      "3.4.7": 1
+    }
+  },
+  {
+    "app_name": "spring",
+    "versions": {
+      "1.1.3": 1,
+      "2.0.0": 1,
+      "2.0.1": 3,
+      "2.0.2": 1
+    }
+  },
+  {
+    "app_name": "spring-commands-rspec",
+    "versions": {
+      "1.0.4": 2
+    }
+  },
+  {
+    "app_name": "spring-watcher-listen",
+    "versions": {
+      "2.0.1": 4
+    }
+  },
+  {
+    "app_name": "sprockets",
+    "versions": {
+      "3.7.1": 1
+    }
+  },
+  {
+    "app_name": "sprockets-rails",
+    "versions": {
+      "2.3.3": 3,
+      "3.1.1": 1
+    }
+  },
+  {
+    "app_name": "sqlite3",
+    "versions": {
+      "1.3.13": 1
+    }
+  },
+  {
+    "app_name": "stackprof",
+    "versions": {
+      "0.2.10": 2
+    }
+  },
+  {
+    "app_name": "state_machine",
+    "versions": {
+      "1.2.0": 1
+    }
+  },
+  {
+    "app_name": "state_machines",
+    "versions": {
+      "0.4.0": 1
+    }
+  },
+  {
+    "app_name": "state_machines-mongoid",
+    "versions": {
+      "0.1.1": 3
+    }
+  },
+  {
+    "app_name": "statsd-ruby",
+    "versions": {
+      "1.0.0": 1,
+      "1.1.0": 2,
+      "1.2.1": 3,
+      "1.3.0": 6,
+      "1.4.0": 3
+    }
+  },
+  {
+    "app_name": "test-queue",
+    "versions": {
+      "0.2.13": 1
+    }
+  },
+  {
+    "app_name": "test-unit",
+    "versions": {
+      "3.1.3": 2,
+      "3.1.5": 1,
+      "3.2.3": 3
+    }
+  },
+  {
+    "app_name": "test-unit-minitest",
+    "versions": {
+      "0.9.1": 1
+    }
+  },
+  {
+    "app_name": "test_after_commit",
+    "versions": {
+      "1.1.0": 1
+    }
+  },
+  {
+    "app_name": "test_track",
+    "versions": {
+      "0.1.0": 1
+    }
+  },
+  {
+    "app_name": "therubyracer",
+    "versions": {
+      "0.12.2": 3
+    }
+  },
+  {
+    "app_name": "thin",
+    "versions": {
+      "1.7.0": 2
+    }
+  },
+  {
+    "app_name": "tilt",
+    "versions": {
+      "1.4.1": 1
+    }
+  },
+  {
+    "app_name": "timecop",
+    "versions": {
+      "0.4.5": 1,
+      "0.5.9.2": 1,
+      "0.7.1": 2,
+      "0.7.3": 2,
+      "0.7.4": 1,
+      "0.8.0": 2,
+      "0.8.1": 15
+    }
+  },
+  {
+    "app_name": "transitions",
+    "versions": {
+      "1.2.1": 1
+    }
+  },
+  {
+    "app_name": "turbolinks",
+    "versions": {
+      "5.0.1": 1
+    }
+  },
+  {
+    "app_name": "typhoeus",
+    "versions": {
+      "1.1.2": 1
+    }
+  },
+  {
+    "app_name": "uglifier",
+    "versions": {
+      "1.2.6": 1,
+      "2.5.0": 1,
+      "2.5.3": 1,
+      "2.7.1": 3,
+      "2.7.2": 6,
+      "3.0.0": 1,
+      "3.0.1": 1,
+      "3.0.2": 4,
+      "3.0.3": 1,
+      "3.0.4": 3,
+      "3.1.6": 1,
+      "3.1.7": 1,
+      "3.1.9": 1,
+      "3.2.0": 10
+    }
+  },
+  {
+    "app_name": "uk_postcode",
+    "versions": {
+      "1.0.1": 1,
+      "2.1.1": 1
+    }
+  },
+  {
+    "app_name": "unf",
+    "versions": {
+      "0.1.4": 1
+    }
+  },
+  {
+    "app_name": "unicorn",
+    "versions": {
+      "4.3.1": 2,
+      "4.4.0": 1,
+      "4.8.0": 2,
+      "4.8.2": 3,
+      "4.8.3": 4,
+      "4.9.0": 12,
+      "5.0.1": 6,
+      "5.1.0": 6,
+      "5.2.0": 1,
+      "5.3.0": 10
+    }
+  },
+  {
+    "app_name": "user_agent_parser",
+    "versions": {
+      "2.3.0": 1
+    }
+  },
+  {
+    "app_name": "uuid",
+    "versions": {
+      "2.3.8": 1
+    }
+  },
+  {
+    "app_name": "uuidtools",
+    "versions": {
+      "2.1.5": 2
+    }
+  },
+  {
+    "app_name": "valid_email",
+    "versions": {
+      "0.0.11": 1
+    }
+  },
+  {
+    "app_name": "validates_email_format_of",
+    "versions": {
+      "1.6.3": 1
+    }
+  },
+  {
+    "app_name": "virtus",
+    "versions": {
+      "1.0.5": 1
+    }
+  },
+  {
+    "app_name": "web-console",
+    "versions": {
+      "2.3.0": 4,
+      "3.5.0": 3,
+      "3.5.1": 3
+    }
+  },
+  {
+    "app_name": "webmock",
+    "versions": {
+      "1.17.4": 1,
+      "1.18.0": 3,
+      "1.19.0": 1,
+      "1.20.4": 4,
+      "1.21.0": 5,
+      "1.22.1": 1,
+      "1.22.3": 2,
+      "1.22.6": 1,
+      "1.24.2": 2,
+      "1.24.6": 3,
+      "2.1.0": 8,
+      "2.3.1": 1,
+      "2.3.2": 3,
+      "3.0.1": 10
+    }
+  },
+  {
+    "app_name": "whenever",
+    "versions": {
+      "0.8.2": 1,
+      "0.9.4": 2,
+      "0.9.7": 9
+    }
+  },
+  {
+    "app_name": "will_paginate_mongoid",
+    "versions": {
+      "2.0.1": 1
+    }
+  },
+  {
+    "app_name": "with_advisory_lock",
+    "versions": {
+      "3.1.0": 1
+    }
+  },
+  {
+    "app_name": "wraith",
+    "versions": {
+      "3.2.1": 2
+    }
+  },
+  {
+    "app_name": "zeroclipboard-rails",
+    "versions": {
+      "0.1.2": 1
+    }
+  }
+]

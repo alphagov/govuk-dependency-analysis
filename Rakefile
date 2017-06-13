@@ -1,4 +1,5 @@
 require 'yaml'
+require 'json'
 require 'http'
 
 Version = Struct.new(:name, :version, :name_and_version)
@@ -13,7 +14,7 @@ task :analyse do
     file = File.read(filename)
     lockfile = Bundler::LockfileParser.new(file)
 
-    lockfile.dependencies.map do |d|
+    lockfile.dependencies.map do |_, d|
       spec = lockfile.specs.find { |s| s.name == d.name }
       direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
     end
@@ -26,10 +27,14 @@ task :analyse do
 
   puts stats.inspect
 
+  output = []
+
   direct_dependencies.uniq(&:name).sort_by(&:name).each do |app|
     versions = counts(direct_dependencies.select { |v| v.name == app.name }.map(&:version).sort.map(&:to_s))
-    puts "#{app.name}: #{versions}"
+    output << { app_name: app.name, versions: versions}
   end
+
+  File.write("public/versions.json", JSON.pretty_generate(output))
 end
 
 task :download do
