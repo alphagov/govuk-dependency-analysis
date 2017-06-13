@@ -1,0 +1,7346 @@
+{
+  "nodes": [
+    {
+      "id": "asset-manager",
+      "group": "applications"
+    },
+    {
+      "id": "airbrake",
+      "group": "gems"
+    },
+    {
+      "id": "carrierwave",
+      "group": "gems"
+    },
+    {
+      "id": "carrierwave-mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "database_cleaner",
+      "group": "gems"
+    },
+    {
+      "id": "delayed_job",
+      "group": "gems"
+    },
+    {
+      "id": "delayed_job_mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "factory_girl_rails",
+      "group": "gems"
+    },
+    {
+      "id": "gds-sso",
+      "group": "gems"
+    },
+    {
+      "id": "govuk-lint",
+      "group": "gems"
+    },
+    {
+      "id": "logstasher",
+      "group": "gems"
+    },
+    {
+      "id": "mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "mongoid_paranoia",
+      "group": "gems"
+    },
+    {
+      "id": "nokogiri",
+      "group": "gems"
+    },
+    {
+      "id": "plek",
+      "group": "gems"
+    },
+    {
+      "id": "rack_strip_client_ip",
+      "group": "gems"
+    },
+    {
+      "id": "rails",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-rails",
+      "group": "gems"
+    },
+    {
+      "id": "sdoc",
+      "group": "gems"
+    },
+    {
+      "id": "simplecov-rcov",
+      "group": "gems"
+    },
+    {
+      "id": "state_machines-mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "unicorn",
+      "group": "gems"
+    },
+    {
+      "id": "authenticating-proxy",
+      "group": "applications"
+    },
+    {
+      "id": "airbrake-ruby",
+      "group": "gems"
+    },
+    {
+      "id": "byebug",
+      "group": "gems"
+    },
+    {
+      "id": "rack-proxy",
+      "group": "gems"
+    },
+    {
+      "id": "rack-test",
+      "group": "gems"
+    },
+    {
+      "id": "simplecov",
+      "group": "gems"
+    },
+    {
+      "id": "webmock",
+      "group": "gems"
+    },
+    {
+      "id": "bouncer",
+      "group": "applications"
+    },
+    {
+      "id": "activerecord",
+      "group": "gems"
+    },
+    {
+      "id": "erubis",
+      "group": "gems"
+    },
+    {
+      "id": "mr-sparkle",
+      "group": "gems"
+    },
+    {
+      "id": "optic14n",
+      "group": "gems"
+    },
+    {
+      "id": "pg",
+      "group": "gems"
+    },
+    {
+      "id": "pry",
+      "group": "gems"
+    },
+    {
+      "id": "rack",
+      "group": "gems"
+    },
+    {
+      "id": "rake",
+      "group": "gems"
+    },
+    {
+      "id": "rspec",
+      "group": "gems"
+    },
+    {
+      "id": "calculators",
+      "group": "applications"
+    },
+    {
+      "id": "better_errors",
+      "group": "gems"
+    },
+    {
+      "id": "binding_of_caller",
+      "group": "gems"
+    },
+    {
+      "id": "capybara",
+      "group": "gems"
+    },
+    {
+      "id": "ci_reporter_rspec",
+      "group": "gems"
+    },
+    {
+      "id": "gds-api-adapters",
+      "group": "gems"
+    },
+    {
+      "id": "govuk-content-schema-test-helpers",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_ab_testing",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_elements_rails",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_frontend_toolkit",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_navigation_helpers",
+      "group": "gems"
+    },
+    {
+      "id": "poltergeist",
+      "group": "gems"
+    },
+    {
+      "id": "pry-byebug",
+      "group": "gems"
+    },
+    {
+      "id": "sass-rails",
+      "group": "gems"
+    },
+    {
+      "id": "slimmer",
+      "group": "gems"
+    },
+    {
+      "id": "timecop",
+      "group": "gems"
+    },
+    {
+      "id": "uglifier",
+      "group": "gems"
+    },
+    {
+      "id": "calendars",
+      "group": "applications"
+    },
+    {
+      "id": "ci_reporter_minitest",
+      "group": "gems"
+    },
+    {
+      "id": "json",
+      "group": "gems"
+    },
+    {
+      "id": "mocha",
+      "group": "gems"
+    },
+    {
+      "id": "rails-controller-testing",
+      "group": "gems"
+    },
+    {
+      "id": "rails-i18n",
+      "group": "gems"
+    },
+    {
+      "id": "shoulda",
+      "group": "gems"
+    },
+    {
+      "id": "collections",
+      "group": "applications"
+    },
+    {
+      "id": "cucumber-rails",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_schemas",
+      "group": "gems"
+    },
+    {
+      "id": "jasmine-rails",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-spec-rails",
+      "group": "gems"
+    },
+    {
+      "id": "statsd-ruby",
+      "group": "gems"
+    },
+    {
+      "id": "collections-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "aasm",
+      "group": "gems"
+    },
+    {
+      "id": "generic_form_builder",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_admin_template",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_sidekiq",
+      "group": "gems"
+    },
+    {
+      "id": "mysql2",
+      "group": "gems"
+    },
+    {
+      "id": "select2-rails",
+      "group": "gems"
+    },
+    {
+      "id": "sinatra",
+      "group": "gems"
+    },
+    {
+      "id": "contacts-admin",
+      "group": "applications"
+    },
+    {
+      "id": "active_hash",
+      "group": "gems"
+    },
+    {
+      "id": "ancestry",
+      "group": "gems"
+    },
+    {
+      "id": "fakefs",
+      "group": "gems"
+    },
+    {
+      "id": "friendly_id",
+      "group": "gems"
+    },
+    {
+      "id": "govspeak",
+      "group": "gems"
+    },
+    {
+      "id": "json-schema",
+      "group": "gems"
+    },
+    {
+      "id": "lrucache",
+      "group": "gems"
+    },
+    {
+      "id": "mlanett-redis-lock",
+      "group": "gems"
+    },
+    {
+      "id": "paper_trail",
+      "group": "gems"
+    },
+    {
+      "id": "pry-rails",
+      "group": "gems"
+    },
+    {
+      "id": "railroady",
+      "group": "gems"
+    },
+    {
+      "id": "searchlight",
+      "group": "gems"
+    },
+    {
+      "id": "shoulda-matchers",
+      "group": "gems"
+    },
+    {
+      "id": "simple_form",
+      "group": "gems"
+    },
+    {
+      "id": "therubyracer",
+      "group": "gems"
+    },
+    {
+      "id": "thin",
+      "group": "gems"
+    },
+    {
+      "id": "virtus",
+      "group": "gems"
+    },
+    {
+      "id": "whenever",
+      "group": "gems"
+    },
+    {
+      "id": "content-performance-manager",
+      "group": "applications"
+    },
+    {
+      "id": "draper",
+      "group": "gems"
+    },
+    {
+      "id": "google-api-client",
+      "group": "gems"
+    },
+    {
+      "id": "guard-rspec",
+      "group": "gems"
+    },
+    {
+      "id": "httparty",
+      "group": "gems"
+    },
+    {
+      "id": "jbuilder",
+      "group": "gems"
+    },
+    {
+      "id": "jquery-rails",
+      "group": "gems"
+    },
+    {
+      "id": "kaminari",
+      "group": "gems"
+    },
+    {
+      "id": "listen",
+      "group": "gems"
+    },
+    {
+      "id": "puma",
+      "group": "gems"
+    },
+    {
+      "id": "spring",
+      "group": "gems"
+    },
+    {
+      "id": "spring-commands-rspec",
+      "group": "gems"
+    },
+    {
+      "id": "spring-watcher-listen",
+      "group": "gems"
+    },
+    {
+      "id": "turbolinks",
+      "group": "gems"
+    },
+    {
+      "id": "web-console",
+      "group": "gems"
+    },
+    {
+      "id": "content-store",
+      "group": "applications"
+    },
+    {
+      "id": "factory_girl",
+      "group": "gems"
+    },
+    {
+      "id": "hashdiff",
+      "group": "gems"
+    },
+    {
+      "id": "mongoid_rails_migrations",
+      "group": "gems"
+    },
+    {
+      "id": "pact",
+      "group": "gems"
+    },
+    {
+      "id": "uuidtools",
+      "group": "gems"
+    },
+    {
+      "id": "content-tagger",
+      "group": "applications"
+    },
+    {
+      "id": "awesome_print",
+      "group": "gems"
+    },
+    {
+      "id": "bootstrap-kaminari-views",
+      "group": "gems"
+    },
+    {
+      "id": "chartkick",
+      "group": "gems"
+    },
+    {
+      "id": "faker",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_taxonomy_helpers",
+      "group": "gems"
+    },
+    {
+      "id": "headless",
+      "group": "gems"
+    },
+    {
+      "id": "jquery-ui-rails",
+      "group": "gems"
+    },
+    {
+      "id": "design-principles",
+      "group": "applications"
+    },
+    {
+      "id": "test-unit",
+      "group": "gems"
+    },
+    {
+      "id": "email-alert-api",
+      "group": "applications"
+    },
+    {
+      "id": "equivalent-xml",
+      "group": "gems"
+    },
+    {
+      "id": "faraday",
+      "group": "gems"
+    },
+    {
+      "id": "foreman",
+      "group": "gems"
+    },
+    {
+      "id": "redis-namespace",
+      "group": "gems"
+    },
+    {
+      "id": "sidekiq",
+      "group": "gems"
+    },
+    {
+      "id": "sidekiq-logging-json",
+      "group": "gems"
+    },
+    {
+      "id": "sidekiq-statsd",
+      "group": "gems"
+    },
+    {
+      "id": "email-alert-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "decent_exposure",
+      "group": "gems"
+    },
+    {
+      "id": "launchy",
+      "group": "gems"
+    },
+    {
+      "id": "quiet_assets",
+      "group": "gems"
+    },
+    {
+      "id": "email-alert-service",
+      "group": "applications"
+    },
+    {
+      "id": "bunny",
+      "group": "gems"
+    },
+    {
+      "id": "redis",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-core",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-expectations",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-mocks",
+      "group": "gems"
+    },
+    {
+      "id": "feedback",
+      "group": "applications"
+    },
+    {
+      "id": "invalid_utf8_rejector",
+      "group": "gems"
+    },
+    {
+      "id": "notifications-ruby-client",
+      "group": "gems"
+    },
+    {
+      "id": "sass",
+      "group": "gems"
+    },
+    {
+      "id": "valid_email",
+      "group": "gems"
+    },
+    {
+      "id": "finder-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "chronic",
+      "group": "gems"
+    },
+    {
+      "id": "shared_mustache",
+      "group": "gems"
+    },
+    {
+      "id": "frontend",
+      "group": "applications"
+    },
+    {
+      "id": "addressable",
+      "group": "gems"
+    },
+    {
+      "id": "cdn_helpers",
+      "group": "gems"
+    },
+    {
+      "id": "ci_reporter",
+      "group": "gems"
+    },
+    {
+      "id": "ci_reporter_test_unit",
+      "group": "gems"
+    },
+    {
+      "id": "gelf",
+      "group": "gems"
+    },
+    {
+      "id": "htmlentities",
+      "group": "gems"
+    },
+    {
+      "id": "shoulda-context",
+      "group": "gems"
+    },
+    {
+      "id": "sprockets-rails",
+      "group": "gems"
+    },
+    {
+      "id": "uk_postcode",
+      "group": "gems"
+    },
+    {
+      "id": "government-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "dalli",
+      "group": "gems"
+    },
+    {
+      "id": "rails_translation_manager",
+      "group": "gems"
+    },
+    {
+      "id": "wraith",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_need_api",
+      "group": "applications"
+    },
+    {
+      "id": "elasticsearch",
+      "group": "gems"
+    },
+    {
+      "id": "link_header",
+      "group": "gems"
+    },
+    {
+      "id": "hmrc-manuals-api",
+      "group": "applications"
+    },
+    {
+      "id": "responders",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-collection_matchers",
+      "group": "gems"
+    },
+    {
+      "id": "imminence",
+      "group": "applications"
+    },
+    {
+      "id": "formtastic",
+      "group": "gems"
+    },
+    {
+      "id": "formtastic-bootstrap",
+      "group": "gems"
+    },
+    {
+      "id": "inherited_resources",
+      "group": "gems"
+    },
+    {
+      "id": "kaminari-actionview",
+      "group": "gems"
+    },
+    {
+      "id": "kaminari-mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-reporters",
+      "group": "gems"
+    },
+    {
+      "id": "info-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "rspec-its",
+      "group": "gems"
+    },
+    {
+      "id": "licence-finder",
+      "group": "applications"
+    },
+    {
+      "id": "link-checker-api",
+      "group": "applications"
+    },
+    {
+      "id": "activerecord-import",
+      "group": "gems"
+    },
+    {
+      "id": "deprecated_columns",
+      "group": "gems"
+    },
+    {
+      "id": "rspec-sidekiq",
+      "group": "gems"
+    },
+    {
+      "id": "sidekiq-scheduler",
+      "group": "gems"
+    },
+    {
+      "id": "sqlite3",
+      "group": "gems"
+    },
+    {
+      "id": "local-links-manager",
+      "group": "applications"
+    },
+    {
+      "id": "capistrano-rails",
+      "group": "gems"
+    },
+    {
+      "id": "faraday_middleware",
+      "group": "gems"
+    },
+    {
+      "id": "gretel",
+      "group": "gems"
+    },
+    {
+      "id": "manuals-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "manuals-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "cucumber",
+      "group": "gems"
+    },
+    {
+      "id": "phantomjs",
+      "group": "gems"
+    },
+    {
+      "id": "raindrops",
+      "group": "gems"
+    },
+    {
+      "id": "state_machine",
+      "group": "gems"
+    },
+    {
+      "id": "maslow",
+      "group": "applications"
+    },
+    {
+      "id": "cancancan",
+      "group": "gems"
+    },
+    {
+      "id": "chosen-rails",
+      "group": "gems"
+    },
+    {
+      "id": "jasmine",
+      "group": "gems"
+    },
+    {
+      "id": "policy-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "selectize-rails",
+      "group": "gems"
+    },
+    {
+      "id": "publisher",
+      "group": "applications"
+    },
+    {
+      "id": "diffy",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_content_models",
+      "group": "gems"
+    },
+    {
+      "id": "has_scope",
+      "group": "gems"
+    },
+    {
+      "id": "jasmine-core",
+      "group": "gems"
+    },
+    {
+      "id": "momentjs-rails",
+      "group": "gems"
+    },
+    {
+      "id": "mongoid-sadstory",
+      "group": "gems"
+    },
+    {
+      "id": "mousetrap-rails",
+      "group": "gems"
+    },
+    {
+      "id": "nested_form",
+      "group": "gems"
+    },
+    {
+      "id": "null_logger",
+      "group": "gems"
+    },
+    {
+      "id": "rails_autolink",
+      "group": "gems"
+    },
+    {
+      "id": "rest-client",
+      "group": "gems"
+    },
+    {
+      "id": "retriable",
+      "group": "gems"
+    },
+    {
+      "id": "reverse_markdown",
+      "group": "gems"
+    },
+    {
+      "id": "publishing-api",
+      "group": "applications"
+    },
+    {
+      "id": "arel",
+      "group": "gems"
+    },
+    {
+      "id": "aws-sdk",
+      "group": "gems"
+    },
+    {
+      "id": "colorize",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_document_types",
+      "group": "gems"
+    },
+    {
+      "id": "oj",
+      "group": "gems"
+    },
+    {
+      "id": "oj_mimic_json",
+      "group": "gems"
+    },
+    {
+      "id": "pact_broker-client",
+      "group": "gems"
+    },
+    {
+      "id": "sidekiq-unique-jobs",
+      "group": "gems"
+    },
+    {
+      "id": "stackprof",
+      "group": "gems"
+    },
+    {
+      "id": "with_advisory_lock",
+      "group": "gems"
+    },
+    {
+      "id": "release",
+      "group": "applications"
+    },
+    {
+      "id": "aws-ses",
+      "group": "gems"
+    },
+    {
+      "id": "bootstrap3-datetimepicker-rails",
+      "group": "gems"
+    },
+    {
+      "id": "exception_notification",
+      "group": "gems"
+    },
+    {
+      "id": "minitest",
+      "group": "gems"
+    },
+    {
+      "id": "octokit",
+      "group": "gems"
+    },
+    {
+      "id": "router-api",
+      "group": "applications"
+    },
+    {
+      "id": "rummager",
+      "group": "applications"
+    },
+    {
+      "id": "activesupport",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_message_queue_consumer",
+      "group": "gems"
+    },
+    {
+      "id": "logging",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-colorize",
+      "group": "gems"
+    },
+    {
+      "id": "rack-logstasher",
+      "group": "gems"
+    },
+    {
+      "id": "slop",
+      "group": "gems"
+    },
+    {
+      "id": "test-unit-minitest",
+      "group": "gems"
+    },
+    {
+      "id": "unf",
+      "group": "gems"
+    },
+    {
+      "id": "search-admin",
+      "group": "applications"
+    },
+    {
+      "id": "service-manual-frontend",
+      "group": "applications"
+    },
+    {
+      "id": "service-manual-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "active_link_to",
+      "group": "gems"
+    },
+    {
+      "id": "auto_strip_attributes",
+      "group": "gems"
+    },
+    {
+      "id": "bullet",
+      "group": "gems"
+    },
+    {
+      "id": "fuubar",
+      "group": "gems"
+    },
+    {
+      "id": "highline",
+      "group": "gems"
+    },
+    {
+      "id": "pry-nav",
+      "group": "gems"
+    },
+    {
+      "id": "pry-remote",
+      "group": "gems"
+    },
+    {
+      "id": "redcarpet",
+      "group": "gems"
+    },
+    {
+      "id": "rinku",
+      "group": "gems"
+    },
+    {
+      "id": "short-url-manager",
+      "group": "applications"
+    },
+    {
+      "id": "will_paginate_mongoid",
+      "group": "gems"
+    },
+    {
+      "id": "signon",
+      "group": "applications"
+    },
+    {
+      "id": "activejob-retry",
+      "group": "gems"
+    },
+    {
+      "id": "alphabetical_paginate",
+      "group": "gems"
+    },
+    {
+      "id": "capybara-email",
+      "group": "gems"
+    },
+    {
+      "id": "devise",
+      "group": "gems"
+    },
+    {
+      "id": "devise-encryptable",
+      "group": "gems"
+    },
+    {
+      "id": "devise_invitable",
+      "group": "gems"
+    },
+    {
+      "id": "devise_zxcvbn",
+      "group": "gems"
+    },
+    {
+      "id": "doorkeeper",
+      "group": "gems"
+    },
+    {
+      "id": "pundit",
+      "group": "gems"
+    },
+    {
+      "id": "rails-html-sanitizer",
+      "group": "gems"
+    },
+    {
+      "id": "rotp",
+      "group": "gems"
+    },
+    {
+      "id": "rqrcode",
+      "group": "gems"
+    },
+    {
+      "id": "test_after_commit",
+      "group": "gems"
+    },
+    {
+      "id": "uuid",
+      "group": "gems"
+    },
+    {
+      "id": "zeroclipboard-rails",
+      "group": "gems"
+    },
+    {
+      "id": "smart-answers",
+      "group": "applications"
+    },
+    {
+      "id": "ast",
+      "group": "gems"
+    },
+    {
+      "id": "method_source",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-focus",
+      "group": "gems"
+    },
+    {
+      "id": "parser",
+      "group": "gems"
+    },
+    {
+      "id": "rails_stdout_logging",
+      "group": "gems"
+    },
+    {
+      "id": "tilt",
+      "group": "gems"
+    },
+    {
+      "id": "specialist-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "capybara-webkit",
+      "group": "gems"
+    },
+    {
+      "id": "static",
+      "group": "applications"
+    },
+    {
+      "id": "actionpack-page_caching",
+      "group": "gems"
+    },
+    {
+      "id": "govuk_template",
+      "group": "gems"
+    },
+    {
+      "id": "image_optim",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-capybara",
+      "group": "gems"
+    },
+    {
+      "id": "support",
+      "group": "applications"
+    },
+    {
+      "id": "gds_zendesk",
+      "group": "gems"
+    },
+    {
+      "id": "jc-validates_timeliness",
+      "group": "gems"
+    },
+    {
+      "id": "support-api",
+      "group": "applications"
+    },
+    {
+      "id": "user_agent_parser",
+      "group": "gems"
+    },
+    {
+      "id": "transition",
+      "group": "applications"
+    },
+    {
+      "id": "activerecord-session_store",
+      "group": "gems"
+    },
+    {
+      "id": "acts-as-taggable-on",
+      "group": "gems"
+    },
+    {
+      "id": "travel-advice-publisher",
+      "group": "applications"
+    },
+    {
+      "id": "state_machines",
+      "group": "gems"
+    },
+    {
+      "id": "whitehall",
+      "group": "applications"
+    },
+    {
+      "id": "babosa",
+      "group": "gems"
+    },
+    {
+      "id": "dotenv-rails",
+      "group": "gems"
+    },
+    {
+      "id": "globalize",
+      "group": "gems"
+    },
+    {
+      "id": "graphviz_transitions",
+      "group": "gems"
+    },
+    {
+      "id": "isbn_validation",
+      "group": "gems"
+    },
+    {
+      "id": "maxitest",
+      "group": "gems"
+    },
+    {
+      "id": "mime-types",
+      "group": "gems"
+    },
+    {
+      "id": "mini_magick",
+      "group": "gems"
+    },
+    {
+      "id": "minitest-fail-fast",
+      "group": "gems"
+    },
+    {
+      "id": "newrelic_rpm",
+      "group": "gems"
+    },
+    {
+      "id": "parallel",
+      "group": "gems"
+    },
+    {
+      "id": "parallel_tests",
+      "group": "gems"
+    },
+    {
+      "id": "pdf-reader",
+      "group": "gems"
+    },
+    {
+      "id": "ruby-prof",
+      "group": "gems"
+    },
+    {
+      "id": "ruby-progressbar",
+      "group": "gems"
+    },
+    {
+      "id": "sassc-rails",
+      "group": "gems"
+    },
+    {
+      "id": "sprockets",
+      "group": "gems"
+    },
+    {
+      "id": "test-queue",
+      "group": "gems"
+    },
+    {
+      "id": "test_track",
+      "group": "gems"
+    },
+    {
+      "id": "transitions",
+      "group": "gems"
+    },
+    {
+      "id": "typhoeus",
+      "group": "gems"
+    },
+    {
+      "id": "validates_email_format_of",
+      "group": "gems"
+    }
+  ],
+  "links": [
+    {
+      "source": "asset-manager",
+      "target": "airbrake"
+    },
+    {
+      "source": "asset-manager",
+      "target": "carrierwave"
+    },
+    {
+      "source": "asset-manager",
+      "target": "carrierwave-mongoid"
+    },
+    {
+      "source": "asset-manager",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "asset-manager",
+      "target": "delayed_job"
+    },
+    {
+      "source": "asset-manager",
+      "target": "delayed_job_mongoid"
+    },
+    {
+      "source": "asset-manager",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "asset-manager",
+      "target": "gds-sso"
+    },
+    {
+      "source": "asset-manager",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "asset-manager",
+      "target": "logstasher"
+    },
+    {
+      "source": "asset-manager",
+      "target": "mongoid"
+    },
+    {
+      "source": "asset-manager",
+      "target": "mongoid_paranoia"
+    },
+    {
+      "source": "asset-manager",
+      "target": "nokogiri"
+    },
+    {
+      "source": "asset-manager",
+      "target": "plek"
+    },
+    {
+      "source": "asset-manager",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "asset-manager",
+      "target": "rails"
+    },
+    {
+      "source": "asset-manager",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "asset-manager",
+      "target": "sdoc"
+    },
+    {
+      "source": "asset-manager",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "asset-manager",
+      "target": "state_machines-mongoid"
+    },
+    {
+      "source": "asset-manager",
+      "target": "unicorn"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "airbrake"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "byebug"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "gds-sso"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "logstasher"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "mongoid"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "plek"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "rack-proxy"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "rack-test"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "rails"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "simplecov"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "unicorn"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "webmock"
+    },
+    {
+      "source": "bouncer",
+      "target": "activerecord"
+    },
+    {
+      "source": "bouncer",
+      "target": "airbrake"
+    },
+    {
+      "source": "bouncer",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "bouncer",
+      "target": "erubis"
+    },
+    {
+      "source": "bouncer",
+      "target": "mr-sparkle"
+    },
+    {
+      "source": "bouncer",
+      "target": "nokogiri"
+    },
+    {
+      "source": "bouncer",
+      "target": "optic14n"
+    },
+    {
+      "source": "bouncer",
+      "target": "pg"
+    },
+    {
+      "source": "bouncer",
+      "target": "pry"
+    },
+    {
+      "source": "bouncer",
+      "target": "rack"
+    },
+    {
+      "source": "bouncer",
+      "target": "rack-test"
+    },
+    {
+      "source": "bouncer",
+      "target": "rake"
+    },
+    {
+      "source": "bouncer",
+      "target": "rspec"
+    },
+    {
+      "source": "bouncer",
+      "target": "unicorn"
+    },
+    {
+      "source": "calculators",
+      "target": "airbrake"
+    },
+    {
+      "source": "calculators",
+      "target": "better_errors"
+    },
+    {
+      "source": "calculators",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "calculators",
+      "target": "capybara"
+    },
+    {
+      "source": "calculators",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "calculators",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk_elements_rails"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "calculators",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "calculators",
+      "target": "logstasher"
+    },
+    {
+      "source": "calculators",
+      "target": "plek"
+    },
+    {
+      "source": "calculators",
+      "target": "poltergeist"
+    },
+    {
+      "source": "calculators",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "calculators",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "calculators",
+      "target": "rails"
+    },
+    {
+      "source": "calculators",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "calculators",
+      "target": "sass-rails"
+    },
+    {
+      "source": "calculators",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "calculators",
+      "target": "slimmer"
+    },
+    {
+      "source": "calculators",
+      "target": "timecop"
+    },
+    {
+      "source": "calculators",
+      "target": "uglifier"
+    },
+    {
+      "source": "calculators",
+      "target": "unicorn"
+    },
+    {
+      "source": "calculators",
+      "target": "webmock"
+    },
+    {
+      "source": "calendars",
+      "target": "airbrake"
+    },
+    {
+      "source": "calendars",
+      "target": "capybara"
+    },
+    {
+      "source": "calendars",
+      "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "calendars",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "calendars",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "calendars",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "calendars",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "calendars",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "calendars",
+      "target": "json"
+    },
+    {
+      "source": "calendars",
+      "target": "logstasher"
+    },
+    {
+      "source": "calendars",
+      "target": "mocha"
+    },
+    {
+      "source": "calendars",
+      "target": "plek"
+    },
+    {
+      "source": "calendars",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "calendars",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "calendars",
+      "target": "rails"
+    },
+    {
+      "source": "calendars",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "calendars",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "calendars",
+      "target": "sass-rails"
+    },
+    {
+      "source": "calendars",
+      "target": "shoulda"
+    },
+    {
+      "source": "calendars",
+      "target": "simplecov"
+    },
+    {
+      "source": "calendars",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "calendars",
+      "target": "slimmer"
+    },
+    {
+      "source": "calendars",
+      "target": "timecop"
+    },
+    {
+      "source": "calendars",
+      "target": "uglifier"
+    },
+    {
+      "source": "calendars",
+      "target": "unicorn"
+    },
+    {
+      "source": "calendars",
+      "target": "webmock"
+    },
+    {
+      "source": "collections",
+      "target": "airbrake"
+    },
+    {
+      "source": "collections",
+      "target": "better_errors"
+    },
+    {
+      "source": "collections",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "collections",
+      "target": "capybara"
+    },
+    {
+      "source": "collections",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "collections",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "collections",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "collections",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "collections",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "collections",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "collections",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "collections",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "collections",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "collections",
+      "target": "logstasher"
+    },
+    {
+      "source": "collections",
+      "target": "minitest-spec-rails"
+    },
+    {
+      "source": "collections",
+      "target": "mocha"
+    },
+    {
+      "source": "collections",
+      "target": "plek"
+    },
+    {
+      "source": "collections",
+      "target": "poltergeist"
+    },
+    {
+      "source": "collections",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "collections",
+      "target": "rails"
+    },
+    {
+      "source": "collections",
+      "target": "sass-rails"
+    },
+    {
+      "source": "collections",
+      "target": "simplecov"
+    },
+    {
+      "source": "collections",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "collections",
+      "target": "slimmer"
+    },
+    {
+      "source": "collections",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "collections",
+      "target": "uglifier"
+    },
+    {
+      "source": "collections",
+      "target": "unicorn"
+    },
+    {
+      "source": "collections",
+      "target": "webmock"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "aasm"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "better_errors"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "byebug"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "capybara"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "generic_form_builder"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "mysql2"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "nokogiri"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "select2-rails"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "sinatra"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "active_hash"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "airbrake"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "ancestry"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "better_errors"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "capybara"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "fakefs"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "friendly_id"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "gds-sso"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govspeak"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "json-schema"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "lrucache"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "mysql2"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "paper_trail"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "plek"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "pry-rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "railroady"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "sass-rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "searchlight"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "select2-rails"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "simple_form"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "simplecov"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "therubyracer"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "thin"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "uglifier"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "unicorn"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "virtus"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "webmock"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "whenever"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "airbrake"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "byebug"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "capybara"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "draper"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "gds-sso"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "google-api-client"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "guard-rspec"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "httparty"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "jbuilder"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "jquery-rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "kaminari"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "listen"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "logstasher"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "pg"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "plek"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "poltergeist"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "pry-rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "puma"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "sass-rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "spring"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "spring-commands-rspec"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "spring-watcher-listen"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "timecop"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "turbolinks"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "uglifier"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "unicorn"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "web-console"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "webmock"
+    },
+    {
+      "source": "content-store",
+      "target": "airbrake"
+    },
+    {
+      "source": "content-store",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "content-store",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "content-store",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "content-store",
+      "target": "factory_girl"
+    },
+    {
+      "source": "content-store",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "content-store",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "content-store",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "content-store",
+      "target": "hashdiff"
+    },
+    {
+      "source": "content-store",
+      "target": "logstasher"
+    },
+    {
+      "source": "content-store",
+      "target": "mongoid"
+    },
+    {
+      "source": "content-store",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "content-store",
+      "target": "pact"
+    },
+    {
+      "source": "content-store",
+      "target": "plek"
+    },
+    {
+      "source": "content-store",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "content-store",
+      "target": "rails"
+    },
+    {
+      "source": "content-store",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "content-store",
+      "target": "simplecov"
+    },
+    {
+      "source": "content-store",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "content-store",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "content-store",
+      "target": "timecop"
+    },
+    {
+      "source": "content-store",
+      "target": "unicorn"
+    },
+    {
+      "source": "content-store",
+      "target": "uuidtools"
+    },
+    {
+      "source": "content-store",
+      "target": "webmock"
+    },
+    {
+      "source": "content-store",
+      "target": "whenever"
+    },
+    {
+      "source": "content-tagger",
+      "target": "airbrake"
+    },
+    {
+      "source": "content-tagger",
+      "target": "awesome_print"
+    },
+    {
+      "source": "content-tagger",
+      "target": "better_errors"
+    },
+    {
+      "source": "content-tagger",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "content-tagger",
+      "target": "capybara"
+    },
+    {
+      "source": "content-tagger",
+      "target": "chartkick"
+    },
+    {
+      "source": "content-tagger",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "content-tagger",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "faker"
+    },
+    {
+      "source": "content-tagger",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "content-tagger",
+      "target": "gds-sso"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk_taxonomy_helpers"
+    },
+    {
+      "source": "content-tagger",
+      "target": "headless"
+    },
+    {
+      "source": "content-tagger",
+      "target": "jquery-ui-rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "kaminari"
+    },
+    {
+      "source": "content-tagger",
+      "target": "logstasher"
+    },
+    {
+      "source": "content-tagger",
+      "target": "pg"
+    },
+    {
+      "source": "content-tagger",
+      "target": "plek"
+    },
+    {
+      "source": "content-tagger",
+      "target": "poltergeist"
+    },
+    {
+      "source": "content-tagger",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "content-tagger",
+      "target": "rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "sass-rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "select2-rails"
+    },
+    {
+      "source": "content-tagger",
+      "target": "simple_form"
+    },
+    {
+      "source": "content-tagger",
+      "target": "simplecov"
+    },
+    {
+      "source": "content-tagger",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "content-tagger",
+      "target": "uglifier"
+    },
+    {
+      "source": "content-tagger",
+      "target": "unicorn"
+    },
+    {
+      "source": "content-tagger",
+      "target": "web-console"
+    },
+    {
+      "source": "content-tagger",
+      "target": "webmock"
+    },
+    {
+      "source": "design-principles",
+      "target": "airbrake"
+    },
+    {
+      "source": "design-principles",
+      "target": "capybara"
+    },
+    {
+      "source": "design-principles",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "design-principles",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "design-principles",
+      "target": "logstasher"
+    },
+    {
+      "source": "design-principles",
+      "target": "mocha"
+    },
+    {
+      "source": "design-principles",
+      "target": "plek"
+    },
+    {
+      "source": "design-principles",
+      "target": "rails"
+    },
+    {
+      "source": "design-principles",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "design-principles",
+      "target": "sass-rails"
+    },
+    {
+      "source": "design-principles",
+      "target": "slimmer"
+    },
+    {
+      "source": "design-principles",
+      "target": "test-unit"
+    },
+    {
+      "source": "design-principles",
+      "target": "therubyracer"
+    },
+    {
+      "source": "design-principles",
+      "target": "thin"
+    },
+    {
+      "source": "design-principles",
+      "target": "uglifier"
+    },
+    {
+      "source": "design-principles",
+      "target": "unicorn"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "equivalent-xml"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "faraday"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "foreman"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "listen"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "nokogiri"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "pg"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "plek"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "rails"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "sidekiq"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "sidekiq-logging-json"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "sidekiq-statsd"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "webmock"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "decent_exposure"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "govuk_elements_rails"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "launchy"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "plek"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "quiet_assets"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "timecop"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "email-alert-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "airbrake"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "bunny"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "plek"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "rake"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "redis"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "rspec-core"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "rspec-expectations"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "rspec-mocks"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "webmock"
+    },
+    {
+      "source": "feedback",
+      "target": "airbrake"
+    },
+    {
+      "source": "feedback",
+      "target": "capybara"
+    },
+    {
+      "source": "feedback",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "feedback",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "feedback",
+      "target": "google-api-client"
+    },
+    {
+      "source": "feedback",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "feedback",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "feedback",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "feedback",
+      "target": "invalid_utf8_rejector"
+    },
+    {
+      "source": "feedback",
+      "target": "logstasher"
+    },
+    {
+      "source": "feedback",
+      "target": "notifications-ruby-client"
+    },
+    {
+      "source": "feedback",
+      "target": "plek"
+    },
+    {
+      "source": "feedback",
+      "target": "poltergeist"
+    },
+    {
+      "source": "feedback",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "feedback",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "feedback",
+      "target": "rails"
+    },
+    {
+      "source": "feedback",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "feedback",
+      "target": "sass"
+    },
+    {
+      "source": "feedback",
+      "target": "sass-rails"
+    },
+    {
+      "source": "feedback",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "feedback",
+      "target": "slimmer"
+    },
+    {
+      "source": "feedback",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "feedback",
+      "target": "test-unit"
+    },
+    {
+      "source": "feedback",
+      "target": "uglifier"
+    },
+    {
+      "source": "feedback",
+      "target": "unicorn"
+    },
+    {
+      "source": "feedback",
+      "target": "valid_email"
+    },
+    {
+      "source": "feedback",
+      "target": "webmock"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "awesome_print"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "byebug"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "chronic"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "launchy"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "pry"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "sdoc"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "shared_mustache"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "simplecov"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "finder-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "frontend",
+      "target": "addressable"
+    },
+    {
+      "source": "frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "frontend",
+      "target": "capybara"
+    },
+    {
+      "source": "frontend",
+      "target": "cdn_helpers"
+    },
+    {
+      "source": "frontend",
+      "target": "ci_reporter"
+    },
+    {
+      "source": "frontend",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "frontend",
+      "target": "ci_reporter_test_unit"
+    },
+    {
+      "source": "frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "frontend",
+      "target": "gelf"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "frontend",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "frontend",
+      "target": "htmlentities"
+    },
+    {
+      "source": "frontend",
+      "target": "invalid_utf8_rejector"
+    },
+    {
+      "source": "frontend",
+      "target": "launchy"
+    },
+    {
+      "source": "frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "frontend",
+      "target": "mocha"
+    },
+    {
+      "source": "frontend",
+      "target": "nokogiri"
+    },
+    {
+      "source": "frontend",
+      "target": "plek"
+    },
+    {
+      "source": "frontend",
+      "target": "poltergeist"
+    },
+    {
+      "source": "frontend",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "frontend",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "frontend",
+      "target": "rails"
+    },
+    {
+      "source": "frontend",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "frontend",
+      "target": "sass"
+    },
+    {
+      "source": "frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "frontend",
+      "target": "shared_mustache"
+    },
+    {
+      "source": "frontend",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "frontend",
+      "target": "simplecov"
+    },
+    {
+      "source": "frontend",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "frontend",
+      "target": "sprockets-rails"
+    },
+    {
+      "source": "frontend",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "frontend",
+      "target": "therubyracer"
+    },
+    {
+      "source": "frontend",
+      "target": "timecop"
+    },
+    {
+      "source": "frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "frontend",
+      "target": "uk_postcode"
+    },
+    {
+      "source": "frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "government-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "government-frontend",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "government-frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "government-frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "government-frontend",
+      "target": "capybara"
+    },
+    {
+      "source": "government-frontend",
+      "target": "dalli"
+    },
+    {
+      "source": "government-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_elements_rails"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "government-frontend",
+      "target": "htmlentities"
+    },
+    {
+      "source": "government-frontend",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "government-frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "government-frontend",
+      "target": "mocha"
+    },
+    {
+      "source": "government-frontend",
+      "target": "plek"
+    },
+    {
+      "source": "government-frontend",
+      "target": "poltergeist"
+    },
+    {
+      "source": "government-frontend",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "government-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "government-frontend",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "government-frontend",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "government-frontend",
+      "target": "rails_translation_manager"
+    },
+    {
+      "source": "government-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "government-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "government-frontend",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "government-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "government-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "government-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "government-frontend",
+      "target": "wraith"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "airbrake"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "elasticsearch"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "gds-sso"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "kaminari"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "link_header"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "listen"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "logstasher"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "mocha"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "mongoid"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "plek"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "rails"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "shoulda"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "spring"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "spring-watcher-listen"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "test-unit"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "unicorn"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "web-console"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "webmock"
+    },
+    {
+      "source": "govuk_need_api",
+      "target": "whenever"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "foreman"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "gds-sso"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "govspeak"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "json-schema"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "listen"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "plek"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "rails"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "responders"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "rspec-collection_matchers"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "sidekiq"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "simplecov"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "uuidtools"
+    },
+    {
+      "source": "hmrc-manuals-api",
+      "target": "webmock"
+    },
+    {
+      "source": "imminence",
+      "target": "airbrake"
+    },
+    {
+      "source": "imminence",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "imminence",
+      "target": "capybara"
+    },
+    {
+      "source": "imminence",
+      "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "imminence",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "imminence",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "imminence",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "imminence",
+      "target": "formtastic"
+    },
+    {
+      "source": "imminence",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "imminence",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "imminence",
+      "target": "gds-sso"
+    },
+    {
+      "source": "imminence",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "imminence",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "imminence",
+      "target": "inherited_resources"
+    },
+    {
+      "source": "imminence",
+      "target": "kaminari-actionview"
+    },
+    {
+      "source": "imminence",
+      "target": "kaminari-mongoid"
+    },
+    {
+      "source": "imminence",
+      "target": "launchy"
+    },
+    {
+      "source": "imminence",
+      "target": "logstasher"
+    },
+    {
+      "source": "imminence",
+      "target": "minitest-reporters"
+    },
+    {
+      "source": "imminence",
+      "target": "mocha"
+    },
+    {
+      "source": "imminence",
+      "target": "mongoid"
+    },
+    {
+      "source": "imminence",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "imminence",
+      "target": "plek"
+    },
+    {
+      "source": "imminence",
+      "target": "poltergeist"
+    },
+    {
+      "source": "imminence",
+      "target": "pry"
+    },
+    {
+      "source": "imminence",
+      "target": "rails"
+    },
+    {
+      "source": "imminence",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "imminence",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "imminence",
+      "target": "responders"
+    },
+    {
+      "source": "imminence",
+      "target": "sass-rails"
+    },
+    {
+      "source": "imminence",
+      "target": "sdoc"
+    },
+    {
+      "source": "imminence",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "imminence",
+      "target": "sidekiq"
+    },
+    {
+      "source": "imminence",
+      "target": "sidekiq-statsd"
+    },
+    {
+      "source": "imminence",
+      "target": "simplecov"
+    },
+    {
+      "source": "imminence",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "imminence",
+      "target": "state_machines-mongoid"
+    },
+    {
+      "source": "imminence",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "imminence",
+      "target": "uglifier"
+    },
+    {
+      "source": "imminence",
+      "target": "unicorn"
+    },
+    {
+      "source": "imminence",
+      "target": "webmock"
+    },
+    {
+      "source": "info-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "info-frontend",
+      "target": "capybara"
+    },
+    {
+      "source": "info-frontend",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "info-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "info-frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "info-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "info-frontend",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "info-frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "info-frontend",
+      "target": "plek"
+    },
+    {
+      "source": "info-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "info-frontend",
+      "target": "rspec-its"
+    },
+    {
+      "source": "info-frontend",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "info-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "info-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "info-frontend",
+      "target": "spring"
+    },
+    {
+      "source": "info-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "info-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "info-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "licence-finder",
+      "target": "airbrake"
+    },
+    {
+      "source": "licence-finder",
+      "target": "capybara"
+    },
+    {
+      "source": "licence-finder",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "licence-finder",
+      "target": "elasticsearch"
+    },
+    {
+      "source": "licence-finder",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "licence-finder",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "licence-finder",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "licence-finder",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "licence-finder",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "licence-finder",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "licence-finder",
+      "target": "logstasher"
+    },
+    {
+      "source": "licence-finder",
+      "target": "mongoid"
+    },
+    {
+      "source": "licence-finder",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "licence-finder",
+      "target": "plek"
+    },
+    {
+      "source": "licence-finder",
+      "target": "poltergeist"
+    },
+    {
+      "source": "licence-finder",
+      "target": "pry-rails"
+    },
+    {
+      "source": "licence-finder",
+      "target": "rails"
+    },
+    {
+      "source": "licence-finder",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "licence-finder",
+      "target": "sass-rails"
+    },
+    {
+      "source": "licence-finder",
+      "target": "slimmer"
+    },
+    {
+      "source": "licence-finder",
+      "target": "uglifier"
+    },
+    {
+      "source": "licence-finder",
+      "target": "unicorn"
+    },
+    {
+      "source": "licence-finder",
+      "target": "webmock"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "activerecord-import"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "byebug"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "deprecated_columns"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "faraday"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "gds-sso"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "listen"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "pg"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "plek"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "pry"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "rails"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "rspec-sidekiq"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "sidekiq-scheduler"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "simplecov"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "sqlite3"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "timecop"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "web-console"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "webmock"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "addressable"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "airbrake"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "capistrano-rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "capybara"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "dalli"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "faraday"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "faraday_middleware"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "gds-sso"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "google-api-client"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "gretel"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "jbuilder"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "logstasher"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "pg"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "plek"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "pry-rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "sass-rails"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "sdoc"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "simplecov"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "timecop"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "uglifier"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "unicorn"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "web-console"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "webmock"
+    },
+    {
+      "source": "local-links-manager",
+      "target": "whenever"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "launchy"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "plek"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "poltergeist"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "awesome_print"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "better_errors"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "cucumber"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "foreman"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "generic_form_builder"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "launchy"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "mongoid"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "phantomjs"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "raindrops"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "rspec"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "sidekiq"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "sidekiq-statsd"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "simplecov"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "sinatra"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "state_machine"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "maslow",
+      "target": "airbrake"
+    },
+    {
+      "source": "maslow",
+      "target": "cancancan"
+    },
+    {
+      "source": "maslow",
+      "target": "capybara"
+    },
+    {
+      "source": "maslow",
+      "target": "chosen-rails"
+    },
+    {
+      "source": "maslow",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "maslow",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "maslow",
+      "target": "formtastic"
+    },
+    {
+      "source": "maslow",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "maslow",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "maslow",
+      "target": "gds-sso"
+    },
+    {
+      "source": "maslow",
+      "target": "govspeak"
+    },
+    {
+      "source": "maslow",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "maslow",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "maslow",
+      "target": "jasmine"
+    },
+    {
+      "source": "maslow",
+      "target": "kaminari"
+    },
+    {
+      "source": "maslow",
+      "target": "logstasher"
+    },
+    {
+      "source": "maslow",
+      "target": "lrucache"
+    },
+    {
+      "source": "maslow",
+      "target": "mocha"
+    },
+    {
+      "source": "maslow",
+      "target": "mongoid"
+    },
+    {
+      "source": "maslow",
+      "target": "plek"
+    },
+    {
+      "source": "maslow",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "maslow",
+      "target": "rails"
+    },
+    {
+      "source": "maslow",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "maslow",
+      "target": "sass-rails"
+    },
+    {
+      "source": "maslow",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "maslow",
+      "target": "test-unit"
+    },
+    {
+      "source": "maslow",
+      "target": "timecop"
+    },
+    {
+      "source": "maslow",
+      "target": "uglifier"
+    },
+    {
+      "source": "maslow",
+      "target": "unicorn"
+    },
+    {
+      "source": "maslow",
+      "target": "webmock"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "factory_girl"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "generic_form_builder"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "jquery-ui-rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "launchy"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "pg"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "selectize-rails"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "web-console"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "publisher",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "publisher",
+      "target": "capybara"
+    },
+    {
+      "source": "publisher",
+      "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "publisher",
+      "target": "diffy"
+    },
+    {
+      "source": "publisher",
+      "target": "erubis"
+    },
+    {
+      "source": "publisher",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "publisher",
+      "target": "formtastic"
+    },
+    {
+      "source": "publisher",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "publisher",
+      "target": "govuk_content_models"
+    },
+    {
+      "source": "publisher",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "publisher",
+      "target": "has_scope"
+    },
+    {
+      "source": "publisher",
+      "target": "inherited_resources"
+    },
+    {
+      "source": "publisher",
+      "target": "jasmine"
+    },
+    {
+      "source": "publisher",
+      "target": "jasmine-core"
+    },
+    {
+      "source": "publisher",
+      "target": "jquery-ui-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "kaminari"
+    },
+    {
+      "source": "publisher",
+      "target": "kaminari-mongoid"
+    },
+    {
+      "source": "publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "publisher",
+      "target": "minitest-reporters"
+    },
+    {
+      "source": "publisher",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "publisher",
+      "target": "mocha"
+    },
+    {
+      "source": "publisher",
+      "target": "momentjs-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "mongoid-sadstory"
+    },
+    {
+      "source": "publisher",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "publisher",
+      "target": "mousetrap-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "nested_form"
+    },
+    {
+      "source": "publisher",
+      "target": "null_logger"
+    },
+    {
+      "source": "publisher",
+      "target": "plek"
+    },
+    {
+      "source": "publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "publisher",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "publisher",
+      "target": "rack"
+    },
+    {
+      "source": "publisher",
+      "target": "rails"
+    },
+    {
+      "source": "publisher",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "publisher",
+      "target": "rails_autolink"
+    },
+    {
+      "source": "publisher",
+      "target": "rest-client"
+    },
+    {
+      "source": "publisher",
+      "target": "retriable"
+    },
+    {
+      "source": "publisher",
+      "target": "reverse_markdown"
+    },
+    {
+      "source": "publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "select2-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "selectize-rails"
+    },
+    {
+      "source": "publisher",
+      "target": "shoulda"
+    },
+    {
+      "source": "publisher",
+      "target": "simplecov"
+    },
+    {
+      "source": "publisher",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "publisher",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "publisher",
+      "target": "whenever"
+    },
+    {
+      "source": "publishing-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "publishing-api",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "publishing-api",
+      "target": "arel"
+    },
+    {
+      "source": "publishing-api",
+      "target": "aws-sdk"
+    },
+    {
+      "source": "publishing-api",
+      "target": "bunny"
+    },
+    {
+      "source": "publishing-api",
+      "target": "colorize"
+    },
+    {
+      "source": "publishing-api",
+      "target": "dalli"
+    },
+    {
+      "source": "publishing-api",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "publishing-api",
+      "target": "diffy"
+    },
+    {
+      "source": "publishing-api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "publishing-api",
+      "target": "faker"
+    },
+    {
+      "source": "publishing-api",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "publishing-api",
+      "target": "gds-sso"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govspeak"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govuk_document_types"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "publishing-api",
+      "target": "hashdiff"
+    },
+    {
+      "source": "publishing-api",
+      "target": "json-schema"
+    },
+    {
+      "source": "publishing-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "publishing-api",
+      "target": "oj"
+    },
+    {
+      "source": "publishing-api",
+      "target": "oj_mimic_json"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pact"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pact_broker-client"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pg"
+    },
+    {
+      "source": "publishing-api",
+      "target": "plek"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pry"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "publishing-api",
+      "target": "pry-rails"
+    },
+    {
+      "source": "publishing-api",
+      "target": "rails"
+    },
+    {
+      "source": "publishing-api",
+      "target": "rspec"
+    },
+    {
+      "source": "publishing-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "publishing-api",
+      "target": "sidekiq-unique-jobs"
+    },
+    {
+      "source": "publishing-api",
+      "target": "simplecov"
+    },
+    {
+      "source": "publishing-api",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "publishing-api",
+      "target": "spring"
+    },
+    {
+      "source": "publishing-api",
+      "target": "spring-commands-rspec"
+    },
+    {
+      "source": "publishing-api",
+      "target": "stackprof"
+    },
+    {
+      "source": "publishing-api",
+      "target": "timecop"
+    },
+    {
+      "source": "publishing-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "publishing-api",
+      "target": "web-console"
+    },
+    {
+      "source": "publishing-api",
+      "target": "webmock"
+    },
+    {
+      "source": "publishing-api",
+      "target": "whenever"
+    },
+    {
+      "source": "publishing-api",
+      "target": "with_advisory_lock"
+    },
+    {
+      "source": "release",
+      "target": "airbrake"
+    },
+    {
+      "source": "release",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "release",
+      "target": "aws-ses"
+    },
+    {
+      "source": "release",
+      "target": "better_errors"
+    },
+    {
+      "source": "release",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "release",
+      "target": "bootstrap3-datetimepicker-rails"
+    },
+    {
+      "source": "release",
+      "target": "capybara"
+    },
+    {
+      "source": "release",
+      "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "release",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "release",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "release",
+      "target": "exception_notification"
+    },
+    {
+      "source": "release",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "release",
+      "target": "formtastic"
+    },
+    {
+      "source": "release",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "release",
+      "target": "friendly_id"
+    },
+    {
+      "source": "release",
+      "target": "gds-sso"
+    },
+    {
+      "source": "release",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "release",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "release",
+      "target": "logstasher"
+    },
+    {
+      "source": "release",
+      "target": "minitest"
+    },
+    {
+      "source": "release",
+      "target": "mocha"
+    },
+    {
+      "source": "release",
+      "target": "momentjs-rails"
+    },
+    {
+      "source": "release",
+      "target": "mysql2"
+    },
+    {
+      "source": "release",
+      "target": "nested_form"
+    },
+    {
+      "source": "release",
+      "target": "octokit"
+    },
+    {
+      "source": "release",
+      "target": "plek"
+    },
+    {
+      "source": "release",
+      "target": "poltergeist"
+    },
+    {
+      "source": "release",
+      "target": "pry"
+    },
+    {
+      "source": "release",
+      "target": "rails"
+    },
+    {
+      "source": "release",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "release",
+      "target": "sass-rails"
+    },
+    {
+      "source": "release",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "release",
+      "target": "simplecov"
+    },
+    {
+      "source": "release",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "release",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "release",
+      "target": "timecop"
+    },
+    {
+      "source": "release",
+      "target": "uglifier"
+    },
+    {
+      "source": "release",
+      "target": "unicorn"
+    },
+    {
+      "source": "release",
+      "target": "webmock"
+    },
+    {
+      "source": "release",
+      "target": "whenever"
+    },
+    {
+      "source": "router-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "router-api",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "router-api",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "router-api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "router-api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "router-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "router-api",
+      "target": "mongoid"
+    },
+    {
+      "source": "router-api",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "router-api",
+      "target": "plek"
+    },
+    {
+      "source": "router-api",
+      "target": "rails"
+    },
+    {
+      "source": "router-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "router-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "router-api",
+      "target": "webmock"
+    },
+    {
+      "source": "rummager",
+      "target": "activesupport"
+    },
+    {
+      "source": "rummager",
+      "target": "airbrake"
+    },
+    {
+      "source": "rummager",
+      "target": "ci_reporter"
+    },
+    {
+      "source": "rummager",
+      "target": "elasticsearch"
+    },
+    {
+      "source": "rummager",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "rummager",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "rummager",
+      "target": "govuk_document_types"
+    },
+    {
+      "source": "rummager",
+      "target": "govuk_message_queue_consumer"
+    },
+    {
+      "source": "rummager",
+      "target": "logging"
+    },
+    {
+      "source": "rummager",
+      "target": "minitest-colorize"
+    },
+    {
+      "source": "rummager",
+      "target": "mocha"
+    },
+    {
+      "source": "rummager",
+      "target": "mr-sparkle"
+    },
+    {
+      "source": "rummager",
+      "target": "nokogiri"
+    },
+    {
+      "source": "rummager",
+      "target": "plek"
+    },
+    {
+      "source": "rummager",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "rummager",
+      "target": "rack"
+    },
+    {
+      "source": "rummager",
+      "target": "rack-logstasher"
+    },
+    {
+      "source": "rummager",
+      "target": "rack-test"
+    },
+    {
+      "source": "rummager",
+      "target": "rake"
+    },
+    {
+      "source": "rummager",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "rummager",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "rummager",
+      "target": "sidekiq"
+    },
+    {
+      "source": "rummager",
+      "target": "sidekiq-statsd"
+    },
+    {
+      "source": "rummager",
+      "target": "simplecov"
+    },
+    {
+      "source": "rummager",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "rummager",
+      "target": "sinatra"
+    },
+    {
+      "source": "rummager",
+      "target": "slop"
+    },
+    {
+      "source": "rummager",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "rummager",
+      "target": "test-unit-minitest"
+    },
+    {
+      "source": "rummager",
+      "target": "timecop"
+    },
+    {
+      "source": "rummager",
+      "target": "unf"
+    },
+    {
+      "source": "rummager",
+      "target": "unicorn"
+    },
+    {
+      "source": "rummager",
+      "target": "webmock"
+    },
+    {
+      "source": "rummager",
+      "target": "whenever"
+    },
+    {
+      "source": "search-admin",
+      "target": "airbrake"
+    },
+    {
+      "source": "search-admin",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "search-admin",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "search-admin",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "search-admin",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "search-admin",
+      "target": "gds-sso"
+    },
+    {
+      "source": "search-admin",
+      "target": "generic_form_builder"
+    },
+    {
+      "source": "search-admin",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "search-admin",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "search-admin",
+      "target": "mysql2"
+    },
+    {
+      "source": "search-admin",
+      "target": "plek"
+    },
+    {
+      "source": "search-admin",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "search-admin",
+      "target": "rails"
+    },
+    {
+      "source": "search-admin",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "search-admin",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "search-admin",
+      "target": "sass-rails"
+    },
+    {
+      "source": "search-admin",
+      "target": "uglifier"
+    },
+    {
+      "source": "search-admin",
+      "target": "unicorn"
+    },
+    {
+      "source": "search-admin",
+      "target": "webmock"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "airbrake"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "better_errors"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "capybara"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "govuk_elements_rails"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "logstasher"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "phantomjs"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "plek"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "poltergeist"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "rails"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "rails_translation_manager"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "sass-rails"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "slimmer"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "uglifier"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "unicorn"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "web-console"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "webmock"
+    },
+    {
+      "source": "service-manual-frontend",
+      "target": "wraith"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "active_link_to"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "auto_strip_attributes"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "better_errors"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "bullet"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "byebug"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "capybara"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "diffy"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "fuubar"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "highline"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "jasmine"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "kaminari"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "launchy"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "pg"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "pry"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "pry-nav"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "pry-remote"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "redcarpet"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "rinku"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "select2-rails"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "simplecov"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "service-manual-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "airbrake"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "airbrake-ruby"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "byebug"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "capybara"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "gds-sso"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "gretel"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "logstasher"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "mongoid"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "plek"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "pry"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "rails"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "redis"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "sass-rails"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "simplecov"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "uglifier"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "unicorn"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "webmock"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "whenever"
+    },
+    {
+      "source": "short-url-manager",
+      "target": "will_paginate_mongoid"
+    },
+    {
+      "source": "signon",
+      "target": "activejob-retry"
+    },
+    {
+      "source": "signon",
+      "target": "addressable"
+    },
+    {
+      "source": "signon",
+      "target": "airbrake"
+    },
+    {
+      "source": "signon",
+      "target": "alphabetical_paginate"
+    },
+    {
+      "source": "signon",
+      "target": "ancestry"
+    },
+    {
+      "source": "signon",
+      "target": "better_errors"
+    },
+    {
+      "source": "signon",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "signon",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "signon",
+      "target": "capybara"
+    },
+    {
+      "source": "signon",
+      "target": "capybara-email"
+    },
+    {
+      "source": "signon",
+      "target": "ci_reporter"
+    },
+    {
+      "source": "signon",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "signon",
+      "target": "deprecated_columns"
+    },
+    {
+      "source": "signon",
+      "target": "devise"
+    },
+    {
+      "source": "signon",
+      "target": "devise-encryptable"
+    },
+    {
+      "source": "signon",
+      "target": "devise_invitable"
+    },
+    {
+      "source": "signon",
+      "target": "devise_zxcvbn"
+    },
+    {
+      "source": "signon",
+      "target": "doorkeeper"
+    },
+    {
+      "source": "signon",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "signon",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "signon",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "signon",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "signon",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "signon",
+      "target": "jasmine"
+    },
+    {
+      "source": "signon",
+      "target": "json"
+    },
+    {
+      "source": "signon",
+      "target": "kaminari"
+    },
+    {
+      "source": "signon",
+      "target": "logstasher"
+    },
+    {
+      "source": "signon",
+      "target": "minitest"
+    },
+    {
+      "source": "signon",
+      "target": "mocha"
+    },
+    {
+      "source": "signon",
+      "target": "mysql2"
+    },
+    {
+      "source": "signon",
+      "target": "nokogiri"
+    },
+    {
+      "source": "signon",
+      "target": "pg"
+    },
+    {
+      "source": "signon",
+      "target": "plek"
+    },
+    {
+      "source": "signon",
+      "target": "poltergeist"
+    },
+    {
+      "source": "signon",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "signon",
+      "target": "pundit"
+    },
+    {
+      "source": "signon",
+      "target": "quiet_assets"
+    },
+    {
+      "source": "signon",
+      "target": "rails"
+    },
+    {
+      "source": "signon",
+      "target": "rails-html-sanitizer"
+    },
+    {
+      "source": "signon",
+      "target": "rake"
+    },
+    {
+      "source": "signon",
+      "target": "redis"
+    },
+    {
+      "source": "signon",
+      "target": "rotp"
+    },
+    {
+      "source": "signon",
+      "target": "rqrcode"
+    },
+    {
+      "source": "signon",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "signon",
+      "target": "sass-rails"
+    },
+    {
+      "source": "signon",
+      "target": "shoulda-context"
+    },
+    {
+      "source": "signon",
+      "target": "sprockets-rails"
+    },
+    {
+      "source": "signon",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "signon",
+      "target": "test_after_commit"
+    },
+    {
+      "source": "signon",
+      "target": "timecop"
+    },
+    {
+      "source": "signon",
+      "target": "uglifier"
+    },
+    {
+      "source": "signon",
+      "target": "unicorn"
+    },
+    {
+      "source": "signon",
+      "target": "uuid"
+    },
+    {
+      "source": "signon",
+      "target": "webmock"
+    },
+    {
+      "source": "signon",
+      "target": "zeroclipboard-rails"
+    },
+    {
+      "source": "smart-answers",
+      "target": "airbrake"
+    },
+    {
+      "source": "smart-answers",
+      "target": "ast"
+    },
+    {
+      "source": "smart-answers",
+      "target": "better_errors"
+    },
+    {
+      "source": "smart-answers",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "smart-answers",
+      "target": "capybara"
+    },
+    {
+      "source": "smart-answers",
+      "target": "ci_reporter"
+    },
+    {
+      "source": "smart-answers",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govspeak"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "smart-answers",
+      "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "smart-answers",
+      "target": "htmlentities"
+    },
+    {
+      "source": "smart-answers",
+      "target": "json"
+    },
+    {
+      "source": "smart-answers",
+      "target": "logstasher"
+    },
+    {
+      "source": "smart-answers",
+      "target": "lrucache"
+    },
+    {
+      "source": "smart-answers",
+      "target": "method_source"
+    },
+    {
+      "source": "smart-answers",
+      "target": "minitest"
+    },
+    {
+      "source": "smart-answers",
+      "target": "minitest-focus"
+    },
+    {
+      "source": "smart-answers",
+      "target": "mocha"
+    },
+    {
+      "source": "smart-answers",
+      "target": "nokogiri"
+    },
+    {
+      "source": "smart-answers",
+      "target": "parser"
+    },
+    {
+      "source": "smart-answers",
+      "target": "plek"
+    },
+    {
+      "source": "smart-answers",
+      "target": "poltergeist"
+    },
+    {
+      "source": "smart-answers",
+      "target": "pry"
+    },
+    {
+      "source": "smart-answers",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "smart-answers",
+      "target": "rails"
+    },
+    {
+      "source": "smart-answers",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "smart-answers",
+      "target": "rails_stdout_logging"
+    },
+    {
+      "source": "smart-answers",
+      "target": "sass-rails"
+    },
+    {
+      "source": "smart-answers",
+      "target": "shoulda"
+    },
+    {
+      "source": "smart-answers",
+      "target": "simplecov"
+    },
+    {
+      "source": "smart-answers",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "smart-answers",
+      "target": "slimmer"
+    },
+    {
+      "source": "smart-answers",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "smart-answers",
+      "target": "tilt"
+    },
+    {
+      "source": "smart-answers",
+      "target": "timecop"
+    },
+    {
+      "source": "smart-answers",
+      "target": "uglifier"
+    },
+    {
+      "source": "smart-answers",
+      "target": "uk_postcode"
+    },
+    {
+      "source": "smart-answers",
+      "target": "unicorn"
+    },
+    {
+      "source": "smart-answers",
+      "target": "webmock"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "better_errors"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "capybara"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "capybara-webkit"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "factory_girl"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "foreman"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "hashdiff"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "jquery-rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "kaminari"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "kaminari-mongoid"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "mongoid"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "pry-rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "pundit"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "select2-rails"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "simplecov"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "static",
+      "target": "actionpack-page_caching"
+    },
+    {
+      "source": "static",
+      "target": "airbrake"
+    },
+    {
+      "source": "static",
+      "target": "better_errors"
+    },
+    {
+      "source": "static",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "static",
+      "target": "capybara"
+    },
+    {
+      "source": "static",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "static",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "static",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "static",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "static",
+      "target": "govuk_template"
+    },
+    {
+      "source": "static",
+      "target": "image_optim"
+    },
+    {
+      "source": "static",
+      "target": "jasmine-rails"
+    },
+    {
+      "source": "static",
+      "target": "logstasher"
+    },
+    {
+      "source": "static",
+      "target": "minitest"
+    },
+    {
+      "source": "static",
+      "target": "minitest-capybara"
+    },
+    {
+      "source": "static",
+      "target": "mocha"
+    },
+    {
+      "source": "static",
+      "target": "nokogiri"
+    },
+    {
+      "source": "static",
+      "target": "plek"
+    },
+    {
+      "source": "static",
+      "target": "pry"
+    },
+    {
+      "source": "static",
+      "target": "quiet_assets"
+    },
+    {
+      "source": "static",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "static",
+      "target": "rails"
+    },
+    {
+      "source": "static",
+      "target": "redis"
+    },
+    {
+      "source": "static",
+      "target": "sass-rails"
+    },
+    {
+      "source": "static",
+      "target": "shoulda"
+    },
+    {
+      "source": "static",
+      "target": "sprockets-rails"
+    },
+    {
+      "source": "static",
+      "target": "test-unit"
+    },
+    {
+      "source": "static",
+      "target": "uglifier"
+    },
+    {
+      "source": "static",
+      "target": "unicorn"
+    },
+    {
+      "source": "static",
+      "target": "webmock"
+    },
+    {
+      "source": "support",
+      "target": "airbrake"
+    },
+    {
+      "source": "support",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "support",
+      "target": "cancancan"
+    },
+    {
+      "source": "support",
+      "target": "capybara"
+    },
+    {
+      "source": "support",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "support",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "support",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "support",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "support",
+      "target": "gds-sso"
+    },
+    {
+      "source": "support",
+      "target": "gds_zendesk"
+    },
+    {
+      "source": "support",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "support",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "support",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "support",
+      "target": "gretel"
+    },
+    {
+      "source": "support",
+      "target": "jasmine"
+    },
+    {
+      "source": "support",
+      "target": "jc-validates_timeliness"
+    },
+    {
+      "source": "support",
+      "target": "jquery-ui-rails"
+    },
+    {
+      "source": "support",
+      "target": "kaminari"
+    },
+    {
+      "source": "support",
+      "target": "listen"
+    },
+    {
+      "source": "support",
+      "target": "logstasher"
+    },
+    {
+      "source": "support",
+      "target": "plek"
+    },
+    {
+      "source": "support",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "support",
+      "target": "rails"
+    },
+    {
+      "source": "support",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "support",
+      "target": "redis"
+    },
+    {
+      "source": "support",
+      "target": "rspec-collection_matchers"
+    },
+    {
+      "source": "support",
+      "target": "rspec-its"
+    },
+    {
+      "source": "support",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "support",
+      "target": "sass-rails"
+    },
+    {
+      "source": "support",
+      "target": "select2-rails"
+    },
+    {
+      "source": "support",
+      "target": "shoulda"
+    },
+    {
+      "source": "support",
+      "target": "spring"
+    },
+    {
+      "source": "support",
+      "target": "spring-watcher-listen"
+    },
+    {
+      "source": "support",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "support",
+      "target": "timecop"
+    },
+    {
+      "source": "support",
+      "target": "uglifier"
+    },
+    {
+      "source": "support",
+      "target": "unicorn"
+    },
+    {
+      "source": "support",
+      "target": "web-console"
+    },
+    {
+      "source": "support",
+      "target": "webmock"
+    },
+    {
+      "source": "support-api",
+      "target": "airbrake"
+    },
+    {
+      "source": "support-api",
+      "target": "ci_reporter"
+    },
+    {
+      "source": "support-api",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "support-api",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "support-api",
+      "target": "fakefs"
+    },
+    {
+      "source": "support-api",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "support-api",
+      "target": "gds_zendesk"
+    },
+    {
+      "source": "support-api",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "support-api",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "support-api",
+      "target": "listen"
+    },
+    {
+      "source": "support-api",
+      "target": "logstasher"
+    },
+    {
+      "source": "support-api",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "support-api",
+      "target": "pg"
+    },
+    {
+      "source": "support-api",
+      "target": "plek"
+    },
+    {
+      "source": "support-api",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "support-api",
+      "target": "rails"
+    },
+    {
+      "source": "support-api",
+      "target": "rspec-collection_matchers"
+    },
+    {
+      "source": "support-api",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "support-api",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "support-api",
+      "target": "simplecov"
+    },
+    {
+      "source": "support-api",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "support-api",
+      "target": "spring"
+    },
+    {
+      "source": "support-api",
+      "target": "spring-watcher-listen"
+    },
+    {
+      "source": "support-api",
+      "target": "timecop"
+    },
+    {
+      "source": "support-api",
+      "target": "unicorn"
+    },
+    {
+      "source": "support-api",
+      "target": "user_agent_parser"
+    },
+    {
+      "source": "support-api",
+      "target": "webmock"
+    },
+    {
+      "source": "support-api",
+      "target": "whenever"
+    },
+    {
+      "source": "transition",
+      "target": "activerecord-import"
+    },
+    {
+      "source": "transition",
+      "target": "activerecord-session_store"
+    },
+    {
+      "source": "transition",
+      "target": "acts-as-taggable-on"
+    },
+    {
+      "source": "transition",
+      "target": "airbrake"
+    },
+    {
+      "source": "transition",
+      "target": "capybara"
+    },
+    {
+      "source": "transition",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "transition",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "transition",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "transition",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "transition",
+      "target": "gds-sso"
+    },
+    {
+      "source": "transition",
+      "target": "google-api-client"
+    },
+    {
+      "source": "transition",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "transition",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "transition",
+      "target": "gretel"
+    },
+    {
+      "source": "transition",
+      "target": "htmlentities"
+    },
+    {
+      "source": "transition",
+      "target": "jasmine"
+    },
+    {
+      "source": "transition",
+      "target": "kaminari"
+    },
+    {
+      "source": "transition",
+      "target": "launchy"
+    },
+    {
+      "source": "transition",
+      "target": "logstasher"
+    },
+    {
+      "source": "transition",
+      "target": "mlanett-redis-lock"
+    },
+    {
+      "source": "transition",
+      "target": "optic14n"
+    },
+    {
+      "source": "transition",
+      "target": "paper_trail"
+    },
+    {
+      "source": "transition",
+      "target": "pg"
+    },
+    {
+      "source": "transition",
+      "target": "phantomjs"
+    },
+    {
+      "source": "transition",
+      "target": "plek"
+    },
+    {
+      "source": "transition",
+      "target": "poltergeist"
+    },
+    {
+      "source": "transition",
+      "target": "pry"
+    },
+    {
+      "source": "transition",
+      "target": "rails"
+    },
+    {
+      "source": "transition",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "transition",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "transition",
+      "target": "rspec-collection_matchers"
+    },
+    {
+      "source": "transition",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "transition",
+      "target": "sass"
+    },
+    {
+      "source": "transition",
+      "target": "sass-rails"
+    },
+    {
+      "source": "transition",
+      "target": "select2-rails"
+    },
+    {
+      "source": "transition",
+      "target": "shoulda-matchers"
+    },
+    {
+      "source": "transition",
+      "target": "sidekiq"
+    },
+    {
+      "source": "transition",
+      "target": "timecop"
+    },
+    {
+      "source": "transition",
+      "target": "uglifier"
+    },
+    {
+      "source": "transition",
+      "target": "unicorn"
+    },
+    {
+      "source": "transition",
+      "target": "web-console"
+    },
+    {
+      "source": "transition",
+      "target": "webmock"
+    },
+    {
+      "source": "transition",
+      "target": "whenever"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "airbrake"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "capybara"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "ci_reporter_rspec"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "diffy"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "factory_girl"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "factory_girl_rails"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "formtastic"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "formtastic-bootstrap"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "gds-sso"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "govspeak"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "jasmine"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "logstasher"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "mongoid"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "mongoid_rails_migrations"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "plek"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "poltergeist"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "pry-rails"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "rails"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "rspec-rails"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "sass-rails"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "slimmer"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "state_machines"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "state_machines-mongoid"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "test-unit"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "timecop"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "uglifier"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "unicorn"
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "webmock"
+    },
+    {
+      "source": "whitehall",
+      "target": "addressable"
+    },
+    {
+      "source": "whitehall",
+      "target": "airbrake"
+    },
+    {
+      "source": "whitehall",
+      "target": "babosa"
+    },
+    {
+      "source": "whitehall",
+      "target": "better_errors"
+    },
+    {
+      "source": "whitehall",
+      "target": "binding_of_caller"
+    },
+    {
+      "source": "whitehall",
+      "target": "bootstrap-kaminari-views"
+    },
+    {
+      "source": "whitehall",
+      "target": "capybara"
+    },
+    {
+      "source": "whitehall",
+      "target": "carrierwave"
+    },
+    {
+      "source": "whitehall",
+      "target": "chronic"
+    },
+    {
+      "source": "whitehall",
+      "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "whitehall",
+      "target": "cucumber-rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "dalli"
+    },
+    {
+      "source": "whitehall",
+      "target": "database_cleaner"
+    },
+    {
+      "source": "whitehall",
+      "target": "deprecated_columns"
+    },
+    {
+      "source": "whitehall",
+      "target": "dotenv-rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "equivalent-xml"
+    },
+    {
+      "source": "whitehall",
+      "target": "factory_girl"
+    },
+    {
+      "source": "whitehall",
+      "target": "friendly_id"
+    },
+    {
+      "source": "whitehall",
+      "target": "gds-api-adapters"
+    },
+    {
+      "source": "whitehall",
+      "target": "gds-sso"
+    },
+    {
+      "source": "whitehall",
+      "target": "globalize"
+    },
+    {
+      "source": "whitehall",
+      "target": "govspeak"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk-content-schema-test-helpers"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk-lint"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk_admin_template"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk_frontend_toolkit"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk_sidekiq"
+    },
+    {
+      "source": "whitehall",
+      "target": "graphviz_transitions"
+    },
+    {
+      "source": "whitehall",
+      "target": "invalid_utf8_rejector"
+    },
+    {
+      "source": "whitehall",
+      "target": "isbn_validation"
+    },
+    {
+      "source": "whitehall",
+      "target": "jbuilder"
+    },
+    {
+      "source": "whitehall",
+      "target": "jquery-ui-rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "kaminari"
+    },
+    {
+      "source": "whitehall",
+      "target": "launchy"
+    },
+    {
+      "source": "whitehall",
+      "target": "link_header"
+    },
+    {
+      "source": "whitehall",
+      "target": "logstasher"
+    },
+    {
+      "source": "whitehall",
+      "target": "maxitest"
+    },
+    {
+      "source": "whitehall",
+      "target": "mime-types"
+    },
+    {
+      "source": "whitehall",
+      "target": "mini_magick"
+    },
+    {
+      "source": "whitehall",
+      "target": "minitest-fail-fast"
+    },
+    {
+      "source": "whitehall",
+      "target": "mocha"
+    },
+    {
+      "source": "whitehall",
+      "target": "mysql2"
+    },
+    {
+      "source": "whitehall",
+      "target": "newrelic_rpm"
+    },
+    {
+      "source": "whitehall",
+      "target": "nokogiri"
+    },
+    {
+      "source": "whitehall",
+      "target": "parallel"
+    },
+    {
+      "source": "whitehall",
+      "target": "parallel_tests"
+    },
+    {
+      "source": "whitehall",
+      "target": "pdf-reader"
+    },
+    {
+      "source": "whitehall",
+      "target": "plek"
+    },
+    {
+      "source": "whitehall",
+      "target": "poltergeist"
+    },
+    {
+      "source": "whitehall",
+      "target": "pry-byebug"
+    },
+    {
+      "source": "whitehall",
+      "target": "quiet_assets"
+    },
+    {
+      "source": "whitehall",
+      "target": "rack"
+    },
+    {
+      "source": "whitehall",
+      "target": "rack-test"
+    },
+    {
+      "source": "whitehall",
+      "target": "rack_strip_client_ip"
+    },
+    {
+      "source": "whitehall",
+      "target": "rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "rails-i18n"
+    },
+    {
+      "source": "whitehall",
+      "target": "rails_translation_manager"
+    },
+    {
+      "source": "whitehall",
+      "target": "raindrops"
+    },
+    {
+      "source": "whitehall",
+      "target": "rake"
+    },
+    {
+      "source": "whitehall",
+      "target": "redis-namespace"
+    },
+    {
+      "source": "whitehall",
+      "target": "responders"
+    },
+    {
+      "source": "whitehall",
+      "target": "rinku"
+    },
+    {
+      "source": "whitehall",
+      "target": "ruby-prof"
+    },
+    {
+      "source": "whitehall",
+      "target": "ruby-progressbar"
+    },
+    {
+      "source": "whitehall",
+      "target": "sass"
+    },
+    {
+      "source": "whitehall",
+      "target": "sassc-rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "shared_mustache"
+    },
+    {
+      "source": "whitehall",
+      "target": "simplecov"
+    },
+    {
+      "source": "whitehall",
+      "target": "simplecov-rcov"
+    },
+    {
+      "source": "whitehall",
+      "target": "slimmer"
+    },
+    {
+      "source": "whitehall",
+      "target": "sprockets"
+    },
+    {
+      "source": "whitehall",
+      "target": "sprockets-rails"
+    },
+    {
+      "source": "whitehall",
+      "target": "stackprof"
+    },
+    {
+      "source": "whitehall",
+      "target": "statsd-ruby"
+    },
+    {
+      "source": "whitehall",
+      "target": "test-queue"
+    },
+    {
+      "source": "whitehall",
+      "target": "test_track"
+    },
+    {
+      "source": "whitehall",
+      "target": "timecop"
+    },
+    {
+      "source": "whitehall",
+      "target": "transitions"
+    },
+    {
+      "source": "whitehall",
+      "target": "typhoeus"
+    },
+    {
+      "source": "whitehall",
+      "target": "uglifier"
+    },
+    {
+      "source": "whitehall",
+      "target": "unicorn"
+    },
+    {
+      "source": "whitehall",
+      "target": "validates_email_format_of"
+    },
+    {
+      "source": "whitehall",
+      "target": "webmock"
+    },
+    {
+      "source": "whitehall",
+      "target": "whenever"
+    }
+  ]
+}
