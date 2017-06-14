@@ -7,11 +7,6 @@
   stroke: #222;
 }
 
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
 .hover-label {
   font-size: 20px;
   font-family: "Helvetica Neue";
@@ -35,9 +30,9 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2))
 
 var label = svg.append("text")
-   .attr("y", 100)
-   .attr("x", 200)
-   .attr("text-anchor", "middle")
+   .attr("y", 20)
+   .attr("x", 0)
+   .attr("text-anchor", "left")
    .attr("class", "hover-label")
    .text("");
 
@@ -56,7 +51,7 @@ d3.json("network.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function (d) { return d.group == "applications" ? 15 : 5 })
+      .attr("r", function (d) { return d.group == "applications" ? (d.dependency_count * 0.75) : 5 })
       .attr("fill", function (d) { return d.group == "applications" ? d3.color('#cc0000') : d3.color('#FF9900') })
       .on("mouseover", mouseover)
       .on("mouseout", mouseout)
@@ -106,7 +101,11 @@ function dragended(d) {
 }
 
 function mouseover(d) {
-  label.text(d.id + " (" + d.group + ")")
+  if (d.group == "gems") {
+    label.text(d.id + " (gem). Used " + d.usage_count + " times")
+  } else {
+    label.text(d.id + " (application). " + d.dependency_count + " dependencies")
+  }
 }
 
 function mouseout() {
