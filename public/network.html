@@ -4,8 +4,7 @@
 <style>
 
 .links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
+  stroke: #222;
 }
 
 .nodes circle {
@@ -14,7 +13,7 @@
 }
 
 </style>
-<svg width="960" height="600"></svg>
+<svg width="1400" height="700"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -27,8 +26,8 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
-    .alpha(1)
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("collide", d3.forceCollide().radius(function(d) { return d.group == "applications" ? 30 : 10 }).iterations(2))
+    .force("center", d3.forceCenter(width / 2, height / 2))
 
 d3.json("network.json", function(error, graph) {
   if (error) throw error;
@@ -38,14 +37,14 @@ d3.json("network.json", function(error, graph) {
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-      .attr("stroke-width", function(d) { return 1; });
+      .attr("stroke-width", function(d) { return 0.5; });
 
   var node = svg.append("g")
       .attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function (d) { return d.group == "applications" ? 10 : 5 })
+      .attr("r", function (d) { return d.group == "applications" ? 15 : 5 })
       .attr("fill", function (d) { return d.group == "applications" ? d3.color('#cc0000') : d3.color('#FF9900') })
       .call(d3.drag()
           .on("start", dragstarted)
