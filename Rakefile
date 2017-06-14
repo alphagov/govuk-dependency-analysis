@@ -15,11 +15,23 @@ task :apps_and_gems do
     lockfile = Bundler::LockfileParser.new(file)
     appname = filename.gsub('cache/', '')
 
-    output[:nodes] << { id: appname, group: 'applications' }
+    output[:nodes] << {
+      id: appname,
+      group: 'applications',
+      dependency_count: lockfile.dependencies.size,
+    }
 
-    lockfile.dependencies.map do |name, _|
-      output[:nodes] << { id: name, group: 'gems' }
-      output[:links] << { source: appname, target: name }
+    lockfile.dependencies.map do |d|
+
+      existing_node = output[:nodes].find { |n| n[:id] == d.name }
+      if existing_node
+        existing_node[:usage_count] = existing_node[:usage_count] + 1
+        output[:nodes] << existing_node
+      else
+        output[:nodes] << { id: d.name, group: 'gems', usage_count: 1 }
+      end
+
+      output[:links] << { source: appname, target: d.name }
     end
   end
 

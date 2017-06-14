@@ -2,1295 +2,1618 @@
   "nodes": [
     {
       "id": "asset-manager",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 21
     },
     {
       "id": "airbrake",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 48
     },
     {
       "id": "carrierwave",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "carrierwave-mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "database_cleaner",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 25
     },
     {
       "id": "delayed_job",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "delayed_job_mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "factory_girl_rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 25
     },
     {
       "id": "gds-sso",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 25
     },
     {
       "id": "govuk-lint",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 42
     },
     {
       "id": "logstasher",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 41
     },
     {
       "id": "mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "mongoid_paranoia",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "nokogiri",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 10
     },
     {
       "id": "plek",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 46
     },
     {
       "id": "rack_strip_client_ip",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 8
     },
     {
       "id": "rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 45
     },
     {
       "id": "rspec-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 32
     },
     {
       "id": "sdoc",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "simplecov-rcov",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 24
     },
     {
       "id": "state_machines-mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "unicorn",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 47
     },
     {
       "id": "authenticating-proxy",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 15
     },
     {
       "id": "airbrake-ruby",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "byebug",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "rack-proxy",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rack-test",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "simplecov",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 23
     },
     {
       "id": "webmock",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 45
     },
     {
       "id": "bouncer",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 14
     },
     {
       "id": "activerecord",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "erubis",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "mr-sparkle",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "optic14n",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "pg",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "pry",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 11
     },
     {
       "id": "rack",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "rake",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "rspec",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "calculators",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "better_errors",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 19
     },
     {
       "id": "binding_of_caller",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 18
     },
     {
       "id": "capybara",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 29
     },
     {
       "id": "ci_reporter_rspec",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "gds-api-adapters",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 42
     },
     {
       "id": "govuk-content-schema-test-helpers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 26
     },
     {
       "id": "govuk_ab_testing",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "govuk_elements_rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "govuk_frontend_toolkit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 19
     },
     {
       "id": "govuk_navigation_helpers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 10
     },
     {
       "id": "poltergeist",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 22
     },
     {
       "id": "pry-byebug",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 27
     },
     {
       "id": "sass-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 34
     },
     {
       "id": "slimmer",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 16
     },
     {
       "id": "timecop",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 24
     },
     {
       "id": "uglifier",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 35
     },
     {
       "id": "calendars",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "ci_reporter_minitest",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "json",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "mocha",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 15
     },
     {
       "id": "rails-controller-testing",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 16
     },
     {
       "id": "rails-i18n",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "shoulda",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "collections",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 28
     },
     {
       "id": "cucumber-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 9
     },
     {
       "id": "govuk_schemas",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "jasmine-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "minitest-spec-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "statsd-ruby",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 15
     },
     {
       "id": "collections-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 30
     },
     {
       "id": "aasm",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "generic_form_builder",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "govuk_admin_template",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 20
     },
     {
       "id": "govuk_sidekiq",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "mysql2",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "select2-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 8
     },
     {
       "id": "sinatra",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "contacts-admin",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 41
     },
     {
       "id": "active_hash",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "ancestry",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "fakefs",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "friendly_id",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "govspeak",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "json-schema",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "lrucache",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "mlanett-redis-lock",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "paper_trail",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "pry-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "railroady",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "searchlight",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "shoulda-matchers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "simple_form",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "therubyracer",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "thin",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "virtus",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "whenever",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 12
     },
     {
       "id": "content-performance-manager",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 37
     },
     {
       "id": "draper",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "google-api-client",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "guard-rspec",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "httparty",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "jbuilder",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "jquery-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "kaminari",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 11
     },
     {
       "id": "listen",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "puma",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "spring",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "spring-commands-rspec",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "spring-watcher-listen",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "turbolinks",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "web-console",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 10
     },
     {
       "id": "content-store",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 25
     },
     {
       "id": "factory_girl",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "hashdiff",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "mongoid_rails_migrations",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 9
     },
     {
       "id": "pact",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "uuidtools",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "content-tagger",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 35
     },
     {
       "id": "awesome_print",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "bootstrap-kaminari-views",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "chartkick",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "faker",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "govuk_taxonomy_helpers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "headless",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "jquery-ui-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "design-principles",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 16
     },
     {
       "id": "test-unit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "email-alert-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 21
     },
     {
       "id": "equivalent-xml",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "faraday",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "foreman",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "redis-namespace",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "sidekiq",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "sidekiq-logging-json",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sidekiq-statsd",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "email-alert-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 22
     },
     {
       "id": "decent_exposure",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "launchy",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 10
     },
     {
       "id": "quiet_assets",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "email-alert-service",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 13
     },
     {
       "id": "bunny",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "redis",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "rspec-core",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rspec-expectations",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rspec-mocks",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "feedback",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 27
     },
     {
       "id": "invalid_utf8_rejector",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "notifications-ruby-client",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sass",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "valid_email",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "finder-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 27
     },
     {
       "id": "chronic",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "shared_mustache",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 44
     },
     {
       "id": "addressable",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "cdn_helpers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "ci_reporter",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "ci_reporter_test_unit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "gelf",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "htmlentities",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "shoulda-context",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "sprockets-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "uk_postcode",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "government-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 32
     },
     {
       "id": "dalli",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "rails_translation_manager",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "wraith",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "govuk_need_api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "elasticsearch",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "link_header",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "hmrc-manuals-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 24
     },
     {
       "id": "responders",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "rspec-collection_matchers",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "imminence",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 41
     },
     {
       "id": "formtastic",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "formtastic-bootstrap",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 6
     },
     {
       "id": "inherited_resources",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "kaminari-actionview",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "kaminari-mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "minitest-reporters",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "info-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 18
     },
     {
       "id": "rspec-its",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "licence-finder",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 23
     },
     {
       "id": "link-checker-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "activerecord-import",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "deprecated_columns",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "rspec-sidekiq",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sidekiq-scheduler",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sqlite3",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "local-links-manager",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 34
     },
     {
       "id": "capistrano-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "faraday_middleware",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "gretel",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "manuals-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 23
     },
     {
       "id": "manuals-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 40
     },
     {
       "id": "cucumber",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "phantomjs",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 3
     },
     {
       "id": "raindrops",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "state_machine",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "maslow",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 30
     },
     {
       "id": "cancancan",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "chosen-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "jasmine",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 7
     },
     {
       "id": "policy-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "selectize-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 57
     },
     {
       "id": "diffy",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "govuk_content_models",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "has_scope",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "jasmine-core",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "momentjs-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "mongoid-sadstory",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "mousetrap-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "nested_form",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "null_logger",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rails_autolink",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rest-client",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "retriable",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "reverse_markdown",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "publishing-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 45
     },
     {
       "id": "arel",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "aws-sdk",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "colorize",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "govuk_document_types",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "oj",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "oj_mimic_json",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "pact_broker-client",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sidekiq-unique-jobs",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "stackprof",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "with_advisory_lock",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "release",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 40
     },
     {
       "id": "aws-ses",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "bootstrap3-datetimepicker-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "exception_notification",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "minitest",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 4
     },
     {
       "id": "octokit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "router-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 13
     },
     {
       "id": "rummager",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 34
     },
     {
       "id": "activesupport",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "govuk_message_queue_consumer",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "logging",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "minitest-colorize",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rack-logstasher",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "slop",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "test-unit-minitest",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "unf",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "search-admin",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 19
     },
     {
       "id": "service-manual-frontend",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 26
     },
     {
       "id": "service-manual-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 41
     },
     {
       "id": "active_link_to",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "auto_strip_attributes",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "bullet",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "fuubar",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "highline",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "pry-nav",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "pry-remote",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "redcarpet",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rinku",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "short-url-manager",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 30
     },
     {
       "id": "will_paginate_mongoid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "signon",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 55
     },
     {
       "id": "activejob-retry",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "alphabetical_paginate",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "capybara-email",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "devise",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "devise-encryptable",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "devise_invitable",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "devise_zxcvbn",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "doorkeeper",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "pundit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "rails-html-sanitizer",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rotp",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rqrcode",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "test_after_commit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "uuid",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "zeroclipboard-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "smart-answers",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 42
     },
     {
       "id": "ast",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "method_source",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "minitest-focus",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "parser",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rails_stdout_logging",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "tilt",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "specialist-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 37
     },
     {
       "id": "capybara-webkit",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "static",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 30
     },
     {
       "id": "actionpack-page_caching",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "govuk_template",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "image_optim",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "minitest-capybara",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "support",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 39
     },
     {
       "id": "gds_zendesk",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "jc-validates_timeliness",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "support-api",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 28
     },
     {
       "id": "user_agent_parser",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "transition",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 43
     },
     {
       "id": "activerecord-session_store",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "acts-as-taggable-on",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "travel-advice-publisher",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 37
     },
     {
       "id": "state_machines",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "whitehall",
-      "group": "applications"
+      "group": "applications",
+      "dependency_count": 85
     },
     {
       "id": "babosa",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "dotenv-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "globalize",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "graphviz_transitions",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "isbn_validation",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "maxitest",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "mime-types",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "mini_magick",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "minitest-fail-fast",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "newrelic_rpm",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "parallel",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "parallel_tests",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "pdf-reader",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "ruby-prof",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "ruby-progressbar",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sassc-rails",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "sprockets",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "test-queue",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "test_track",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "transitions",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "typhoeus",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "validates_email_format_of",
-      "group": "gems"
+      "group": "gems",
+      "usage_count": 1
     }
   ],
   "links": [
