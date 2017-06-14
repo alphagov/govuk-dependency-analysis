@@ -58,6 +58,32 @@ task :analyse do
   File.write("public/versions.json", JSON.pretty_generate(output))
 end
 
+task :fragmentation do
+  direct_dependencies = []
+  Dir.glob("cache/*").each do |filename|
+    file = File.read(filename)
+    lockfile = Bundler::LockfileParser.new(file)
+
+    lockfile.dependencies.map do |d|
+      spec = lockfile.specs.find { |s| s.name == d.name }
+      direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
+    end
+  end
+
+  output = []
+
+  direct_dependencies.uniq(&:name).sort_by(&:name).each do |gem|
+    versions = counts(direct_dependencies.select { |v| v.name == gem.name }.map(&:version).sort.map(&:to_s))
+    children = versions.map do |v, count|
+      { name: "#{gem.name} #{v}", size: count }
+    end
+
+    output << { name: gem.name, children: children }
+  end
+
+  File.write("public/fragmentation.json", JSON.pretty_generate(name: "versions", children: output))
+end
+
 task :download do
   sh "rm cache/*"
   applications = YAML.load(HTTP.get('https://raw.githubusercontent.com/alphagov/govuk-developer-docs/master/data/applications.yml'))
