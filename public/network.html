@@ -7,6 +7,11 @@
   stroke: #222;
 }
 
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
 .hover-label {
   font-size: 20px;
   font-family: "Helvetica Neue";
@@ -31,10 +36,9 @@ var simulation = d3.forceSimulation()
 
 var label = svg.append("text")
    .attr("y", 20)
-   .attr("x", 0)
+   .attr("x", 10)
    .attr("text-anchor", "left")
    .attr("class", "hover-label")
-   .text("");
 
 d3.json("network.json", function(error, graph) {
   if (error) throw error;
@@ -46,13 +50,19 @@ d3.json("network.json", function(error, graph) {
     .enter().append("line")
       .attr("stroke-width", function(d) { return 0.5; });
 
+  var color = d3.scaleLinear()
+    .domain([0, 50])
+    .range([d3.rgb("#d62728"), d3.rgb('#2ca02c')]);
+
   var node = svg.append("g")
       .attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", function (d) { return d.group == "applications" ? (d.dependency_count * 0.75) : 5 })
-      .attr("fill", function (d) { return d.group == "applications" ? d3.color('#cc0000') : d3.color('#FF9900') })
+      .attr("fill", function (d) {
+        return d.group == "applications" ? d3.color('#000') : color(d.usage_count)
+      })
       .on("mouseover", mouseover)
       .on("mouseout", mouseout)
       .call(d3.drag()
