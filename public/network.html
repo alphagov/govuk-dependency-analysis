@@ -12,6 +12,11 @@
   stroke-width: 1.5px;
 }
 
+.hover-label {
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+}
+
 </style>
 <svg width="1400" height="700"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -28,6 +33,13 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("collide", d3.forceCollide().radius(function(d) { return d.group == "applications" ? 30 : 10 }).iterations(2))
     .force("center", d3.forceCenter(width / 2, height / 2))
+
+var label = svg.append("text")
+   .attr("y", 100)
+   .attr("x", 200)
+   .attr("text-anchor", "middle")
+   .attr("class", "hover-label")
+   .text("");
 
 d3.json("network.json", function(error, graph) {
   if (error) throw error;
@@ -46,6 +58,8 @@ d3.json("network.json", function(error, graph) {
     .enter().append("circle")
       .attr("r", function (d) { return d.group == "applications" ? 15 : 5 })
       .attr("fill", function (d) { return d.group == "applications" ? d3.color('#cc0000') : d3.color('#FF9900') })
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout)
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -89,6 +103,14 @@ function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
+}
+
+function mouseover(d) {
+  label.text(d.id + " (" + d.group + ")")
+}
+
+function mouseout() {
+  label.text("")
 }
 
 </script>
