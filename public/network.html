@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
@@ -10,6 +9,7 @@
 .nodes circle {
   stroke: #fff;
   stroke-width: 1px;
+  cursor: pointer;
 }
 
 .hover-label {
@@ -25,8 +25,6 @@
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
-
-var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -50,19 +48,13 @@ d3.json("network.json", function(error, graph) {
     .enter().append("line")
       .attr("stroke-width", function(d) { return 0.5; });
 
-  var color = d3.scaleLinear()
-    .domain([0, 50])
-    .range([d3.rgb("#d62728"), d3.rgb('#2ca02c')]);
-
   var node = svg.append("g")
       .attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", function (d) { return d.group == "applications" ? (d.dependency_count * 0.75) : 5 })
-      .attr("fill", function (d) {
-        return d.group == "applications" ? d3.color('#000') : color(d.usage_count)
-      })
+      .attr("fill", nodeFill)
       .on("mouseover", mouseover)
       .on("mouseout", mouseout)
       .call(d3.drag()
@@ -111,6 +103,8 @@ function dragended(d) {
 }
 
 function mouseover(d) {
+  d3.select(this).attr("fill", "#FF9900")
+
   if (d.group == "gems") {
     label.text(d.id + " (gem). Used " + d.usage_count + " times")
   } else {
@@ -118,8 +112,17 @@ function mouseover(d) {
   }
 }
 
-function mouseout() {
+function mouseout(d) {
+  d3.select(this).attr("fill", nodeFill(d))
   label.text("")
+}
+
+var color = d3.scaleSqrt()
+  .domain([0, 50])
+  .range([d3.rgb("#0000FF"), d3.rgb('#7CFC00')]);
+
+function nodeFill(d) {
+  return d.group == "applications" ? d3.color('#000') : color(d.usage_count)
 }
 
 </script>
