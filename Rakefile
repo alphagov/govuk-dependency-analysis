@@ -83,8 +83,11 @@ task :export_fragmentation do
 
   output = []
 
-  direct_dependencies.uniq(&:name).sort_by(&:name).each do |gem|
-    versions = counts(direct_dependencies.select { |v| v.name == gem.name }.map(&:version).sort.map(&:to_s))
+  direct_dependencies.uniq(&:name).each do |gem|
+    versions_of_gem_in_apps = direct_dependencies.select { |v| v.name == gem.name }
+    next unless versions_of_gem_in_apps.size > 1
+
+    versions = counts(versions_of_gem_in_apps.map(&:version).sort.map(&:to_s))
     children = versions.map do |v, count|
       { name: "#{gem.name} #{v}", size: count }
     end
