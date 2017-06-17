@@ -53,13 +53,6 @@ task :analyse do
     end
   end
 
-  stats = {
-    unique_gems: direct_dependencies.uniq(&:name).size,
-    unique_versions_of_gems: direct_dependencies.uniq(&:name_and_version).size,
-  }
-
-  puts stats.inspect
-
   output = []
 
   direct_dependencies.uniq(&:name).sort_by(&:name).each do |app|
