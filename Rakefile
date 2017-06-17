@@ -8,20 +8,30 @@ def counts(array)
   array.each_with_object(Hash.new(0)) { |el, counts| counts[el] += 1 }
 end
 
-task :apps_and_gems do
-  output = { nodes: [], links: [] }
-  Dir.glob("cache/*").each do |filename|
-    file = File.read(filename)
-    lockfile = Bundler::LockfileParser.new(file)
-    appname = filename.gsub('cache/', '')
+class Gemfiles
+  def self.all
+    Dir.glob("cache/gemfiles/*").map do |filename|
+      appname = filename.gsub("cache/gemfiles/", "")
 
+      file = File.read(filename)
+      lockfile = Bundler::LockfileParser.new(file)
+
+      [appname, lockfile]
+    end
+  end
+end
+
+task :export_network do
+  output = { nodes: [], links: [] }
+
+  Gemfiles.all.each do |appname, lockfile|
     output[:nodes] << {
       id: appname,
       group: 'applications',
       dependency_count: lockfile.dependencies.size,
     }
 
-    lockfile.dependencies.map do |d|
+    lockfile.dependencies.map do |_, d|
 
       existing_node = output[:nodes].find { |n| n[:id] == d.name }
       if existing_node
@@ -41,12 +51,10 @@ task :apps_and_gems do
   File.write("public/network.json", JSON.pretty_generate(output))
 end
 
-task :analyse do
+task :export_versions do
   direct_dependencies = []
-  Dir.glob("cache/*").each do |filename|
-    file = File.read(filename)
-    lockfile = Bundler::LockfileParser.new(file)
 
+  Gemfiles.all.each do |appname, lockfile|
     lockfile.dependencies.map do |_, d|
       spec = lockfile.specs.find { |s| s.name == d.name }
       direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
@@ -63,13 +71,11 @@ task :analyse do
   File.write("public/versions.json", JSON.pretty_generate(output))
 end
 
-task :fragmentation do
+task :export_fragmentation do
   direct_dependencies = []
-  Dir.glob("cache/*").each do |filename|
-    file = File.read(filename)
-    lockfile = Bundler::LockfileParser.new(file)
 
-    lockfile.dependencies.map do |d|
+  Gemfiles.all.each do |appname, lockfile|
+    lockfile.dependencies.map do |_, d|
       spec = lockfile.specs.find { |s| s.name == d.name }
       direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
     end
@@ -90,7 +96,12 @@ task :fragmentation do
 end
 
 task :download do
-  sh "rm cache/*"
+  begin
+    sh "mkdir cache/gemfiles"
+    sh "rm cache/gemfiles/*"
+  rescue
+  end
+
   applications = YAML.load(HTTP.get('https://raw.githubusercontent.com/alphagov/govuk-developer-docs/master/data/applications.yml'))
   repos = applications.each do |application|
     next if application["retired"]
@@ -100,7 +111,7 @@ task :download do
     response = HTTP.get(url)
 
     if response.code == 200
-      File.write("cache/#{repo_name}", response)
+      File.write("cache/gemfiles/#{repo_name}", response)
     else
       puts "Skipping #{repo_name}"
     end
