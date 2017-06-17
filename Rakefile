@@ -65,7 +65,7 @@ task :export_versions do
 
   direct_dependencies.uniq(&:name).sort_by(&:name).each do |app|
     versions = counts(direct_dependencies.select { |v| v.name == app.name }.map(&:version).sort.map(&:to_s))
-    output << { app_name: app.name, versions: versions}
+    output << { gem_name: app.name, versions: versions}
   end
 
   File.write("public/versions.json", JSON.pretty_generate(output))
@@ -141,5 +141,21 @@ task :download_versions do
     else
       puts "Skipping #{repo_name}"
     end
+  end
+end
+
+task :rubygems_version_info do
+  begin
+    sh "mkdir cache/gem-versions"
+    sh "rm cache/gem-versions/*"
+  rescue
+  end
+
+  gems = JSON.parse(File.read("public/versions.json"))
+  gems.each do |gem|
+    gem_name = gem["gem_name"]
+    url = "https://rubygems.org/api/v1/versions/#{gem_name}.json"
+    response = HTTP.get(url)
+    File.write("cache/gem-versions/#{gem_name}", response)
   end
 end
