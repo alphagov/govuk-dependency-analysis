@@ -1,74 +1,74 @@
 [
   {
-    "app_name": "aasm",
+    "gem_name": "aasm",
     "versions": {
       "4.12.0": 1
     }
   },
   {
-    "app_name": "actionpack-page_caching",
+    "gem_name": "actionpack-page_caching",
     "versions": {
       "1.0.2": 1
     }
   },
   {
-    "app_name": "active_hash",
+    "gem_name": "active_hash",
     "versions": {
       "1.4.1": 1
     }
   },
   {
-    "app_name": "active_link_to",
+    "gem_name": "active_link_to",
     "versions": {
       "1.0.3": 1
     }
   },
   {
-    "app_name": "activejob-retry",
+    "gem_name": "activejob-retry",
     "versions": {
       "0.6.2": 1
     }
   },
   {
-    "app_name": "activerecord",
+    "gem_name": "activerecord",
     "versions": {
       "5.1.1": 1
     }
   },
   {
-    "app_name": "activerecord-import",
+    "gem_name": "activerecord-import",
     "versions": {
       "0.17.2": 1,
       "0.18.3": 1
     }
   },
   {
-    "app_name": "activerecord-session_store",
+    "gem_name": "activerecord-session_store",
     "versions": {
       "1.1.0": 1
     }
   },
   {
-    "app_name": "activesupport",
+    "gem_name": "activesupport",
     "versions": {
       "3.2.22.2": 1
     }
   },
   {
-    "app_name": "acts-as-taggable-on",
+    "gem_name": "acts-as-taggable-on",
     "versions": {
       "5.0.0": 1
     }
   },
   {
-    "app_name": "addressable",
+    "gem_name": "addressable",
     "versions": {
       "2.3.8": 3,
       "2.4.0": 1
     }
   },
   {
-    "app_name": "airbrake",
+    "gem_name": "airbrake",
     "versions": {
       "3.1.15": 2,
       "3.1.17": 1,
@@ -84,68 +84,68 @@
     }
   },
   {
-    "app_name": "airbrake-ruby",
+    "gem_name": "airbrake-ruby",
     "versions": {
       "1.5.0": 6
     }
   },
   {
-    "app_name": "alphabetical_paginate",
+    "gem_name": "alphabetical_paginate",
     "versions": {
       "2.2.3": 1
     }
   },
   {
-    "app_name": "ancestry",
+    "gem_name": "ancestry",
     "versions": {
       "2.0.0": 1,
       "2.1.0": 1
     }
   },
   {
-    "app_name": "arel",
+    "gem_name": "arel",
     "versions": {
       "8.0.0": 1
     }
   },
   {
-    "app_name": "ast",
+    "gem_name": "ast",
     "versions": {
       "2.3.0": 1
     }
   },
   {
-    "app_name": "auto_strip_attributes",
+    "gem_name": "auto_strip_attributes",
     "versions": {
       "2.0.6": 1
     }
   },
   {
-    "app_name": "awesome_print",
+    "gem_name": "awesome_print",
     "versions": {
       "1.7.0": 3
     }
   },
   {
-    "app_name": "aws-sdk",
+    "gem_name": "aws-sdk",
     "versions": {
       "2.6.11": 1
     }
   },
   {
-    "app_name": "aws-ses",
+    "gem_name": "aws-ses",
     "versions": {
       "0.5.0": 1
     }
   },
   {
-    "app_name": "babosa",
+    "gem_name": "babosa",
     "versions": {
       "1.0.2": 1
     }
   },
   {
-    "app_name": "better_errors",
+    "gem_name": "better_errors",
     "versions": {
       "1.1.0": 1,
       "2.1.0": 1,
@@ -153,58 +153,58 @@
     }
   },
   {
-    "app_name": "binding_of_caller",
+    "gem_name": "binding_of_caller",
     "versions": {
       "0.7.2": 18
     }
   },
   {
-    "app_name": "bootstrap-kaminari-views",
+    "gem_name": "bootstrap-kaminari-views",
     "versions": {
       "0.0.3": 1,
       "0.0.5": 6
     }
   },
   {
-    "app_name": "bootstrap3-datetimepicker-rails",
+    "gem_name": "bootstrap3-datetimepicker-rails",
     "versions": {
       "3.0.0.2": 1
     }
   },
   {
-    "app_name": "bullet",
+    "gem_name": "bullet",
     "versions": {
       "5.1.0": 1
     }
   },
   {
-    "app_name": "bunny",
+    "gem_name": "bunny",
     "versions": {
       "1.5.1": 1,
       "2.6.5": 1
     }
   },
   {
-    "app_name": "byebug",
+    "gem_name": "byebug",
     "versions": {
       "9.0.5": 2,
       "9.0.6": 5
     }
   },
   {
-    "app_name": "cancancan",
+    "gem_name": "cancancan",
     "versions": {
       "1.16.0": 2
     }
   },
   {
-    "app_name": "capistrano-rails",
+    "gem_name": "capistrano-rails",
     "versions": {
       "1.2.0": 1
     }
   },
   {
-    "app_name": "capybara",
+    "gem_name": "capybara",
     "versions": {
       "2.1.0": 1,
       "2.4.1": 1,
@@ -220,56 +220,56 @@
     }
   },
   {
-    "app_name": "capybara-email",
+    "gem_name": "capybara-email",
     "versions": {
       "2.4.0": 1
     }
   },
   {
-    "app_name": "capybara-webkit",
+    "gem_name": "capybara-webkit",
     "versions": {
       "1.14.0": 1
     }
   },
   {
-    "app_name": "carrierwave",
+    "gem_name": "carrierwave",
     "versions": {
       "0.9.0": 1,
       "0.10.0": 1
     }
   },
   {
-    "app_name": "carrierwave-mongoid",
+    "gem_name": "carrierwave-mongoid",
     "versions": {
       "0.8.1": 1
     }
   },
   {
-    "app_name": "cdn_helpers",
+    "gem_name": "cdn_helpers",
     "versions": {
       "0.9": 1
     }
   },
   {
-    "app_name": "chartkick",
+    "gem_name": "chartkick",
     "versions": {
       "2.2.4": 1
     }
   },
   {
-    "app_name": "chosen-rails",
+    "gem_name": "chosen-rails",
     "versions": {
       "1.5.2": 1
     }
   },
   {
-    "app_name": "chronic",
+    "gem_name": "chronic",
     "versions": {
       "0.10.2": 2
     }
   },
   {
-    "app_name": "ci_reporter",
+    "gem_name": "ci_reporter",
     "versions": {
       "1.7.0": 1,
       "1.7.3": 1,
@@ -277,37 +277,37 @@
     }
   },
   {
-    "app_name": "ci_reporter_minitest",
+    "gem_name": "ci_reporter_minitest",
     "versions": {
       "1.0.0": 5
     }
   },
   {
-    "app_name": "ci_reporter_rspec",
+    "gem_name": "ci_reporter_rspec",
     "versions": {
       "1.0.0": 12
     }
   },
   {
-    "app_name": "ci_reporter_test_unit",
+    "gem_name": "ci_reporter_test_unit",
     "versions": {
       "1.0.1": 1
     }
   },
   {
-    "app_name": "colorize",
+    "gem_name": "colorize",
     "versions": {
       "0.8.1": 1
     }
   },
   {
-    "app_name": "cucumber",
+    "gem_name": "cucumber",
     "versions": {
       "2.2.0": 1
     }
   },
   {
-    "app_name": "cucumber-rails",
+    "gem_name": "cucumber-rails",
     "versions": {
       "1.4.0": 1,
       "1.4.4": 1,
@@ -316,14 +316,14 @@
     }
   },
   {
-    "app_name": "dalli",
+    "gem_name": "dalli",
     "versions": {
       "2.7.2": 1,
       "2.7.6": 3
     }
   },
   {
-    "app_name": "database_cleaner",
+    "gem_name": "database_cleaner",
     "versions": {
       "1.2.0": 1,
       "1.4.1": 1,
@@ -335,56 +335,56 @@
     }
   },
   {
-    "app_name": "decent_exposure",
+    "gem_name": "decent_exposure",
     "versions": {
       "2.3.3": 1
     }
   },
   {
-    "app_name": "delayed_job",
+    "gem_name": "delayed_job",
     "versions": {
       "4.1.1": 1
     }
   },
   {
-    "app_name": "delayed_job_mongoid",
+    "gem_name": "delayed_job_mongoid",
     "versions": {
       "2.2.0": 1
     }
   },
   {
-    "app_name": "deprecated_columns",
+    "gem_name": "deprecated_columns",
     "versions": {
       "0.1.0": 1,
       "0.1.1": 2
     }
   },
   {
-    "app_name": "devise",
+    "gem_name": "devise",
     "versions": {
       "4.2.0": 1
     }
   },
   {
-    "app_name": "devise-encryptable",
+    "gem_name": "devise-encryptable",
     "versions": {
       "0.2.0": 1
     }
   },
   {
-    "app_name": "devise_invitable",
+    "gem_name": "devise_invitable",
     "versions": {
       "1.7.0": 1
     }
   },
   {
-    "app_name": "devise_zxcvbn",
+    "gem_name": "devise_zxcvbn",
     "versions": {
       "1.1.1": 1
     }
   },
   {
-    "app_name": "diffy",
+    "gem_name": "diffy",
     "versions": {
       "3.0.6": 1,
       "3.0.7": 1,
@@ -392,25 +392,25 @@
     }
   },
   {
-    "app_name": "doorkeeper",
+    "gem_name": "doorkeeper",
     "versions": {
       "4.2.0": 1
     }
   },
   {
-    "app_name": "dotenv-rails",
+    "gem_name": "dotenv-rails",
     "versions": {
       "2.2.1": 1
     }
   },
   {
-    "app_name": "draper",
+    "gem_name": "draper",
     "versions": {
       "3.0.0": 1
     }
   },
   {
-    "app_name": "elasticsearch",
+    "gem_name": "elasticsearch",
     "versions": {
       "1.0.14": 1,
       "1.0.18": 1,
@@ -418,32 +418,32 @@
     }
   },
   {
-    "app_name": "equivalent-xml",
+    "gem_name": "equivalent-xml",
     "versions": {
       "0.6.0": 2
     }
   },
   {
-    "app_name": "erubis",
+    "gem_name": "erubis",
     "versions": {
       "2.7.0": 2
     }
   },
   {
-    "app_name": "exception_notification",
+    "gem_name": "exception_notification",
     "versions": {
       "4.0.1": 1
     }
   },
   {
-    "app_name": "factory_girl",
+    "gem_name": "factory_girl",
     "versions": {
       "3.3.0": 1,
       "4.8.0": 4
     }
   },
   {
-    "app_name": "factory_girl_rails",
+    "gem_name": "factory_girl_rails",
     "versions": {
       "3.3.0": 1,
       "4.2.1": 1,
@@ -453,21 +453,21 @@
     }
   },
   {
-    "app_name": "fakefs",
+    "gem_name": "fakefs",
     "versions": {
       "0.9.0": 1,
       "0.9.1": 1
     }
   },
   {
-    "app_name": "faker",
+    "gem_name": "faker",
     "versions": {
       "1.6.6": 1,
       "1.7.3": 1
     }
   },
   {
-    "app_name": "faraday",
+    "gem_name": "faraday",
     "versions": {
       "0.9.2": 1,
       "0.11.0": 1,
@@ -475,20 +475,20 @@
     }
   },
   {
-    "app_name": "faraday_middleware",
+    "gem_name": "faraday_middleware",
     "versions": {
       "0.10.0": 1
     }
   },
   {
-    "app_name": "foreman",
+    "gem_name": "foreman",
     "versions": {
       "0.78.0": 1,
       "0.84.0": 3
     }
   },
   {
-    "app_name": "formtastic",
+    "gem_name": "formtastic",
     "versions": {
       "2.3.0": 3,
       "3.1.3": 1,
@@ -496,27 +496,27 @@
     }
   },
   {
-    "app_name": "formtastic-bootstrap",
+    "gem_name": "formtastic-bootstrap",
     "versions": {
       "3.0.0": 3,
       "3.1.1": 3
     }
   },
   {
-    "app_name": "friendly_id",
+    "gem_name": "friendly_id",
     "versions": {
       "5.1.0": 1,
       "5.2.1": 2
     }
   },
   {
-    "app_name": "fuubar",
+    "gem_name": "fuubar",
     "versions": {
       "2.1.1": 1
     }
   },
   {
-    "app_name": "gds-api-adapters",
+    "gem_name": "gds-api-adapters",
     "versions": {
       "20.1.1": 1,
       "32.0.0": 1,
@@ -540,7 +540,7 @@
     }
   },
   {
-    "app_name": "gds-sso",
+    "gem_name": "gds-sso",
     "versions": {
       "11.2.0": 1,
       "13.0.0": 6,
@@ -548,32 +548,32 @@
     }
   },
   {
-    "app_name": "gds_zendesk",
+    "gem_name": "gds_zendesk",
     "versions": {
       "2.2.0": 1,
       "2.4.0": 1
     }
   },
   {
-    "app_name": "gelf",
+    "gem_name": "gelf",
     "versions": {
       "3.0.0": 1
     }
   },
   {
-    "app_name": "generic_form_builder",
+    "gem_name": "generic_form_builder",
     "versions": {
       "0.13.0": 4
     }
   },
   {
-    "app_name": "globalize",
+    "gem_name": "globalize",
     "versions": {
       "5.0.1": 1
     }
   },
   {
-    "app_name": "google-api-client",
+    "gem_name": "google-api-client",
     "versions": {
       "0.9.19": 1,
       "0.10.3": 1,
@@ -582,7 +582,7 @@
     }
   },
   {
-    "app_name": "govspeak",
+    "gem_name": "govspeak",
     "versions": {
       "3.3.0": 2,
       "3.4.0": 1,
@@ -593,7 +593,7 @@
     }
   },
   {
-    "app_name": "govuk-content-schema-test-helpers",
+    "gem_name": "govuk-content-schema-test-helpers",
     "versions": {
       "1.0.2": 2,
       "1.1.0": 2,
@@ -602,7 +602,7 @@
     }
   },
   {
-    "app_name": "govuk-lint",
+    "gem_name": "govuk-lint",
     "versions": {
       "0.3.0": 1,
       "0.5.1": 1,
@@ -617,7 +617,7 @@
     }
   },
   {
-    "app_name": "govuk_ab_testing",
+    "gem_name": "govuk_ab_testing",
     "versions": {
       "2.0.0": 1,
       "2.1.0": 1,
@@ -627,7 +627,7 @@
     }
   },
   {
-    "app_name": "govuk_admin_template",
+    "gem_name": "govuk_admin_template",
     "versions": {
       "4.2.0": 1,
       "4.3.0": 3,
@@ -639,19 +639,19 @@
     }
   },
   {
-    "app_name": "govuk_content_models",
+    "gem_name": "govuk_content_models",
     "versions": {
       "47.0.0": 1
     }
   },
   {
-    "app_name": "govuk_document_types",
+    "gem_name": "govuk_document_types",
     "versions": {
       "0.1.4": 2
     }
   },
   {
-    "app_name": "govuk_elements_rails",
+    "gem_name": "govuk_elements_rails",
     "versions": {
       "2.2.1": 1,
       "3.0.1": 2,
@@ -659,7 +659,7 @@
     }
   },
   {
-    "app_name": "govuk_frontend_toolkit",
+    "gem_name": "govuk_frontend_toolkit",
     "versions": {
       "0.44.0": 1,
       "1.2.0": 2,
@@ -680,13 +680,13 @@
     }
   },
   {
-    "app_name": "govuk_message_queue_consumer",
+    "gem_name": "govuk_message_queue_consumer",
     "versions": {
       "3.0.2": 1
     }
   },
   {
-    "app_name": "govuk_navigation_helpers",
+    "gem_name": "govuk_navigation_helpers",
     "versions": {
       "2.0.0": 3,
       "4.0.0": 1,
@@ -696,14 +696,14 @@
     }
   },
   {
-    "app_name": "govuk_schemas",
+    "gem_name": "govuk_schemas",
     "versions": {
       "2.1.0": 4,
       "2.1.1": 2
     }
   },
   {
-    "app_name": "govuk_sidekiq",
+    "gem_name": "govuk_sidekiq",
     "versions": {
       "0.0.3": 1,
       "0.0.4": 4,
@@ -711,99 +711,99 @@
     }
   },
   {
-    "app_name": "govuk_taxonomy_helpers",
+    "gem_name": "govuk_taxonomy_helpers",
     "versions": {
       "0.1.0": 1
     }
   },
   {
-    "app_name": "govuk_template",
+    "gem_name": "govuk_template",
     "versions": {
       "0.20.0": 1
     }
   },
   {
-    "app_name": "graphviz_transitions",
+    "gem_name": "graphviz_transitions",
     "versions": {
       "0.1.2": 1
     }
   },
   {
-    "app_name": "gretel",
+    "gem_name": "gretel",
     "versions": {
       "3.0.9": 4
     }
   },
   {
-    "app_name": "guard-rspec",
+    "gem_name": "guard-rspec",
     "versions": {
       "4.7.3": 1
     }
   },
   {
-    "app_name": "has_scope",
+    "gem_name": "has_scope",
     "versions": {
       "0.7.1": 1
     }
   },
   {
-    "app_name": "hashdiff",
+    "gem_name": "hashdiff",
     "versions": {
       "0.3.0": 1,
       "0.3.2": 2
     }
   },
   {
-    "app_name": "headless",
+    "gem_name": "headless",
     "versions": {
       "2.3.1": 1
     }
   },
   {
-    "app_name": "highline",
+    "gem_name": "highline",
     "versions": {
       "1.7.8": 1
     }
   },
   {
-    "app_name": "htmlentities",
+    "gem_name": "htmlentities",
     "versions": {
       "4.3.4": 4
     }
   },
   {
-    "app_name": "httparty",
+    "gem_name": "httparty",
     "versions": {
       "0.15.5": 1
     }
   },
   {
-    "app_name": "image_optim",
+    "gem_name": "image_optim",
     "versions": {
       "0.17.1": 1
     }
   },
   {
-    "app_name": "inherited_resources",
+    "gem_name": "inherited_resources",
     "versions": {
       "1.7.2": 2
     }
   },
   {
-    "app_name": "invalid_utf8_rejector",
+    "gem_name": "invalid_utf8_rejector",
     "versions": {
       "0.0.2": 1,
       "0.0.3": 2
     }
   },
   {
-    "app_name": "isbn_validation",
+    "gem_name": "isbn_validation",
     "versions": {
       "1.2.2": 1
     }
   },
   {
-    "app_name": "jasmine",
+    "gem_name": "jasmine",
     "versions": {
       "2.1.0": 1,
       "2.4.0": 1,
@@ -812,13 +812,13 @@
     }
   },
   {
-    "app_name": "jasmine-core",
+    "gem_name": "jasmine-core",
     "versions": {
       "2.5.2": 1
     }
   },
   {
-    "app_name": "jasmine-rails",
+    "gem_name": "jasmine-rails",
     "versions": {
       "0.7.0": 1,
       "0.10.8": 1,
@@ -826,27 +826,27 @@
     }
   },
   {
-    "app_name": "jbuilder",
+    "gem_name": "jbuilder",
     "versions": {
       "2.6.0": 1,
       "2.6.4": 2
     }
   },
   {
-    "app_name": "jc-validates_timeliness",
+    "gem_name": "jc-validates_timeliness",
     "versions": {
       "3.1.1": 1
     }
   },
   {
-    "app_name": "jquery-rails",
+    "gem_name": "jquery-rails",
     "versions": {
       "4.1.1": 1,
       "4.3.1": 1
     }
   },
   {
-    "app_name": "jquery-ui-rails",
+    "gem_name": "jquery-ui-rails",
     "versions": {
       "4.1.2": 1,
       "5.0.1": 1,
@@ -855,21 +855,21 @@
     }
   },
   {
-    "app_name": "json",
+    "gem_name": "json",
     "versions": {
       "1.8.3": 2,
       "2.1.0": 1
     }
   },
   {
-    "app_name": "json-schema",
+    "gem_name": "json-schema",
     "versions": {
       "2.5.1": 1,
       "2.5.2": 2
     }
   },
   {
-    "app_name": "kaminari",
+    "gem_name": "kaminari",
     "versions": {
       "0.16.3": 1,
       "0.17.0": 5,
@@ -877,45 +877,45 @@
     }
   },
   {
-    "app_name": "kaminari-actionview",
+    "gem_name": "kaminari-actionview",
     "versions": {
       "1.0.1": 1
     }
   },
   {
-    "app_name": "kaminari-mongoid",
+    "gem_name": "kaminari-mongoid",
     "versions": {
       "1.0.1": 3
     }
   },
   {
-    "app_name": "launchy",
+    "gem_name": "launchy",
     "versions": {
       "2.4.2": 1,
       "2.4.3": 9
     }
   },
   {
-    "app_name": "link_header",
+    "gem_name": "link_header",
     "versions": {
       "0.0.8": 2
     }
   },
   {
-    "app_name": "listen",
+    "gem_name": "listen",
     "versions": {
       "3.0.8": 3,
       "3.1.5": 4
     }
   },
   {
-    "app_name": "logging",
+    "gem_name": "logging",
     "versions": {
       "2.1.0": 1
     }
   },
   {
-    "app_name": "logstasher",
+    "gem_name": "logstasher",
     "versions": {
       "0.4.8": 12,
       "0.4.9": 1,
@@ -931,37 +931,37 @@
     }
   },
   {
-    "app_name": "lrucache",
+    "gem_name": "lrucache",
     "versions": {
       "0.1.4": 3
     }
   },
   {
-    "app_name": "maxitest",
+    "gem_name": "maxitest",
     "versions": {
       "2.4.0": 1
     }
   },
   {
-    "app_name": "method_source",
+    "gem_name": "method_source",
     "versions": {
       "0.8.2": 1
     }
   },
   {
-    "app_name": "mime-types",
+    "gem_name": "mime-types",
     "versions": {
       "1.25.1": 1
     }
   },
   {
-    "app_name": "mini_magick",
+    "gem_name": "mini_magick",
     "versions": {
       "3.8.1": 1
     }
   },
   {
-    "app_name": "minitest",
+    "gem_name": "minitest",
     "versions": {
       "5.5.1": 1,
       "5.8.5": 1,
@@ -970,50 +970,50 @@
     }
   },
   {
-    "app_name": "minitest-capybara",
+    "gem_name": "minitest-capybara",
     "versions": {
       "0.7.2": 1
     }
   },
   {
-    "app_name": "minitest-colorize",
+    "gem_name": "minitest-colorize",
     "versions": {
       "0.0.5": 1
     }
   },
   {
-    "app_name": "minitest-fail-fast",
+    "gem_name": "minitest-fail-fast",
     "versions": {
       "0.1.0": 1
     }
   },
   {
-    "app_name": "minitest-focus",
+    "gem_name": "minitest-focus",
     "versions": {
       "1.1.2": 1
     }
   },
   {
-    "app_name": "minitest-reporters",
+    "gem_name": "minitest-reporters",
     "versions": {
       "1.1.14": 2
     }
   },
   {
-    "app_name": "minitest-spec-rails",
+    "gem_name": "minitest-spec-rails",
     "versions": {
       "5.3.0": 1
     }
   },
   {
-    "app_name": "mlanett-redis-lock",
+    "gem_name": "mlanett-redis-lock",
     "versions": {
       "0.2.2": 1,
       "0.2.7": 6
     }
   },
   {
-    "app_name": "mocha",
+    "gem_name": "mocha",
     "versions": {
       "0.13.3": 1,
       "1.1.0": 10,
@@ -1021,14 +1021,14 @@
     }
   },
   {
-    "app_name": "momentjs-rails",
+    "gem_name": "momentjs-rails",
     "versions": {
       "2.5.1": 1,
       "2.17.1": 1
     }
   },
   {
-    "app_name": "mongoid",
+    "gem_name": "mongoid",
     "versions": {
       "4.0.2": 2,
       "5.1.4": 1,
@@ -1039,38 +1039,38 @@
     }
   },
   {
-    "app_name": "mongoid-sadstory",
+    "gem_name": "mongoid-sadstory",
     "versions": {
       "0.0.2": 1
     }
   },
   {
-    "app_name": "mongoid_paranoia",
+    "gem_name": "mongoid_paranoia",
     "versions": {
       "0.2.1": 1
     }
   },
   {
-    "app_name": "mongoid_rails_migrations",
+    "gem_name": "mongoid_rails_migrations",
     "versions": {
       "1.0.1": 3,
       "1.1.0": 6
     }
   },
   {
-    "app_name": "mousetrap-rails",
+    "gem_name": "mousetrap-rails",
     "versions": {
       "1.4.6": 1
     }
   },
   {
-    "app_name": "mr-sparkle",
+    "gem_name": "mr-sparkle",
     "versions": {
       "0.3.0": 2
     }
   },
   {
-    "app_name": "mysql2",
+    "gem_name": "mysql2",
     "versions": {
       "0.3.18": 1,
       "0.3.20": 1,
@@ -1080,20 +1080,20 @@
     }
   },
   {
-    "app_name": "nested_form",
+    "gem_name": "nested_form",
     "versions": {
       "0.3.1": 1,
       "0.3.2": 1
     }
   },
   {
-    "app_name": "newrelic_rpm",
+    "gem_name": "newrelic_rpm",
     "versions": {
       "4.1.0.333": 1
     }
   },
   {
-    "app_name": "nokogiri",
+    "gem_name": "nokogiri",
     "versions": {
       "1.6.6.4": 2,
       "1.6.7.2": 1,
@@ -1104,87 +1104,87 @@
     }
   },
   {
-    "app_name": "notifications-ruby-client",
+    "gem_name": "notifications-ruby-client",
     "versions": {
       "2.0.0": 1
     }
   },
   {
-    "app_name": "null_logger",
+    "gem_name": "null_logger",
     "versions": {
       "0.0.1": 1
     }
   },
   {
-    "app_name": "octokit",
+    "gem_name": "octokit",
     "versions": {
       "3.1.2": 1
     }
   },
   {
-    "app_name": "oj",
+    "gem_name": "oj",
     "versions": {
       "2.16.1": 1
     }
   },
   {
-    "app_name": "oj_mimic_json",
+    "gem_name": "oj_mimic_json",
     "versions": {
       "1.0.1": 1
     }
   },
   {
-    "app_name": "optic14n",
+    "gem_name": "optic14n",
     "versions": {
       "2.0.1": 2
     }
   },
   {
-    "app_name": "pact",
+    "gem_name": "pact",
     "versions": {
       "1.9.4": 1,
       "1.10.0": 1
     }
   },
   {
-    "app_name": "pact_broker-client",
+    "gem_name": "pact_broker-client",
     "versions": {
       "1.1.0": 1
     }
   },
   {
-    "app_name": "paper_trail",
+    "gem_name": "paper_trail",
     "versions": {
       "4.1.0": 1,
       "7.0.2": 1
     }
   },
   {
-    "app_name": "parallel",
+    "gem_name": "parallel",
     "versions": {
       "1.11.2": 1
     }
   },
   {
-    "app_name": "parallel_tests",
+    "gem_name": "parallel_tests",
     "versions": {
       "2.14.1": 1
     }
   },
   {
-    "app_name": "parser",
+    "gem_name": "parser",
     "versions": {
       "2.3.1.4": 1
     }
   },
   {
-    "app_name": "pdf-reader",
+    "gem_name": "pdf-reader",
     "versions": {
       "2.0.0": 1
     }
   },
   {
-    "app_name": "pg",
+    "gem_name": "pg",
     "versions": {
       "0.18.4": 3,
       "0.19.0": 3,
@@ -1192,14 +1192,14 @@
     }
   },
   {
-    "app_name": "phantomjs",
+    "gem_name": "phantomjs",
     "versions": {
       "1.9.8.0": 1,
       "2.1.1.0": 2
     }
   },
   {
-    "app_name": "plek",
+    "gem_name": "plek",
     "versions": {
       "1.7.0": 1,
       "1.9.0": 1,
@@ -1210,7 +1210,7 @@
     }
   },
   {
-    "app_name": "poltergeist",
+    "gem_name": "poltergeist",
     "versions": {
       "1.5.0": 2,
       "1.6.0": 4,
@@ -1225,7 +1225,7 @@
     }
   },
   {
-    "app_name": "pry",
+    "gem_name": "pry",
     "versions": {
       "0.10.0": 1,
       "0.10.3": 3,
@@ -1233,7 +1233,7 @@
     }
   },
   {
-    "app_name": "pry-byebug",
+    "gem_name": "pry-byebug",
     "versions": {
       "3.0.1": 1,
       "3.4.0": 7,
@@ -1241,13 +1241,13 @@
     }
   },
   {
-    "app_name": "pry-nav",
+    "gem_name": "pry-nav",
     "versions": {
       "0.2.4": 1
     }
   },
   {
-    "app_name": "pry-rails",
+    "gem_name": "pry-rails",
     "versions": {
       "0.3.4": 4,
       "0.3.5": 1,
@@ -1255,33 +1255,33 @@
     }
   },
   {
-    "app_name": "pry-remote",
+    "gem_name": "pry-remote",
     "versions": {
       "0.1.8": 1
     }
   },
   {
-    "app_name": "puma",
+    "gem_name": "puma",
     "versions": {
       "3.8.2": 1
     }
   },
   {
-    "app_name": "pundit",
+    "gem_name": "pundit",
     "versions": {
       "0.3.0": 1,
       "1.1.0": 1
     }
   },
   {
-    "app_name": "quiet_assets",
+    "gem_name": "quiet_assets",
     "versions": {
       "1.0.2": 1,
       "1.1.0": 3
     }
   },
   {
-    "app_name": "rack",
+    "gem_name": "rack",
     "versions": {
       "1.6.4": 1,
       "1.6.6": 1,
@@ -1290,38 +1290,38 @@
     }
   },
   {
-    "app_name": "rack-logstasher",
+    "gem_name": "rack-logstasher",
     "versions": {
       "0.0.3": 1
     }
   },
   {
-    "app_name": "rack-proxy",
+    "gem_name": "rack-proxy",
     "versions": {
       "0.6.0": 1
     }
   },
   {
-    "app_name": "rack-test",
+    "gem_name": "rack-test",
     "versions": {
       "0.6.3": 4
     }
   },
   {
-    "app_name": "rack_strip_client_ip",
+    "gem_name": "rack_strip_client_ip",
     "versions": {
       "0.0.1": 7,
       "0.0.2": 1
     }
   },
   {
-    "app_name": "railroady",
+    "gem_name": "railroady",
     "versions": {
       "1.5.1": 1
     }
   },
   {
-    "app_name": "rails",
+    "gem_name": "rails",
     "versions": {
       "3.2.22.3": 1,
       "4.2.5.2": 1,
@@ -1337,7 +1337,7 @@
     }
   },
   {
-    "app_name": "rails-controller-testing",
+    "gem_name": "rails-controller-testing",
     "versions": {
       "0.1.1": 2,
       "1.0.0": 1,
@@ -1346,13 +1346,13 @@
     }
   },
   {
-    "app_name": "rails-html-sanitizer",
+    "gem_name": "rails-html-sanitizer",
     "versions": {
       "1.0.3": 1
     }
   },
   {
-    "app_name": "rails-i18n",
+    "gem_name": "rails-i18n",
     "versions": {
       "0.7.4": 1,
       "4.0.9": 2,
@@ -1362,31 +1362,31 @@
     }
   },
   {
-    "app_name": "rails_autolink",
+    "gem_name": "rails_autolink",
     "versions": {
       "1.1.6": 1
     }
   },
   {
-    "app_name": "rails_stdout_logging",
+    "gem_name": "rails_stdout_logging",
     "versions": {
       "0.0.5": 1
     }
   },
   {
-    "app_name": "rails_translation_manager",
+    "gem_name": "rails_translation_manager",
     "versions": {
       "0.0.2": 3
     }
   },
   {
-    "app_name": "raindrops",
+    "gem_name": "raindrops",
     "versions": {
       "0.18.0": 2
     }
   },
   {
-    "app_name": "rake",
+    "gem_name": "rake",
     "versions": {
       "10.1.0": 2,
       "10.4.1": 1,
@@ -1394,13 +1394,13 @@
     }
   },
   {
-    "app_name": "redcarpet",
+    "gem_name": "redcarpet",
     "versions": {
       "3.3.4": 1
     }
   },
   {
-    "app_name": "redis",
+    "gem_name": "redis",
     "versions": {
       "3.1.0": 1,
       "3.2.1": 2,
@@ -1409,7 +1409,7 @@
     }
   },
   {
-    "app_name": "redis-namespace",
+    "gem_name": "redis-namespace",
     "versions": {
       "1.5.1": 1,
       "1.5.2": 3,
@@ -1417,50 +1417,50 @@
     }
   },
   {
-    "app_name": "responders",
+    "gem_name": "responders",
     "versions": {
       "2.4.0": 3
     }
   },
   {
-    "app_name": "rest-client",
+    "gem_name": "rest-client",
     "versions": {
       "2.0.2": 1
     }
   },
   {
-    "app_name": "retriable",
+    "gem_name": "retriable",
     "versions": {
       "3.0.2": 1
     }
   },
   {
-    "app_name": "reverse_markdown",
+    "gem_name": "reverse_markdown",
     "versions": {
       "0.3.0": 1
     }
   },
   {
-    "app_name": "rinku",
+    "gem_name": "rinku",
     "versions": {
       "2.0.0": 1,
       "2.0.2": 1
     }
   },
   {
-    "app_name": "rotp",
+    "gem_name": "rotp",
     "versions": {
       "2.1.2": 1
     }
   },
   {
-    "app_name": "rqrcode",
+    "gem_name": "rqrcode",
     "versions": {
       "0.10.1": 1
     }
   },
   {
-    "app_name": "rspec",
+    "gem_name": "rspec",
     "versions": {
       "3.4.0": 1,
       "3.5.0": 1,
@@ -1468,39 +1468,39 @@
     }
   },
   {
-    "app_name": "rspec-collection_matchers",
+    "gem_name": "rspec-collection_matchers",
     "versions": {
       "1.1.2": 3,
       "1.1.3": 1
     }
   },
   {
-    "app_name": "rspec-core",
+    "gem_name": "rspec-core",
     "versions": {
       "3.1.4": 1
     }
   },
   {
-    "app_name": "rspec-expectations",
+    "gem_name": "rspec-expectations",
     "versions": {
       "3.1.1": 1
     }
   },
   {
-    "app_name": "rspec-its",
+    "gem_name": "rspec-its",
     "versions": {
       "1.0.1": 1,
       "1.2.0": 1
     }
   },
   {
-    "app_name": "rspec-mocks",
+    "gem_name": "rspec-mocks",
     "versions": {
       "3.1.1": 1
     }
   },
   {
-    "app_name": "rspec-rails",
+    "gem_name": "rspec-rails",
     "versions": {
       "3.1.0": 1,
       "3.3.3": 3,
@@ -1511,25 +1511,25 @@
     }
   },
   {
-    "app_name": "rspec-sidekiq",
+    "gem_name": "rspec-sidekiq",
     "versions": {
       "3.0.0": 1
     }
   },
   {
-    "app_name": "ruby-prof",
+    "gem_name": "ruby-prof",
     "versions": {
       "0.16.2": 1
     }
   },
   {
-    "app_name": "ruby-progressbar",
+    "gem_name": "ruby-progressbar",
     "versions": {
       "1.8.1": 1
     }
   },
   {
-    "app_name": "sass",
+    "gem_name": "sass",
     "versions": {
       "3.4.22": 1,
       "3.4.23": 2,
@@ -1537,7 +1537,7 @@
     }
   },
   {
-    "app_name": "sass-rails",
+    "gem_name": "sass-rails",
     "versions": {
       "3.2.5": 1,
       "5.0.4": 1,
@@ -1545,26 +1545,26 @@
     }
   },
   {
-    "app_name": "sassc-rails",
+    "gem_name": "sassc-rails",
     "versions": {
       "1.3.0": 1
     }
   },
   {
-    "app_name": "sdoc",
+    "gem_name": "sdoc",
     "versions": {
       "0.4.1": 1,
       "0.4.2": 3
     }
   },
   {
-    "app_name": "searchlight",
+    "gem_name": "searchlight",
     "versions": {
       "4.1.0": 1
     }
   },
   {
-    "app_name": "select2-rails",
+    "gem_name": "select2-rails",
     "versions": {
       "3.5.7": 1,
       "3.5.9.1": 1,
@@ -1574,41 +1574,41 @@
     }
   },
   {
-    "app_name": "selectize-rails",
+    "gem_name": "selectize-rails",
     "versions": {
       "0.12.1": 1,
       "0.12.4": 1
     }
   },
   {
-    "app_name": "shared_mustache",
+    "gem_name": "shared_mustache",
     "versions": {
       "0.1.3": 1,
       "1.0.0": 2
     }
   },
   {
-    "app_name": "shoulda",
+    "gem_name": "shoulda",
     "versions": {
       "3.5.0": 6
     }
   },
   {
-    "app_name": "shoulda-context",
+    "gem_name": "shoulda-context",
     "versions": {
       "1.2.1": 4,
       "1.2.2": 2
     }
   },
   {
-    "app_name": "shoulda-matchers",
+    "gem_name": "shoulda-matchers",
     "versions": {
       "2.8.0": 2,
       "3.1.1": 5
     }
   },
   {
-    "app_name": "sidekiq",
+    "gem_name": "sidekiq",
     "versions": {
       "3.2.1": 1,
       "3.4.2": 1,
@@ -1618,38 +1618,38 @@
     }
   },
   {
-    "app_name": "sidekiq-logging-json",
+    "gem_name": "sidekiq-logging-json",
     "versions": {
       "0.0.18": 1
     }
   },
   {
-    "app_name": "sidekiq-scheduler",
+    "gem_name": "sidekiq-scheduler",
     "versions": {
       "2.1.3": 1
     }
   },
   {
-    "app_name": "sidekiq-statsd",
+    "gem_name": "sidekiq-statsd",
     "versions": {
       "0.1.5": 4
     }
   },
   {
-    "app_name": "sidekiq-unique-jobs",
+    "gem_name": "sidekiq-unique-jobs",
     "versions": {
       "5.0.8": 1
     }
   },
   {
-    "app_name": "simple_form",
+    "gem_name": "simple_form",
     "versions": {
       "3.3.1": 1,
       "3.4.0": 1
     }
   },
   {
-    "app_name": "simplecov",
+    "gem_name": "simplecov",
     "versions": {
       "0.8.2": 3,
       "0.9.1": 1,
@@ -1661,13 +1661,13 @@
     }
   },
   {
-    "app_name": "simplecov-rcov",
+    "gem_name": "simplecov-rcov",
     "versions": {
       "0.2.3": 24
     }
   },
   {
-    "app_name": "sinatra",
+    "gem_name": "sinatra",
     "versions": {
       "1.0": 1,
       "1.4.7": 1,
@@ -1675,7 +1675,7 @@
     }
   },
   {
-    "app_name": "slimmer",
+    "gem_name": "slimmer",
     "versions": {
       "9.0.0": 1,
       "9.2.1": 1,
@@ -1687,13 +1687,13 @@
     }
   },
   {
-    "app_name": "slop",
+    "gem_name": "slop",
     "versions": {
       "3.4.7": 1
     }
   },
   {
-    "app_name": "spring",
+    "gem_name": "spring",
     "versions": {
       "1.1.3": 1,
       "2.0.0": 1,
@@ -1702,62 +1702,62 @@
     }
   },
   {
-    "app_name": "spring-commands-rspec",
+    "gem_name": "spring-commands-rspec",
     "versions": {
       "1.0.4": 2
     }
   },
   {
-    "app_name": "spring-watcher-listen",
+    "gem_name": "spring-watcher-listen",
     "versions": {
       "2.0.1": 4
     }
   },
   {
-    "app_name": "sprockets",
+    "gem_name": "sprockets",
     "versions": {
       "3.7.1": 1
     }
   },
   {
-    "app_name": "sprockets-rails",
+    "gem_name": "sprockets-rails",
     "versions": {
       "2.3.3": 3,
       "3.1.1": 1
     }
   },
   {
-    "app_name": "sqlite3",
+    "gem_name": "sqlite3",
     "versions": {
       "1.3.13": 1
     }
   },
   {
-    "app_name": "stackprof",
+    "gem_name": "stackprof",
     "versions": {
       "0.2.10": 2
     }
   },
   {
-    "app_name": "state_machine",
+    "gem_name": "state_machine",
     "versions": {
       "1.2.0": 1
     }
   },
   {
-    "app_name": "state_machines",
+    "gem_name": "state_machines",
     "versions": {
       "0.4.0": 1
     }
   },
   {
-    "app_name": "state_machines-mongoid",
+    "gem_name": "state_machines-mongoid",
     "versions": {
       "0.1.1": 3
     }
   },
   {
-    "app_name": "statsd-ruby",
+    "gem_name": "statsd-ruby",
     "versions": {
       "1.0.0": 1,
       "1.1.0": 2,
@@ -1767,13 +1767,13 @@
     }
   },
   {
-    "app_name": "test-queue",
+    "gem_name": "test-queue",
     "versions": {
       "0.2.13": 1
     }
   },
   {
-    "app_name": "test-unit",
+    "gem_name": "test-unit",
     "versions": {
       "3.1.3": 2,
       "3.1.5": 1,
@@ -1781,43 +1781,43 @@
     }
   },
   {
-    "app_name": "test-unit-minitest",
+    "gem_name": "test-unit-minitest",
     "versions": {
       "0.9.1": 1
     }
   },
   {
-    "app_name": "test_after_commit",
+    "gem_name": "test_after_commit",
     "versions": {
       "1.1.0": 1
     }
   },
   {
-    "app_name": "test_track",
+    "gem_name": "test_track",
     "versions": {
       "0.1.0": 1
     }
   },
   {
-    "app_name": "therubyracer",
+    "gem_name": "therubyracer",
     "versions": {
       "0.12.2": 3
     }
   },
   {
-    "app_name": "thin",
+    "gem_name": "thin",
     "versions": {
       "1.7.0": 2
     }
   },
   {
-    "app_name": "tilt",
+    "gem_name": "tilt",
     "versions": {
       "1.4.1": 1
     }
   },
   {
-    "app_name": "timecop",
+    "gem_name": "timecop",
     "versions": {
       "0.4.5": 1,
       "0.5.9.2": 1,
@@ -1829,25 +1829,25 @@
     }
   },
   {
-    "app_name": "transitions",
+    "gem_name": "transitions",
     "versions": {
       "1.2.1": 1
     }
   },
   {
-    "app_name": "turbolinks",
+    "gem_name": "turbolinks",
     "versions": {
       "5.0.1": 1
     }
   },
   {
-    "app_name": "typhoeus",
+    "gem_name": "typhoeus",
     "versions": {
       "1.1.2": 1
     }
   },
   {
-    "app_name": "uglifier",
+    "gem_name": "uglifier",
     "versions": {
       "1.2.6": 1,
       "2.5.0": 1,
@@ -1866,20 +1866,20 @@
     }
   },
   {
-    "app_name": "uk_postcode",
+    "gem_name": "uk_postcode",
     "versions": {
       "1.0.1": 1,
       "2.1.1": 1
     }
   },
   {
-    "app_name": "unf",
+    "gem_name": "unf",
     "versions": {
       "0.1.4": 1
     }
   },
   {
-    "app_name": "unicorn",
+    "gem_name": "unicorn",
     "versions": {
       "4.3.1": 2,
       "4.4.0": 1,
@@ -1894,43 +1894,43 @@
     }
   },
   {
-    "app_name": "user_agent_parser",
+    "gem_name": "user_agent_parser",
     "versions": {
       "2.3.0": 1
     }
   },
   {
-    "app_name": "uuid",
+    "gem_name": "uuid",
     "versions": {
       "2.3.8": 1
     }
   },
   {
-    "app_name": "uuidtools",
+    "gem_name": "uuidtools",
     "versions": {
       "2.1.5": 2
     }
   },
   {
-    "app_name": "valid_email",
+    "gem_name": "valid_email",
     "versions": {
       "0.0.11": 1
     }
   },
   {
-    "app_name": "validates_email_format_of",
+    "gem_name": "validates_email_format_of",
     "versions": {
       "1.6.3": 1
     }
   },
   {
-    "app_name": "virtus",
+    "gem_name": "virtus",
     "versions": {
       "1.0.5": 1
     }
   },
   {
-    "app_name": "web-console",
+    "gem_name": "web-console",
     "versions": {
       "2.3.0": 4,
       "3.5.0": 3,
@@ -1938,7 +1938,7 @@
     }
   },
   {
-    "app_name": "webmock",
+    "gem_name": "webmock",
     "versions": {
       "1.17.4": 1,
       "1.18.0": 3,
@@ -1957,7 +1957,7 @@
     }
   },
   {
-    "app_name": "whenever",
+    "gem_name": "whenever",
     "versions": {
       "0.8.2": 1,
       "0.9.4": 2,
@@ -1965,25 +1965,25 @@
     }
   },
   {
-    "app_name": "will_paginate_mongoid",
+    "gem_name": "will_paginate_mongoid",
     "versions": {
       "2.0.1": 1
     }
   },
   {
-    "app_name": "with_advisory_lock",
+    "gem_name": "with_advisory_lock",
     "versions": {
       "3.1.0": 1
     }
   },
   {
-    "app_name": "wraith",
+    "gem_name": "wraith",
     "versions": {
       "3.2.1": 2
     }
   },
   {
-    "app_name": "zeroclipboard-rails",
+    "gem_name": "zeroclipboard-rails",
     "versions": {
       "0.1.2": 1
     }

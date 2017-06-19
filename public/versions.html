@@ -24,7 +24,7 @@
       var versions = Object.values(e.versions).map(function (x) { return [x] })
 
       new Chartist.Bar(".chart-" + i, {
-        labels: [e.app_name],
+        labels: [e.gem_name],
         series: versions
       }, {
         seriesBarDistance: 0,
