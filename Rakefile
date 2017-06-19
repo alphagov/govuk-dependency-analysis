@@ -159,3 +159,33 @@ task :rubygems_version_info do
     File.write("cache/gem-versions/#{gem_name}", response)
   end
 end
+
+task :output_age_of_lagging_dependencies do
+  statuses = JSON.parse(File.read("public/versions.json"))
+
+  Dir.glob('cache/gem-versions/*').each do |filename|
+    app_name = filename.gsub('cache/gem-versions/', '')
+
+    versions = JSON.parse(File.read("cache/gem-versions/#{app_name}"))
+    latest_version = versions.first
+    latest_release_date = Date.parse(latest_version["built_at"])
+
+    status = statuses.find { |s| s["gem_name"] == app_name }
+
+    cumul = status["versions"].flat_map do |version_number, version_count|
+      this_version = versions.find { |v| v["number"] == version_number }
+      next unless this_version
+      this_release_date = Date.parse(this_version["built_at"])
+      days_behind = (latest_release_date - this_release_date).to_i
+      # puts "#{version_number} is #{days_behind} days behind #{latest_version["number"]}"
+      # puts version_count
+      [days_behind] * version_count.to_i
+    end.compact
+
+    next if cumul.size < 2
+
+    average_age = cumul.reduce(&:+) / cumul.size.to_f
+
+    puts "#{app_name} (#{cumul.size}) avg: #{average_age.to_i}, max: #{cumul.max}, min: #{cumul.min}"
+  end
+end
