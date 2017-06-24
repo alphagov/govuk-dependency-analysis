@@ -21,32 +21,28 @@ class Gemfiles
   end
 end
 
+desc "Export the matrix as JSON for the network visualisation"
 task :export_network do
   output = { nodes: [], links: [] }
 
-  Gemfiles.all.each do |appname, lockfile|
+  matrix = JSON.parse(File.read("public/matrix.json"))
+
+  matrix["applications"].each do |application|
     output[:nodes] << {
-      id: appname,
+      id: application.fetch("id"),
       group: 'applications',
-      dependency_count: lockfile.dependencies.size,
+      dependency_count: application["direct_dependencies"].size,
     }
 
-    lockfile.dependencies.map do |_, d|
-
-      existing_node = output[:nodes].find { |n| n[:id] == d.name }
-      if existing_node
-        existing_node[:usage_count] = existing_node[:usage_count] + 1
-        output[:nodes] << existing_node
-      else
-        output[:nodes] << { id: d.name, group: 'gems', usage_count: 1 }
-      end
-
-      output[:links] << { source: appname, target: d.name }
+    application["direct_dependencies"].each do |gem_name, attrs|
+      output[:links] << { source: application["id"], target: gem_name }
     end
   end
 
-  output[:nodes].uniq!
-  output[:links].uniq!
+  matrix["gems"].each do |gem_name, attrs|
+    next unless attrs["depended_on_directly"].size > 0
+    output[:nodes] << { id: gem_name, group: 'gems', usage_count: attrs["depended_on_directly"].size }
+  end
 
   File.write("public/network.json", JSON.pretty_generate(output))
 end
