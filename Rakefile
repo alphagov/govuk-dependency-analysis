@@ -21,32 +21,28 @@ class Gemfiles
   end
 end
 
+desc "Export the matrix as JSON for the network visualisation"
 task :export_network do
   output = { nodes: [], links: [] }
 
-  Gemfiles.all.each do |appname, lockfile|
+  matrix = JSON.parse(File.read("public/matrix.json"))
+
+  matrix["applications"].each do |application|
     output[:nodes] << {
-      id: appname,
+      id: application.fetch("id"),
       group: 'applications',
-      dependency_count: lockfile.dependencies.size,
+      dependency_count: application["direct_dependencies"].size,
     }
 
-    lockfile.dependencies.map do |_, d|
-
-      existing_node = output[:nodes].find { |n| n[:id] == d.name }
-      if existing_node
-        existing_node[:usage_count] = existing_node[:usage_count] + 1
-        output[:nodes] << existing_node
-      else
-        output[:nodes] << { id: d.name, group: 'gems', usage_count: 1 }
-      end
-
-      output[:links] << { source: appname, target: d.name }
+    application["direct_dependencies"].each do |gem_name, attrs|
+      output[:links] << { source: application["id"], target: gem_name }
     end
   end
 
-  output[:nodes].uniq!
-  output[:links].uniq!
+  matrix["gems"].each do |gem_name, attrs|
+    next unless attrs["depended_on_directly"].size > 0
+    output[:nodes] << { id: gem_name, group: 'gems', usage_count: attrs["depended_on_directly"].size }
+  end
 
   File.write("public/network.json", JSON.pretty_generate(output))
 end
@@ -142,6 +138,37 @@ task :download_versions do
       puts "Skipping #{repo_name}"
     end
   end
+end
+
+desc "Outputs all the applictions and gems they depend on, gems and apps they depend on"
+task :generate_matrix do
+  gems = {}
+  applications = []
+
+  Gemfiles.all.each do |app_name, lockfile|
+    applications << {
+      id: app_name,
+      direct_dependencies: lockfile.dependencies.map { |_, d| d.name },
+      dependencies: lockfile.specs.map(&:name),
+    }
+
+    lockfile.dependencies.map do |_, d|
+      gems[d.name] ||= { depended_on: [], depended_on_directly: []}
+      gems[d.name][:depended_on_directly] << app_name
+    end
+
+    lockfile.specs.map do |d|
+      gems[d.name] ||= { depended_on: [], depended_on_directly: []}
+      gems[d.name][:depended_on] << app_name
+    end
+  end
+
+  output = {
+    applications: applications,
+    gems: gems,
+  }
+
+  File.write("public/matrix.json", JSON.pretty_generate(output))
 end
 
 task :rubygems_version_info do
