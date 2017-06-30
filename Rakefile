@@ -39,9 +39,9 @@ task :export_network do
     end
   end
 
-  matrix["gems"].each do |gem_name, attrs|
+  matrix["gems"].each do |attrs|
     next unless attrs["depended_on_directly"].size > 0
-    output[:nodes] << { id: gem_name, group: 'gems', usage_count: attrs["depended_on_directly"].size }
+    output[:nodes] << { id: attrs["id"], group: 'gems', usage_count: attrs["depended_on_directly"].size }
   end
 
   File.write("public/network.json", JSON.pretty_generate(output))
@@ -163,9 +163,14 @@ task :generate_matrix do
     end
   end
 
+  gems_output = gems.map do |name, data|
+    data[:id] = name
+    data
+  end
+
   output = {
     applications: applications,
-    gems: gems,
+    gems: gems_output,
   }
 
   File.write("public/matrix.json", JSON.pretty_generate(output))

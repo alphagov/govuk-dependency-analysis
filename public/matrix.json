@@ -302,23 +302,31 @@
         "govuk_elements_rails",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
+        "listen",
         "logstasher",
+        "nokogiri",
         "plek",
         "poltergeist",
         "pry-byebug",
         "rack_strip_client_ip",
         "rails",
+        "rails-controller-testing",
         "rspec-rails",
         "sass-rails",
         "simplecov-rcov",
         "slimmer",
+        "spring",
+        "spring-watcher-listen",
         "timecop",
         "uglifier",
         "unicorn",
+        "web-console",
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
+        "actioncable",
         "actionmailer",
         "actionpack",
         "actionview",
@@ -327,11 +335,11 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "astrolabe",
         "better_errors",
+        "bindex",
         "binding_of_caller",
         "builder",
         "byebug",
@@ -348,6 +356,7 @@
         "domain_name",
         "erubis",
         "execjs",
+        "ffi",
         "gds-api-adapters",
         "globalid",
         "govuk-content-schema-test-helpers",
@@ -363,6 +372,7 @@
         "json-schema",
         "kgio",
         "link_header",
+        "listen",
         "logstash-event",
         "logstasher",
         "loofah",
@@ -375,6 +385,7 @@
         "minitest",
         "multi_json",
         "netrc",
+        "nio4r",
         "nokogiri",
         "null_logger",
         "parser",
@@ -388,13 +399,15 @@
         "rack-test",
         "rack_strip_client_ip",
         "rails",
-        "rails-deprecated_sanitizer",
+        "rails-controller-testing",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "railties",
         "rainbow",
         "raindrops",
         "rake",
+        "rb-fsevent",
+        "rb-inotify",
         "request_store",
         "rest-client",
         "rspec",
@@ -414,6 +427,8 @@
         "simplecov-rcov",
         "slimmer",
         "slop",
+        "spring",
+        "spring-watcher-listen",
         "sprockets",
         "sprockets-rails",
         "thor",
@@ -426,6 +441,7 @@
         "unf",
         "unf_ext",
         "unicorn",
+        "web-console",
         "webmock",
         "websocket-driver",
         "websocket-extensions",
@@ -463,6 +479,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -473,7 +490,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "astrolabe",
@@ -604,6 +620,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -614,8 +631,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "ast",
         "better_errors",
@@ -1090,6 +1105,7 @@
     {
       "id": "content-performance-manager",
       "direct_dependencies": [
+        "active_record_disabler",
         "airbrake",
         "byebug",
         "capybara",
@@ -1099,6 +1115,7 @@
         "gds-api-adapters",
         "gds-sso",
         "google-api-client",
+        "govspeak",
         "govuk-lint",
         "govuk_admin_template",
         "govuk_sidekiq",
@@ -1129,18 +1146,19 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
         "actionpack",
         "actionview",
+        "active_record_disabler",
         "activejob",
         "activemodel",
         "activemodel-serializers-xml",
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -1151,6 +1169,7 @@
         "capybara",
         "cliver",
         "coderay",
+        "commander",
         "concurrent-ruby",
         "connection_pool",
         "crack",
@@ -1172,6 +1191,7 @@
         "globalid",
         "google-api-client",
         "googleauth",
+        "govspeak",
         "govuk-lint",
         "govuk_admin_template",
         "govuk_sidekiq",
@@ -1180,6 +1200,8 @@
         "guard-rspec",
         "hashdiff",
         "hashie",
+        "highline",
+        "htmlentities",
         "http-cookie",
         "httparty",
         "httpclient",
@@ -1192,6 +1214,7 @@
         "kaminari-activerecord",
         "kaminari-core",
         "kgio",
+        "kramdown",
         "link_header",
         "listen",
         "little-plugger",
@@ -1208,6 +1231,7 @@
         "mime-types-data",
         "mini_portile2",
         "minitest",
+        "money",
         "multi_json",
         "multi_xml",
         "multipart-post",
@@ -1261,6 +1285,7 @@
         "ruby-progressbar",
         "ruby_dep",
         "safe_yaml",
+        "sanitize",
         "sass",
         "sass-rails",
         "scss_lint",
@@ -1484,6 +1509,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -1494,7 +1520,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -2222,6 +2247,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -2232,7 +2258,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "awesome_print",
@@ -2544,6 +2569,7 @@
         "plek",
         "poltergeist",
         "pry-byebug",
+        "rack_strip_client_ip",
         "rails",
         "rails-controller-testing",
         "rails-i18n",
@@ -2634,6 +2660,7 @@
         "rack",
         "rack-cache",
         "rack-test",
+        "rack_strip_client_ip",
         "rails",
         "rails-controller-testing",
         "rails-dom-testing",
@@ -2705,6 +2732,7 @@
         "whenever"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -2715,7 +2743,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "bindex",
@@ -2850,6 +2877,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -2860,7 +2888,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "builder",
@@ -3974,6 +4001,8 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
+        "mongoid_rails_migrations",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -3984,7 +4013,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -4055,7 +4083,6 @@
         "minitest",
         "mongo",
         "mongoid",
-        "mongoid_rails_migrations",
         "multi_json",
         "multi_test",
         "multi_xml",
@@ -4167,6 +4194,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -4177,7 +4205,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -4488,7 +4515,6 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
-        "govuk_content_models",
         "govuk_sidekiq",
         "has_scope",
         "inherited_resources",
@@ -4523,6 +4549,8 @@
         "shoulda",
         "simplecov",
         "simplecov-rcov",
+        "state_machines",
+        "state_machines-mongoid",
         "statsd-ruby",
         "timecop",
         "uglifier",
@@ -4531,6 +4559,9 @@
         "whenever"
       ],
       "dependencies": [
+        "airbrake",
+        "mongoid_rails_migrations",
+        "nested_form",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -4541,7 +4572,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "ansi",
         "arel",
         "ast",
@@ -4549,7 +4579,6 @@
         "bootstrap-kaminari-views",
         "bootstrap-sass",
         "bson",
-        "bson_ext",
         "builder",
         "byebug",
         "capybara",
@@ -4579,7 +4608,6 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
-        "govuk_content_models",
         "govuk_sidekiq",
         "has_scope",
         "hashdiff",
@@ -4619,12 +4647,10 @@
         "mongo",
         "mongoid",
         "mongoid-sadstory",
-        "mongoid_rails_migrations",
         "mousetrap-rails",
         "multi_json",
         "multi_xml",
         "multipart-post",
-        "nested_form",
         "netrc",
         "nio4r",
         "nokogiri",
@@ -6169,10 +6195,16 @@
     {
       "id": "smart-answers",
       "direct_dependencies": [
+        "actionpack",
+        "actionview",
+        "activejob",
+        "activemodel",
+        "activesupport",
         "airbrake",
         "ast",
         "better_errors",
         "binding_of_caller",
+        "byebug",
         "capybara",
         "ci_reporter",
         "gds-api-adapters",
@@ -6196,14 +6228,16 @@
         "poltergeist",
         "pry",
         "rack_strip_client_ip",
-        "rails",
+        "rails-controller-testing",
         "rails-i18n",
         "rails_stdout_logging",
+        "railties",
         "sass-rails",
         "shoulda",
         "simplecov",
         "simplecov-rcov",
         "slimmer",
+        "sprockets-rails",
         "statsd-ruby",
         "tilt",
         "timecop",
@@ -6213,22 +6247,19 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
-        "actionmailer",
         "actionpack",
         "actionview",
         "activejob",
         "activemodel",
-        "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "arel",
         "ast",
-        "astrolabe",
         "better_errors",
         "binding_of_caller",
         "builder",
+        "byebug",
         "capybara",
         "ci_reporter",
         "cliver",
@@ -6260,7 +6291,6 @@
         "logstasher",
         "loofah",
         "lrucache",
-        "mail",
         "metaclass",
         "method_source",
         "mime-types",
@@ -6274,7 +6304,6 @@
         "nokogiri",
         "null_logger",
         "parser",
-        "pkg-config",
         "plek",
         "poltergeist",
         "powerpack",
@@ -6283,8 +6312,7 @@
         "rack-cache",
         "rack-test",
         "rack_strip_client_ip",
-        "rails",
-        "rails-deprecated_sanitizer",
+        "rails-controller-testing",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "rails-i18n",
@@ -6316,12 +6344,12 @@
         "thread_safe",
         "tilt",
         "timecop",
-        "tins",
         "tzinfo",
         "uglifier",
         "uk_postcode",
         "unf",
         "unf_ext",
+        "unicode-display_width",
         "unicorn",
         "webmock",
         "websocket-driver",
@@ -6710,6 +6738,7 @@
         "webmock"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -6720,7 +6749,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "astrolabe",
@@ -6895,6 +6923,7 @@
         "whenever"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -6905,7 +6934,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "builder",
@@ -7069,6 +7097,7 @@
         "whenever"
       ],
       "dependencies": [
+        "airbrake",
         "PriorityQueue",
         "actioncable",
         "actionmailer",
@@ -7082,7 +7111,6 @@
         "activesupport",
         "acts-as-taggable-on",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -7447,6 +7475,7 @@
         "dotenv-rails",
         "equivalent-xml",
         "factory_girl",
+        "faraday",
         "friendly_id",
         "gds-api-adapters",
         "gds-sso",
@@ -7454,7 +7483,6 @@
         "govspeak",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
-        "govuk_ab_testing",
         "govuk_admin_template",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
@@ -7471,6 +7499,7 @@
         "mime-types",
         "mini_magick",
         "minitest-fail-fast",
+        "mlanett-redis-lock",
         "mocha",
         "mysql2",
         "newrelic_rpm",
@@ -7517,6 +7546,7 @@
         "whenever"
       ],
       "dependencies": [
+        "test_track",
         "Ascii85",
         "PriorityQueue",
         "actionmailer",
@@ -7578,7 +7608,6 @@
         "govspeak",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
-        "govuk_ab_testing",
         "govuk_admin_template",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
@@ -7618,6 +7647,7 @@
         "mini_portile2",
         "minitest",
         "minitest-fail-fast",
+        "mlanett-redis-lock",
         "mocha",
         "multi_json",
         "multi_test",
@@ -7690,7 +7720,6 @@
         "statsd-ruby",
         "subexec",
         "test-queue",
-        "test_track",
         "thor",
         "thread_safe",
         "tilt",
@@ -7715,8 +7744,8 @@
       ]
     }
   ],
-  "gems": {
-    "airbrake": {
+  "gems": [
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -7816,9 +7845,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "airbrake"
     },
-    "carrierwave": {
+    {
       "depended_on": [
         "asset-manager",
         "whitehall"
@@ -7826,17 +7856,19 @@
       "depended_on_directly": [
         "asset-manager",
         "whitehall"
-      ]
+      ],
+      "id": "carrierwave"
     },
-    "carrierwave-mongoid": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
         "asset-manager"
-      ]
+      ],
+      "id": "carrierwave-mongoid"
     },
-    "database_cleaner": {
+    {
       "depended_on": [
         "asset-manager",
         "bouncer",
@@ -7890,25 +7922,28 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "database_cleaner"
     },
-    "delayed_job": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
         "asset-manager"
-      ]
+      ],
+      "id": "delayed_job"
     },
-    "delayed_job_mongoid": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
         "asset-manager"
-      ]
+      ],
+      "id": "delayed_job_mongoid"
     },
-    "factory_girl_rails": {
+    {
       "depended_on": [
         "asset-manager",
         "collections-publisher",
@@ -7962,9 +7997,10 @@
         "support-api",
         "transition",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "factory_girl_rails"
     },
-    "gds-sso": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8018,9 +8054,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "gds-sso"
     },
-    "govuk-lint": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -8108,9 +8145,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "govuk-lint"
     },
-    "logstasher": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8196,9 +8234,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "logstasher"
     },
-    "mongoid": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8227,17 +8266,19 @@
         "short-url-manager",
         "specialist-publisher",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "mongoid"
     },
-    "mongoid_paranoia": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
         "asset-manager"
-      ]
+      ],
+      "id": "mongoid_paranoia"
     },
-    "nokogiri": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8290,6 +8331,7 @@
       "depended_on_directly": [
         "asset-manager",
         "bouncer",
+        "calculators",
         "collections-publisher",
         "email-alert-api",
         "frontend",
@@ -8298,9 +8340,10 @@
         "smart-answers",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "nokogiri"
     },
-    "plek": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8397,15 +8440,17 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "plek"
     },
-    "rack_strip_client_ip": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
         "calendars",
         "feedback",
         "frontend",
+        "government-frontend",
         "smart-answers",
         "static",
         "whitehall"
@@ -8416,12 +8461,14 @@
         "calendars",
         "feedback",
         "frontend",
+        "government-frontend",
         "smart-answers",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "rack_strip_client_ip"
     },
-    "rails": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8460,7 +8507,6 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
-        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -8507,7 +8553,6 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
-        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -8515,9 +8560,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "rails"
     },
-    "rspec-rails": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8585,9 +8631,10 @@
         "support-api",
         "transition",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "rspec-rails"
     },
-    "sdoc": {
+    {
       "depended_on": [
         "asset-manager",
         "finder-frontend",
@@ -8599,9 +8646,10 @@
         "finder-frontend",
         "imminence",
         "local-links-manager"
-      ]
+      ],
+      "id": "sdoc"
     },
-    "simplecov-rcov": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8653,9 +8701,10 @@
         "support-api",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "simplecov-rcov"
     },
-    "state_machines-mongoid": {
+    {
       "depended_on": [
         "asset-manager",
         "imminence",
@@ -8665,10 +8714,12 @@
       "depended_on_directly": [
         "asset-manager",
         "imminence",
+        "publisher",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "state_machines-mongoid"
     },
-    "unicorn": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8766,9 +8817,62 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "unicorn"
     },
-    "actionmailer": {
+    {
+      "depended_on": [
+        "asset-manager",
+        "authenticating-proxy",
+        "calculators",
+        "calendars",
+        "collections",
+        "collections-publisher",
+        "contacts-admin",
+        "content-performance-manager",
+        "content-store",
+        "content-tagger",
+        "design-principles",
+        "email-alert-api",
+        "email-alert-frontend",
+        "feedback",
+        "finder-frontend",
+        "frontend",
+        "government-frontend",
+        "govuk_need_api",
+        "hmrc-manuals-api",
+        "imminence",
+        "info-frontend",
+        "licence-finder",
+        "link-checker-api",
+        "local-links-manager",
+        "manuals-frontend",
+        "manuals-publisher",
+        "maslow",
+        "policy-publisher",
+        "publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "search-admin",
+        "service-manual-frontend",
+        "service-manual-publisher",
+        "short-url-manager",
+        "signon",
+        "specialist-publisher",
+        "static",
+        "support",
+        "support-api",
+        "transition",
+        "travel-advice-publisher",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "actionmailer"
+    },
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8817,62 +8921,11 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
-      ]
-    },
-    "actionpack": {
-      "depended_on": [
-        "asset-manager",
-        "authenticating-proxy",
-        "calculators",
-        "calendars",
-        "collections",
-        "collections-publisher",
-        "contacts-admin",
-        "content-performance-manager",
-        "content-store",
-        "content-tagger",
-        "design-principles",
-        "email-alert-api",
-        "email-alert-frontend",
-        "feedback",
-        "finder-frontend",
-        "frontend",
-        "government-frontend",
-        "govuk_need_api",
-        "hmrc-manuals-api",
-        "imminence",
-        "info-frontend",
-        "licence-finder",
-        "link-checker-api",
-        "local-links-manager",
-        "manuals-frontend",
-        "manuals-publisher",
-        "maslow",
-        "policy-publisher",
-        "publisher",
-        "publishing-api",
-        "release",
-        "router-api",
-        "search-admin",
-        "service-manual-frontend",
-        "service-manual-publisher",
-        "short-url-manager",
-        "signon",
-        "smart-answers",
-        "specialist-publisher",
-        "static",
-        "support",
-        "support-api",
-        "transition",
-        "travel-advice-publisher",
-        "whitehall"
+        "smart-answers"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "actionpack"
     },
-    "actionview": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8920,10 +8973,11 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
-      ]
+        "smart-answers"
+      ],
+      "id": "actionview"
     },
-    "activejob": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -8971,10 +9025,11 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
-      ]
+        "smart-answers"
+      ],
+      "id": "activejob"
     },
-    "activemodel": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9024,10 +9079,11 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
-      ]
+        "smart-answers"
+      ],
+      "id": "activemodel"
     },
-    "activerecord": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9067,7 +9123,6 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
-        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -9078,9 +9133,10 @@
       ],
       "depended_on_directly": [
         "bouncer"
-      ]
+      ],
+      "id": "activerecord"
     },
-    "activesupport": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9131,10 +9187,12 @@
         "whitehall"
       ],
       "depended_on_directly": [
-        "rummager"
-      ]
+        "rummager",
+        "smart-answers"
+      ],
+      "id": "activesupport"
     },
-    "arel": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9174,7 +9232,6 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
-        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -9185,9 +9242,10 @@
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "arel"
     },
-    "ast": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -9234,9 +9292,10 @@
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "ast"
     },
-    "astrolabe": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -9244,16 +9303,16 @@
         "imminence",
         "router-api",
         "signon",
-        "smart-answers",
         "static",
         "support",
         "travel-advice-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "astrolabe"
     },
-    "bson": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9271,9 +9330,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "bson"
     },
-    "builder": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9326,9 +9386,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "builder"
     },
-    "concurrent-ruby": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9378,9 +9439,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "concurrent-ruby"
     },
-    "connection_pool": {
+    {
       "depended_on": [
         "asset-manager",
         "collections-publisher",
@@ -9405,9 +9467,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "connection_pool"
     },
-    "diff-lcs": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9451,9 +9514,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "diff-lcs"
     },
-    "docile": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9484,9 +9548,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "docile"
     },
-    "erubis": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9532,9 +9597,10 @@
       "depended_on_directly": [
         "bouncer",
         "publisher"
-      ]
+      ],
+      "id": "erubis"
     },
-    "factory_girl": {
+    {
       "depended_on": [
         "asset-manager",
         "collections-publisher",
@@ -9572,9 +9638,10 @@
         "specialist-publisher",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "factory_girl"
     },
-    "faraday": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9610,10 +9677,12 @@
       "depended_on_directly": [
         "email-alert-api",
         "link-checker-api",
-        "local-links-manager"
-      ]
+        "local-links-manager",
+        "whitehall"
+      ],
+      "id": "faraday"
     },
-    "globalid": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9662,9 +9731,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "globalid"
     },
-    "hashie": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9695,9 +9765,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "hashie"
     },
-    "i18n": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9749,9 +9820,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "i18n"
     },
-    "json": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -9796,9 +9868,10 @@
         "calendars",
         "signon",
         "smart-answers"
-      ]
+      ],
+      "id": "json"
     },
-    "jwt": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9829,9 +9902,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "jwt"
     },
-    "kgio": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9883,9 +9957,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "kgio"
     },
-    "logstash-event": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9932,9 +10007,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "logstash-event"
     },
-    "loofah": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -9983,9 +10059,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "loofah"
     },
-    "mail": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10024,7 +10101,6 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
-        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -10035,9 +10111,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mail"
     },
-    "mime-types": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10089,18 +10166,20 @@
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "mime-types"
     },
-    "mini_portile": {
+    {
       "depended_on": [
         "asset-manager",
         "static"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mini_portile"
     },
-    "minitest": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10154,34 +10233,38 @@
         "signon",
         "smart-answers",
         "static"
-      ]
+      ],
+      "id": "minitest"
     },
-    "mongoid-compatibility": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mongoid-compatibility"
     },
-    "mongoid-grid_fs": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mongoid-grid_fs"
     },
-    "moped": {
+    {
       "depended_on": [
         "asset-manager",
         "router-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "moped"
     },
-    "multi_json": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10232,9 +10315,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "multi_json"
     },
-    "multi_xml": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10264,9 +10348,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "multi_xml"
     },
-    "multipart-post": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10301,9 +10386,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "multipart-post"
     },
-    "oauth2": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10333,9 +10419,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "oauth2"
     },
-    "omniauth": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10365,9 +10452,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "omniauth"
     },
-    "omniauth-gds": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10397,9 +10485,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "omniauth-gds"
     },
-    "omniauth-oauth2": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10429,18 +10518,20 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "omniauth-oauth2"
     },
-    "optionable": {
+    {
       "depended_on": [
         "asset-manager",
         "router-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "optionable"
     },
-    "origin": {
+    {
       "depended_on": [
         "asset-manager",
         "licence-finder",
@@ -10448,9 +10539,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "origin"
     },
-    "parser": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -10497,9 +10589,10 @@
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "parser"
     },
-    "powerpack": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -10546,9 +10639,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "powerpack"
     },
-    "rack": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10604,17 +10698,19 @@
         "publisher",
         "rummager",
         "whitehall"
-      ]
+      ],
+      "id": "rack"
     },
-    "rack-accept": {
+    {
       "depended_on": [
         "asset-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rack-accept"
     },
-    "rack-test": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10669,12 +10765,12 @@
         "bouncer",
         "rummager",
         "whitehall"
-      ]
+      ],
+      "id": "rack-test"
     },
-    "rails-deprecated_sanitizer": {
+    {
       "depended_on": [
         "asset-manager",
-        "calculators",
         "email-alert-frontend",
         "feedback",
         "frontend",
@@ -10682,15 +10778,15 @@
         "manuals-frontend",
         "router-api",
         "signon",
-        "smart-answers",
         "static",
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rails-deprecated_sanitizer"
     },
-    "rails-dom-testing": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10739,9 +10835,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rails-dom-testing"
     },
-    "rails-html-sanitizer": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10790,9 +10887,10 @@
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "rails-html-sanitizer"
     },
-    "railties": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10841,10 +10939,11 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
-      ]
+        "smart-answers"
+      ],
+      "id": "railties"
     },
-    "rainbow": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -10891,9 +10990,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rainbow"
     },
-    "raindrops": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -10946,9 +11046,10 @@
       "depended_on_directly": [
         "manuals-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "raindrops"
     },
-    "rake": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11005,9 +11106,10 @@
         "rummager",
         "signon",
         "whitehall"
-      ]
+      ],
+      "id": "rake"
     },
-    "rdoc": {
+    {
       "depended_on": [
         "asset-manager",
         "design-principles",
@@ -11017,9 +11119,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rdoc"
     },
-    "rspec-core": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11060,9 +11163,10 @@
       ],
       "depended_on_directly": [
         "email-alert-service"
-      ]
+      ],
+      "id": "rspec-core"
     },
-    "rspec-expectations": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11103,9 +11207,10 @@
       ],
       "depended_on_directly": [
         "email-alert-service"
-      ]
+      ],
+      "id": "rspec-expectations"
     },
-    "rspec-mocks": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11146,9 +11251,10 @@
       ],
       "depended_on_directly": [
         "email-alert-service"
-      ]
+      ],
+      "id": "rspec-mocks"
     },
-    "rspec-support": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11189,9 +11295,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rspec-support"
     },
-    "rubocop": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -11238,9 +11345,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rubocop"
     },
-    "ruby-progressbar": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -11287,9 +11395,10 @@
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "ruby-progressbar"
     },
-    "simplecov": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11342,9 +11451,10 @@
         "specialist-publisher",
         "support-api",
         "whitehall"
-      ]
+      ],
+      "id": "simplecov"
     },
-    "simplecov-html": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11375,9 +11485,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "simplecov-html"
     },
-    "sprockets": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11427,9 +11538,10 @@
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "sprockets"
     },
-    "sprockets-rails": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11479,11 +11591,13 @@
       "depended_on_directly": [
         "frontend",
         "signon",
+        "smart-answers",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "sprockets-rails"
     },
-    "state_machines": {
+    {
       "depended_on": [
         "asset-manager",
         "imminence",
@@ -11491,10 +11605,12 @@
         "travel-advice-publisher"
       ],
       "depended_on_directly": [
+        "publisher",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "state_machines"
     },
-    "state_machines-activemodel": {
+    {
       "depended_on": [
         "asset-manager",
         "imminence",
@@ -11503,9 +11619,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "state_machines-activemodel"
     },
-    "thor": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11555,9 +11672,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "thor"
     },
-    "thread_safe": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11607,9 +11725,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "thread_safe"
     },
-    "tins": {
+    {
       "depended_on": [
         "asset-manager",
         "calculators",
@@ -11618,16 +11737,16 @@
         "imminence",
         "publishing-api",
         "signon",
-        "smart-answers",
         "static",
         "support",
         "travel-advice-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "tins"
     },
-    "tzinfo": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11678,9 +11797,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "tzinfo"
     },
-    "warden": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11711,9 +11831,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "warden"
     },
-    "warden-oauth2": {
+    {
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
@@ -11743,12 +11864,12 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "warden-oauth2"
     },
-    "airbrake-ruby": {
+    {
       "depended_on": [
         "authenticating-proxy",
-        "collections",
         "content-store",
         "email-alert-api",
         "government-frontend",
@@ -11763,9 +11884,10 @@
         "publishing-api",
         "release",
         "short-url-manager"
-      ]
+      ],
+      "id": "airbrake-ruby"
     },
-    "byebug": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -11796,6 +11918,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "support",
         "support-api",
         "travel-advice-publisher",
@@ -11808,18 +11931,21 @@
         "finder-frontend",
         "link-checker-api",
         "service-manual-publisher",
-        "short-url-manager"
-      ]
+        "short-url-manager",
+        "smart-answers"
+      ],
+      "id": "byebug"
     },
-    "rack-proxy": {
+    {
       "depended_on": [
         "authenticating-proxy"
       ],
       "depended_on_directly": [
         "authenticating-proxy"
-      ]
+      ],
+      "id": "rack-proxy"
     },
-    "webmock": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -11913,11 +12039,13 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "webmock"
     },
-    "actioncable": {
+    {
       "depended_on": [
         "authenticating-proxy",
+        "calculators",
         "calendars",
         "collections",
         "collections-publisher",
@@ -11952,9 +12080,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "actioncable"
     },
-    "addressable": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "bouncer",
@@ -12009,9 +12138,10 @@
         "local-links-manager",
         "signon",
         "whitehall"
-      ]
+      ],
+      "id": "addressable"
     },
-    "crack": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12061,9 +12191,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "crack"
     },
-    "hashdiff": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12101,9 +12232,10 @@
         "content-store",
         "publishing-api",
         "specialist-publisher"
-      ]
+      ],
+      "id": "hashdiff"
     },
-    "method_source": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "bouncer",
@@ -12153,9 +12285,10 @@
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "method_source"
     },
-    "mime-types-data": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12200,9 +12333,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mime-types-data"
     },
-    "mini_portile2": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "bouncer",
@@ -12252,9 +12386,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mini_portile2"
     },
-    "mongo": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "content-store",
@@ -12270,11 +12405,13 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mongo"
     },
-    "nio4r": {
+    {
       "depended_on": [
         "authenticating-proxy",
+        "calculators",
         "calendars",
         "collections",
         "collections-publisher",
@@ -12309,23 +12446,24 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "nio4r"
     },
-    "pkg-config": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "design-principles",
         "government-frontend",
         "info-frontend",
         "licence-finder",
-        "smart-answers",
         "support-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "pkg-config"
     },
-    "request_store": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12358,9 +12496,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "request_store"
     },
-    "safe_yaml": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12410,9 +12549,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "safe_yaml"
     },
-    "websocket-driver": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12457,9 +12597,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "websocket-driver"
     },
-    "websocket-extensions": {
+    {
       "depended_on": [
         "authenticating-proxy",
         "calculators",
@@ -12503,9 +12644,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "websocket-extensions"
     },
-    "mr-sparkle": {
+    {
       "depended_on": [
         "bouncer",
         "rummager"
@@ -12513,9 +12655,10 @@
       "depended_on_directly": [
         "bouncer",
         "rummager"
-      ]
+      ],
+      "id": "mr-sparkle"
     },
-    "optic14n": {
+    {
       "depended_on": [
         "bouncer",
         "transition"
@@ -12523,9 +12666,10 @@
       "depended_on_directly": [
         "bouncer",
         "transition"
-      ]
+      ],
+      "id": "optic14n"
     },
-    "pg": {
+    {
       "depended_on": [
         "bouncer",
         "content-performance-manager",
@@ -12553,9 +12697,10 @@
         "signon",
         "support-api",
         "transition"
-      ]
+      ],
+      "id": "pg"
     },
-    "pry": {
+    {
       "depended_on": [
         "bouncer",
         "calculators",
@@ -12612,9 +12757,10 @@
         "smart-answers",
         "static",
         "transition"
-      ]
+      ],
+      "id": "pry"
     },
-    "rspec": {
+    {
       "depended_on": [
         "bouncer",
         "calculators",
@@ -12638,9 +12784,10 @@
         "bouncer",
         "manuals-publisher",
         "publishing-api"
-      ]
+      ],
+      "id": "rspec"
     },
-    "coderay": {
+    {
       "depended_on": [
         "bouncer",
         "calculators",
@@ -12687,11 +12834,13 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "coderay"
     },
-    "ffi": {
+    {
       "depended_on": [
         "bouncer",
+        "calculators",
         "content-performance-manager",
         "email-alert-api",
         "govuk_need_api",
@@ -12704,11 +12853,13 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ffi"
     },
-    "listen": {
+    {
       "depended_on": [
         "bouncer",
+        "calculators",
         "content-performance-manager",
         "email-alert-api",
         "govuk_need_api",
@@ -12719,34 +12870,21 @@
         "support-api"
       ],
       "depended_on_directly": [
+        "calculators",
         "content-performance-manager",
         "email-alert-api",
         "govuk_need_api",
         "hmrc-manuals-api",
         "link-checker-api",
-        "support",
-        "support-api"
-      ]
-    },
-    "rb-fsevent": {
-      "depended_on": [
-        "bouncer",
-        "content-performance-manager",
-        "email-alert-api",
-        "govuk_need_api",
-        "hmrc-manuals-api",
-        "link-checker-api",
-        "rummager",
         "support",
         "support-api"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "listen"
     },
-    "rb-inotify": {
+    {
       "depended_on": [
         "bouncer",
+        "calculators",
         "content-performance-manager",
         "email-alert-api",
         "govuk_need_api",
@@ -12758,18 +12896,38 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rb-fsevent"
     },
-    "rb-kqueue": {
+    {
+      "depended_on": [
+        "bouncer",
+        "calculators",
+        "content-performance-manager",
+        "email-alert-api",
+        "govuk_need_api",
+        "hmrc-manuals-api",
+        "link-checker-api",
+        "rummager",
+        "support",
+        "support-api"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "rb-inotify"
+    },
+    {
       "depended_on": [
         "bouncer",
         "rummager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rb-kqueue"
     },
-    "slop": {
+    {
       "depended_on": [
         "bouncer",
         "calculators",
@@ -12816,9 +12974,10 @@
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "slop"
     },
-    "better_errors": {
+    {
       "depended_on": [
         "calculators",
         "collections",
@@ -12860,9 +13019,10 @@
         "specialist-publisher",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "better_errors"
     },
-    "binding_of_caller": {
+    {
       "depended_on": [
         "calculators",
         "collections",
@@ -12905,9 +13065,10 @@
         "specialist-publisher",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "binding_of_caller"
     },
-    "capybara": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -12975,9 +13136,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "capybara"
     },
-    "ci_reporter_rspec": {
+    {
       "depended_on": [
         "calculators",
         "contacts-admin",
@@ -13005,9 +13167,10 @@
         "support",
         "support-api",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "ci_reporter_rspec"
     },
-    "gds-api-adapters": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13096,9 +13259,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "gds-api-adapters"
     },
-    "govuk-content-schema-test-helpers": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13154,17 +13318,17 @@
         "static",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "govuk-content-schema-test-helpers"
     },
-    "govuk_ab_testing": {
+    {
       "depended_on": [
         "calculators",
         "collections",
         "frontend",
         "government-frontend",
         "manuals-frontend",
-        "smart-answers",
-        "whitehall"
+        "smart-answers"
       ],
       "depended_on_directly": [
         "calculators",
@@ -13172,11 +13336,11 @@
         "frontend",
         "government-frontend",
         "manuals-frontend",
-        "smart-answers",
-        "whitehall"
-      ]
+        "smart-answers"
+      ],
+      "id": "govuk_ab_testing"
     },
-    "govuk_elements_rails": {
+    {
       "depended_on": [
         "calculators",
         "email-alert-frontend",
@@ -13188,9 +13352,10 @@
         "email-alert-frontend",
         "government-frontend",
         "service-manual-frontend"
-      ]
+      ],
+      "id": "govuk_elements_rails"
     },
-    "govuk_frontend_toolkit": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13232,9 +13397,10 @@
         "specialist-publisher",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "govuk_frontend_toolkit"
     },
-    "govuk_navigation_helpers": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13258,9 +13424,10 @@
         "licence-finder",
         "manuals-frontend",
         "smart-answers"
-      ]
+      ],
+      "id": "govuk_navigation_helpers"
     },
-    "poltergeist": {
+    {
       "depended_on": [
         "calculators",
         "collections",
@@ -13308,9 +13475,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "poltergeist"
     },
-    "pry-byebug": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13368,9 +13536,53 @@
         "support-api",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "pry-byebug"
     },
-    "sass-rails": {
+    {
+      "depended_on": [
+        "calculators",
+        "calendars",
+        "content-performance-manager",
+        "finder-frontend",
+        "government-frontend",
+        "imminence",
+        "maslow",
+        "publisher",
+        "release",
+        "search-admin",
+        "service-manual-frontend",
+        "service-manual-publisher",
+        "short-url-manager",
+        "smart-answers",
+        "specialist-publisher",
+        "support",
+        "transition",
+        "travel-advice-publisher"
+      ],
+      "depended_on_directly": [
+        "calculators",
+        "calendars",
+        "content-performance-manager",
+        "finder-frontend",
+        "government-frontend",
+        "imminence",
+        "maslow",
+        "publisher",
+        "release",
+        "search-admin",
+        "service-manual-frontend",
+        "service-manual-publisher",
+        "short-url-manager",
+        "smart-answers",
+        "specialist-publisher",
+        "support",
+        "transition",
+        "travel-advice-publisher"
+      ],
+      "id": "rails-controller-testing"
+    },
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13442,9 +13654,10 @@
         "support",
         "transition",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "sass-rails"
     },
-    "slimmer": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13480,9 +13693,48 @@
         "smart-answers",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "slimmer"
     },
-    "timecop": {
+    {
+      "depended_on": [
+        "calculators",
+        "content-performance-manager",
+        "govuk_need_api",
+        "info-frontend",
+        "publishing-api",
+        "support",
+        "support-api"
+      ],
+      "depended_on_directly": [
+        "calculators",
+        "content-performance-manager",
+        "govuk_need_api",
+        "info-frontend",
+        "publishing-api",
+        "support",
+        "support-api"
+      ],
+      "id": "spring"
+    },
+    {
+      "depended_on": [
+        "calculators",
+        "content-performance-manager",
+        "govuk_need_api",
+        "support",
+        "support-api"
+      ],
+      "depended_on_directly": [
+        "calculators",
+        "content-performance-manager",
+        "govuk_need_api",
+        "support",
+        "support-api"
+      ],
+      "id": "spring-watcher-listen"
+    },
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13534,9 +13786,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "timecop"
     },
-    "uglifier": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13610,9 +13863,39 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "uglifier"
     },
-    "PriorityQueue": {
+    {
+      "depended_on": [
+        "calculators",
+        "content-performance-manager",
+        "content-tagger",
+        "govuk_need_api",
+        "link-checker-api",
+        "local-links-manager",
+        "policy-publisher",
+        "publishing-api",
+        "service-manual-frontend",
+        "support",
+        "transition"
+      ],
+      "depended_on_directly": [
+        "calculators",
+        "content-performance-manager",
+        "content-tagger",
+        "govuk_need_api",
+        "link-checker-api",
+        "local-links-manager",
+        "policy-publisher",
+        "publishing-api",
+        "service-manual-frontend",
+        "support",
+        "transition"
+      ],
+      "id": "web-console"
+    },
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13660,9 +13943,25 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "PriorityQueue"
     },
-    "ci_reporter": {
+    {
+      "depended_on": [
+        "calculators",
+        "content-performance-manager",
+        "content-tagger",
+        "govuk_need_api",
+        "publishing-api",
+        "support",
+        "transition"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "bindex"
+    },
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13690,9 +13989,10 @@
         "signon",
         "smart-answers",
         "support-api"
-      ]
+      ],
+      "id": "ci_reporter"
     },
-    "cliver": {
+    {
       "depended_on": [
         "calculators",
         "collections",
@@ -13719,9 +14019,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "cliver"
     },
-    "debug_inspector": {
+    {
       "depended_on": [
         "calculators",
         "collections",
@@ -13747,9 +14048,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "debug_inspector"
     },
-    "domain_name": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13797,9 +14099,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "domain_name"
     },
-    "execjs": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13839,9 +14142,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "execjs"
     },
-    "http-cookie": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13889,9 +14193,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "http-cookie"
     },
-    "json-schema": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13927,9 +14232,10 @@
         "contacts-admin",
         "hmrc-manuals-api",
         "publishing-api"
-      ]
+      ],
+      "id": "json-schema"
     },
-    "link_header": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -13978,9 +14284,10 @@
       "depended_on_directly": [
         "govuk_need_api",
         "whitehall"
-      ]
+      ],
+      "id": "link_header"
     },
-    "lrucache": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14030,9 +14337,10 @@
         "contacts-admin",
         "maslow",
         "smart-answers"
-      ]
+      ],
+      "id": "lrucache"
     },
-    "netrc": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14080,9 +14388,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "netrc"
     },
-    "null_logger": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14130,9 +14439,10 @@
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "null_logger"
     },
-    "rack-cache": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14180,9 +14490,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rack-cache"
     },
-    "rest-client": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14230,9 +14541,10 @@
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "rest-client"
     },
-    "sass": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14282,9 +14594,10 @@
         "frontend",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "sass"
     },
-    "scss_lint": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14326,9 +14639,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "scss_lint"
     },
-    "tilt": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14370,9 +14684,10 @@
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "tilt"
     },
-    "unf": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14420,9 +14735,10 @@
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "unf"
     },
-    "unf_ext": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14470,9 +14786,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "unf_ext"
     },
-    "xpath": {
+    {
       "depended_on": [
         "calculators",
         "calendars",
@@ -14512,9 +14829,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "xpath"
     },
-    "ci_reporter_minitest": {
+    {
       "depended_on": [
         "calendars",
         "imminence",
@@ -14528,9 +14846,10 @@
         "publisher",
         "release",
         "whitehall"
-      ]
+      ],
+      "id": "ci_reporter_minitest"
     },
-    "mocha": {
+    {
       "depended_on": [
         "calendars",
         "collections",
@@ -14564,47 +14883,10 @@
         "smart-answers",
         "static",
         "whitehall"
-      ]
-    },
-    "rails-controller-testing": {
-      "depended_on": [
-        "calendars",
-        "content-performance-manager",
-        "finder-frontend",
-        "government-frontend",
-        "imminence",
-        "maslow",
-        "publisher",
-        "release",
-        "search-admin",
-        "service-manual-frontend",
-        "service-manual-publisher",
-        "short-url-manager",
-        "specialist-publisher",
-        "support",
-        "transition",
-        "travel-advice-publisher"
       ],
-      "depended_on_directly": [
-        "calendars",
-        "content-performance-manager",
-        "finder-frontend",
-        "government-frontend",
-        "imminence",
-        "maslow",
-        "publisher",
-        "release",
-        "search-admin",
-        "service-manual-frontend",
-        "service-manual-publisher",
-        "short-url-manager",
-        "specialist-publisher",
-        "support",
-        "transition",
-        "travel-advice-publisher"
-      ]
+      "id": "mocha"
     },
-    "rails-i18n": {
+    {
       "depended_on": [
         "calendars",
         "frontend",
@@ -14620,9 +14902,10 @@
         "service-manual-frontend",
         "smart-answers",
         "whitehall"
-      ]
+      ],
+      "id": "rails-i18n"
     },
-    "shoulda": {
+    {
       "depended_on": [
         "calendars",
         "govuk_need_api",
@@ -14638,9 +14921,10 @@
         "smart-answers",
         "static",
         "support"
-      ]
+      ],
+      "id": "shoulda"
     },
-    "metaclass": {
+    {
       "depended_on": [
         "calendars",
         "collections",
@@ -14660,9 +14944,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "metaclass"
     },
-    "shoulda-context": {
+    {
       "depended_on": [
         "calendars",
         "frontend",
@@ -14684,9 +14969,10 @@
         "release",
         "rummager",
         "signon"
-      ]
+      ],
+      "id": "shoulda-context"
     },
-    "shoulda-matchers": {
+    {
       "depended_on": [
         "calendars",
         "contacts-admin",
@@ -14709,9 +14995,10 @@
         "local-links-manager",
         "support-api",
         "transition"
-      ]
+      ],
+      "id": "shoulda-matchers"
     },
-    "cucumber-rails": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14733,9 +15020,10 @@
         "search-admin",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "cucumber-rails"
     },
-    "govuk_schemas": {
+    {
       "depended_on": [
         "collections",
         "email-alert-service",
@@ -14751,9 +15039,10 @@
         "government-frontend",
         "info-frontend",
         "publishing-api"
-      ]
+      ],
+      "id": "govuk_schemas"
     },
-    "jasmine-rails": {
+    {
       "depended_on": [
         "collections",
         "finder-frontend",
@@ -14771,17 +15060,19 @@
         "manuals-publisher",
         "service-manual-frontend",
         "static"
-      ]
+      ],
+      "id": "jasmine-rails"
     },
-    "minitest-spec-rails": {
+    {
       "depended_on": [
         "collections"
       ],
       "depended_on_directly": [
         "collections"
-      ]
+      ],
+      "id": "minitest-spec-rails"
     },
-    "statsd-ruby": {
+    {
       "depended_on": [
         "collections",
         "collections-publisher",
@@ -14824,9 +15115,10 @@
         "smart-answers",
         "support",
         "whitehall"
-      ]
+      ],
+      "id": "statsd-ruby"
     },
-    "cucumber": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14840,9 +15132,10 @@
       ],
       "depended_on_directly": [
         "manuals-publisher"
-      ]
+      ],
+      "id": "cucumber"
     },
-    "cucumber-core": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14856,9 +15149,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "cucumber-core"
     },
-    "cucumber-wire": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14872,9 +15166,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "cucumber-wire"
     },
-    "gherkin": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14887,9 +15182,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "gherkin"
     },
-    "jasmine-core": {
+    {
       "depended_on": [
         "collections",
         "finder-frontend",
@@ -14908,9 +15204,10 @@
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "jasmine-core"
     },
-    "multi_test": {
+    {
       "depended_on": [
         "collections",
         "email-alert-frontend",
@@ -14924,9 +15221,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "multi_test"
     },
-    "phantomjs": {
+    {
       "depended_on": [
         "collections",
         "finder-frontend",
@@ -14947,9 +15245,10 @@
         "manuals-publisher",
         "service-manual-frontend",
         "transition"
-      ]
+      ],
+      "id": "phantomjs"
     },
-    "unicode-display_width": {
+    {
       "depended_on": [
         "collections",
         "collections-publisher",
@@ -14979,6 +15278,7 @@
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
+        "smart-answers",
         "specialist-publisher",
         "support-api",
         "transition",
@@ -14986,17 +15286,19 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "unicode-display_width"
     },
-    "aasm": {
+    {
       "depended_on": [
         "collections-publisher"
       ],
       "depended_on_directly": [
         "collections-publisher"
-      ]
+      ],
+      "id": "aasm"
     },
-    "generic_form_builder": {
+    {
       "depended_on": [
         "collections-publisher",
         "manuals-publisher",
@@ -15008,9 +15310,10 @@
         "manuals-publisher",
         "policy-publisher",
         "search-admin"
-      ]
+      ],
+      "id": "generic_form_builder"
     },
-    "govuk_admin_template": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15054,9 +15357,10 @@
         "transition",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "govuk_admin_template"
     },
-    "govuk_sidekiq": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15084,9 +15388,10 @@
         "support-api",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "govuk_sidekiq"
     },
-    "mysql2": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15102,9 +15407,10 @@
         "search-admin",
         "signon",
         "whitehall"
-      ]
+      ],
+      "id": "mysql2"
     },
-    "select2-rails": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15124,9 +15430,10 @@
         "specialist-publisher",
         "support",
         "transition"
-      ]
+      ],
+      "id": "select2-rails"
     },
-    "sinatra": {
+    {
       "depended_on": [
         "collections-publisher",
         "manuals-publisher",
@@ -15136,9 +15443,10 @@
         "collections-publisher",
         "manuals-publisher",
         "rummager"
-      ]
+      ],
+      "id": "sinatra"
     },
-    "autoprefixer-rails": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15163,9 +15471,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "autoprefixer-rails"
     },
-    "bootstrap-sass": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15190,9 +15499,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "bootstrap-sass"
     },
-    "jquery-rails": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15218,9 +15528,10 @@
       "depended_on_directly": [
         "content-performance-manager",
         "specialist-publisher"
-      ]
+      ],
+      "id": "jquery-rails"
     },
-    "rack-protection": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15242,9 +15553,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rack-protection"
     },
-    "redis": {
+    {
       "depended_on": [
         "collections-publisher",
         "contacts-admin",
@@ -15277,9 +15589,10 @@
         "signon",
         "static",
         "support"
-      ]
+      ],
+      "id": "redis"
     },
-    "redis-namespace": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15310,9 +15623,10 @@
         "rummager",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "redis-namespace"
     },
-    "sidekiq": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15340,9 +15654,10 @@
         "manuals-publisher",
         "rummager",
         "transition"
-      ]
+      ],
+      "id": "sidekiq"
     },
-    "sidekiq-logging-json": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15360,9 +15675,10 @@
       ],
       "depended_on_directly": [
         "email-alert-api"
-      ]
+      ],
+      "id": "sidekiq-logging-json"
     },
-    "sidekiq-statsd": {
+    {
       "depended_on": [
         "collections-publisher",
         "content-performance-manager",
@@ -15386,17 +15702,19 @@
         "imminence",
         "manuals-publisher",
         "rummager"
-      ]
+      ],
+      "id": "sidekiq-statsd"
     },
-    "active_hash": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
         "contacts-admin"
-      ]
+      ],
+      "id": "active_hash"
     },
-    "ancestry": {
+    {
       "depended_on": [
         "contacts-admin",
         "signon"
@@ -15404,9 +15722,10 @@
       "depended_on_directly": [
         "contacts-admin",
         "signon"
-      ]
+      ],
+      "id": "ancestry"
     },
-    "fakefs": {
+    {
       "depended_on": [
         "contacts-admin",
         "support-api"
@@ -15414,9 +15733,10 @@
       "depended_on_directly": [
         "contacts-admin",
         "support-api"
-      ]
+      ],
+      "id": "fakefs"
     },
-    "friendly_id": {
+    {
       "depended_on": [
         "contacts-admin",
         "release",
@@ -15426,11 +15746,13 @@
         "contacts-admin",
         "release",
         "whitehall"
-      ]
+      ],
+      "id": "friendly_id"
     },
-    "govspeak": {
+    {
       "depended_on": [
         "contacts-admin",
+        "content-performance-manager",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -15445,6 +15767,7 @@
       ],
       "depended_on_directly": [
         "contacts-admin",
+        "content-performance-manager",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -15456,9 +15779,10 @@
         "specialist-publisher",
         "travel-advice-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "govspeak"
     },
-    "mlanett-redis-lock": {
+    {
       "depended_on": [
         "contacts-admin",
         "govuk_need_api",
@@ -15466,7 +15790,8 @@
         "publisher",
         "short-url-manager",
         "support-api",
-        "transition"
+        "transition",
+        "whitehall"
       ],
       "depended_on_directly": [
         "contacts-admin",
@@ -15475,10 +15800,12 @@
         "publisher",
         "short-url-manager",
         "support-api",
-        "transition"
-      ]
+        "transition",
+        "whitehall"
+      ],
+      "id": "mlanett-redis-lock"
     },
-    "paper_trail": {
+    {
       "depended_on": [
         "contacts-admin",
         "transition"
@@ -15486,9 +15813,10 @@
       "depended_on_directly": [
         "contacts-admin",
         "transition"
-      ]
+      ],
+      "id": "paper_trail"
     },
-    "pry-rails": {
+    {
       "depended_on": [
         "contacts-admin",
         "content-performance-manager",
@@ -15506,25 +15834,28 @@
         "publishing-api",
         "specialist-publisher",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "pry-rails"
     },
-    "railroady": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
         "contacts-admin"
-      ]
+      ],
+      "id": "railroady"
     },
-    "searchlight": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
         "contacts-admin"
-      ]
+      ],
+      "id": "searchlight"
     },
-    "simple_form": {
+    {
       "depended_on": [
         "contacts-admin",
         "content-tagger"
@@ -15532,9 +15863,10 @@
       "depended_on_directly": [
         "contacts-admin",
         "content-tagger"
-      ]
+      ],
+      "id": "simple_form"
     },
-    "therubyracer": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles",
@@ -15544,9 +15876,10 @@
         "contacts-admin",
         "design-principles",
         "frontend"
-      ]
+      ],
+      "id": "therubyracer"
     },
-    "thin": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles"
@@ -15554,17 +15887,19 @@
       "depended_on_directly": [
         "contacts-admin",
         "design-principles"
-      ]
+      ],
+      "id": "thin"
     },
-    "virtus": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
         "contacts-admin"
-      ]
+      ],
+      "id": "virtus"
     },
-    "whenever": {
+    {
       "depended_on": [
         "contacts-admin",
         "content-store",
@@ -15592,17 +15927,19 @@
         "support-api",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "whenever"
     },
-    "axiom-types": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "axiom-types"
     },
-    "chronic": {
+    {
       "depended_on": [
         "contacts-admin",
         "content-store",
@@ -15621,53 +15958,60 @@
       "depended_on_directly": [
         "finder-frontend",
         "whitehall"
-      ]
+      ],
+      "id": "chronic"
     },
-    "coercible": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "coercible"
     },
-    "daemons": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "daemons"
     },
-    "descendants_tracker": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "descendants_tracker"
     },
-    "equalizer": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "equalizer"
     },
-    "eventmachine": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "eventmachine"
     },
-    "htmlentities": {
+    {
       "depended_on": [
         "contacts-admin",
+        "content-performance-manager",
         "frontend",
         "government-frontend",
         "hmrc-manuals-api",
@@ -15688,19 +16032,22 @@
         "government-frontend",
         "smart-answers",
         "transition"
-      ]
+      ],
+      "id": "htmlentities"
     },
-    "ice_nine": {
+    {
       "depended_on": [
         "contacts-admin"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ice_nine"
     },
-    "kramdown": {
+    {
       "depended_on": [
         "contacts-admin",
+        "content-performance-manager",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -15715,9 +16062,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "kramdown"
     },
-    "libv8": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles",
@@ -15725,9 +16073,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "libv8"
     },
-    "ref": {
+    {
       "depended_on": [
         "contacts-admin",
         "design-principles",
@@ -15735,11 +16084,13 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ref"
     },
-    "sanitize": {
+    {
       "depended_on": [
         "contacts-admin",
+        "content-performance-manager",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -15754,17 +16105,28 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "sanitize"
     },
-    "draper": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
         "content-performance-manager"
-      ]
+      ],
+      "id": "active_record_disabler"
     },
-    "google-api-client": {
+    {
+      "depended_on": [
+        "content-performance-manager"
+      ],
+      "depended_on_directly": [
+        "content-performance-manager"
+      ],
+      "id": "draper"
+    },
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -15776,26 +16138,29 @@
         "feedback",
         "local-links-manager",
         "transition"
-      ]
+      ],
+      "id": "google-api-client"
     },
-    "guard-rspec": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
         "content-performance-manager"
-      ]
+      ],
+      "id": "guard-rspec"
     },
-    "httparty": {
+    {
       "depended_on": [
         "content-performance-manager",
         "publishing-api"
       ],
       "depended_on_directly": [
         "content-performance-manager"
-      ]
+      ],
+      "id": "httparty"
     },
-    "jbuilder": {
+    {
       "depended_on": [
         "content-performance-manager",
         "local-links-manager",
@@ -15805,9 +16170,10 @@
         "content-performance-manager",
         "local-links-manager",
         "whitehall"
-      ]
+      ],
+      "id": "jbuilder"
     },
-    "kaminari": {
+    {
       "depended_on": [
         "content-performance-manager",
         "content-tagger",
@@ -15834,35 +16200,19 @@
         "support",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "kaminari"
     },
-    "puma": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
         "content-performance-manager"
-      ]
-    },
-    "spring": {
-      "depended_on": [
-        "content-performance-manager",
-        "govuk_need_api",
-        "info-frontend",
-        "publishing-api",
-        "support",
-        "support-api"
       ],
-      "depended_on_directly": [
-        "content-performance-manager",
-        "govuk_need_api",
-        "info-frontend",
-        "publishing-api",
-        "support",
-        "support-api"
-      ]
+      "id": "puma"
     },
-    "spring-commands-rspec": {
+    {
       "depended_on": [
         "content-performance-manager",
         "publishing-api"
@@ -15870,78 +16220,41 @@
       "depended_on_directly": [
         "content-performance-manager",
         "publishing-api"
-      ]
-    },
-    "spring-watcher-listen": {
-      "depended_on": [
-        "content-performance-manager",
-        "govuk_need_api",
-        "support",
-        "support-api"
       ],
-      "depended_on_directly": [
-        "content-performance-manager",
-        "govuk_need_api",
-        "support",
-        "support-api"
-      ]
+      "id": "spring-commands-rspec"
     },
-    "turbolinks": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
         "content-performance-manager"
-      ]
+      ],
+      "id": "turbolinks"
     },
-    "web-console": {
+    {
+      "depended_on": [
+        "content-performance-manager"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "activemodel-serializers-xml"
+    },
+    {
       "depended_on": [
         "content-performance-manager",
-        "content-tagger",
-        "govuk_need_api",
-        "link-checker-api",
-        "local-links-manager",
+        "maslow",
         "policy-publisher",
         "publishing-api",
-        "service-manual-frontend",
-        "support",
-        "transition"
-      ],
-      "depended_on_directly": [
-        "content-performance-manager",
-        "content-tagger",
-        "govuk_need_api",
-        "link-checker-api",
-        "local-links-manager",
-        "policy-publisher",
-        "publishing-api",
-        "service-manual-frontend",
-        "support",
-        "transition"
-      ]
-    },
-    "activemodel-serializers-xml": {
-      "depended_on": [
-        "content-performance-manager"
+        "specialist-publisher"
       ],
       "depended_on_directly": [
 
-      ]
-    },
-    "bindex": {
-      "depended_on": [
-        "content-performance-manager",
-        "content-tagger",
-        "govuk_need_api",
-        "publishing-api",
-        "support",
-        "transition"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "commander"
     },
-    "declarative": {
+    {
       "depended_on": [
         "content-performance-manager",
         "local-links-manager",
@@ -15949,9 +16262,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "declarative"
     },
-    "declarative-option": {
+    {
       "depended_on": [
         "content-performance-manager",
         "local-links-manager",
@@ -15959,9 +16273,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "declarative-option"
     },
-    "erubi": {
+    {
       "depended_on": [
         "content-performance-manager",
         "content-store",
@@ -15974,17 +16289,19 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "erubi"
     },
-    "formatador": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "formatador"
     },
-    "googleauth": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -15993,25 +16310,42 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "googleauth"
     },
-    "guard": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "guard"
     },
-    "guard-compat": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "guard-compat"
     },
-    "httpclient": {
+    {
+      "depended_on": [
+        "content-performance-manager",
+        "maslow",
+        "policy-publisher",
+        "publishing-api",
+        "service-manual-publisher",
+        "specialist-publisher"
+      ],
+      "depended_on_directly": [
+        "service-manual-publisher"
+      ],
+      "id": "highline"
+    },
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16020,9 +16354,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "httpclient"
     },
-    "kaminari-actionview": {
+    {
       "depended_on": [
         "content-performance-manager",
         "imminence",
@@ -16033,9 +16368,10 @@
       ],
       "depended_on_directly": [
         "imminence"
-      ]
+      ],
+      "id": "kaminari-actionview"
     },
-    "kaminari-activerecord": {
+    {
       "depended_on": [
         "content-performance-manager",
         "imminence",
@@ -16046,9 +16382,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "kaminari-activerecord"
     },
-    "kaminari-core": {
+    {
       "depended_on": [
         "content-performance-manager",
         "imminence",
@@ -16060,9 +16397,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "kaminari-core"
     },
-    "little-plugger": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16072,9 +16410,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "little-plugger"
     },
-    "logging": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16084,17 +16423,19 @@
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "logging"
     },
-    "lumberjack": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "lumberjack"
     },
-    "memoist": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16103,25 +16444,41 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "memoist"
     },
-    "nenv": {
+    {
+      "depended_on": [
+        "content-performance-manager",
+        "maslow",
+        "policy-publisher",
+        "publishing-api",
+        "specialist-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "money"
+    },
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "nenv"
     },
-    "notiffany": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "notiffany"
     },
-    "os": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16130,9 +16487,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "os"
     },
-    "public_suffix": {
+    {
       "depended_on": [
         "content-performance-manager",
         "email-alert-api",
@@ -16144,9 +16502,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "public_suffix"
     },
-    "representable": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16155,9 +16514,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "representable"
     },
-    "retriable": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16167,9 +16527,10 @@
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "retriable"
     },
-    "ruby_dep": {
+    {
       "depended_on": [
         "content-performance-manager",
         "email-alert-api",
@@ -16178,17 +16539,19 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ruby_dep"
     },
-    "shellany": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "shellany"
     },
-    "signet": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16197,17 +16560,19 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "signet"
     },
-    "turbolinks-source": {
+    {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "turbolinks-source"
     },
-    "uber": {
+    {
       "depended_on": [
         "content-performance-manager",
         "feedback",
@@ -16216,9 +16581,10 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "uber"
     },
-    "mongoid_rails_migrations": {
+    {
       "depended_on": [
         "content-store",
         "govuk_need_api",
@@ -16240,9 +16606,10 @@
         "router-api",
         "short-url-manager",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "mongoid_rails_migrations"
     },
-    "pact": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
@@ -16250,9 +16617,10 @@
       "depended_on_directly": [
         "content-store",
         "publishing-api"
-      ]
+      ],
+      "id": "pact"
     },
-    "uuidtools": {
+    {
       "depended_on": [
         "content-store",
         "hmrc-manuals-api"
@@ -16260,9 +16628,10 @@
       "depended_on_directly": [
         "content-store",
         "hmrc-manuals-api"
-      ]
+      ],
+      "id": "uuidtools"
     },
-    "awesome_print": {
+    {
       "depended_on": [
         "content-store",
         "content-tagger",
@@ -16274,63 +16643,70 @@
         "content-tagger",
         "finder-frontend",
         "manuals-publisher"
-      ]
+      ],
+      "id": "awesome_print"
     },
-    "find_a_port": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "find_a_port"
     },
-    "pact-mock_service": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "pact-mock_service"
     },
-    "pact-support": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "pact-support"
     },
-    "randexp": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "randexp"
     },
-    "term-ansicolor": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "term-ansicolor"
     },
-    "webrick": {
+    {
       "depended_on": [
         "content-store",
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "webrick"
     },
-    "bootstrap-kaminari-views": {
+    {
       "depended_on": [
         "content-tagger",
         "imminence",
@@ -16348,17 +16724,19 @@
         "specialist-publisher",
         "support",
         "whitehall"
-      ]
+      ],
+      "id": "bootstrap-kaminari-views"
     },
-    "chartkick": {
+    {
       "depended_on": [
         "content-tagger"
       ],
       "depended_on_directly": [
         "content-tagger"
-      ]
+      ],
+      "id": "chartkick"
     },
-    "faker": {
+    {
       "depended_on": [
         "content-tagger",
         "publishing-api"
@@ -16366,25 +16744,28 @@
       "depended_on_directly": [
         "content-tagger",
         "publishing-api"
-      ]
+      ],
+      "id": "faker"
     },
-    "govuk_taxonomy_helpers": {
+    {
       "depended_on": [
         "content-tagger"
       ],
       "depended_on_directly": [
         "content-tagger"
-      ]
+      ],
+      "id": "govuk_taxonomy_helpers"
     },
-    "headless": {
+    {
       "depended_on": [
         "content-tagger"
       ],
       "depended_on_directly": [
         "content-tagger"
-      ]
+      ],
+      "id": "headless"
     },
-    "jquery-ui-rails": {
+    {
       "depended_on": [
         "content-tagger",
         "policy-publisher",
@@ -16398,9 +16779,10 @@
         "publisher",
         "support",
         "whitehall"
-      ]
+      ],
+      "id": "jquery-ui-rails"
     },
-    "test-unit": {
+    {
       "depended_on": [
         "design-principles",
         "feedback",
@@ -16417,42 +16799,47 @@
         "maslow",
         "static",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "test-unit"
     },
-    "activeresource": {
+    {
       "depended_on": [
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "activeresource"
     },
-    "hike": {
+    {
       "depended_on": [
         "design-principles",
         "manuals-frontend"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "hike"
     },
-    "journey": {
+    {
       "depended_on": [
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "journey"
     },
-    "polyglot": {
+    {
       "depended_on": [
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "polyglot"
     },
-    "power_assert": {
+    {
       "depended_on": [
         "design-principles",
         "feedback",
@@ -16464,25 +16851,28 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "power_assert"
     },
-    "rack-ssl": {
+    {
       "depended_on": [
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rack-ssl"
     },
-    "treetop": {
+    {
       "depended_on": [
         "design-principles"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "treetop"
     },
-    "equivalent-xml": {
+    {
       "depended_on": [
         "email-alert-api",
         "whitehall"
@@ -16490,9 +16880,10 @@
       "depended_on_directly": [
         "email-alert-api",
         "whitehall"
-      ]
+      ],
+      "id": "equivalent-xml"
     },
-    "foreman": {
+    {
       "depended_on": [
         "email-alert-api",
         "hmrc-manuals-api",
@@ -16504,17 +16895,19 @@
         "hmrc-manuals-api",
         "manuals-publisher",
         "specialist-publisher"
-      ]
+      ],
+      "id": "foreman"
     },
-    "decent_exposure": {
+    {
       "depended_on": [
         "email-alert-frontend"
       ],
       "depended_on_directly": [
         "email-alert-frontend"
-      ]
+      ],
+      "id": "decent_exposure"
     },
-    "launchy": {
+    {
       "depended_on": [
         "email-alert-frontend",
         "finder-frontend",
@@ -16538,9 +16931,10 @@
         "service-manual-publisher",
         "transition",
         "whitehall"
-      ]
+      ],
+      "id": "launchy"
     },
-    "quiet_assets": {
+    {
       "depended_on": [
         "email-alert-frontend",
         "signon",
@@ -16552,9 +16946,10 @@
         "signon",
         "static",
         "whitehall"
-      ]
+      ],
+      "id": "quiet_assets"
     },
-    "bunny": {
+    {
       "depended_on": [
         "email-alert-service",
         "publishing-api",
@@ -16563,9 +16958,10 @@
       "depended_on_directly": [
         "email-alert-service",
         "publishing-api"
-      ]
+      ],
+      "id": "bunny"
     },
-    "amq-protocol": {
+    {
       "depended_on": [
         "email-alert-service",
         "publishing-api",
@@ -16573,25 +16969,28 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "amq-protocol"
     },
-    "columnize": {
+    {
       "depended_on": [
         "email-alert-service"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "columnize"
     },
-    "debugger-linecache": {
+    {
       "depended_on": [
         "email-alert-service"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "debugger-linecache"
     },
-    "invalid_utf8_rejector": {
+    {
       "depended_on": [
         "feedback",
         "frontend",
@@ -16601,34 +17000,38 @@
         "feedback",
         "frontend",
         "whitehall"
-      ]
+      ],
+      "id": "invalid_utf8_rejector"
     },
-    "notifications-ruby-client": {
+    {
       "depended_on": [
         "feedback"
       ],
       "depended_on_directly": [
         "feedback"
-      ]
+      ],
+      "id": "notifications-ruby-client"
     },
-    "valid_email": {
+    {
       "depended_on": [
         "feedback"
       ],
       "depended_on_directly": [
         "feedback"
-      ]
+      ],
+      "id": "valid_email"
     },
-    "hurley": {
+    {
       "depended_on": [
         "feedback",
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "hurley"
     },
-    "shared_mustache": {
+    {
       "depended_on": [
         "finder-frontend",
         "frontend",
@@ -16638,9 +17041,10 @@
         "finder-frontend",
         "frontend",
         "whitehall"
-      ]
+      ],
+      "id": "shared_mustache"
     },
-    "mustache": {
+    {
       "depended_on": [
         "finder-frontend",
         "frontend",
@@ -16648,33 +17052,37 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mustache"
     },
-    "cdn_helpers": {
+    {
       "depended_on": [
         "frontend"
       ],
       "depended_on_directly": [
         "frontend"
-      ]
+      ],
+      "id": "cdn_helpers"
     },
-    "ci_reporter_test_unit": {
+    {
       "depended_on": [
         "frontend"
       ],
       "depended_on_directly": [
         "frontend"
-      ]
+      ],
+      "id": "ci_reporter_test_unit"
     },
-    "gelf": {
+    {
       "depended_on": [
         "frontend"
       ],
       "depended_on_directly": [
         "frontend"
-      ]
+      ],
+      "id": "gelf"
     },
-    "uk_postcode": {
+    {
       "depended_on": [
         "frontend",
         "smart-answers"
@@ -16682,9 +17090,10 @@
       "depended_on_directly": [
         "frontend",
         "smart-answers"
-      ]
+      ],
+      "id": "uk_postcode"
     },
-    "dalli": {
+    {
       "depended_on": [
         "government-frontend",
         "local-links-manager",
@@ -16696,9 +17105,10 @@
         "local-links-manager",
         "publishing-api",
         "whitehall"
-      ]
+      ],
+      "id": "dalli"
     },
-    "rails_translation_manager": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend",
@@ -16708,9 +17118,10 @@
         "government-frontend",
         "service-manual-frontend",
         "whitehall"
-      ]
+      ],
+      "id": "rails_translation_manager"
     },
-    "wraith": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend"
@@ -16718,18 +17129,20 @@
       "depended_on_directly": [
         "government-frontend",
         "service-manual-frontend"
-      ]
+      ],
+      "id": "wraith"
     },
-    "anemone": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "anemone"
     },
-    "image_size": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend",
@@ -16737,18 +17150,20 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "image_size"
     },
-    "log4r": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "log4r"
     },
-    "parallel": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend",
@@ -16756,18 +17171,20 @@
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "parallel"
     },
-    "robotex": {
+    {
       "depended_on": [
         "government-frontend",
         "service-manual-frontend"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "robotex"
     },
-    "elasticsearch": {
+    {
       "depended_on": [
         "govuk_need_api",
         "licence-finder",
@@ -16777,19 +17194,10 @@
         "govuk_need_api",
         "licence-finder",
         "rummager"
-      ]
-    },
-    "elasticsearch-api": {
-      "depended_on": [
-        "govuk_need_api",
-        "licence-finder",
-        "rummager"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "elasticsearch"
     },
-    "elasticsearch-transport": {
+    {
       "depended_on": [
         "govuk_need_api",
         "licence-finder",
@@ -16797,9 +17205,21 @@
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "elasticsearch-api"
     },
-    "responders": {
+    {
+      "depended_on": [
+        "govuk_need_api",
+        "licence-finder",
+        "rummager"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "elasticsearch-transport"
+    },
+    {
       "depended_on": [
         "hmrc-manuals-api",
         "imminence",
@@ -16811,9 +17231,10 @@
         "hmrc-manuals-api",
         "imminence",
         "whitehall"
-      ]
+      ],
+      "id": "responders"
     },
-    "rspec-collection_matchers": {
+    {
       "depended_on": [
         "hmrc-manuals-api",
         "support",
@@ -16825,35 +17246,39 @@
         "support",
         "support-api",
         "transition"
-      ]
+      ],
+      "id": "rspec-collection_matchers"
     },
-    "celluloid": {
+    {
       "depended_on": [
         "hmrc-manuals-api",
         "manuals-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "celluloid"
     },
-    "hitimes": {
+    {
       "depended_on": [
         "hmrc-manuals-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "hitimes"
     },
-    "timers": {
+    {
       "depended_on": [
         "hmrc-manuals-api",
         "manuals-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "timers"
     },
-    "formtastic": {
+    {
       "depended_on": [
         "imminence",
         "maslow",
@@ -16868,9 +17293,10 @@
         "publisher",
         "release",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "formtastic"
     },
-    "formtastic-bootstrap": {
+    {
       "depended_on": [
         "imminence",
         "maslow",
@@ -16886,9 +17312,10 @@
         "release",
         "support",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "formtastic-bootstrap"
     },
-    "inherited_resources": {
+    {
       "depended_on": [
         "imminence",
         "publisher"
@@ -16896,9 +17323,10 @@
       "depended_on_directly": [
         "imminence",
         "publisher"
-      ]
+      ],
+      "id": "inherited_resources"
     },
-    "kaminari-mongoid": {
+    {
       "depended_on": [
         "imminence",
         "publisher",
@@ -16908,9 +17336,10 @@
         "imminence",
         "publisher",
         "specialist-publisher"
-      ]
+      ],
+      "id": "kaminari-mongoid"
     },
-    "minitest-reporters": {
+    {
       "depended_on": [
         "imminence",
         "publisher"
@@ -16918,27 +17347,30 @@
       "depended_on_directly": [
         "imminence",
         "publisher"
-      ]
+      ],
+      "id": "minitest-reporters"
     },
-    "ansi": {
+    {
       "depended_on": [
         "imminence",
         "publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ansi"
     },
-    "has_scope": {
+    {
       "depended_on": [
         "imminence",
         "publisher"
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "has_scope"
     },
-    "rspec-its": {
+    {
       "depended_on": [
         "info-frontend",
         "support"
@@ -16946,9 +17378,10 @@
       "depended_on_directly": [
         "info-frontend",
         "support"
-      ]
+      ],
+      "id": "rspec-its"
     },
-    "activerecord-import": {
+    {
       "depended_on": [
         "link-checker-api",
         "transition"
@@ -16956,9 +17389,10 @@
       "depended_on_directly": [
         "link-checker-api",
         "transition"
-      ]
+      ],
+      "id": "activerecord-import"
     },
-    "deprecated_columns": {
+    {
       "depended_on": [
         "link-checker-api",
         "signon",
@@ -16968,65 +17402,73 @@
         "link-checker-api",
         "signon",
         "whitehall"
-      ]
+      ],
+      "id": "deprecated_columns"
     },
-    "rspec-sidekiq": {
+    {
       "depended_on": [
         "link-checker-api"
       ],
       "depended_on_directly": [
         "link-checker-api"
-      ]
+      ],
+      "id": "rspec-sidekiq"
     },
-    "sidekiq-scheduler": {
+    {
       "depended_on": [
         "link-checker-api"
       ],
       "depended_on_directly": [
         "link-checker-api"
-      ]
+      ],
+      "id": "sidekiq-scheduler"
     },
-    "sqlite3": {
+    {
       "depended_on": [
         "link-checker-api"
       ],
       "depended_on_directly": [
         "link-checker-api"
-      ]
+      ],
+      "id": "sqlite3"
     },
-    "et-orbi": {
+    {
       "depended_on": [
         "link-checker-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "et-orbi"
     },
-    "rufus-scheduler": {
+    {
       "depended_on": [
         "link-checker-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "rufus-scheduler"
     },
-    "capistrano-rails": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
         "local-links-manager"
-      ]
+      ],
+      "id": "capistrano-rails"
     },
-    "faraday_middleware": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
         "local-links-manager"
-      ]
+      ],
+      "id": "faraday_middleware"
     },
-    "gretel": {
+    {
       "depended_on": [
         "local-links-manager",
         "short-url-manager",
@@ -17038,97 +17480,109 @@
         "short-url-manager",
         "support",
         "transition"
-      ]
+      ],
+      "id": "gretel"
     },
-    "airbrussh": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "airbrussh"
     },
-    "capistrano": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "capistrano"
     },
-    "capistrano-bundler": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "capistrano-bundler"
     },
-    "capistrano-harrow": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "capistrano-harrow"
     },
-    "net-scp": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "net-scp"
     },
-    "net-ssh": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "net-ssh"
     },
-    "sshkit": {
+    {
       "depended_on": [
         "local-links-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "sshkit"
     },
-    "state_machine": {
+    {
       "depended_on": [
         "manuals-publisher"
       ],
       "depended_on_directly": [
         "manuals-publisher"
-      ]
+      ],
+      "id": "state_machine"
     },
-    "event-bus": {
+    {
       "depended_on": [
         "manuals-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "event-bus"
     },
-    "gherkin3": {
+    {
       "depended_on": [
         "manuals-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "gherkin3"
     },
-    "mustermann": {
+    {
       "depended_on": [
         "manuals-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "mustermann"
     },
-    "cancancan": {
+    {
       "depended_on": [
         "maslow",
         "support"
@@ -17136,17 +17590,19 @@
       "depended_on_directly": [
         "maslow",
         "support"
-      ]
+      ],
+      "id": "cancancan"
     },
-    "chosen-rails": {
+    {
       "depended_on": [
         "maslow"
       ],
       "depended_on_directly": [
         "maslow"
-      ]
+      ],
+      "id": "chosen-rails"
     },
-    "jasmine": {
+    {
       "depended_on": [
         "maslow",
         "publisher",
@@ -17164,67 +17620,37 @@
         "support",
         "transition",
         "travel-advice-publisher"
-      ]
+      ],
+      "id": "jasmine"
     },
-    "coffee-rails": {
+    {
       "depended_on": [
         "maslow"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "coffee-rails"
     },
-    "coffee-script": {
+    {
       "depended_on": [
         "maslow"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "coffee-script"
     },
-    "coffee-script-source": {
+    {
       "depended_on": [
         "maslow"
       ],
       "depended_on_directly": [
 
-      ]
-    },
-    "commander": {
-      "depended_on": [
-        "maslow",
-        "policy-publisher",
-        "publishing-api",
-        "specialist-publisher"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "coffee-script-source"
     },
-    "highline": {
-      "depended_on": [
-        "maslow",
-        "policy-publisher",
-        "publishing-api",
-        "service-manual-publisher",
-        "specialist-publisher"
-      ],
-      "depended_on_directly": [
-        "service-manual-publisher"
-      ]
-    },
-    "money": {
-      "depended_on": [
-        "maslow",
-        "policy-publisher",
-        "publishing-api",
-        "specialist-publisher"
-      ],
-      "depended_on_directly": [
-
-      ]
-    },
-    "selectize-rails": {
+    {
       "depended_on": [
         "policy-publisher",
         "publisher"
@@ -17232,18 +17658,20 @@
       "depended_on_directly": [
         "policy-publisher",
         "publisher"
-      ]
+      ],
+      "id": "selectize-rails"
     },
-    "sixarm_ruby_unaccent": {
+    {
       "depended_on": [
         "policy-publisher",
         "specialist-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "sixarm_ruby_unaccent"
     },
-    "diffy": {
+    {
       "depended_on": [
         "publisher",
         "publishing-api",
@@ -17255,17 +17683,10 @@
         "publishing-api",
         "service-manual-publisher",
         "travel-advice-publisher"
-      ]
-    },
-    "govuk_content_models": {
-      "depended_on": [
-        "publisher"
       ],
-      "depended_on_directly": [
-        "publisher"
-      ]
+      "id": "diffy"
     },
-    "momentjs-rails": {
+    {
       "depended_on": [
         "publisher",
         "release"
@@ -17273,25 +17694,28 @@
       "depended_on_directly": [
         "publisher",
         "release"
-      ]
+      ],
+      "id": "momentjs-rails"
     },
-    "mongoid-sadstory": {
+    {
       "depended_on": [
         "publisher"
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "mongoid-sadstory"
     },
-    "mousetrap-rails": {
+    {
       "depended_on": [
         "publisher"
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "mousetrap-rails"
     },
-    "nested_form": {
+    {
       "depended_on": [
         "publisher",
         "release"
@@ -17299,49 +17723,46 @@
       "depended_on_directly": [
         "publisher",
         "release"
-      ]
+      ],
+      "id": "nested_form"
     },
-    "rails_autolink": {
+    {
       "depended_on": [
         "publisher"
       ],
       "depended_on_directly": [
         "publisher"
-      ]
+      ],
+      "id": "rails_autolink"
     },
-    "reverse_markdown": {
+    {
       "depended_on": [
         "publisher"
       ],
       "depended_on_directly": [
         "publisher"
-      ]
-    },
-    "bson_ext": {
-      "depended_on": [
-        "publisher"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "reverse_markdown"
     },
-    "aws-sdk": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "aws-sdk"
     },
-    "colorize": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "colorize"
     },
-    "govuk_document_types": {
+    {
       "depended_on": [
         "publishing-api",
         "rummager"
@@ -17349,41 +17770,46 @@
       "depended_on_directly": [
         "publishing-api",
         "rummager"
-      ]
+      ],
+      "id": "govuk_document_types"
     },
-    "oj": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "oj"
     },
-    "oj_mimic_json": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "oj_mimic_json"
     },
-    "pact_broker-client": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "pact_broker-client"
     },
-    "sidekiq-unique-jobs": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "sidekiq-unique-jobs"
     },
-    "stackprof": {
+    {
       "depended_on": [
         "publishing-api",
         "whitehall"
@@ -17391,177 +17817,199 @@
       "depended_on_directly": [
         "publishing-api",
         "whitehall"
-      ]
+      ],
+      "id": "stackprof"
     },
-    "with_advisory_lock": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
         "publishing-api"
-      ]
+      ],
+      "id": "with_advisory_lock"
     },
-    "aws-sdk-core": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "aws-sdk-core"
     },
-    "aws-sdk-resources": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "aws-sdk-resources"
     },
-    "jmespath": {
+    {
       "depended_on": [
         "publishing-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "jmespath"
     },
-    "aws-ses": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
         "release"
-      ]
+      ],
+      "id": "aws-ses"
     },
-    "bootstrap3-datetimepicker-rails": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
         "release"
-      ]
+      ],
+      "id": "bootstrap3-datetimepicker-rails"
     },
-    "exception_notification": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
         "release"
-      ]
+      ],
+      "id": "exception_notification"
     },
-    "octokit": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
         "release"
-      ]
+      ],
+      "id": "octokit"
     },
-    "sawyer": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "sawyer"
     },
-    "xml-simple": {
+    {
       "depended_on": [
         "release"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "xml-simple"
     },
-    "govuk_message_queue_consumer": {
+    {
       "depended_on": [
         "rummager"
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "govuk_message_queue_consumer"
     },
-    "minitest-colorize": {
+    {
       "depended_on": [
         "rummager"
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "minitest-colorize"
     },
-    "rack-logstasher": {
+    {
       "depended_on": [
         "rummager"
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "rack-logstasher"
     },
-    "test-unit-minitest": {
+    {
       "depended_on": [
         "rummager"
       ],
       "depended_on_directly": [
         "rummager"
-      ]
+      ],
+      "id": "test-unit-minitest"
     },
-    "active_link_to": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "active_link_to"
     },
-    "auto_strip_attributes": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "auto_strip_attributes"
     },
-    "bullet": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "bullet"
     },
-    "fuubar": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "fuubar"
     },
-    "pry-nav": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "pry-nav"
     },
-    "pry-remote": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "pry-remote"
     },
-    "redcarpet": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
-      ]
+      ],
+      "id": "redcarpet"
     },
-    "rinku": {
+    {
       "depended_on": [
         "service-manual-publisher",
         "whitehall"
@@ -17569,97 +18017,109 @@
       "depended_on_directly": [
         "service-manual-publisher",
         "whitehall"
-      ]
+      ],
+      "id": "rinku"
     },
-    "uniform_notifier": {
+    {
       "depended_on": [
         "service-manual-publisher"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "uniform_notifier"
     },
-    "will_paginate_mongoid": {
+    {
       "depended_on": [
         "short-url-manager"
       ],
       "depended_on_directly": [
         "short-url-manager"
-      ]
+      ],
+      "id": "will_paginate_mongoid"
     },
-    "will_paginate": {
+    {
       "depended_on": [
         "short-url-manager"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "will_paginate"
     },
-    "activejob-retry": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "activejob-retry"
     },
-    "alphabetical_paginate": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "alphabetical_paginate"
     },
-    "capybara-email": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "capybara-email"
     },
-    "devise": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "devise"
     },
-    "devise-encryptable": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "devise-encryptable"
     },
-    "devise_invitable": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "devise_invitable"
     },
-    "devise_zxcvbn": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "devise_zxcvbn"
     },
-    "doorkeeper": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "doorkeeper"
     },
-    "pundit": {
+    {
       "depended_on": [
         "signon",
         "specialist-publisher"
@@ -17667,185 +18127,208 @@
       "depended_on_directly": [
         "signon",
         "specialist-publisher"
-      ]
+      ],
+      "id": "pundit"
     },
-    "rotp": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "rotp"
     },
-    "rqrcode": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "rqrcode"
     },
-    "test_after_commit": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "test_after_commit"
     },
-    "uuid": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
+      ],
+      "id": "uuid"
     },
-    "zeroclipboard-rails": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
         "signon"
-      ]
-    },
-    "bcrypt": {
-      "depended_on": [
-        "signon"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "zeroclipboard-rails"
     },
-    "chunky_png": {
-      "depended_on": [
-        "signon"
-      ],
-      "depended_on_directly": [
-
-      ]
-    },
-    "macaddr": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "bcrypt"
     },
-    "orm_adapter": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "chunky_png"
     },
-    "systemu": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "macaddr"
     },
-    "zxcvbn-ruby": {
+    {
       "depended_on": [
         "signon"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "orm_adapter"
     },
-    "minitest-focus": {
+    {
+      "depended_on": [
+        "signon"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "systemu"
+    },
+    {
+      "depended_on": [
+        "signon"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "zxcvbn-ruby"
+    },
+    {
       "depended_on": [
         "smart-answers"
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "minitest-focus"
     },
-    "rails_stdout_logging": {
+    {
       "depended_on": [
         "smart-answers"
       ],
       "depended_on_directly": [
         "smart-answers"
-      ]
+      ],
+      "id": "rails_stdout_logging"
     },
-    "capybara-webkit": {
+    {
       "depended_on": [
         "specialist-publisher"
       ],
       "depended_on_directly": [
         "specialist-publisher"
-      ]
+      ],
+      "id": "capybara-webkit"
     },
-    "actionpack-page_caching": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
         "static"
-      ]
+      ],
+      "id": "actionpack-page_caching"
     },
-    "govuk_template": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
         "static"
-      ]
+      ],
+      "id": "govuk_template"
     },
-    "image_optim": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
         "static"
-      ]
+      ],
+      "id": "image_optim"
     },
-    "minitest-capybara": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
         "static"
-      ]
-    },
-    "exifr": {
-      "depended_on": [
-        "static"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "minitest-capybara"
     },
-    "fspath": {
-      "depended_on": [
-        "static"
-      ],
-      "depended_on_directly": [
-
-      ]
-    },
-    "in_threads": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "exifr"
     },
-    "progress": {
+    {
       "depended_on": [
         "static"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "fspath"
     },
-    "gds_zendesk": {
+    {
+      "depended_on": [
+        "static"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "in_threads"
+    },
+    {
+      "depended_on": [
+        "static"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "progress"
+    },
+    {
       "depended_on": [
         "support",
         "support-api"
@@ -17853,289 +18336,325 @@
       "depended_on_directly": [
         "support",
         "support-api"
-      ]
+      ],
+      "id": "gds_zendesk"
     },
-    "jc-validates_timeliness": {
+    {
       "depended_on": [
         "support"
       ],
       "depended_on_directly": [
         "support"
-      ]
+      ],
+      "id": "jc-validates_timeliness"
     },
-    "inflection": {
+    {
       "depended_on": [
         "support",
         "support-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "inflection"
     },
-    "timeliness": {
+    {
       "depended_on": [
         "support"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "timeliness"
     },
-    "zendesk_api": {
+    {
       "depended_on": [
         "support",
         "support-api"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "zendesk_api"
     },
-    "user_agent_parser": {
+    {
       "depended_on": [
         "support-api"
       ],
       "depended_on_directly": [
         "support-api"
-      ]
+      ],
+      "id": "user_agent_parser"
     },
-    "activerecord-session_store": {
+    {
       "depended_on": [
         "transition"
       ],
       "depended_on_directly": [
         "transition"
-      ]
+      ],
+      "id": "activerecord-session_store"
     },
-    "acts-as-taggable-on": {
+    {
       "depended_on": [
         "transition"
       ],
       "depended_on_directly": [
         "transition"
-      ]
+      ],
+      "id": "acts-as-taggable-on"
     },
-    "babosa": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "babosa"
     },
-    "dotenv-rails": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "dotenv-rails"
     },
-    "globalize": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "globalize"
     },
-    "graphviz_transitions": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "graphviz_transitions"
     },
-    "isbn_validation": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "isbn_validation"
     },
-    "maxitest": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "maxitest"
     },
-    "mini_magick": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "mini_magick"
     },
-    "minitest-fail-fast": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "minitest-fail-fast"
     },
-    "newrelic_rpm": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "newrelic_rpm"
     },
-    "parallel_tests": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "parallel_tests"
     },
-    "pdf-reader": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "pdf-reader"
     },
-    "ruby-prof": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "ruby-prof"
     },
-    "sassc-rails": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "sassc-rails"
     },
-    "test-queue": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "test-queue"
     },
-    "test_track": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "test_track"
     },
-    "transitions": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "transitions"
     },
-    "typhoeus": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
+      ],
+      "id": "typhoeus"
     },
-    "validates_email_format_of": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
         "whitehall"
-      ]
-    },
-    "Ascii85": {
-      "depended_on": [
-        "whitehall"
       ],
-      "depended_on_directly": [
-
-      ]
+      "id": "validates_email_format_of"
     },
-    "afm": {
-      "depended_on": [
-        "whitehall"
-      ],
-      "depended_on_directly": [
-
-      ]
-    },
-    "dotenv": {
-      "depended_on": [
-        "whitehall"
-      ],
-      "depended_on_directly": [
-
-      ]
-    },
-    "ethon": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "Ascii85"
     },
-    "hashery": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "afm"
     },
-    "ruby-graphviz": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "dotenv"
     },
-    "ruby-rc4": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ethon"
     },
-    "sassc": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "hashery"
     },
-    "subexec": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ruby-graphviz"
     },
-    "ttfunk": {
+    {
       "depended_on": [
         "whitehall"
       ],
       "depended_on_directly": [
 
-      ]
+      ],
+      "id": "ruby-rc4"
+    },
+    {
+      "depended_on": [
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "sassc"
+    },
+    {
+      "depended_on": [
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "subexec"
+    },
+    {
+      "depended_on": [
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "ttfunk"
     }
-  }
+  ]
 }

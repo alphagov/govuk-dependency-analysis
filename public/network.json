@@ -18,7 +18,7 @@
     {
       "id": "calculators",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 32
     },
     {
       "id": "calendars",
@@ -43,7 +43,7 @@
     {
       "id": "content-performance-manager",
       "group": "applications",
-      "dependency_count": 37
+      "dependency_count": 39
     },
     {
       "id": "content-store",
@@ -93,7 +93,7 @@
     {
       "id": "government-frontend",
       "group": "applications",
-      "dependency_count": 32
+      "dependency_count": 33
     },
     {
       "id": "govuk_need_api",
@@ -153,7 +153,7 @@
     {
       "id": "publisher",
       "group": "applications",
-      "dependency_count": 57
+      "dependency_count": 58
     },
     {
       "id": "publishing-api",
@@ -203,7 +203,7 @@
     {
       "id": "smart-answers",
       "group": "applications",
-      "dependency_count": 42
+      "dependency_count": 50
     },
     {
       "id": "specialist-publisher",
@@ -238,7 +238,7 @@
     {
       "id": "whitehall",
       "group": "applications",
-      "dependency_count": 85
+      "dependency_count": 86
     },
     {
       "id": "airbrake",
@@ -303,7 +303,7 @@
     {
       "id": "nokogiri",
       "group": "gems",
-      "usage_count": 10
+      "usage_count": 11
     },
     {
       "id": "plek",
@@ -313,12 +313,12 @@
     {
       "id": "rack_strip_client_ip",
       "group": "gems",
-      "usage_count": 8
+      "usage_count": 9
     },
     {
       "id": "rails",
       "group": "gems",
-      "usage_count": 45
+      "usage_count": 44
     },
     {
       "id": "rspec-rails",
@@ -338,12 +338,32 @@
     {
       "id": "state_machines-mongoid",
       "group": "gems",
-      "usage_count": 3
+      "usage_count": 4
     },
     {
       "id": "unicorn",
       "group": "gems",
       "usage_count": 47
+    },
+    {
+      "id": "actionpack",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "actionview",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "activejob",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "activemodel",
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "activerecord",
@@ -353,7 +373,7 @@
     {
       "id": "activesupport",
       "group": "gems",
-      "usage_count": 1
+      "usage_count": 2
     },
     {
       "id": "arel",
@@ -378,7 +398,7 @@
     {
       "id": "faraday",
       "group": "gems",
-      "usage_count": 3
+      "usage_count": 4
     },
     {
       "id": "json",
@@ -412,6 +432,11 @@
     },
     {
       "id": "rails-html-sanitizer",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "railties",
       "group": "gems",
       "usage_count": 1
     },
@@ -458,12 +483,12 @@
     {
       "id": "sprockets-rails",
       "group": "gems",
-      "usage_count": 4
+      "usage_count": 5
     },
     {
       "id": "state_machines",
       "group": "gems",
-      "usage_count": 1
+      "usage_count": 2
     },
     {
       "id": "airbrake-ruby",
@@ -473,7 +498,7 @@
     {
       "id": "byebug",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 8
     },
     {
       "id": "rack-proxy",
@@ -528,7 +553,7 @@
     {
       "id": "listen",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 8
     },
     {
       "id": "slop",
@@ -568,7 +593,7 @@
     {
       "id": "govuk_ab_testing",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 6
     },
     {
       "id": "govuk_elements_rails",
@@ -596,6 +621,11 @@
       "usage_count": 27
     },
     {
+      "id": "rails-controller-testing",
+      "group": "gems",
+      "usage_count": 18
+    },
+    {
       "id": "sass-rails",
       "group": "gems",
       "usage_count": 34
@@ -606,6 +636,16 @@
       "usage_count": 16
     },
     {
+      "id": "spring",
+      "group": "gems",
+      "usage_count": 7
+    },
+    {
+      "id": "spring-watcher-listen",
+      "group": "gems",
+      "usage_count": 5
+    },
+    {
       "id": "timecop",
       "group": "gems",
       "usage_count": 24
@@ -614,6 +654,11 @@
       "id": "uglifier",
       "group": "gems",
       "usage_count": 35
+    },
+    {
+      "id": "web-console",
+      "group": "gems",
+      "usage_count": 11
     },
     {
       "id": "ci_reporter",
@@ -669,11 +714,6 @@
       "id": "mocha",
       "group": "gems",
       "usage_count": 15
-    },
-    {
-      "id": "rails-controller-testing",
-      "group": "gems",
-      "usage_count": 16
     },
     {
       "id": "rails-i18n",
@@ -823,12 +863,12 @@
     {
       "id": "govspeak",
       "group": "gems",
-      "usage_count": 12
+      "usage_count": 13
     },
     {
       "id": "mlanett-redis-lock",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 8
     },
     {
       "id": "paper_trail",
@@ -886,6 +926,11 @@
       "usage_count": 4
     },
     {
+      "id": "active_record_disabler",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "draper",
       "group": "gems",
       "usage_count": 1
@@ -921,19 +966,9 @@
       "usage_count": 1
     },
     {
-      "id": "spring",
-      "group": "gems",
-      "usage_count": 6
-    },
-    {
       "id": "spring-commands-rspec",
       "group": "gems",
       "usage_count": 2
-    },
-    {
-      "id": "spring-watcher-listen",
-      "group": "gems",
-      "usage_count": 4
     },
     {
       "id": "turbolinks",
@@ -941,9 +976,9 @@
       "usage_count": 1
     },
     {
-      "id": "web-console",
+      "id": "highline",
       "group": "gems",
-      "usage_count": 10
+      "usage_count": 1
     },
     {
       "id": "kaminari-actionview",
@@ -1216,11 +1251,6 @@
       "usage_count": 7
     },
     {
-      "id": "highline",
-      "group": "gems",
-      "usage_count": 1
-    },
-    {
       "id": "selectize-rails",
       "group": "gems",
       "usage_count": 2
@@ -1229,11 +1259,6 @@
       "id": "diffy",
       "group": "gems",
       "usage_count": 4
-    },
-    {
-      "id": "govuk_content_models",
-      "group": "gems",
-      "usage_count": 1
     },
     {
       "id": "momentjs-rails",
@@ -1867,7 +1892,15 @@
     },
     {
       "source": "calculators",
+      "target": "listen"
+    },
+    {
+      "source": "calculators",
       "target": "logstasher"
+    },
+    {
+      "source": "calculators",
+      "target": "nokogiri"
     },
     {
       "source": "calculators",
@@ -1891,6 +1924,10 @@
     },
     {
       "source": "calculators",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "calculators",
       "target": "rspec-rails"
     },
     {
@@ -1907,6 +1944,14 @@
     },
     {
       "source": "calculators",
+      "target": "spring"
+    },
+    {
+      "source": "calculators",
+      "target": "spring-watcher-listen"
+    },
+    {
+      "source": "calculators",
       "target": "timecop"
     },
     {
@@ -1916,6 +1961,10 @@
     {
       "source": "calculators",
       "target": "unicorn"
+    },
+    {
+      "source": "calculators",
+      "target": "web-console"
     },
     {
       "source": "calculators",
@@ -2423,6 +2472,10 @@
     },
     {
       "source": "content-performance-manager",
+      "target": "active_record_disabler"
+    },
+    {
+      "source": "content-performance-manager",
       "target": "airbrake"
     },
     {
@@ -2456,6 +2509,10 @@
     {
       "source": "content-performance-manager",
       "target": "google-api-client"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "govspeak"
     },
     {
       "source": "content-performance-manager",
@@ -3572,6 +3629,10 @@
     {
       "source": "government-frontend",
       "target": "pry-byebug"
+    },
+    {
+      "source": "government-frontend",
+      "target": "rack_strip_client_ip"
     },
     {
       "source": "government-frontend",
@@ -4927,10 +4988,6 @@
     },
     {
       "source": "publisher",
-      "target": "govuk_content_models"
-    },
-    {
-      "source": "publisher",
       "target": "govuk_sidekiq"
     },
     {
@@ -5064,6 +5121,14 @@
     {
       "source": "publisher",
       "target": "simplecov-rcov"
+    },
+    {
+      "source": "publisher",
+      "target": "state_machines"
+    },
+    {
+      "source": "publisher",
+      "target": "state_machines-mongoid"
     },
     {
       "source": "publisher",
@@ -6303,6 +6368,26 @@
     },
     {
       "source": "smart-answers",
+      "target": "actionpack"
+    },
+    {
+      "source": "smart-answers",
+      "target": "actionview"
+    },
+    {
+      "source": "smart-answers",
+      "target": "activejob"
+    },
+    {
+      "source": "smart-answers",
+      "target": "activemodel"
+    },
+    {
+      "source": "smart-answers",
+      "target": "activesupport"
+    },
+    {
+      "source": "smart-answers",
       "target": "airbrake"
     },
     {
@@ -6316,6 +6401,10 @@
     {
       "source": "smart-answers",
       "target": "binding_of_caller"
+    },
+    {
+      "source": "smart-answers",
+      "target": "byebug"
     },
     {
       "source": "smart-answers",
@@ -6411,7 +6500,7 @@
     },
     {
       "source": "smart-answers",
-      "target": "rails"
+      "target": "rails-controller-testing"
     },
     {
       "source": "smart-answers",
@@ -6420,6 +6509,10 @@
     {
       "source": "smart-answers",
       "target": "rails_stdout_logging"
+    },
+    {
+      "source": "smart-answers",
+      "target": "railties"
     },
     {
       "source": "smart-answers",
@@ -6440,6 +6533,10 @@
     {
       "source": "smart-answers",
       "target": "slimmer"
+    },
+    {
+      "source": "smart-answers",
+      "target": "sprockets-rails"
     },
     {
       "source": "smart-answers",
@@ -7395,6 +7492,10 @@
     },
     {
       "source": "whitehall",
+      "target": "faraday"
+    },
+    {
+      "source": "whitehall",
       "target": "friendly_id"
     },
     {
@@ -7420,10 +7521,6 @@
     {
       "source": "whitehall",
       "target": "govuk-lint"
-    },
-    {
-      "source": "whitehall",
-      "target": "govuk_ab_testing"
     },
     {
       "source": "whitehall",
@@ -7488,6 +7585,10 @@
     {
       "source": "whitehall",
       "target": "minitest-fail-fast"
+    },
+    {
+      "source": "whitehall",
+      "target": "mlanett-redis-lock"
     },
     {
       "source": "whitehall",
