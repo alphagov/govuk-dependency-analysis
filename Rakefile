@@ -21,6 +21,37 @@ class Gemfiles
   end
 end
 
+class Dependency
+  attr_reader :name, :depended_on_directly
+
+  def initialize(data)
+    @name = data["id"]
+    @depended_on_directly = data["depended_on_directly"]
+  end
+
+  def self.find(name)
+    all.find { |gem| gem.name == name }
+  end
+
+  def self.all
+    data = JSON.parse(File.read('public/matrix.json'))
+    data['gems'].map { |gem_data| Dependency.new(gem_data) }
+  end
+end
+
+class Application
+  attr_reader :name
+
+  def initialize(data)
+    @name = data["id"]
+  end
+
+  def self.all
+    data = JSON.parse(File.read('public/matrix.json'))
+    data['applications'].map { |app_data| Application.new(app_data) }
+  end
+end
+
 desc "Export the matrix as JSON for the network visualisation"
 task :export_network do
   output = { nodes: [], links: [] }
@@ -219,5 +250,21 @@ task :output_age_of_lagging_dependencies do
     average_age = cumul.reduce(&:+) / cumul.size.to_f
 
     puts "#{app_name} (#{cumul.size}) avg: #{average_age.to_i}, max: #{cumul.max}, min: #{cumul.min}"
+  end
+end
+
+task :competitors do
+  YAML.load_file("groups.yml").each do |group, gems|
+    puts "\n\n# #{group}"
+    d = []
+    gems.each do |gem|
+      deps = Dependency.find(gem)
+      puts "#{gem}: #{deps.depended_on_directly}"
+      d << deps.depended_on_directly
+    end
+
+    d.flatten!
+
+    # puts "others: #{Application.all.map(&:name) - d}"
   end
 end
