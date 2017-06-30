@@ -8,49 +8,9 @@ def counts(array)
   array.each_with_object(Hash.new(0)) { |el, counts| counts[el] += 1 }
 end
 
-class Gemfiles
-  def self.all
-    Dir.glob("cache/gemfiles/*").map do |filename|
-      appname = filename.gsub("cache/gemfiles/", "")
-
-      file = File.read(filename)
-      lockfile = Bundler::LockfileParser.new(file)
-
-      [appname, lockfile]
-    end
-  end
-end
-
-class Dependency
-  attr_reader :name, :depended_on_directly
-
-  def initialize(data)
-    @name = data["id"]
-    @depended_on_directly = data["depended_on_directly"]
-  end
-
-  def self.find(name)
-    all.find { |gem| gem.name == name }
-  end
-
-  def self.all
-    data = JSON.parse(File.read('public/matrix.json'))
-    data['gems'].map { |gem_data| Dependency.new(gem_data) }
-  end
-end
-
-class Application
-  attr_reader :name
-
-  def initialize(data)
-    @name = data["id"]
-  end
-
-  def self.all
-    data = JSON.parse(File.read('public/matrix.json'))
-    data['applications'].map { |app_data| Application.new(app_data) }
-  end
-end
+require_relative 'lib/gemfiles'
+require_relative 'lib/dependency'
+require_relative 'lib/application'
 
 desc "Export the matrix as JSON for the network visualisation"
 task :export_network do
