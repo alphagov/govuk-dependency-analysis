@@ -1,6 +1,7 @@
 require 'yaml'
 require 'json'
 require 'http'
+require 'grit'
 
 Version = Struct.new(:name, :version, :name_and_version)
 
@@ -12,6 +13,17 @@ require_relative 'lib/gemfiles'
 require_relative 'lib/dependency'
 require_relative 'lib/application'
 require_relative 'lib/base_data'
+
+desc "Fetch all gemfile.lock's"
+task :fetch_history do
+  repo = Grit::Repo.new("../whitehall")
+
+  `mkdir -p cache/gem-histories/whitehall`
+
+  repo.log('master', 'Gemfile.lock').reverse.each_with_index do |line, i|
+    puts `cd ../whitehall && git checkout #{line.sha} -- Gemfile.lock && cp Gemfile.lock ../diversion/cache/gem-histories/whitehall/gemfile-#{line.committed_date.to_i}`
+  end
+end
 
 desc "Export the matrix as JSON for the network visualisation"
 task :export_network do
