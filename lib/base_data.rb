@@ -1,4 +1,6 @@
 class BaseData
+  FILENAME = "public/matrix.json".freeze
+
   def self.generate
     gems = {}
     applications = []
@@ -31,6 +33,10 @@ class BaseData
       gems: gems_output,
     }
 
-    File.write("public/matrix.json", JSON.pretty_generate(output))
+    File.write(FILENAME, JSON.pretty_generate(output))
+  end
+
+  def self.get
+    JSON.parse(File.read(FILENAME))
   end
 end

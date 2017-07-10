@@ -6,7 +6,7 @@ class Application
   end
 
   def self.all
-    data = JSON.parse(File.read('../public/matrix.json'))
+    data = JSON.parse(File.read('public/matrix.json'))
     data['applications'].map { |app_data| Application.new(app_data) }
   end
 end
