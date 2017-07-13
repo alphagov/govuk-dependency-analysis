@@ -18,6 +18,10 @@ class Dependency
     @depended_on_directly ||= @data["depended_on_directly"].map { |gem| Application.find(gem) }
   end
 
+  def depended_on_indirectly
+    @depended_on_indirectly ||= (@data["depended_on"] - @data["depended_on_directly"]).map { |gem| Application.find(gem) }
+  end
+
   def self.find(name)
     all.find { |gem| gem.name == name }
   end

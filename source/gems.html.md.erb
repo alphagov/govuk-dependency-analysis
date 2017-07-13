@@ -1,13 +1,13 @@
-## Gems
+# Gems
 
 | Name | Used directly | Used indirectly |
 | --- | --- | --- |
 <% Dependency.all.each do |gem| %>
-| <%= link_to gem.name, "##{gem.name}" %> | <%= gem.depended_on.size %> | <%= gem.depended_on_directly.size %> |
+| <%= link_to gem.name, "##{gem.name}" %> | <%= gem.depended_on_directly.size %> | <%= gem.depended_on_indirectly.size %> |
 <% end %>
 
 <% Dependency.all.each do |gem| %>
-### <%= gem.name %>
+## <%= gem.name %>
 
 | Name |
 | --- |

@@ -14,6 +14,11 @@ require_relative 'lib/dependency'
 require_relative 'lib/application'
 require_relative 'lib/base_data'
 
+desc "Download the Gemfiles for the applications"
+task :download do
+  Gemfiles.download
+end
+
 desc "Fetch all gemfile.lock's"
 task :fetch_history do
   repo = Grit::Repo.new("../whitehall")
@@ -96,10 +101,6 @@ task :export_fragmentation do
   end
 
   File.write("public/fragmentation.json", JSON.pretty_generate(name: "versions", children: output))
-end
-
-task :download do
-  Gemfiles.download
 end
 
 task :download_versions do
