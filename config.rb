@@ -44,14 +44,14 @@ activate :syntax
 # Helpers
 ###
 
+require_relative 'app/base_data'
+require_relative 'app/stats'
+require_relative 'app/application'
+require_relative 'app/dependency'
+
 helpers do
   require 'table_of_contents/helpers'
   include TableOfContents::Helpers
-
-  require_relative 'lib/base_data'
-  require_relative 'lib/stats'
-  require_relative 'lib/application'
-  require_relative 'lib/dependency'
 
   def stats
     Stats.get
