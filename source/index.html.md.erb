@@ -8,36 +8,28 @@ title: GOV.UK dependencies
 
 We run **<%= stats[:application_count] %> Ruby applications**.
 
-| Name | Number of dependencies | Transitive dependencies |
-| --- | --- | --- |
+| Name | Number of dependencies | Transitive dependencies | Einzelgems |
+| --- | --- | --- | --- |
 <% Application.all.each do |app| %>
-| <%= link_to app.name, "##{app.name}" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> |
+| <%= link_to app.name, "##{app.name}" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> |
 <% end %>
 
 <% Application.all.each do |app| %>
 ### <%= app.name %>
 
+#### Direct dependencies
+
 | Name | Usage count |
 | --- | --- |
-<% app.dependencies.each do |gem| %>
+<% app.direct_dependencies.each do |gem| %>
 | <%= gem.name %> | <%= gem.depended_on.size %> |
 <% end %>
-<% end %>
 
-## Gems
-
-| Name | Used directly | Used indirectly |
-| --- | --- | --- |
-<% Dependency.all.each do |gem| %>
-| <%= link_to gem.name, "##{gem.name}" %> | <%= gem.depended_on.size %> | <%= gem.depended_on_directly.size %> |
-<% end %>
-
-<% Dependency.all.each do |gem| %>
-### <%= gem.name %>
+#### Einzelgems
 
 | Name |
 | --- |
-<% gem.depended_on.each do |app| %>
-| <%= link_to app.name, "##{app.name}" %> |
+<% app.einzelgems.each do |gem| %>
+| <%= gem.name %> |
 <% end %>
 <% end %>

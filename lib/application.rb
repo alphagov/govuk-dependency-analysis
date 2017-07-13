@@ -15,16 +15,28 @@ class Application
     all.find { |app| app.name == name }
   end
 
-  def direct_dependency_count
-    @data["direct_dependencies"].size
+  def einzelgem_count
+    einzelgems.size
   end
 
-  def dependency_count
-    @data["dependencies"].size
+  def einzelgems
+    dependencies.select(&:einzelgem?)
   end
 
   def dependencies
     @data["dependencies"].map { |dependency_name| Dependency.find(dependency_name) }
+  end
+
+  def dependency_count
+    dependencies.size
+  end
+
+  def direct_dependencies
+    @data["direct_dependencies"].map { |dependency_name| Dependency.find(dependency_name) }
+  end
+
+  def direct_dependency_count
+    direct_dependencies.size
   end
 
   def transitive_dependency_count
