@@ -1,5 +1,43 @@
 ---
-title: GOV.UK Documentation Example
+title: GOV.UK dependencies
 ---
 
-<%= partial 'documentation/index' %>
+# GOV.UK dependencies
+
+## Applications
+
+We run **<%= stats[:application_count] %> Ruby applications**.
+
+| Name | Number of dependencies | Transitive dependencies |
+| --- | --- | --- |
+<% Application.all.each do |app| %>
+| <%= link_to app.name, "##{app.name}" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> |
+<% end %>
+
+<% Application.all.each do |app| %>
+### <%= app.name %>
+
+| Name | Usage count |
+| --- | --- |
+<% app.dependencies.each do |gem| %>
+| <%= gem.name %> | <%= gem.depended_on.size %> |
+<% end %>
+<% end %>
+
+## Gems
+
+| Name | Used directly | Used indirectly |
+| --- | --- | --- |
+<% Dependency.all.each do |gem| %>
+| <%= link_to gem.name, "##{gem.name}" %> | <%= gem.depended_on.size %> | <%= gem.depended_on_directly.size %> |
+<% end %>
+
+<% Dependency.all.each do |gem| %>
+### <%= gem.name %>
+
+| Name |
+| --- |
+<% gem.depended_on.each do |app| %>
+| <%= link_to app.name, "##{app.name}" %> |
+<% end %>
+<% end %>

@@ -47,6 +47,15 @@ activate :syntax
 helpers do
   require 'table_of_contents/helpers'
   include TableOfContents::Helpers
+
+  require_relative 'lib/base_data'
+  require_relative 'lib/stats'
+  require_relative 'lib/application'
+  require_relative 'lib/dependency'
+
+  def stats
+    Stats.get
+  end
 end
 
 configure :build do
