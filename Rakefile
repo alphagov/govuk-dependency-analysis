@@ -9,10 +9,10 @@ def counts(array)
   array.each_with_object(Hash.new(0)) { |el, counts| counts[el] += 1 }
 end
 
-require_relative 'lib/gemfiles'
-require_relative 'lib/dependency'
-require_relative 'lib/application'
-require_relative 'lib/base_data'
+require_relative 'app/gemfiles'
+require_relative 'app/dependency'
+require_relative 'app/application'
+require_relative 'app/base_data'
 
 desc "Download the Gemfiles for the applications"
 task :download do
