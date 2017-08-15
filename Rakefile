@@ -131,28 +131,6 @@ task :generate_data do
   BaseData.generate
 end
 
-desc "Stats"
-task :stats do
-  Stats.get
-end
-
-task :solos do
-  puts Dependency.all.select { |d|
-    d.depended_on_directly.size == 1 && d.depended_on.size == 1
-  }.map(&:name).sort.size
-end
-
-task :yala do
-  output = {}
-
-  Dependency.all.each do |d|
-    output[d.depended_on.size] ||= 0
-    output[d.depended_on.size] = output[d.depended_on.size] + 1
-  end
-
-  puts output.map { |k,v| [k,v].join("\t") }.join("\n")
-end
-
 task :rubygems_version_info do
   begin
     sh "mkdir cache/gem-versions"
