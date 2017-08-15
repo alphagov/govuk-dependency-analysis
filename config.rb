@@ -25,9 +25,6 @@ page '/*.txt', layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
 
@@ -63,9 +60,13 @@ configure :build do
   activate :minify_javascript
 end
 
-###
-# Tech Docs-specific configuration
-###
+::Application.all.each do |app|
+  proxy "/apps/#{app.name}.html", "/templates/app_template.html", locals: { app: app }
+end
+
+Dependency.all.each do |gem|
+  proxy "/gems/#{gem.name}.html", "/templates/gem_template.html", locals: { gem: gem }
+end
 
 config[:tech_docs] = YAML.load_file('config/tech-docs.yml')
                          .with_indifferent_access

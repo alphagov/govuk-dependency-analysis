@@ -3,15 +3,5 @@
 | Name | Used directly | Used indirectly |
 | --- | --- | --- |
 <% Dependency.all.each do |gem| %>
-| <%= link_to gem.name, "##{gem.name}" %> | <%= gem.depended_on_directly.size %> | <%= gem.depended_on_indirectly.size %> |
-<% end %>
-
-<% Dependency.all.each do |gem| %>
-## <%= gem.name %>
-
-| Name |
-| --- |
-<% gem.depended_on.each do |app| %>
-| <%= link_to app.name, "##{app.name}" %> |
-<% end %>
+| <%= link_to gem.name, "/gems/#{gem.name}.html" %> | <%= gem.depended_on_directly.size %> | <%= gem.depended_on_indirectly.size %> |
 <% end %>

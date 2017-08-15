@@ -13,25 +13,5 @@ These depend on <%= stats[:dependency_count] %> gems.
 | Name | Number of dependencies | Transitive dependencies | Einzelgems |
 | --- | --- | --- | --- |
 <% Application.all.sort_by(&:transitive_dependency_count).reverse.each do |app| %>
-| <%= link_to app.name, "##{app.name}" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> |
-<% end %>
-
-<% Application.all.each do |app| %>
-### <%= app.name %>
-
-#### Direct dependencies
-
-| Name | Usage count |
-| --- | --- |
-<% app.direct_dependencies.each do |gem| %>
-| <%= link_to gem.name, "/gems.html##{gem.name}" %> | <%= gem.depended_on.size %> |
-<% end %>
-
-#### Einzelgems
-
-| Name |
-| --- |
-<% app.einzelgems.each do |gem| %>
-| <%= gem.name %> |
-<% end %>
+| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> |
 <% end %>

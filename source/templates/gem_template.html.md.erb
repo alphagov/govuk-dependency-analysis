@@ -1,0 +1,9 @@
+# <%= gem.name %>
+
+## Applications that depend on this gem
+
+| Name |
+| --- |
+<% gem.depended_on.each do |app| %>
+| <%= link_to app.name, "/apps/#{app.name}.html" %> |
+<% end %>
