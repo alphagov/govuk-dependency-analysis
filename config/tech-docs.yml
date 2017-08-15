@@ -10,6 +10,7 @@ phase: Alpha
 header_links:
   Apps: /
   Gems: /gems.html
+  Fragmentation: /fragmentation.html
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:

@@ -1,9 +1,12 @@
+---
+title: Fragmentation
+layout: core
+---
 
-<!DOCTYPE html>
-<meta charset="utf-8">
+<div id='thing'></div>
+
 <style>
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+#thing {
   margin: auto;
   position: relative;
   width: 1300px;
@@ -37,7 +40,7 @@ const margin = {top: 40, right: 10, bottom: 10, left: 10},
 
 const treemap = d3.treemap().size([width, height]);
 
-const div = d3.select("body").append("div")
+const div = d3.select("#thing").append("div")
     .style("position", "relative")
     .style("width", (width + margin.left + margin.right) + "px")
     .style("height", (height + margin.top + margin.bottom) + "px")
