@@ -4,6 +4,7 @@
       "id": "asset-manager",
       "direct_dependencies": [
         "airbrake",
+        "aws-sdk",
         "carrierwave",
         "carrierwave-mongoid",
         "database_cleaner",
@@ -36,12 +37,15 @@
         "airbrake",
         "arel",
         "ast",
+        "aws-sdk",
+        "aws-sdk-core",
+        "aws-sdk-resources",
+        "aws-sigv4",
         "bson",
         "builder",
         "carrierwave",
         "carrierwave-mongoid",
         "concurrent-ruby",
-        "connection_pool",
         "database_cleaner",
         "delayed_job",
         "delayed_job_mongoid",
@@ -56,6 +60,7 @@
         "govuk-lint",
         "hashie",
         "i18n",
+        "jmespath",
         "json",
         "jwt",
         "kgio",
@@ -66,11 +71,11 @@
         "mime-types",
         "mini_portile",
         "minitest",
+        "mongo",
         "mongoid",
         "mongoid-compatibility",
         "mongoid-grid_fs",
         "mongoid_paranoia",
-        "moped",
         "multi_json",
         "multi_xml",
         "multipart-post",
@@ -79,8 +84,8 @@
         "omniauth",
         "omniauth-gds",
         "omniauth-oauth2",
-        "optionable",
         "origin",
+        "parallel",
         "parser",
         "plek",
         "powerpack",
@@ -127,10 +132,9 @@
     {
       "id": "authenticating-proxy",
       "direct_dependencies": [
-        "airbrake",
-        "airbrake-ruby",
         "byebug",
         "gds-sso",
+        "govuk_app_config",
         "logstasher",
         "mongoid",
         "plek",
@@ -153,8 +157,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "bson",
         "builder",
@@ -167,6 +169,7 @@
         "faraday",
         "gds-sso",
         "globalid",
+        "govuk_app_config",
         "hashdiff",
         "hashie",
         "i18n",
@@ -210,11 +213,13 @@
         "rspec-rails",
         "rspec-support",
         "safe_yaml",
+        "sentry-raven",
         "simplecov",
         "simplecov-html",
         "simplecov-rcov",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tzinfo",
@@ -230,9 +235,9 @@
       "id": "bouncer",
       "direct_dependencies": [
         "activerecord",
-        "airbrake",
         "database_cleaner",
         "erubis",
+        "govuk_app_config",
         "mr-sparkle",
         "nokogiri",
         "optic14n",
@@ -249,15 +254,15 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
-        "builder",
         "coderay",
         "concurrent-ruby",
         "database_cleaner",
         "diff-lcs",
         "erubis",
+        "faraday",
         "ffi",
+        "govuk_app_config",
         "i18n",
         "kgio",
         "listen",
@@ -265,7 +270,7 @@
         "mini_portile2",
         "minitest",
         "mr-sparkle",
-        "multi_json",
+        "multipart-post",
         "nokogiri",
         "optic14n",
         "pg",
@@ -282,7 +287,9 @@
         "rspec-expectations",
         "rspec-mocks",
         "rspec-support",
+        "sentry-raven",
         "slop",
+        "statsd-ruby",
         "thread_safe",
         "tzinfo",
         "unicorn"
@@ -591,7 +598,6 @@
     {
       "id": "collections",
       "direct_dependencies": [
-        "airbrake",
         "better_errors",
         "binding_of_caller",
         "capybara",
@@ -599,6 +605,7 @@
         "gds-api-adapters",
         "govuk-lint",
         "govuk_ab_testing",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "govuk_schemas",
@@ -614,7 +621,6 @@
         "simplecov",
         "simplecov-rcov",
         "slimmer",
-        "statsd-ruby",
         "uglifier",
         "unicorn",
         "webmock"
@@ -630,7 +636,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "better_errors",
@@ -650,16 +655,20 @@
         "diff-lcs",
         "docile",
         "domain_name",
+        "erubi",
         "erubis",
         "execjs",
+        "faraday",
         "gds-api-adapters",
         "gherkin",
         "globalid",
         "govuk-lint",
         "govuk_ab_testing",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "govuk_schemas",
+        "hashdiff",
         "http-cookie",
         "i18n",
         "jasmine-core",
@@ -677,16 +686,19 @@
         "method_source",
         "mime-types",
         "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "minitest-spec-rails",
         "mocha",
         "multi_json",
         "multi_test",
+        "multipart-post",
         "netrc",
         "nio4r",
         "nokogiri",
         "null_logger",
+        "parallel",
         "parser",
         "phantomjs",
         "plek",
@@ -712,6 +724,7 @@
         "sass",
         "sass-rails",
         "scss_lint",
+        "sentry-raven",
         "simplecov",
         "simplecov-html",
         "simplecov-rcov",
@@ -739,7 +752,6 @@
       "id": "collections-publisher",
       "direct_dependencies": [
         "aasm",
-        "airbrake",
         "better_errors",
         "binding_of_caller",
         "byebug",
@@ -752,6 +764,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "logstasher",
         "mysql2",
@@ -781,7 +794,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -812,6 +824,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "hashdiff",
         "hashie",
@@ -877,6 +890,7 @@
         "sass-rails",
         "scss_lint",
         "select2-rails",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-statsd",
@@ -907,7 +921,6 @@
       "id": "contacts-admin",
       "direct_dependencies": [
         "active_hash",
-        "airbrake",
         "ancestry",
         "better_errors",
         "binding_of_caller",
@@ -922,6 +935,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "json-schema",
         "lrucache",
@@ -960,7 +974,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "ancestry",
         "arel",
         "ast",
@@ -1000,6 +1013,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "hashdiff",
         "hashie",
@@ -1072,6 +1086,7 @@
         "scss_lint",
         "searchlight",
         "select2-rails",
+        "sentry-raven",
         "shoulda-matchers",
         "simple_form",
         "simplecov",
@@ -1080,6 +1095,7 @@
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "therubyracer",
         "thin",
         "thor",
@@ -1105,12 +1121,17 @@
       "id": "content-performance-manager",
       "direct_dependencies": [
         "active_record_disabler",
+        "activerecord-import",
         "airbrake",
+        "better_errors",
+        "binding_of_caller",
         "byebug",
         "capybara",
+        "coffee-script",
         "database_cleaner",
         "draper",
         "factory_girl_rails",
+        "feature",
         "gds-api-adapters",
         "gds-sso",
         "google-api-client",
@@ -1137,9 +1158,11 @@
         "rspec-rails",
         "sass-rails",
         "selectize-rails",
+        "simplecov",
         "spring",
         "spring-commands-rspec",
         "spring-watcher-listen",
+        "teaspoon-jasmine",
         "timecop",
         "turbolinks",
         "uglifier",
@@ -1158,27 +1181,34 @@
         "activemodel",
         "activemodel-serializers-xml",
         "activerecord",
+        "activerecord-import",
         "activesupport",
         "addressable",
         "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
+        "better_errors",
         "bindex",
+        "binding_of_caller",
         "bootstrap-sass",
         "builder",
         "byebug",
         "capybara",
         "cliver",
         "coderay",
+        "coffee-script",
+        "coffee-script-source",
         "commander",
         "concurrent-ruby",
         "connection_pool",
         "crack",
         "database_cleaner",
+        "debug_inspector",
         "declarative",
         "declarative-option",
         "diff-lcs",
+        "docile",
         "domain_name",
         "draper",
         "erubi",
@@ -1186,6 +1216,7 @@
         "factory_girl",
         "factory_girl_rails",
         "faraday",
+        "feature",
         "ffi",
         "formatador",
         "gds-api-adapters",
@@ -1210,6 +1241,7 @@
         "i18n",
         "jbuilder",
         "jquery-rails",
+        "json",
         "jwt",
         "kaminari",
         "kaminari-actionview",
@@ -1231,6 +1263,7 @@
         "method_source",
         "mime-types",
         "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "money",
@@ -1248,6 +1281,7 @@
         "omniauth-gds",
         "omniauth-oauth2",
         "os",
+        "parallel",
         "parser",
         "pg",
         "phantomjs",
@@ -1299,6 +1333,8 @@
         "sidekiq-logging-json",
         "sidekiq-statsd",
         "signet",
+        "simplecov",
+        "simplecov-html",
         "slop",
         "spring",
         "spring-commands-rspec",
@@ -1306,6 +1342,8 @@
         "sprockets",
         "sprockets-rails",
         "statsd-ruby",
+        "teaspoon",
+        "teaspoon-jasmine",
         "thor",
         "thread_safe",
         "tilt",
@@ -1331,14 +1369,13 @@
     {
       "id": "content-store",
       "direct_dependencies": [
-        "airbrake",
-        "airbrake-ruby",
         "ci_reporter_rspec",
         "database_cleaner",
         "factory_girl",
         "gds-api-adapters",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_app_config",
         "hashdiff",
         "logstasher",
         "mongoid",
@@ -1368,8 +1405,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "ast",
         "awesome_print",
@@ -1388,11 +1423,13 @@
         "domain_name",
         "erubi",
         "factory_girl",
+        "faraday",
         "find_a_port",
         "gds-api-adapters",
         "globalid",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_app_config",
         "hashdiff",
         "http-cookie",
         "i18n",
@@ -1414,6 +1451,7 @@
         "mongoid",
         "mongoid_rails_migrations",
         "multi_json",
+        "multipart-post",
         "netrc",
         "nio4r",
         "nokogiri",
@@ -1421,6 +1459,7 @@
         "pact",
         "pact-mock_service",
         "pact-support",
+        "parallel",
         "parser",
         "plek",
         "powerpack",
@@ -1449,6 +1488,7 @@
         "safe_yaml",
         "sass",
         "scss_lint",
+        "sentry-raven",
         "simplecov",
         "simplecov-html",
         "simplecov-rcov",
@@ -1477,12 +1517,10 @@
     {
       "id": "content-tagger",
       "direct_dependencies": [
-        "airbrake",
         "awesome_print",
         "better_errors",
         "bootstrap-kaminari-views",
         "capybara",
-        "chartkick",
         "database_cleaner",
         "factory_girl_rails",
         "gds-api-adapters",
@@ -1490,6 +1528,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "govuk_taxonomy_helpers",
         "headless",
@@ -1500,6 +1539,7 @@
         "plek",
         "poltergeist",
         "pry-byebug",
+        "rack-proxy",
         "rails",
         "rspec-rails",
         "sass-rails",
@@ -1523,7 +1563,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -1535,7 +1574,6 @@
         "builder",
         "byebug",
         "capybara",
-        "chartkick",
         "cliver",
         "coderay",
         "concurrent-ruby",
@@ -1556,6 +1594,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "govuk_taxonomy_helpers",
         "hashdiff",
@@ -1602,6 +1641,7 @@
         "rack",
         "rack-cache",
         "rack-protection",
+        "rack-proxy",
         "rack-test",
         "rails",
         "rails-dom-testing",
@@ -1626,6 +1666,7 @@
         "sass-rails",
         "scss_lint",
         "select2-rails",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-statsd",
@@ -1757,12 +1798,12 @@
     {
       "id": "email-alert-api",
       "direct_dependencies": [
-        "airbrake",
         "equivalent-xml",
         "factory_girl_rails",
         "faraday",
         "foreman",
         "gds-api-adapters",
+        "govuk_app_config",
         "listen",
         "logstasher",
         "nokogiri",
@@ -1790,8 +1831,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "builder",
         "byebug",
@@ -1810,6 +1849,7 @@
         "foreman",
         "gds-api-adapters",
         "globalid",
+        "govuk_app_config",
         "hashdiff",
         "http-cookie",
         "i18n",
@@ -1859,6 +1899,7 @@
         "rspec-support",
         "ruby_dep",
         "safe_yaml",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-statsd",
@@ -1880,20 +1921,19 @@
     {
       "id": "email-alert-frontend",
       "direct_dependencies": [
-        "airbrake",
         "better_errors",
         "binding_of_caller",
         "cucumber-rails",
         "decent_exposure",
         "gds-api-adapters",
         "govuk-content-schema-test-helpers",
+        "govuk_app_config",
         "govuk_elements_rails",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "launchy",
         "plek",
         "pry-byebug",
-        "quiet_assets",
         "rails",
         "rspec-rails",
         "sass-rails",
@@ -1905,6 +1945,7 @@
       ],
       "dependencies": [
         "PriorityQueue",
+        "actioncable",
         "actionmailer",
         "actionpack",
         "actionview",
@@ -1913,7 +1954,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "better_errors",
         "binding_of_caller",
@@ -1931,15 +1971,19 @@
         "decent_exposure",
         "diff-lcs",
         "domain_name",
-        "erubis",
+        "erubi",
         "execjs",
+        "faraday",
+        "ffi",
         "gds-api-adapters",
         "gherkin",
         "globalid",
         "govuk-content-schema-test-helpers",
+        "govuk_app_config",
         "govuk_elements_rails",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
+        "hashdiff",
         "http-cookie",
         "i18n",
         "json",
@@ -1953,27 +1997,30 @@
         "method_source",
         "mime-types",
         "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "multi_json",
         "multi_test",
+        "multipart-post",
         "netrc",
+        "nio4r",
         "nokogiri",
         "null_logger",
         "plek",
         "pry",
         "pry-byebug",
-        "quiet_assets",
         "rack",
         "rack-cache",
         "rack-test",
         "rails",
-        "rails-deprecated_sanitizer",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "railties",
         "raindrops",
         "rake",
+        "rb-fsevent",
+        "rb-inotify",
         "rest-client",
         "rspec-core",
         "rspec-expectations",
@@ -1982,11 +2029,14 @@
         "rspec-support",
         "safe_yaml",
         "sass",
+        "sass-listen",
         "sass-rails",
+        "sentry-raven",
         "slimmer",
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tilt",
@@ -1997,15 +2047,17 @@
         "unf_ext",
         "unicorn",
         "webmock",
+        "websocket-driver",
+        "websocket-extensions",
         "xpath"
       ]
     },
     {
       "id": "email-alert-service",
       "direct_dependencies": [
-        "airbrake",
         "bunny",
         "gds-api-adapters",
+        "govuk_app_config",
         "govuk_schemas",
         "plek",
         "pry-byebug",
@@ -2020,19 +2072,18 @@
       "dependencies": [
         "PriorityQueue",
         "addressable",
-        "airbrake",
         "amq-protocol",
-        "builder",
         "bunny",
         "byebug",
         "coderay",
-        "columnize",
         "crack",
-        "debugger-linecache",
         "diff-lcs",
         "domain_name",
+        "faraday",
         "gds-api-adapters",
+        "govuk_app_config",
         "govuk_schemas",
+        "hashdiff",
         "http-cookie",
         "json-schema",
         "link_header",
@@ -2040,7 +2091,7 @@
         "method_source",
         "mime-types",
         "mime-types-data",
-        "multi_json",
+        "multipart-post",
         "netrc",
         "null_logger",
         "plek",
@@ -2057,7 +2108,9 @@
         "rspec-mocks",
         "rspec-support",
         "safe_yaml",
+        "sentry-raven",
         "slop",
+        "statsd-ruby",
         "unf",
         "unf_ext",
         "webmock"
@@ -2067,6 +2120,7 @@
       "id": "feedback",
       "direct_dependencies": [
         "airbrake",
+        "asset_bom_removal-rails",
         "capybara",
         "ci_reporter_rspec",
         "gds-api-adapters",
@@ -2106,6 +2160,7 @@
         "addressable",
         "airbrake",
         "arel",
+        "asset_bom_removal-rails",
         "ast",
         "builder",
         "byebug",
@@ -2231,6 +2286,7 @@
         "gds-api-adapters",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_ab_testing",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "jasmine-rails",
@@ -2281,6 +2337,7 @@
         "diff-lcs",
         "docile",
         "domain_name",
+        "erubi",
         "erubis",
         "execjs",
         "gds-api-adapters",
@@ -2288,6 +2345,7 @@
         "globalid",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_ab_testing",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "http-cookie",
@@ -2307,6 +2365,7 @@
         "method_source",
         "mime-types",
         "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "multi_json",
@@ -2373,6 +2432,7 @@
       "direct_dependencies": [
         "addressable",
         "airbrake",
+        "asset_bom_removal-rails",
         "better_errors",
         "binding_of_caller",
         "capybara",
@@ -2428,6 +2488,7 @@
         "addressable",
         "airbrake",
         "arel",
+        "asset_bom_removal-rails",
         "ast",
         "better_errors",
         "binding_of_caller",
@@ -2552,7 +2613,7 @@
       "id": "government-frontend",
       "direct_dependencies": [
         "airbrake",
-        "airbrake-ruby",
+        "asset_bom_removal-rails",
         "better_errors",
         "binding_of_caller",
         "capybara",
@@ -2560,9 +2621,9 @@
         "gds-api-adapters",
         "govuk-lint",
         "govuk_ab_testing",
-        "govuk_elements_rails",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
+        "govuk_publishing_components",
         "govuk_schemas",
         "htmlentities",
         "jasmine-rails",
@@ -2596,9 +2657,9 @@
         "activesupport",
         "addressable",
         "airbrake",
-        "airbrake-ruby",
         "anemone",
         "arel",
+        "asset_bom_removal-rails",
         "ast",
         "better_errors",
         "binding_of_caller",
@@ -2607,21 +2668,24 @@
         "capybara",
         "cliver",
         "coderay",
+        "commander",
         "concurrent-ruby",
         "crack",
         "dalli",
         "debug_inspector",
         "domain_name",
-        "erubis",
+        "erubi",
         "execjs",
         "gds-api-adapters",
         "globalid",
+        "govspeak",
         "govuk-lint",
         "govuk_ab_testing",
-        "govuk_elements_rails",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
+        "govuk_publishing_components",
         "govuk_schemas",
+        "highline",
         "htmlentities",
         "http-cookie",
         "i18n",
@@ -2631,6 +2695,7 @@
         "json",
         "json-schema",
         "kgio",
+        "kramdown",
         "link_header",
         "log4r",
         "logstash-event",
@@ -2642,9 +2707,12 @@
         "method_source",
         "mime-types",
         "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "mocha",
+        "money",
+        "multi_json",
         "netrc",
         "nio4r",
         "nokogiri",
@@ -2652,7 +2720,6 @@
         "parallel",
         "parser",
         "phantomjs",
-        "pkg-config",
         "plek",
         "poltergeist",
         "powerpack",
@@ -2678,6 +2745,7 @@
         "rubocop",
         "ruby-progressbar",
         "safe_yaml",
+        "sanitize",
         "sass",
         "sass-rails",
         "scss_lint",
@@ -2700,153 +2768,6 @@
         "websocket-extensions",
         "wraith",
         "xpath"
-      ]
-    },
-    {
-      "id": "govuk_need_api",
-      "direct_dependencies": [
-        "airbrake",
-        "database_cleaner",
-        "elasticsearch",
-        "factory_girl_rails",
-        "gds-api-adapters",
-        "gds-sso",
-        "govuk-lint",
-        "kaminari",
-        "link_header",
-        "listen",
-        "logstasher",
-        "mlanett-redis-lock",
-        "mocha",
-        "mongoid",
-        "mongoid_rails_migrations",
-        "plek",
-        "rails",
-        "shoulda",
-        "shoulda-matchers",
-        "spring",
-        "spring-watcher-listen",
-        "test-unit",
-        "unicorn",
-        "web-console",
-        "webmock",
-        "whenever"
-      ],
-      "dependencies": [
-        "PriorityQueue",
-        "actioncable",
-        "actionmailer",
-        "actionpack",
-        "actionview",
-        "activejob",
-        "activemodel",
-        "activerecord",
-        "activesupport",
-        "addressable",
-        "airbrake",
-        "arel",
-        "ast",
-        "bindex",
-        "bson",
-        "builder",
-        "chronic",
-        "concurrent-ruby",
-        "crack",
-        "database_cleaner",
-        "domain_name",
-        "elasticsearch",
-        "elasticsearch-api",
-        "elasticsearch-transport",
-        "erubis",
-        "factory_girl",
-        "factory_girl_rails",
-        "faraday",
-        "ffi",
-        "gds-api-adapters",
-        "gds-sso",
-        "globalid",
-        "govuk-lint",
-        "hashdiff",
-        "hashie",
-        "http-cookie",
-        "i18n",
-        "jwt",
-        "kaminari",
-        "kgio",
-        "link_header",
-        "listen",
-        "logstash-event",
-        "logstasher",
-        "loofah",
-        "lrucache",
-        "mail",
-        "metaclass",
-        "method_source",
-        "mime-types",
-        "mime-types-data",
-        "mini_portile2",
-        "minitest",
-        "mlanett-redis-lock",
-        "mocha",
-        "mongo",
-        "mongoid",
-        "mongoid_rails_migrations",
-        "multi_json",
-        "multi_xml",
-        "multipart-post",
-        "netrc",
-        "nio4r",
-        "nokogiri",
-        "null_logger",
-        "oauth2",
-        "omniauth",
-        "omniauth-gds",
-        "omniauth-oauth2",
-        "parser",
-        "plek",
-        "power_assert",
-        "powerpack",
-        "rack",
-        "rack-cache",
-        "rack-test",
-        "rails",
-        "rails-dom-testing",
-        "rails-html-sanitizer",
-        "railties",
-        "rainbow",
-        "raindrops",
-        "rake",
-        "rb-fsevent",
-        "rb-inotify",
-        "redis",
-        "rest-client",
-        "rubocop",
-        "ruby-progressbar",
-        "safe_yaml",
-        "sass",
-        "scss_lint",
-        "shoulda",
-        "shoulda-context",
-        "shoulda-matchers",
-        "spring",
-        "spring-watcher-listen",
-        "sprockets",
-        "sprockets-rails",
-        "test-unit",
-        "thor",
-        "thread_safe",
-        "tzinfo",
-        "unf",
-        "unf_ext",
-        "unicode-display_width",
-        "unicorn",
-        "warden",
-        "warden-oauth2",
-        "web-console",
-        "webmock",
-        "websocket-driver",
-        "websocket-extensions",
-        "whenever"
       ]
     },
     {
@@ -3209,6 +3130,7 @@
       "id": "info-frontend",
       "direct_dependencies": [
         "airbrake",
+        "asset_bom_removal-rails",
         "capybara",
         "ci_reporter_rspec",
         "gds-api-adapters",
@@ -3240,6 +3162,7 @@
         "addressable",
         "airbrake",
         "arel",
+        "asset_bom_removal-rails",
         "ast",
         "builder",
         "capybara",
@@ -3329,7 +3252,6 @@
     {
       "id": "licence-finder",
       "direct_dependencies": [
-        "airbrake",
         "capybara",
         "database_cleaner",
         "elasticsearch",
@@ -3337,6 +3259,7 @@
         "gds-api-adapters",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "logstasher",
@@ -3363,7 +3286,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "bson",
@@ -3388,6 +3310,7 @@
         "globalid",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_navigation_helpers",
         "hashdiff",
@@ -3417,7 +3340,6 @@
         "null_logger",
         "origin",
         "parser",
-        "pkg-config",
         "plek",
         "poltergeist",
         "powerpack",
@@ -3447,10 +3369,12 @@
         "sass",
         "sass-rails",
         "scss_lint",
+        "sentry-raven",
         "slimmer",
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tilt",
@@ -3470,7 +3394,6 @@
       "id": "link-checker-api",
       "direct_dependencies": [
         "activerecord-import",
-        "airbrake",
         "byebug",
         "database_cleaner",
         "deprecated_columns",
@@ -3478,6 +3401,7 @@
         "faraday",
         "gds-sso",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_sidekiq",
         "listen",
         "logstasher",
@@ -3488,6 +3412,7 @@
         "rspec-rails",
         "rspec-sidekiq",
         "sidekiq-scheduler",
+        "sidekiq-unique-jobs",
         "simplecov",
         "simplecov-rcov",
         "sqlite3",
@@ -3508,7 +3433,6 @@
         "activerecord-import",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "binding_of_caller",
@@ -3534,6 +3458,7 @@
         "gds-sso",
         "globalid",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_sidekiq",
         "hashdiff",
         "hashie",
@@ -3565,6 +3490,7 @@
         "omniauth",
         "omniauth-gds",
         "omniauth-oauth2",
+        "parallel",
         "parser",
         "pg",
         "plek",
@@ -3601,10 +3527,12 @@
         "safe_yaml",
         "sass",
         "scss_lint",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-scheduler",
         "sidekiq-statsd",
+        "sidekiq-unique-jobs",
         "simplecov",
         "simplecov-html",
         "simplecov-rcov",
@@ -3960,7 +3888,6 @@
     {
       "id": "manuals-publisher",
       "direct_dependencies": [
-        "airbrake",
         "awesome_print",
         "better_errors",
         "binding_of_caller",
@@ -3976,6 +3903,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "jasmine-rails",
         "launchy",
@@ -4012,7 +3940,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -4025,6 +3952,11 @@
         "byebug",
         "capybara",
         "celluloid",
+        "celluloid-essentials",
+        "celluloid-extras",
+        "celluloid-fsm",
+        "celluloid-pool",
+        "celluloid-supervision",
         "cliver",
         "coderay",
         "concurrent-ruby",
@@ -4040,7 +3972,6 @@
         "docile",
         "domain_name",
         "erubi",
-        "erubis",
         "event-bus",
         "execjs",
         "factory_girl",
@@ -4056,9 +3987,11 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "hashdiff",
         "hashie",
+        "hitimes",
         "htmlentities",
         "http-cookie",
         "i18n",
@@ -4079,6 +4012,8 @@
         "mail",
         "method_source",
         "mime-types",
+        "mime-types-data",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "mongo",
@@ -4097,6 +4032,7 @@
         "omniauth",
         "omniauth-gds",
         "omniauth-oauth2",
+        "parallel",
         "parser",
         "phantomjs",
         "plek",
@@ -4131,6 +4067,7 @@
         "sass",
         "sass-rails",
         "scss_lint",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-statsd",
         "simplecov",
@@ -4335,7 +4272,6 @@
     {
       "id": "policy-publisher",
       "direct_dependencies": [
-        "airbrake",
         "cucumber-rails",
         "database_cleaner",
         "factory_girl",
@@ -4346,6 +4282,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "jquery-ui-rails",
         "launchy",
         "pg",
@@ -4373,7 +4310,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -4408,6 +4344,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "hashdiff",
         "hashie",
         "highline",
@@ -4474,10 +4411,12 @@
         "sass-rails",
         "scss_lint",
         "selectize-rails",
+        "sentry-raven",
         "sixarm_ruby_unaccent",
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tilt",
@@ -4734,8 +4673,6 @@
     {
       "id": "publishing-api",
       "direct_dependencies": [
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "aws-sdk",
         "bunny",
@@ -4749,6 +4686,7 @@
         "gds-sso",
         "govspeak",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_document_types",
         "govuk_schemas",
         "govuk_sidekiq",
@@ -4791,8 +4729,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "amq-protocol",
         "arel",
         "ast",
@@ -4828,6 +4764,7 @@
         "globalid",
         "govspeak",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_document_types",
         "govuk_schemas",
         "govuk_sidekiq",
@@ -4908,6 +4845,7 @@
         "sanitize",
         "sass",
         "scss_lint",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-statsd",
@@ -4946,8 +4884,6 @@
     {
       "id": "release",
       "direct_dependencies": [
-        "airbrake",
-        "airbrake-ruby",
         "aws-ses",
         "better_errors",
         "binding_of_caller",
@@ -4964,6 +4900,7 @@
         "gds-sso",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "logstasher",
         "minitest",
         "mocha",
@@ -4997,8 +4934,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
-        "airbrake-ruby",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -5035,6 +4970,7 @@
         "globalid",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "hashie",
         "i18n",
         "jquery-rails",
@@ -5092,6 +5028,7 @@
         "sass-rails",
         "sawyer",
         "scss_lint",
+        "sentry-raven",
         "shoulda-context",
         "simplecov",
         "simplecov-html",
@@ -5121,21 +5058,24 @@
     {
       "id": "router-api",
       "direct_dependencies": [
-        "airbrake",
+        "byebug",
         "ci_reporter_rspec",
         "database_cleaner",
         "factory_girl_rails",
         "govuk-lint",
+        "govuk_app_config",
         "logstasher",
         "mongoid",
         "mongoid_rails_migrations",
         "plek",
+        "rack-handlers",
         "rails",
         "rspec-rails",
         "unicorn",
         "webmock"
       ],
       "dependencies": [
+        "actioncable",
         "actionmailer",
         "actionpack",
         "actionview",
@@ -5144,49 +5084,49 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "astrolabe",
         "bson",
         "builder",
+        "byebug",
         "ci_reporter",
         "ci_reporter_rspec",
         "concurrent-ruby",
-        "connection_pool",
         "crack",
         "database_cleaner",
         "diff-lcs",
-        "erubis",
+        "erubi",
         "factory_girl",
         "factory_girl_rails",
+        "faraday",
         "globalid",
         "govuk-lint",
+        "govuk_app_config",
         "i18n",
-        "json",
         "kgio",
         "logstash-event",
         "logstasher",
         "loofah",
         "mail",
+        "method_source",
         "mime-types",
         "mime-types-data",
         "mini_portile2",
         "minitest",
+        "mongo",
         "mongoid",
         "mongoid_rails_migrations",
-        "moped",
-        "multi_json",
+        "multipart-post",
+        "nio4r",
         "nokogiri",
-        "optionable",
-        "origin",
         "parser",
         "plek",
         "powerpack",
         "rack",
+        "rack-handlers",
         "rack-test",
         "rails",
-        "rails-deprecated_sanitizer",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "railties",
@@ -5203,28 +5143,35 @@
         "rubocop",
         "ruby-progressbar",
         "safe_yaml",
+        "sentry-raven",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tzinfo",
         "unicorn",
-        "webmock"
+        "webmock",
+        "websocket-driver",
+        "websocket-extensions"
       ]
     },
     {
       "id": "rummager",
       "direct_dependencies": [
         "activesupport",
-        "airbrake",
+        "bunny-mock",
         "ci_reporter",
         "elasticsearch",
         "gds-api-adapters",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_document_types",
         "govuk_message_queue_consumer",
+        "govuk_schemas",
         "logging",
-        "minitest-colorize",
+        "loofah",
+        "minitest",
         "mocha",
         "mr-sparkle",
         "nokogiri",
@@ -5237,13 +5184,14 @@
         "redis-namespace",
         "shoulda-context",
         "sidekiq",
+        "sidekiq-limit_fetch",
         "sidekiq-statsd",
         "simplecov",
         "simplecov-rcov",
         "sinatra",
         "slop",
         "statsd-ruby",
-        "test-unit-minitest",
+        "test-unit",
         "timecop",
         "unf",
         "unicorn",
@@ -5254,11 +5202,11 @@
         "PriorityQueue",
         "activesupport",
         "addressable",
-        "airbrake",
         "amq-protocol",
         "ast",
         "builder",
         "bunny",
+        "bunny-mock",
         "byebug",
         "chronic",
         "ci_reporter",
@@ -5275,18 +5223,22 @@
         "ffi",
         "gds-api-adapters",
         "govuk-lint",
+        "govuk_app_config",
         "govuk_document_types",
         "govuk_message_queue_consumer",
+        "govuk_schemas",
         "hashdiff",
         "http-cookie",
         "i18n",
         "json",
+        "json-schema",
         "kgio",
         "link_header",
         "listen",
         "little-plugger",
         "logging",
         "logstash-event",
+        "loofah",
         "lrucache",
         "metaclass",
         "method_source",
@@ -5294,16 +5246,17 @@
         "mime-types-data",
         "mini_portile2",
         "minitest",
-        "minitest-colorize",
         "mocha",
         "mr-sparkle",
         "multi_json",
         "multipart-post",
+        "mustermann",
         "netrc",
         "nokogiri",
         "null_logger",
         "parser",
         "plek",
+        "power_assert",
         "powerpack",
         "pry",
         "pry-byebug",
@@ -5326,8 +5279,10 @@
         "safe_yaml",
         "sass",
         "scss_lint",
+        "sentry-raven",
         "shoulda-context",
         "sidekiq",
+        "sidekiq-limit_fetch",
         "sidekiq-statsd",
         "simplecov",
         "simplecov-html",
@@ -5335,7 +5290,7 @@
         "sinatra",
         "slop",
         "statsd-ruby",
-        "test-unit-minitest",
+        "test-unit",
         "tilt",
         "timecop",
         "unf",
@@ -5349,7 +5304,6 @@
     {
       "id": "search-admin",
       "direct_dependencies": [
-        "airbrake",
         "cucumber-rails",
         "database_cleaner",
         "factory_girl_rails",
@@ -5358,6 +5312,7 @@
         "generic_form_builder",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "mysql2",
         "plek",
         "pry-byebug",
@@ -5380,7 +5335,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -5410,6 +5364,7 @@
         "globalid",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "hashdiff",
         "hashie",
         "http-cookie",
@@ -5468,9 +5423,11 @@
         "sass",
         "sass-rails",
         "scss_lint",
+        "sentry-raven",
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tilt",
@@ -5744,6 +5701,7 @@
         "mail",
         "method_source",
         "mime-types",
+        "mime-types-data",
         "mini_portile2",
         "minitest",
         "multi_json",
@@ -5989,7 +5947,6 @@
       "direct_dependencies": [
         "activejob-retry",
         "addressable",
-        "airbrake",
         "alphabetical_paginate",
         "ancestry",
         "better_errors",
@@ -6009,10 +5966,12 @@
         "gds-api-adapters",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "jasmine",
         "json",
         "kaminari",
+        "lhm",
         "logstasher",
         "minitest",
         "mocha",
@@ -6034,7 +5993,6 @@
         "sass-rails",
         "shoulda-context",
         "sprockets-rails",
-        "statsd-ruby",
         "test_after_commit",
         "timecop",
         "uglifier",
@@ -6054,7 +6012,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "alphabetical_paginate",
         "ancestry",
         "arel",
@@ -6091,10 +6048,12 @@
         "execjs",
         "factory_girl",
         "factory_girl_rails",
+        "faraday",
         "gds-api-adapters",
         "globalid",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_sidekiq",
         "hashdiff",
         "http-cookie",
@@ -6105,6 +6064,7 @@
         "json",
         "kaminari",
         "kgio",
+        "lhm",
         "link_header",
         "logstash-event",
         "logstasher",
@@ -6115,10 +6075,12 @@
         "metaclass",
         "method_source",
         "mime-types",
+        "mime-types-data",
         "mini_portile2",
         "minitest",
         "mocha",
         "multi_json",
+        "multipart-post",
         "mysql2",
         "netrc",
         "nokogiri",
@@ -6163,6 +6125,7 @@
         "sass",
         "sass-rails",
         "scss_lint",
+        "sentry-raven",
         "shoulda-context",
         "sidekiq",
         "sidekiq-logging-json",
@@ -6249,13 +6212,17 @@
       ],
       "dependencies": [
         "PriorityQueue",
+        "actioncable",
+        "actionmailer",
         "actionpack",
         "actionview",
         "activejob",
         "activemodel",
+        "activerecord",
         "activesupport",
         "addressable",
         "airbrake",
+        "arel",
         "ast",
         "better_errors",
         "binding_of_caller",
@@ -6292,6 +6259,7 @@
         "logstasher",
         "loofah",
         "lrucache",
+        "mail",
         "metaclass",
         "method_source",
         "mime-types",
@@ -6302,6 +6270,7 @@
         "mocha",
         "multi_json",
         "netrc",
+        "nio4r",
         "nokogiri",
         "null_logger",
         "parser",
@@ -6313,6 +6282,7 @@
         "rack-cache",
         "rack-test",
         "rack_strip_client_ip",
+        "rails",
         "rails-controller-testing",
         "rails-dom-testing",
         "rails-html-sanitizer",
@@ -6361,7 +6331,6 @@
     {
       "id": "specialist-publisher",
       "direct_dependencies": [
-        "airbrake",
         "better_errors",
         "binding_of_caller",
         "bootstrap-kaminari-views",
@@ -6376,6 +6345,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
         "hashdiff",
@@ -6410,7 +6380,6 @@
         "activerecord",
         "activesupport",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -6432,6 +6401,7 @@
         "diff-lcs",
         "docile",
         "domain_name",
+        "erubi",
         "erubis",
         "execjs",
         "factory_girl",
@@ -6444,6 +6414,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
         "hashdiff",
@@ -6488,6 +6459,7 @@
         "omniauth",
         "omniauth-gds",
         "omniauth-oauth2",
+        "parallel",
         "parser",
         "plek",
         "powerpack",
@@ -6523,13 +6495,13 @@
         "sass-rails",
         "scss_lint",
         "select2-rails",
+        "sentry-raven",
         "sidekiq",
         "sidekiq-logging-json",
         "sidekiq-statsd",
         "simplecov",
         "simplecov-html",
         "simplecov-rcov",
-        "sixarm_ruby_unaccent",
         "slop",
         "sprockets",
         "sprockets-rails",
@@ -6564,6 +6536,7 @@
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_frontend_toolkit",
+        "govuk_publishing_components",
         "govuk_template",
         "image_optim",
         "jasmine-rails",
@@ -6574,13 +6547,11 @@
         "nokogiri",
         "plek",
         "pry",
-        "quiet_assets",
         "rack_strip_client_ip",
         "rails",
         "redis",
         "sass-rails",
         "shoulda",
-        "sprockets-rails",
         "test-unit",
         "uglifier",
         "unicorn",
@@ -6588,6 +6559,7 @@
       ],
       "dependencies": [
         "PriorityQueue",
+        "actioncable",
         "actionmailer",
         "actionpack",
         "actionpack-page_caching",
@@ -6606,20 +6578,26 @@
         "builder",
         "capybara",
         "coderay",
+        "commander",
         "concurrent-ruby",
         "crack",
         "debug_inspector",
         "domain_name",
+        "erubi",
         "erubis",
         "execjs",
         "exifr",
         "fspath",
         "gds-api-adapters",
         "globalid",
+        "govspeak",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
         "govuk_frontend_toolkit",
+        "govuk_publishing_components",
         "govuk_template",
+        "highline",
+        "htmlentities",
         "http-cookie",
         "i18n",
         "image_optim",
@@ -6630,6 +6608,7 @@
         "json",
         "json-schema",
         "kgio",
+        "kramdown",
         "link_header",
         "logstash-event",
         "logstasher",
@@ -6639,12 +6618,15 @@
         "metaclass",
         "method_source",
         "mime-types",
-        "mini_portile",
+        "mime-types-data",
+        "mini_portile2",
         "minitest",
         "minitest-capybara",
         "mocha",
+        "money",
         "multi_json",
         "netrc",
+        "nio4r",
         "nokogiri",
         "null_logger",
         "parser",
@@ -6654,13 +6636,11 @@
         "powerpack",
         "progress",
         "pry",
-        "quiet_assets",
         "rack",
         "rack-cache",
         "rack-test",
         "rack_strip_client_ip",
         "rails",
-        "rails-deprecated_sanitizer",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "railties",
@@ -6672,12 +6652,14 @@
         "rubocop",
         "ruby-progressbar",
         "safe_yaml",
+        "sanitize",
         "sass",
         "sass-rails",
         "scss_lint",
         "shoulda",
         "shoulda-context",
         "shoulda-matchers",
+        "slimmer",
         "slop",
         "sprockets",
         "sprockets-rails",
@@ -6692,6 +6674,8 @@
         "unf_ext",
         "unicorn",
         "webmock",
+        "websocket-driver",
+        "websocket-extensions",
         "xpath"
       ]
     },
@@ -6752,7 +6736,6 @@
         "airbrake",
         "arel",
         "ast",
-        "astrolabe",
         "autoprefixer-rails",
         "bindex",
         "bootstrap-kaminari-views",
@@ -6821,6 +6804,7 @@
         "omniauth",
         "omniauth-gds",
         "omniauth-oauth2",
+        "parallel",
         "parser",
         "phantomjs",
         "plek",
@@ -6857,6 +6841,7 @@
         "safe_yaml",
         "sass",
         "sass-rails",
+        "scss_lint",
         "select2-rails",
         "shoulda",
         "shoulda-context",
@@ -6875,11 +6860,11 @@
         "tilt",
         "timecop",
         "timeliness",
-        "tins",
         "tzinfo",
         "uglifier",
         "unf",
         "unf_ext",
+        "unicode-display_width",
         "unicorn",
         "warden",
         "warden-oauth2",
@@ -7056,7 +7041,6 @@
         "activerecord-import",
         "activerecord-session_store",
         "acts-as-taggable-on",
-        "airbrake",
         "capybara",
         "cucumber-rails",
         "database_cleaner",
@@ -7066,6 +7050,7 @@
         "google-api-client",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "gretel",
         "htmlentities",
         "jasmine",
@@ -7111,7 +7096,6 @@
         "activesupport",
         "acts-as-taggable-on",
         "addressable",
-        "airbrake",
         "arel",
         "ast",
         "autoprefixer-rails",
@@ -7147,6 +7131,7 @@
         "googleauth",
         "govuk-lint",
         "govuk_admin_template",
+        "govuk_app_config",
         "gretel",
         "hashdiff",
         "hashie",
@@ -7233,12 +7218,14 @@
         "sass-rails",
         "scss_lint",
         "select2-rails",
+        "sentry-raven",
         "shoulda-matchers",
         "sidekiq",
         "signet",
         "slop",
         "sprockets",
         "sprockets-rails",
+        "statsd-ruby",
         "thor",
         "thread_safe",
         "tilt",
@@ -7459,16 +7446,19 @@
     {
       "id": "whitehall",
       "direct_dependencies": [
+        "activemodel-serializers-xml",
         "addressable",
-        "airbrake",
+        "asset_bom_removal-rails",
         "babosa",
         "better_errors",
         "binding_of_caller",
         "bootstrap-kaminari-views",
         "capybara",
         "carrierwave",
+        "carrierwave-i18n",
         "chronic",
         "ci_reporter_minitest",
+        "coffee-rails",
         "cucumber-rails",
         "dalli",
         "database_cleaner",
@@ -7484,7 +7474,9 @@
         "govspeak",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_ab_testing",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
         "graphviz_transitions",
@@ -7511,15 +7503,16 @@
         "plek",
         "poltergeist",
         "pry-byebug",
-        "quiet_assets",
         "rack",
         "rack-test",
         "rack_strip_client_ip",
         "rails",
+        "rails-controller-testing",
         "rails-i18n",
         "rails_translation_manager",
         "raindrops",
         "rake",
+        "record_tag_helper",
         "redis-namespace",
         "responders",
         "rinku",
@@ -7535,8 +7528,8 @@
         "sprockets-rails",
         "stackprof",
         "statsd-ruby",
+        "teaspoon-qunit",
         "test-queue",
-        "test_track",
         "timecop",
         "transitions",
         "typhoeus",
@@ -7549,18 +7542,21 @@
       "dependencies": [
         "Ascii85",
         "PriorityQueue",
+        "actioncable",
         "actionmailer",
         "actionpack",
         "actionview",
         "activejob",
         "activemodel",
+        "activemodel-serializers-xml",
         "activerecord",
         "activesupport",
         "addressable",
         "afm",
-        "airbrake",
         "arel",
+        "asset_bom_removal-rails",
         "ast",
+        "astrolabe",
         "autoprefixer-rails",
         "babosa",
         "better_errors",
@@ -7571,11 +7567,16 @@
         "byebug",
         "capybara",
         "carrierwave",
+        "carrierwave-i18n",
         "chronic",
         "ci_reporter",
         "ci_reporter_minitest",
         "cliver",
         "coderay",
+        "coffee-rails",
+        "coffee-script",
+        "coffee-script-source",
+        "commander",
         "concurrent-ruby",
         "connection_pool",
         "crack",
@@ -7593,6 +7594,7 @@
         "dotenv",
         "dotenv-rails",
         "equivalent-xml",
+        "erubi",
         "erubis",
         "ethon",
         "execjs",
@@ -7608,13 +7610,16 @@
         "govspeak",
         "govuk-content-schema-test-helpers",
         "govuk-lint",
+        "govuk_ab_testing",
         "govuk_admin_template",
+        "govuk_app_config",
         "govuk_frontend_toolkit",
         "govuk_sidekiq",
         "graphviz_transitions",
         "hashdiff",
         "hashery",
         "hashie",
+        "highline",
         "htmlentities",
         "http-cookie",
         "i18n",
@@ -7643,12 +7648,15 @@
         "metaclass",
         "method_source",
         "mime-types",
+        "mime-types-data",
         "mini_magick",
+        "mini_mime",
         "mini_portile2",
         "minitest",
         "minitest-fail-fast",
         "mlanett-redis-lock",
         "mocha",
+        "money",
         "multi_json",
         "multi_test",
         "multi_xml",
@@ -7657,6 +7665,7 @@
         "mysql2",
         "netrc",
         "newrelic_rpm",
+        "nio4r",
         "nokogiri",
         "null_logger",
         "oauth2",
@@ -7672,14 +7681,13 @@
         "powerpack",
         "pry",
         "pry-byebug",
-        "quiet_assets",
         "rack",
         "rack-cache",
         "rack-protection",
         "rack-test",
         "rack_strip_client_ip",
         "rails",
-        "rails-deprecated_sanitizer",
+        "rails-controller-testing",
         "rails-dom-testing",
         "rails-html-sanitizer",
         "rails-i18n",
@@ -7688,6 +7696,9 @@
         "rainbow",
         "raindrops",
         "rake",
+        "rb-fsevent",
+        "rb-inotify",
+        "record_tag_helper",
         "redis",
         "redis-namespace",
         "request_store",
@@ -7702,9 +7713,10 @@
         "safe_yaml",
         "sanitize",
         "sass",
+        "sass-listen",
         "sassc",
         "sassc-rails",
-        "scss_lint",
+        "sentry-raven",
         "shared_mustache",
         "sidekiq",
         "sidekiq-logging-json",
@@ -7719,12 +7731,14 @@
         "stackprof",
         "statsd-ruby",
         "subexec",
+        "teaspoon",
+        "teaspoon-qunit",
         "test-queue",
-        "test_track",
         "thor",
         "thread_safe",
         "tilt",
         "timecop",
+        "tins",
         "transitions",
         "ttfunk",
         "typhoeus",
@@ -7732,7 +7746,6 @@
         "uglifier",
         "unf",
         "unf_ext",
-        "unicode-display_width",
         "unicorn",
         "validates_email_format_of",
         "warden",
@@ -7749,105 +7762,68 @@
     {
       "depended_on": [
         "asset-manager",
-        "authenticating-proxy",
-        "bouncer",
         "calculators",
         "calendars",
-        "collections",
-        "collections-publisher",
-        "contacts-admin",
         "content-performance-manager",
-        "content-store",
-        "content-tagger",
         "design-principles",
-        "email-alert-api",
-        "email-alert-frontend",
-        "email-alert-service",
         "feedback",
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
-        "licence-finder",
-        "link-checker-api",
         "local-links-manager",
         "manuals-frontend",
-        "manuals-publisher",
         "maslow",
-        "policy-publisher",
         "publisher",
-        "publishing-api",
-        "release",
-        "router-api",
-        "rummager",
-        "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
-        "signon",
         "smart-answers",
-        "specialist-publisher",
         "static",
         "support",
         "support-api",
-        "transition",
-        "travel-advice-publisher",
-        "whitehall"
+        "travel-advice-publisher"
       ],
       "depended_on_directly": [
         "asset-manager",
-        "authenticating-proxy",
-        "bouncer",
         "calculators",
         "calendars",
-        "collections",
-        "collections-publisher",
-        "contacts-admin",
         "content-performance-manager",
-        "content-store",
-        "content-tagger",
         "design-principles",
-        "email-alert-api",
-        "email-alert-frontend",
-        "email-alert-service",
         "feedback",
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
-        "licence-finder",
-        "link-checker-api",
         "local-links-manager",
         "manuals-frontend",
-        "manuals-publisher",
         "maslow",
-        "policy-publisher",
         "publisher",
-        "publishing-api",
-        "release",
-        "router-api",
-        "rummager",
-        "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
-        "signon",
         "smart-answers",
-        "specialist-publisher",
         "static",
         "support",
         "support-api",
-        "transition",
-        "travel-advice-publisher",
-        "whitehall"
+        "travel-advice-publisher"
       ],
       "id": "airbrake"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
+        "publishing-api"
+      ],
+      "depended_on_directly": [
+        "asset-manager",
+        "publishing-api"
+      ],
+      "id": "aws-sdk"
     },
     {
       "depended_on": [
@@ -7877,7 +7853,6 @@
         "content-performance-manager",
         "content-store",
         "content-tagger",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "link-checker-api",
@@ -7904,7 +7879,6 @@
         "content-performance-manager",
         "content-store",
         "content-tagger",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "link-checker-api",
@@ -7952,7 +7926,6 @@
         "content-performance-manager",
         "content-tagger",
         "email-alert-api",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "link-checker-api",
@@ -7979,7 +7952,6 @@
         "content-performance-manager",
         "content-tagger",
         "email-alert-api",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "link-checker-api",
@@ -8009,7 +7981,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -8036,7 +8007,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -8073,7 +8043,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8117,7 +8086,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8166,7 +8134,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8209,7 +8176,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8243,7 +8209,6 @@
         "asset-manager",
         "authenticating-proxy",
         "content-store",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "manuals-publisher",
@@ -8258,7 +8223,6 @@
         "asset-manager",
         "authenticating-proxy",
         "content-store",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "manuals-publisher",
@@ -8299,7 +8263,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8364,7 +8327,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8412,7 +8374,6 @@
         "feedback",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8488,7 +8449,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8508,6 +8468,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -8534,7 +8495,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8740,7 +8700,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8789,7 +8748,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8840,7 +8798,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8860,6 +8817,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -8892,7 +8850,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8944,7 +8901,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -8996,7 +8952,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9050,7 +9005,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9104,7 +9058,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9124,6 +9077,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -9157,7 +9111,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9213,7 +9166,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9233,6 +9185,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -9261,7 +9214,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9299,9 +9251,37 @@
     {
       "depended_on": [
         "asset-manager",
+        "publishing-api"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "aws-sdk-core"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
+        "publishing-api"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "aws-sdk-resources"
+    },
+    {
+      "depended_on": [
+        "asset-manager"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "aws-sigv4"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
         "authenticating-proxy",
         "content-store",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "manuals-publisher",
@@ -9321,7 +9301,6 @@
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
-        "bouncer",
         "calculators",
         "calendars",
         "collections",
@@ -9333,12 +9312,10 @@
         "design-principles",
         "email-alert-api",
         "email-alert-frontend",
-        "email-alert-service",
         "feedback",
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9392,7 +9369,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9425,34 +9401,6 @@
 
       ],
       "id": "concurrent-ruby"
-    },
-    {
-      "depended_on": [
-        "asset-manager",
-        "collections-publisher",
-        "content-performance-manager",
-        "content-tagger",
-        "email-alert-api",
-        "hmrc-manuals-api",
-        "imminence",
-        "link-checker-api",
-        "manuals-publisher",
-        "publisher",
-        "publishing-api",
-        "router-api",
-        "rummager",
-        "signon",
-        "specialist-publisher",
-        "support",
-        "support-api",
-        "transition",
-        "travel-advice-publisher",
-        "whitehall"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "connection_pool"
     },
     {
       "depended_on": [
@@ -9509,6 +9457,7 @@
         "calendars",
         "collections",
         "contacts-admin",
+        "content-performance-manager",
         "content-store",
         "content-tagger",
         "finder-frontend",
@@ -9547,24 +9496,19 @@
         "contacts-admin",
         "content-tagger",
         "design-principles",
-        "email-alert-frontend",
         "feedback",
         "finder-frontend",
         "frontend",
-        "government-frontend",
-        "govuk_need_api",
         "imminence",
         "info-frontend",
         "licence-finder",
         "link-checker-api",
         "local-links-manager",
         "manuals-frontend",
-        "manuals-publisher",
         "maslow",
         "policy-publisher",
         "publisher",
         "release",
-        "router-api",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
@@ -9592,7 +9536,6 @@
         "content-store",
         "content-tagger",
         "email-alert-api",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "link-checker-api",
@@ -9628,13 +9571,17 @@
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
+        "bouncer",
+        "collections",
         "collections-publisher",
         "contacts-admin",
         "content-performance-manager",
+        "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
         "feedback",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "licence-finder",
@@ -9646,10 +9593,12 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "rummager",
         "search-admin",
         "service-manual-publisher",
         "short-url-manager",
+        "signon",
         "specialist-publisher",
         "support",
         "support-api",
@@ -9683,7 +9632,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9725,7 +9673,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -9771,7 +9718,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9809,10 +9755,21 @@
     {
       "depended_on": [
         "asset-manager",
+        "publishing-api"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "jmespath"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
         "calculators",
         "calendars",
         "collections",
         "contacts-admin",
+        "content-performance-manager",
         "content-store",
         "content-tagger",
         "design-principles",
@@ -9833,7 +9790,6 @@
         "publisher",
         "publishing-api",
         "release",
-        "router-api",
         "rummager",
         "service-manual-frontend",
         "service-manual-publisher",
@@ -9863,7 +9819,6 @@
         "content-performance-manager",
         "content-tagger",
         "feedback",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -9908,7 +9863,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -9960,7 +9914,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10011,7 +9964,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10026,6 +9978,7 @@
         "publishing-api",
         "release",
         "router-api",
+        "rummager",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
@@ -10041,7 +9994,7 @@
         "whitehall"
       ],
       "depended_on_directly": [
-
+        "rummager"
       ],
       "id": "loofah"
     },
@@ -10064,7 +10017,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10084,6 +10036,7 @@
         "service-manual-publisher",
         "short-url-manager",
         "signon",
+        "smart-answers",
         "specialist-publisher",
         "static",
         "support",
@@ -10117,7 +10070,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10154,8 +10106,7 @@
     },
     {
       "depended_on": [
-        "asset-manager",
-        "static"
+        "asset-manager"
       ],
       "depended_on_directly": [
 
@@ -10181,7 +10132,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10213,11 +10163,32 @@
       ],
       "depended_on_directly": [
         "release",
+        "rummager",
         "signon",
         "smart-answers",
         "static"
       ],
       "id": "minitest"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
+        "authenticating-proxy",
+        "content-store",
+        "imminence",
+        "licence-finder",
+        "manuals-publisher",
+        "maslow",
+        "publisher",
+        "router-api",
+        "short-url-manager",
+        "specialist-publisher",
+        "travel-advice-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "mongo"
     },
     {
       "depended_on": [
@@ -10240,18 +10211,7 @@
     {
       "depended_on": [
         "asset-manager",
-        "router-api"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "moped"
-    },
-    {
-      "depended_on": [
-        "asset-manager",
         "authenticating-proxy",
-        "bouncer",
         "calculators",
         "calendars",
         "collections",
@@ -10262,11 +10222,10 @@
         "content-tagger",
         "design-principles",
         "email-alert-frontend",
-        "email-alert-service",
         "feedback",
         "finder-frontend",
         "frontend",
-        "govuk_need_api",
+        "government-frontend",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10280,7 +10239,6 @@
         "publisher",
         "publishing-api",
         "release",
-        "router-api",
         "rummager",
         "search-admin",
         "service-manual-frontend",
@@ -10309,7 +10267,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -10338,13 +10295,17 @@
       "depended_on": [
         "asset-manager",
         "authenticating-proxy",
+        "bouncer",
+        "collections",
         "collections-publisher",
         "contacts-admin",
         "content-performance-manager",
+        "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
         "feedback",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "licence-finder",
@@ -10356,10 +10317,12 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "rummager",
         "search-admin",
         "service-manual-publisher",
         "short-url-manager",
+        "signon",
         "specialist-publisher",
         "support",
         "support-api",
@@ -10380,7 +10343,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -10413,7 +10375,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -10446,7 +10407,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -10479,7 +10439,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -10507,23 +10466,31 @@
     {
       "depended_on": [
         "asset-manager",
-        "router-api"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "optionable"
-    },
-    {
-      "depended_on": [
-        "asset-manager",
-        "licence-finder",
-        "router-api"
+        "licence-finder"
       ],
       "depended_on_directly": [
 
       ],
       "id": "origin"
+    },
+    {
+      "depended_on": [
+        "asset-manager",
+        "collections",
+        "content-performance-manager",
+        "content-store",
+        "government-frontend",
+        "link-checker-api",
+        "manuals-publisher",
+        "service-manual-frontend",
+        "specialist-publisher",
+        "support",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "whitehall"
+      ],
+      "id": "parallel"
     },
     {
       "depended_on": [
@@ -10540,7 +10507,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10590,7 +10556,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10646,7 +10611,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10713,7 +10677,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10754,15 +10717,11 @@
     {
       "depended_on": [
         "asset-manager",
-        "email-alert-frontend",
         "feedback",
         "frontend",
         "licence-finder",
         "manuals-frontend",
-        "router-api",
-        "signon",
-        "static",
-        "whitehall"
+        "signon"
       ],
       "depended_on_directly": [
 
@@ -10787,7 +10746,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10839,7 +10797,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10892,7 +10849,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10941,7 +10897,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -10996,7 +10951,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11053,7 +11007,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11296,7 +11249,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11346,7 +11298,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11398,7 +11349,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11450,7 +11400,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "info-frontend",
         "licence-finder",
@@ -11472,9 +11421,9 @@
         "smart-answers",
         "specialist-publisher",
         "static",
+        "support",
         "support-api",
-        "transition",
-        "whitehall"
+        "transition"
       ],
       "depended_on_directly": [
 
@@ -11489,6 +11438,7 @@
         "calendars",
         "collections",
         "contacts-admin",
+        "content-performance-manager",
         "content-store",
         "content-tagger",
         "finder-frontend",
@@ -11515,6 +11465,7 @@
         "calendars",
         "collections",
         "contacts-admin",
+        "content-performance-manager",
         "content-store",
         "content-tagger",
         "finder-frontend",
@@ -11545,6 +11496,7 @@
         "calendars",
         "collections",
         "contacts-admin",
+        "content-performance-manager",
         "content-store",
         "content-tagger",
         "finder-frontend",
@@ -11590,7 +11542,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11642,7 +11593,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11675,7 +11625,6 @@
         "frontend",
         "signon",
         "smart-answers",
-        "static",
         "whitehall"
       ],
       "id": "sprockets-rails"
@@ -11724,7 +11673,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11777,7 +11725,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11831,7 +11778,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -11878,7 +11824,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "info-frontend",
         "licence-finder",
@@ -11898,9 +11843,9 @@
         "short-url-manager",
         "smart-answers",
         "specialist-publisher",
+        "support",
         "support-api",
-        "transition",
-        "whitehall"
+        "transition"
       ],
       "depended_on_directly": [
 
@@ -11915,7 +11860,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -11949,7 +11893,6 @@
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -11977,26 +11920,6 @@
     {
       "depended_on": [
         "authenticating-proxy",
-        "content-store",
-        "email-alert-api",
-        "government-frontend",
-        "publishing-api",
-        "release",
-        "short-url-manager"
-      ],
-      "depended_on_directly": [
-        "authenticating-proxy",
-        "content-store",
-        "government-frontend",
-        "publishing-api",
-        "release",
-        "short-url-manager"
-      ],
-      "id": "airbrake-ruby"
-    },
-    {
-      "depended_on": [
-        "authenticating-proxy",
         "calculators",
         "calendars",
         "collections",
@@ -12019,6 +11942,7 @@
         "policy-publisher",
         "publisher",
         "publishing-api",
+        "router-api",
         "rummager",
         "search-admin",
         "service-manual-frontend",
@@ -12037,6 +11961,7 @@
         "content-performance-manager",
         "finder-frontend",
         "link-checker-api",
+        "router-api",
         "service-manual-publisher",
         "short-url-manager",
         "smart-answers"
@@ -12046,11 +11971,66 @@
     {
       "depended_on": [
         "authenticating-proxy",
-        "content-performance-manager"
+        "bouncer",
+        "collections",
+        "collections-publisher",
+        "contacts-admin",
+        "content-store",
+        "content-tagger",
+        "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
+        "licence-finder",
+        "link-checker-api",
+        "manuals-publisher",
+        "policy-publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "rummager",
+        "search-admin",
+        "signon",
+        "specialist-publisher",
+        "transition",
+        "whitehall"
       ],
       "depended_on_directly": [
         "authenticating-proxy",
-        "content-performance-manager"
+        "bouncer",
+        "collections",
+        "collections-publisher",
+        "contacts-admin",
+        "content-store",
+        "content-tagger",
+        "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
+        "licence-finder",
+        "link-checker-api",
+        "manuals-publisher",
+        "policy-publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "rummager",
+        "search-admin",
+        "signon",
+        "specialist-publisher",
+        "transition",
+        "whitehall"
+      ],
+      "id": "govuk_app_config"
+    },
+    {
+      "depended_on": [
+        "authenticating-proxy",
+        "content-performance-manager",
+        "content-tagger"
+      ],
+      "depended_on_directly": [
+        "authenticating-proxy",
+        "content-performance-manager",
+        "content-tagger"
       ],
       "id": "rack-proxy"
     },
@@ -12072,7 +12052,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12119,7 +12098,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12163,9 +12141,9 @@
         "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
         "finder-frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12177,15 +12155,19 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
+        "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -12212,7 +12194,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12268,7 +12249,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12308,14 +12288,16 @@
         "authenticating-proxy",
         "calculators",
         "calendars",
+        "collections",
         "collections-publisher",
         "contacts-admin",
         "content-performance-manager",
         "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
         "frontend",
-        "govuk_need_api",
         "imminence",
         "info-frontend",
         "licence-finder",
@@ -12363,7 +12345,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12377,6 +12358,7 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "rummager",
         "search-admin",
         "service-manual-frontend",
@@ -12415,7 +12397,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12423,6 +12404,7 @@
         "link-checker-api",
         "local-links-manager",
         "manuals-frontend",
+        "manuals-publisher",
         "maslow",
         "policy-publisher",
         "publisher",
@@ -12432,13 +12414,17 @@
         "rummager",
         "search-admin",
         "service-manual-frontend",
+        "service-manual-publisher",
         "short-url-manager",
+        "signon",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -12464,7 +12450,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12487,6 +12472,7 @@
         "signon",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
@@ -12501,25 +12487,6 @@
     {
       "depended_on": [
         "authenticating-proxy",
-        "content-store",
-        "govuk_need_api",
-        "imminence",
-        "licence-finder",
-        "manuals-publisher",
-        "maslow",
-        "publisher",
-        "short-url-manager",
-        "specialist-publisher",
-        "travel-advice-publisher"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "mongo"
-    },
-    {
-      "depended_on": [
-        "authenticating-proxy",
         "calculators",
         "calendars",
         "collections",
@@ -12529,9 +12496,9 @@
         "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
         "finder-frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12543,15 +12510,19 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
+        "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -12562,9 +12533,7 @@
       "depended_on": [
         "authenticating-proxy",
         "design-principles",
-        "government-frontend",
         "info-frontend",
-        "licence-finder",
         "support-api"
       ],
       "depended_on_directly": [
@@ -12626,7 +12595,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12664,6 +12632,91 @@
     {
       "depended_on": [
         "authenticating-proxy",
+        "bouncer",
+        "collections",
+        "collections-publisher",
+        "contacts-admin",
+        "content-store",
+        "content-tagger",
+        "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
+        "licence-finder",
+        "link-checker-api",
+        "manuals-publisher",
+        "policy-publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "rummager",
+        "search-admin",
+        "signon",
+        "specialist-publisher",
+        "transition",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "sentry-raven"
+    },
+    {
+      "depended_on": [
+        "authenticating-proxy",
+        "bouncer",
+        "collections",
+        "collections-publisher",
+        "contacts-admin",
+        "content-performance-manager",
+        "content-store",
+        "content-tagger",
+        "email-alert-api",
+        "email-alert-frontend",
+        "email-alert-service",
+        "feedback",
+        "frontend",
+        "government-frontend",
+        "imminence",
+        "licence-finder",
+        "link-checker-api",
+        "manuals-frontend",
+        "manuals-publisher",
+        "policy-publisher",
+        "publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "rummager",
+        "search-admin",
+        "signon",
+        "smart-answers",
+        "specialist-publisher",
+        "support",
+        "support-api",
+        "transition",
+        "travel-advice-publisher",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "content-store",
+        "email-alert-api",
+        "feedback",
+        "frontend",
+        "government-frontend",
+        "imminence",
+        "manuals-frontend",
+        "publisher",
+        "release",
+        "rummager",
+        "smart-answers",
+        "support",
+        "whitehall"
+      ],
+      "id": "statsd-ruby"
+    },
+    {
+      "depended_on": [
+        "authenticating-proxy",
         "calculators",
         "calendars",
         "collections",
@@ -12673,11 +12726,11 @@
         "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
         "feedback",
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12691,6 +12744,7 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
@@ -12698,6 +12752,7 @@
         "signon",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
@@ -12721,11 +12776,11 @@
         "content-store",
         "content-tagger",
         "email-alert-api",
+        "email-alert-frontend",
         "feedback",
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -12738,6 +12793,7 @@
         "publisher",
         "publishing-api",
         "release",
+        "router-api",
         "search-admin",
         "service-manual-frontend",
         "service-manual-publisher",
@@ -12745,6 +12801,7 @@
         "signon",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "support",
         "support-api",
         "transition",
@@ -12952,7 +13009,7 @@
         "calculators",
         "content-performance-manager",
         "email-alert-api",
-        "govuk_need_api",
+        "email-alert-frontend",
         "hmrc-manuals-api",
         "link-checker-api",
         "rummager",
@@ -12971,7 +13028,6 @@
         "calculators",
         "content-performance-manager",
         "email-alert-api",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "link-checker-api",
         "rummager",
@@ -12982,7 +13038,6 @@
         "calculators",
         "content-performance-manager",
         "email-alert-api",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "link-checker-api",
         "support",
@@ -12996,12 +13051,13 @@
         "calculators",
         "content-performance-manager",
         "email-alert-api",
-        "govuk_need_api",
+        "email-alert-frontend",
         "hmrc-manuals-api",
         "link-checker-api",
         "rummager",
         "support",
-        "support-api"
+        "support-api",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -13014,12 +13070,13 @@
         "calculators",
         "content-performance-manager",
         "email-alert-api",
-        "govuk_need_api",
+        "email-alert-frontend",
         "hmrc-manuals-api",
         "link-checker-api",
         "rummager",
         "support",
-        "support-api"
+        "support-api",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -13092,6 +13149,7 @@
         "collections",
         "collections-publisher",
         "contacts-admin",
+        "content-performance-manager",
         "content-tagger",
         "email-alert-frontend",
         "finder-frontend",
@@ -13113,6 +13171,7 @@
         "collections",
         "collections-publisher",
         "contacts-admin",
+        "content-performance-manager",
         "content-tagger",
         "email-alert-frontend",
         "finder-frontend",
@@ -13137,6 +13196,7 @@
         "collections",
         "collections-publisher",
         "contacts-admin",
+        "content-performance-manager",
         "email-alert-frontend",
         "finder-frontend",
         "frontend",
@@ -13160,6 +13220,7 @@
         "collections",
         "collections-publisher",
         "contacts-admin",
+        "content-performance-manager",
         "email-alert-frontend",
         "finder-frontend",
         "frontend",
@@ -13297,7 +13358,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -13342,7 +13402,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -13430,18 +13489,22 @@
       "depended_on": [
         "calculators",
         "collections",
+        "finder-frontend",
         "frontend",
         "government-frontend",
         "manuals-frontend",
-        "smart-answers"
+        "smart-answers",
+        "whitehall"
       ],
       "depended_on_directly": [
         "calculators",
         "collections",
+        "finder-frontend",
         "frontend",
         "government-frontend",
         "manuals-frontend",
-        "smart-answers"
+        "smart-answers",
+        "whitehall"
       ],
       "id": "govuk_ab_testing"
     },
@@ -13449,13 +13512,11 @@
       "depended_on": [
         "calculators",
         "email-alert-frontend",
-        "government-frontend",
         "service-manual-frontend"
       ],
       "depended_on_directly": [
         "calculators",
         "email-alert-frontend",
-        "government-frontend",
         "service-manual-frontend"
       ],
       "id": "govuk_elements_rails"
@@ -13663,7 +13724,8 @@
         "specialist-publisher",
         "support",
         "transition",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
         "calculators",
@@ -13683,7 +13745,8 @@
         "specialist-publisher",
         "support",
         "transition",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "id": "rails-controller-testing"
     },
@@ -13778,6 +13841,7 @@
         "manuals-frontend",
         "service-manual-frontend",
         "smart-answers",
+        "static",
         "travel-advice-publisher",
         "whitehall"
       ],
@@ -13805,7 +13869,6 @@
       "depended_on": [
         "calculators",
         "content-performance-manager",
-        "govuk_need_api",
         "info-frontend",
         "publishing-api",
         "support",
@@ -13814,7 +13877,6 @@
       "depended_on_directly": [
         "calculators",
         "content-performance-manager",
-        "govuk_need_api",
         "info-frontend",
         "publishing-api",
         "support",
@@ -13826,14 +13888,12 @@
       "depended_on": [
         "calculators",
         "content-performance-manager",
-        "govuk_need_api",
         "support",
         "support-api"
       ],
       "depended_on_directly": [
         "calculators",
         "content-performance-manager",
-        "govuk_need_api",
         "support",
         "support-api"
       ],
@@ -13976,7 +14036,6 @@
         "calculators",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "link-checker-api",
         "local-links-manager",
         "policy-publisher",
@@ -13989,7 +14048,6 @@
         "calculators",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "link-checker-api",
         "local-links-manager",
         "policy-publisher",
@@ -14018,7 +14076,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14059,8 +14116,8 @@
         "router-api",
         "signon",
         "static",
-        "support",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -14072,7 +14129,6 @@
         "calculators",
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "publishing-api",
         "support",
         "transition"
@@ -14149,6 +14205,7 @@
         "collections",
         "collections-publisher",
         "contacts-admin",
+        "content-performance-manager",
         "email-alert-frontend",
         "finder-frontend",
         "frontend",
@@ -14190,7 +14247,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14284,7 +14340,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14340,6 +14395,7 @@
         "policy-publisher",
         "publisher",
         "publishing-api",
+        "rummager",
         "service-manual-frontend",
         "service-manual-publisher",
         "short-url-manager",
@@ -14374,7 +14430,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14403,7 +14458,6 @@
         "whitehall"
       ],
       "depended_on_directly": [
-        "govuk_need_api",
         "whitehall"
       ],
       "id": "link_header"
@@ -14426,7 +14480,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14479,7 +14532,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14530,7 +14582,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14581,7 +14632,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14632,7 +14682,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14719,8 +14768,8 @@
         "publishing-api",
         "signon",
         "static",
-        "support",
-        "travel-advice-publisher"
+        "travel-advice-publisher",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -14745,7 +14794,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14796,7 +14844,6 @@
         "finder-frontend",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "info-frontend",
@@ -14896,7 +14943,6 @@
         "design-principles",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "imminence",
         "maslow",
         "publisher",
@@ -14913,7 +14959,6 @@
         "design-principles",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "imminence",
         "maslow",
         "publisher",
@@ -14948,7 +14993,6 @@
     {
       "depended_on": [
         "calendars",
-        "govuk_need_api",
         "publisher",
         "smart-answers",
         "static",
@@ -14956,7 +15000,6 @@
       ],
       "depended_on_directly": [
         "calendars",
-        "govuk_need_api",
         "publisher",
         "smart-answers",
         "static",
@@ -14971,7 +15014,6 @@
         "design-principles",
         "frontend",
         "government-frontend",
-        "govuk_need_api",
         "imminence",
         "maslow",
         "publisher",
@@ -14991,7 +15033,6 @@
       "depended_on": [
         "calendars",
         "frontend",
-        "govuk_need_api",
         "imminence",
         "maslow",
         "publisher",
@@ -15017,7 +15058,6 @@
         "calendars",
         "contacts-admin",
         "feedback",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "local-links-manager",
         "publisher",
@@ -15030,7 +15070,6 @@
       "depended_on_directly": [
         "contacts-admin",
         "feedback",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "local-links-manager",
         "support-api",
@@ -15070,7 +15109,8 @@
         "frontend",
         "government-frontend",
         "info-frontend",
-        "publishing-api"
+        "publishing-api",
+        "rummager"
       ],
       "depended_on_directly": [
         "collections",
@@ -15078,7 +15118,8 @@
         "frontend",
         "government-frontend",
         "info-frontend",
-        "publishing-api"
+        "publishing-api",
+        "rummager"
       ],
       "id": "govuk_schemas"
     },
@@ -15111,52 +15152,6 @@
         "collections"
       ],
       "id": "minitest-spec-rails"
-    },
-    {
-      "depended_on": [
-        "collections",
-        "collections-publisher",
-        "content-performance-manager",
-        "content-store",
-        "content-tagger",
-        "email-alert-api",
-        "feedback",
-        "frontend",
-        "government-frontend",
-        "imminence",
-        "link-checker-api",
-        "manuals-frontend",
-        "manuals-publisher",
-        "publisher",
-        "publishing-api",
-        "release",
-        "rummager",
-        "signon",
-        "smart-answers",
-        "specialist-publisher",
-        "support",
-        "support-api",
-        "travel-advice-publisher",
-        "whitehall"
-      ],
-      "depended_on_directly": [
-        "collections",
-        "content-store",
-        "email-alert-api",
-        "feedback",
-        "frontend",
-        "government-frontend",
-        "imminence",
-        "manuals-frontend",
-        "publisher",
-        "release",
-        "rummager",
-        "signon",
-        "smart-answers",
-        "support",
-        "whitehall"
-      ],
-      "id": "statsd-ruby"
     },
     {
       "depended_on": [
@@ -15212,6 +15207,31 @@
     {
       "depended_on": [
         "collections",
+        "content-performance-manager",
+        "content-store",
+        "email-alert-api",
+        "email-alert-frontend",
+        "finder-frontend",
+        "government-frontend",
+        "hmrc-manuals-api",
+        "manuals-publisher",
+        "publishing-api",
+        "release",
+        "router-api",
+        "short-url-manager",
+        "specialist-publisher",
+        "static",
+        "transition",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "erubi"
+    },
+    {
+      "depended_on": [
+        "collections",
         "email-alert-frontend",
         "finder-frontend",
         "imminence",
@@ -15246,6 +15266,21 @@
         "publisher"
       ],
       "id": "jasmine-core"
+    },
+    {
+      "depended_on": [
+        "collections",
+        "content-performance-manager",
+        "email-alert-frontend",
+        "finder-frontend",
+        "government-frontend",
+        "manuals-publisher",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "mini_mime"
     },
     {
       "depended_on": [
@@ -15506,6 +15541,32 @@
     {
       "depended_on": [
         "collections-publisher",
+        "content-performance-manager",
+        "content-tagger",
+        "email-alert-api",
+        "hmrc-manuals-api",
+        "imminence",
+        "link-checker-api",
+        "manuals-publisher",
+        "publisher",
+        "publishing-api",
+        "rummager",
+        "signon",
+        "specialist-publisher",
+        "support",
+        "support-api",
+        "transition",
+        "travel-advice-publisher",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "connection_pool"
+    },
+    {
+      "depended_on": [
+        "collections-publisher",
         "contacts-admin",
         "content-performance-manager",
         "content-tagger",
@@ -15565,7 +15626,6 @@
         "content-tagger",
         "email-alert-api",
         "email-alert-service",
-        "govuk_need_api",
         "hmrc-manuals-api",
         "imminence",
         "link-checker-api",
@@ -15754,6 +15814,7 @@
       "depended_on": [
         "contacts-admin",
         "content-performance-manager",
+        "government-frontend",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -15763,6 +15824,7 @@
         "service-manual-publisher",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "travel-advice-publisher",
         "whitehall"
       ],
@@ -15786,7 +15848,6 @@
     {
       "depended_on": [
         "contacts-admin",
-        "govuk_need_api",
         "local-links-manager",
         "publisher",
         "short-url-manager",
@@ -15796,7 +15857,6 @@
       ],
       "depended_on_directly": [
         "contacts-admin",
-        "govuk_need_api",
         "local-links-manager",
         "publisher",
         "short-url-manager",
@@ -15904,7 +15964,6 @@
       "depended_on": [
         "contacts-admin",
         "content-store",
-        "govuk_need_api",
         "local-links-manager",
         "publisher",
         "publishing-api",
@@ -15918,7 +15977,6 @@
       "depended_on_directly": [
         "contacts-admin",
         "content-store",
-        "govuk_need_api",
         "local-links-manager",
         "publisher",
         "publishing-api",
@@ -15945,7 +16003,6 @@
         "contacts-admin",
         "content-store",
         "finder-frontend",
-        "govuk_need_api",
         "local-links-manager",
         "publisher",
         "publishing-api",
@@ -16024,6 +16081,7 @@
         "service-manual-publisher",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "transition",
         "travel-advice-publisher",
         "whitehall"
@@ -16049,6 +16107,7 @@
       "depended_on": [
         "contacts-admin",
         "content-performance-manager",
+        "government-frontend",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -16058,6 +16117,7 @@
         "service-manual-publisher",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "travel-advice-publisher",
         "whitehall"
       ],
@@ -16092,6 +16152,7 @@
       "depended_on": [
         "contacts-admin",
         "content-performance-manager",
+        "government-frontend",
         "hmrc-manuals-api",
         "manuals-publisher",
         "maslow",
@@ -16101,6 +16162,7 @@
         "service-manual-publisher",
         "smart-answers",
         "specialist-publisher",
+        "static",
         "travel-advice-publisher",
         "whitehall"
       ],
@@ -16120,12 +16182,45 @@
     },
     {
       "depended_on": [
+        "content-performance-manager",
+        "link-checker-api",
+        "transition"
+      ],
+      "depended_on_directly": [
+        "content-performance-manager",
+        "link-checker-api",
+        "transition"
+      ],
+      "id": "activerecord-import"
+    },
+    {
+      "depended_on": [
+        "content-performance-manager",
+        "maslow",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "content-performance-manager"
+      ],
+      "id": "coffee-script"
+    },
+    {
+      "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
         "content-performance-manager"
       ],
       "id": "draper"
+    },
+    {
+      "depended_on": [
+        "content-performance-manager"
+      ],
+      "depended_on_directly": [
+        "content-performance-manager"
+      ],
+      "id": "feature"
     },
     {
       "depended_on": [
@@ -16178,7 +16273,6 @@
       "depended_on": [
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "imminence",
         "maslow",
         "publisher",
@@ -16192,7 +16286,6 @@
       "depended_on_directly": [
         "content-performance-manager",
         "content-tagger",
-        "govuk_need_api",
         "maslow",
         "publisher",
         "service-manual-publisher",
@@ -16244,14 +16337,24 @@
       "depended_on_directly": [
         "content-performance-manager"
       ],
-      "id": "turbolinks"
+      "id": "teaspoon-jasmine"
     },
     {
       "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
-
+        "content-performance-manager"
+      ],
+      "id": "turbolinks"
+    },
+    {
+      "depended_on": [
+        "content-performance-manager",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "whitehall"
       ],
       "id": "activemodel-serializers-xml"
     },
@@ -16259,9 +16362,23 @@
       "depended_on": [
         "content-performance-manager",
         "maslow",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "coffee-script-source"
+    },
+    {
+      "depended_on": [
+        "content-performance-manager",
+        "government-frontend",
+        "maslow",
         "policy-publisher",
         "publishing-api",
-        "specialist-publisher"
+        "specialist-publisher",
+        "static",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -16289,23 +16406,6 @@
 
       ],
       "id": "declarative-option"
-    },
-    {
-      "depended_on": [
-        "content-performance-manager",
-        "content-store",
-        "email-alert-api",
-        "hmrc-manuals-api",
-        "manuals-publisher",
-        "publishing-api",
-        "release",
-        "short-url-manager",
-        "transition"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "erubi"
     },
     {
       "depended_on": [
@@ -16349,11 +16449,14 @@
     {
       "depended_on": [
         "content-performance-manager",
+        "government-frontend",
         "maslow",
         "policy-publisher",
         "publishing-api",
         "service-manual-publisher",
-        "specialist-publisher"
+        "specialist-publisher",
+        "static",
+        "whitehall"
       ],
       "depended_on_directly": [
         "service-manual-publisher"
@@ -16465,10 +16568,13 @@
     {
       "depended_on": [
         "content-performance-manager",
+        "government-frontend",
         "maslow",
         "policy-publisher",
         "publishing-api",
-        "specialist-publisher"
+        "specialist-publisher",
+        "static",
+        "whitehall"
       ],
       "depended_on_directly": [
 
@@ -16580,6 +16686,16 @@
     },
     {
       "depended_on": [
+        "content-performance-manager",
+        "whitehall"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "teaspoon"
+    },
+    {
+      "depended_on": [
         "content-performance-manager"
       ],
       "depended_on_directly": [
@@ -16602,7 +16718,6 @@
     {
       "depended_on": [
         "content-store",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "manuals-publisher",
@@ -16613,7 +16728,6 @@
       ],
       "depended_on_directly": [
         "content-store",
-        "govuk_need_api",
         "imminence",
         "licence-finder",
         "manuals-publisher",
@@ -16749,15 +16863,6 @@
       "depended_on_directly": [
         "content-tagger"
       ],
-      "id": "chartkick"
-    },
-    {
-      "depended_on": [
-        "content-tagger"
-      ],
-      "depended_on_directly": [
-        "content-tagger"
-      ],
       "id": "govuk_taxonomy_helpers"
     },
     {
@@ -16791,16 +16896,16 @@
         "design-principles",
         "feedback",
         "frontend",
-        "govuk_need_api",
         "maslow",
+        "rummager",
         "static",
         "travel-advice-publisher"
       ],
       "depended_on_directly": [
         "design-principles",
         "feedback",
-        "govuk_need_api",
         "maslow",
+        "rummager",
         "static",
         "travel-advice-publisher"
       ],
@@ -16848,8 +16953,8 @@
         "design-principles",
         "feedback",
         "frontend",
-        "govuk_need_api",
         "maslow",
+        "rummager",
         "static",
         "travel-advice-publisher"
       ],
@@ -16941,17 +17046,12 @@
     {
       "depended_on": [
         "email-alert-frontend",
-        "signon",
-        "static",
         "whitehall"
       ],
       "depended_on_directly": [
-        "email-alert-frontend",
-        "signon",
-        "static",
-        "whitehall"
+
       ],
-      "id": "quiet_assets"
+      "id": "sass-listen"
     },
     {
       "depended_on": [
@@ -16978,21 +17078,20 @@
     },
     {
       "depended_on": [
-        "email-alert-service"
+        "feedback",
+        "frontend",
+        "government-frontend",
+        "info-frontend",
+        "whitehall"
       ],
       "depended_on_directly": [
-
+        "feedback",
+        "frontend",
+        "government-frontend",
+        "info-frontend",
+        "whitehall"
       ],
-      "id": "columnize"
-    },
-    {
-      "depended_on": [
-        "email-alert-service"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "debugger-linecache"
+      "id": "asset_bom_removal-rails"
     },
     {
       "depended_on": [
@@ -17115,6 +17214,17 @@
     {
       "depended_on": [
         "government-frontend",
+        "static"
+      ],
+      "depended_on_directly": [
+        "government-frontend",
+        "static"
+      ],
+      "id": "govuk_publishing_components"
+    },
+    {
+      "depended_on": [
+        "government-frontend",
         "service-manual-frontend",
         "whitehall"
       ],
@@ -17170,58 +17280,12 @@
     {
       "depended_on": [
         "government-frontend",
-        "service-manual-frontend",
-        "whitehall"
-      ],
-      "depended_on_directly": [
-        "whitehall"
-      ],
-      "id": "parallel"
-    },
-    {
-      "depended_on": [
-        "government-frontend",
         "service-manual-frontend"
       ],
       "depended_on_directly": [
 
       ],
       "id": "robotex"
-    },
-    {
-      "depended_on": [
-        "govuk_need_api",
-        "licence-finder",
-        "rummager"
-      ],
-      "depended_on_directly": [
-        "govuk_need_api",
-        "licence-finder",
-        "rummager"
-      ],
-      "id": "elasticsearch"
-    },
-    {
-      "depended_on": [
-        "govuk_need_api",
-        "licence-finder",
-        "rummager"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "elasticsearch-api"
-    },
-    {
-      "depended_on": [
-        "govuk_need_api",
-        "licence-finder",
-        "rummager"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "elasticsearch-transport"
     },
     {
       "depended_on": [
@@ -17265,7 +17329,8 @@
     },
     {
       "depended_on": [
-        "hmrc-manuals-api"
+        "hmrc-manuals-api",
+        "manuals-publisher"
       ],
       "depended_on_directly": [
 
@@ -17387,14 +17452,34 @@
     },
     {
       "depended_on": [
-        "link-checker-api",
-        "transition"
+        "licence-finder",
+        "rummager"
       ],
       "depended_on_directly": [
-        "link-checker-api",
-        "transition"
+        "licence-finder",
+        "rummager"
       ],
-      "id": "activerecord-import"
+      "id": "elasticsearch"
+    },
+    {
+      "depended_on": [
+        "licence-finder",
+        "rummager"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "elasticsearch-api"
+    },
+    {
+      "depended_on": [
+        "licence-finder",
+        "rummager"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "elasticsearch-transport"
     },
     {
       "depended_on": [
@@ -17426,6 +17511,17 @@
         "link-checker-api"
       ],
       "id": "sidekiq-scheduler"
+    },
+    {
+      "depended_on": [
+        "link-checker-api",
+        "publishing-api"
+      ],
+      "depended_on_directly": [
+        "link-checker-api",
+        "publishing-api"
+      ],
+      "id": "sidekiq-unique-jobs"
     },
     {
       "depended_on": [
@@ -17566,6 +17662,51 @@
       "depended_on_directly": [
 
       ],
+      "id": "celluloid-essentials"
+    },
+    {
+      "depended_on": [
+        "manuals-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "celluloid-extras"
+    },
+    {
+      "depended_on": [
+        "manuals-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "celluloid-fsm"
+    },
+    {
+      "depended_on": [
+        "manuals-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "celluloid-pool"
+    },
+    {
+      "depended_on": [
+        "manuals-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
+      "id": "celluloid-supervision"
+    },
+    {
+      "depended_on": [
+        "manuals-publisher"
+      ],
+      "depended_on_directly": [
+
+      ],
       "id": "event-bus"
     },
     {
@@ -17579,7 +17720,8 @@
     },
     {
       "depended_on": [
-        "manuals-publisher"
+        "manuals-publisher",
+        "rummager"
       ],
       "depended_on_directly": [
 
@@ -17629,35 +17771,17 @@
     },
     {
       "depended_on": [
-        "maslow"
+        "maslow",
+        "whitehall"
       ],
       "depended_on_directly": [
-
+        "whitehall"
       ],
       "id": "coffee-rails"
     },
     {
       "depended_on": [
-        "maslow"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "coffee-script"
-    },
-    {
-      "depended_on": [
-        "maslow"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "coffee-script-source"
-    },
-    {
-      "depended_on": [
-        "policy-publisher",
-        "specialist-publisher"
+        "policy-publisher"
       ],
       "depended_on_directly": [
 
@@ -17744,15 +17868,6 @@
       "depended_on_directly": [
         "publishing-api"
       ],
-      "id": "aws-sdk"
-    },
-    {
-      "depended_on": [
-        "publishing-api"
-      ],
-      "depended_on_directly": [
-        "publishing-api"
-      ],
       "id": "colorize"
     },
     {
@@ -17804,15 +17919,6 @@
     },
     {
       "depended_on": [
-        "publishing-api"
-      ],
-      "depended_on_directly": [
-        "publishing-api"
-      ],
-      "id": "sidekiq-unique-jobs"
-    },
-    {
-      "depended_on": [
         "publishing-api",
         "whitehall"
       ],
@@ -17830,33 +17936,6 @@
         "publishing-api"
       ],
       "id": "with_advisory_lock"
-    },
-    {
-      "depended_on": [
-        "publishing-api"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "aws-sdk-core"
-    },
-    {
-      "depended_on": [
-        "publishing-api"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "aws-sdk-resources"
-    },
-    {
-      "depended_on": [
-        "publishing-api"
-      ],
-      "depended_on_directly": [
-
-      ],
-      "id": "jmespath"
     },
     {
       "depended_on": [
@@ -17914,12 +17993,12 @@
     },
     {
       "depended_on": [
-        "rummager"
+        "router-api"
       ],
       "depended_on_directly": [
-        "rummager"
+        "router-api"
       ],
-      "id": "govuk_message_queue_consumer"
+      "id": "rack-handlers"
     },
     {
       "depended_on": [
@@ -17928,7 +18007,16 @@
       "depended_on_directly": [
         "rummager"
       ],
-      "id": "minitest-colorize"
+      "id": "bunny-mock"
+    },
+    {
+      "depended_on": [
+        "rummager"
+      ],
+      "depended_on_directly": [
+        "rummager"
+      ],
+      "id": "govuk_message_queue_consumer"
     },
     {
       "depended_on": [
@@ -17946,7 +18034,7 @@
       "depended_on_directly": [
         "rummager"
       ],
-      "id": "test-unit-minitest"
+      "id": "sidekiq-limit_fetch"
     },
     {
       "depended_on": [
@@ -18030,6 +18118,15 @@
 
       ],
       "id": "uniform_notifier"
+    },
+    {
+      "depended_on": [
+        "short-url-manager"
+      ],
+      "depended_on_directly": [
+        "short-url-manager"
+      ],
+      "id": "airbrake-ruby"
     },
     {
       "depended_on": [
@@ -18123,6 +18220,15 @@
     },
     {
       "depended_on": [
+        "signon"
+      ],
+      "depended_on_directly": [
+        "signon"
+      ],
+      "id": "lhm"
+    },
+    {
+      "depended_on": [
         "signon",
         "specialist-publisher"
       ],
@@ -18131,6 +18237,15 @@
         "specialist-publisher"
       ],
       "id": "pundit"
+    },
+    {
+      "depended_on": [
+        "signon"
+      ],
+      "depended_on_directly": [
+        "signon"
+      ],
+      "id": "quiet_assets"
     },
     {
       "depended_on": [
@@ -18422,6 +18537,15 @@
       "depended_on_directly": [
         "whitehall"
       ],
+      "id": "carrierwave-i18n"
+    },
+    {
+      "depended_on": [
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "whitehall"
+      ],
       "id": "dotenv-rails"
     },
     {
@@ -18512,6 +18636,15 @@
       "depended_on_directly": [
         "whitehall"
       ],
+      "id": "record_tag_helper"
+    },
+    {
+      "depended_on": [
+        "whitehall"
+      ],
+      "depended_on_directly": [
+        "whitehall"
+      ],
       "id": "ruby-prof"
     },
     {
@@ -18530,7 +18663,7 @@
       "depended_on_directly": [
         "whitehall"
       ],
-      "id": "test-queue"
+      "id": "teaspoon-qunit"
     },
     {
       "depended_on": [
@@ -18539,7 +18672,7 @@
       "depended_on_directly": [
         "whitehall"
       ],
-      "id": "test_track"
+      "id": "test-queue"
     },
     {
       "depended_on": [

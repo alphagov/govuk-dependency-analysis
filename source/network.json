@@ -3,12 +3,12 @@
     {
       "id": "asset-manager",
       "group": "applications",
-      "dependency_count": 21
+      "dependency_count": 22
     },
     {
       "id": "authenticating-proxy",
       "group": "applications",
-      "dependency_count": 15
+      "dependency_count": 14
     },
     {
       "id": "bouncer",
@@ -28,7 +28,7 @@
     {
       "id": "collections",
       "group": "applications",
-      "dependency_count": 27
+      "dependency_count": 26
     },
     {
       "id": "collections-publisher",
@@ -43,12 +43,12 @@
     {
       "id": "content-performance-manager",
       "group": "applications",
-      "dependency_count": 42
+      "dependency_count": 49
     },
     {
       "id": "content-store",
       "group": "applications",
-      "dependency_count": 25
+      "dependency_count": 24
     },
     {
       "id": "content-tagger",
@@ -68,7 +68,7 @@
     {
       "id": "email-alert-frontend",
       "group": "applications",
-      "dependency_count": 22
+      "dependency_count": 21
     },
     {
       "id": "email-alert-service",
@@ -78,27 +78,22 @@
     {
       "id": "feedback",
       "group": "applications",
-      "dependency_count": 27
+      "dependency_count": 28
     },
     {
       "id": "finder-frontend",
       "group": "applications",
-      "dependency_count": 27
+      "dependency_count": 28
     },
     {
       "id": "frontend",
       "group": "applications",
-      "dependency_count": 44
+      "dependency_count": 45
     },
     {
       "id": "government-frontend",
       "group": "applications",
       "dependency_count": 32
-    },
-    {
-      "id": "govuk_need_api",
-      "group": "applications",
-      "dependency_count": 26
     },
     {
       "id": "hmrc-manuals-api",
@@ -113,7 +108,7 @@
     {
       "id": "info-frontend",
       "group": "applications",
-      "dependency_count": 18
+      "dependency_count": 19
     },
     {
       "id": "licence-finder",
@@ -123,7 +118,7 @@
     {
       "id": "link-checker-api",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 27
     },
     {
       "id": "local-links-manager",
@@ -158,22 +153,22 @@
     {
       "id": "publishing-api",
       "group": "applications",
-      "dependency_count": 45
+      "dependency_count": 44
     },
     {
       "id": "release",
       "group": "applications",
-      "dependency_count": 40
+      "dependency_count": 39
     },
     {
       "id": "router-api",
       "group": "applications",
-      "dependency_count": 13
+      "dependency_count": 15
     },
     {
       "id": "rummager",
       "group": "applications",
-      "dependency_count": 34
+      "dependency_count": 38
     },
     {
       "id": "search-admin",
@@ -213,7 +208,7 @@
     {
       "id": "static",
       "group": "applications",
-      "dependency_count": 30
+      "dependency_count": 29
     },
     {
       "id": "support",
@@ -238,12 +233,17 @@
     {
       "id": "whitehall",
       "group": "applications",
-      "dependency_count": 86
+      "dependency_count": 92
     },
     {
       "id": "airbrake",
       "group": "gems",
-      "usage_count": 48
+      "usage_count": 24
+    },
+    {
+      "id": "aws-sdk",
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "carrierwave",
@@ -258,7 +258,7 @@
     {
       "id": "database_cleaner",
       "group": "gems",
-      "usage_count": 25
+      "usage_count": 24
     },
     {
       "id": "delayed_job",
@@ -273,27 +273,27 @@
     {
       "id": "factory_girl_rails",
       "group": "gems",
-      "usage_count": 25
+      "usage_count": 24
     },
     {
       "id": "gds-sso",
       "group": "gems",
-      "usage_count": 25
+      "usage_count": 24
     },
     {
       "id": "govuk-lint",
       "group": "gems",
-      "usage_count": 42
+      "usage_count": 41
     },
     {
       "id": "logstasher",
       "group": "gems",
-      "usage_count": 41
+      "usage_count": 40
     },
     {
       "id": "mongoid",
       "group": "gems",
-      "usage_count": 12
+      "usage_count": 11
     },
     {
       "id": "mongoid_paranoia",
@@ -308,7 +308,7 @@
     {
       "id": "plek",
       "group": "gems",
-      "usage_count": 46
+      "usage_count": 45
     },
     {
       "id": "rack_strip_client_ip",
@@ -318,7 +318,7 @@
     {
       "id": "rails",
       "group": "gems",
-      "usage_count": 44
+      "usage_count": 43
     },
     {
       "id": "rspec-rails",
@@ -343,7 +343,7 @@
     {
       "id": "unicorn",
       "group": "gems",
-      "usage_count": 47
+      "usage_count": 46
     },
     {
       "id": "actionpack",
@@ -406,6 +406,11 @@
       "usage_count": 3
     },
     {
+      "id": "loofah",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "mime-types",
       "group": "gems",
       "usage_count": 1
@@ -413,7 +418,12 @@
     {
       "id": "minitest",
       "group": "gems",
-      "usage_count": 4
+      "usage_count": 5
+    },
+    {
+      "id": "parallel",
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "parser",
@@ -478,7 +488,7 @@
     {
       "id": "simplecov",
       "group": "gems",
-      "usage_count": 23
+      "usage_count": 24
     },
     {
       "id": "sprockets",
@@ -488,7 +498,7 @@
     {
       "id": "sprockets-rails",
       "group": "gems",
-      "usage_count": 5
+      "usage_count": 4
     },
     {
       "id": "state_machines",
@@ -496,24 +506,24 @@
       "usage_count": 2
     },
     {
-      "id": "airbrake-ruby",
-      "group": "gems",
-      "usage_count": 6
-    },
-    {
       "id": "byebug",
       "group": "gems",
-      "usage_count": 8
+      "usage_count": 9
+    },
+    {
+      "id": "govuk_app_config",
+      "group": "gems",
+      "usage_count": 23
     },
     {
       "id": "rack-proxy",
       "group": "gems",
-      "usage_count": 2
+      "usage_count": 3
     },
     {
       "id": "webmock",
       "group": "gems",
-      "usage_count": 45
+      "usage_count": 44
     },
     {
       "id": "addressable",
@@ -529,6 +539,11 @@
       "id": "method_source",
       "group": "gems",
       "usage_count": 1
+    },
+    {
+      "id": "statsd-ruby",
+      "group": "gems",
+      "usage_count": 13
     },
     {
       "id": "mr-sparkle",
@@ -558,7 +573,7 @@
     {
       "id": "listen",
       "group": "gems",
-      "usage_count": 8
+      "usage_count": 7
     },
     {
       "id": "slop",
@@ -568,12 +583,12 @@
     {
       "id": "better_errors",
       "group": "gems",
-      "usage_count": 19
+      "usage_count": 20
     },
     {
       "id": "binding_of_caller",
       "group": "gems",
-      "usage_count": 18
+      "usage_count": 19
     },
     {
       "id": "capybara",
@@ -588,7 +603,7 @@
     {
       "id": "gds-api-adapters",
       "group": "gems",
-      "usage_count": 42
+      "usage_count": 41
     },
     {
       "id": "govuk-content-schema-test-helpers",
@@ -598,12 +613,12 @@
     {
       "id": "govuk_ab_testing",
       "group": "gems",
-      "usage_count": 6
+      "usage_count": 8
     },
     {
       "id": "govuk_elements_rails",
       "group": "gems",
-      "usage_count": 4
+      "usage_count": 3
     },
     {
       "id": "govuk_frontend_toolkit",
@@ -628,7 +643,7 @@
     {
       "id": "rails-controller-testing",
       "group": "gems",
-      "usage_count": 18
+      "usage_count": 19
     },
     {
       "id": "sass-rails",
@@ -643,12 +658,12 @@
     {
       "id": "spring",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 6
     },
     {
       "id": "spring-watcher-listen",
       "group": "gems",
-      "usage_count": 5
+      "usage_count": 4
     },
     {
       "id": "timecop",
@@ -663,7 +678,7 @@
     {
       "id": "web-console",
       "group": "gems",
-      "usage_count": 11
+      "usage_count": 10
     },
     {
       "id": "ci_reporter",
@@ -678,7 +693,7 @@
     {
       "id": "link_header",
       "group": "gems",
-      "usage_count": 2
+      "usage_count": 1
     },
     {
       "id": "lrucache",
@@ -713,7 +728,7 @@
     {
       "id": "mocha",
       "group": "gems",
-      "usage_count": 15
+      "usage_count": 14
     },
     {
       "id": "rails-i18n",
@@ -723,7 +738,7 @@
     {
       "id": "shoulda",
       "group": "gems",
-      "usage_count": 6
+      "usage_count": 5
     },
     {
       "id": "shoulda-context",
@@ -733,7 +748,7 @@
     {
       "id": "shoulda-matchers",
       "group": "gems",
-      "usage_count": 7
+      "usage_count": 6
     },
     {
       "id": "cucumber-rails",
@@ -743,7 +758,7 @@
     {
       "id": "govuk_schemas",
       "group": "gems",
-      "usage_count": 6
+      "usage_count": 7
     },
     {
       "id": "jasmine-rails",
@@ -754,11 +769,6 @@
       "id": "minitest-spec-rails",
       "group": "gems",
       "usage_count": 1
-    },
-    {
-      "id": "statsd-ruby",
-      "group": "gems",
-      "usage_count": 15
     },
     {
       "id": "cucumber",
@@ -868,7 +878,7 @@
     {
       "id": "mlanett-redis-lock",
       "group": "gems",
-      "usage_count": 8
+      "usage_count": 7
     },
     {
       "id": "paper_trail",
@@ -913,7 +923,7 @@
     {
       "id": "whenever",
       "group": "gems",
-      "usage_count": 12
+      "usage_count": 11
     },
     {
       "id": "chronic",
@@ -931,7 +941,22 @@
       "usage_count": 1
     },
     {
+      "id": "activerecord-import",
+      "group": "gems",
+      "usage_count": 3
+    },
+    {
+      "id": "coffee-script",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "draper",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "feature",
       "group": "gems",
       "usage_count": 1
     },
@@ -958,7 +983,7 @@
     {
       "id": "kaminari",
       "group": "gems",
-      "usage_count": 11
+      "usage_count": 10
     },
     {
       "id": "puma",
@@ -976,7 +1001,17 @@
       "usage_count": 2
     },
     {
+      "id": "teaspoon-jasmine",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "turbolinks",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "activemodel-serializers-xml",
       "group": "gems",
       "usage_count": 1
     },
@@ -1003,7 +1038,7 @@
     {
       "id": "mongoid_rails_migrations",
       "group": "gems",
-      "usage_count": 9
+      "usage_count": 8
     },
     {
       "id": "pact",
@@ -1024,11 +1059,6 @@
       "id": "bootstrap-kaminari-views",
       "group": "gems",
       "usage_count": 7
-    },
-    {
-      "id": "chartkick",
-      "group": "gems",
-      "usage_count": 1
     },
     {
       "id": "govuk_taxonomy_helpers",
@@ -1071,14 +1101,14 @@
       "usage_count": 10
     },
     {
-      "id": "quiet_assets",
-      "group": "gems",
-      "usage_count": 4
-    },
-    {
       "id": "bunny",
       "group": "gems",
       "usage_count": 2
+    },
+    {
+      "id": "asset_bom_removal-rails",
+      "group": "gems",
+      "usage_count": 5
     },
     {
       "id": "invalid_utf8_rejector",
@@ -1126,6 +1156,11 @@
       "usage_count": 4
     },
     {
+      "id": "govuk_publishing_components",
+      "group": "gems",
+      "usage_count": 2
+    },
+    {
       "id": "rails_translation_manager",
       "group": "gems",
       "usage_count": 3
@@ -1134,16 +1169,6 @@
       "id": "wraith",
       "group": "gems",
       "usage_count": 2
-    },
-    {
-      "id": "parallel",
-      "group": "gems",
-      "usage_count": 1
-    },
-    {
-      "id": "elasticsearch",
-      "group": "gems",
-      "usage_count": 3
     },
     {
       "id": "responders",
@@ -1191,7 +1216,7 @@
       "usage_count": 2
     },
     {
-      "id": "activerecord-import",
+      "id": "elasticsearch",
       "group": "gems",
       "usage_count": 2
     },
@@ -1209,6 +1234,11 @@
       "id": "sidekiq-scheduler",
       "group": "gems",
       "usage_count": 1
+    },
+    {
+      "id": "sidekiq-unique-jobs",
+      "group": "gems",
+      "usage_count": 2
     },
     {
       "id": "sqlite3",
@@ -1251,6 +1281,11 @@
       "usage_count": 7
     },
     {
+      "id": "coffee-rails",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "diffy",
       "group": "gems",
       "usage_count": 4
@@ -1286,11 +1321,6 @@
       "usage_count": 1
     },
     {
-      "id": "aws-sdk",
-      "group": "gems",
-      "usage_count": 1
-    },
-    {
       "id": "colorize",
       "group": "gems",
       "usage_count": 1
@@ -1317,11 +1347,6 @@
     },
     {
       "id": "pact_broker-client",
-      "group": "gems",
-      "usage_count": 1
-    },
-    {
-      "id": "sidekiq-unique-jobs",
       "group": "gems",
       "usage_count": 1
     },
@@ -1356,12 +1381,17 @@
       "usage_count": 1
     },
     {
-      "id": "govuk_message_queue_consumer",
+      "id": "rack-handlers",
       "group": "gems",
       "usage_count": 1
     },
     {
-      "id": "minitest-colorize",
+      "id": "bunny-mock",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "govuk_message_queue_consumer",
       "group": "gems",
       "usage_count": 1
     },
@@ -1371,7 +1401,7 @@
       "usage_count": 1
     },
     {
-      "id": "test-unit-minitest",
+      "id": "sidekiq-limit_fetch",
       "group": "gems",
       "usage_count": 1
     },
@@ -1414,6 +1444,11 @@
       "id": "rinku",
       "group": "gems",
       "usage_count": 2
+    },
+    {
+      "id": "airbrake-ruby",
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "will_paginate_mongoid",
@@ -1461,9 +1496,19 @@
       "usage_count": 1
     },
     {
+      "id": "lhm",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "pundit",
       "group": "gems",
       "usage_count": 2
+    },
+    {
+      "id": "quiet_assets",
+      "group": "gems",
+      "usage_count": 1
     },
     {
       "id": "rotp",
@@ -1556,6 +1601,11 @@
       "usage_count": 1
     },
     {
+      "id": "carrierwave-i18n",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "dotenv-rails",
       "group": "gems",
       "usage_count": 1
@@ -1606,6 +1656,11 @@
       "usage_count": 1
     },
     {
+      "id": "record_tag_helper",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
       "id": "ruby-prof",
       "group": "gems",
       "usage_count": 1
@@ -1616,12 +1671,12 @@
       "usage_count": 1
     },
     {
-      "id": "test-queue",
+      "id": "teaspoon-qunit",
       "group": "gems",
       "usage_count": 1
     },
     {
-      "id": "test_track",
+      "id": "test-queue",
       "group": "gems",
       "usage_count": 1
     },
@@ -1645,6 +1700,10 @@
     {
       "source": "asset-manager",
       "target": "airbrake"
+    },
+    {
+      "source": "asset-manager",
+      "target": "aws-sdk"
     },
     {
       "source": "asset-manager",
@@ -1728,19 +1787,15 @@
     },
     {
       "source": "authenticating-proxy",
-      "target": "airbrake"
-    },
-    {
-      "source": "authenticating-proxy",
-      "target": "airbrake-ruby"
-    },
-    {
-      "source": "authenticating-proxy",
       "target": "byebug"
     },
     {
       "source": "authenticating-proxy",
       "target": "gds-sso"
+    },
+    {
+      "source": "authenticating-proxy",
+      "target": "govuk_app_config"
     },
     {
       "source": "authenticating-proxy",
@@ -1792,15 +1847,15 @@
     },
     {
       "source": "bouncer",
-      "target": "airbrake"
-    },
-    {
-      "source": "bouncer",
       "target": "database_cleaner"
     },
     {
       "source": "bouncer",
       "target": "erubis"
+    },
+    {
+      "source": "bouncer",
+      "target": "govuk_app_config"
     },
     {
       "source": "bouncer",
@@ -2076,10 +2131,6 @@
     },
     {
       "source": "collections",
-      "target": "airbrake"
-    },
-    {
-      "source": "collections",
       "target": "better_errors"
     },
     {
@@ -2105,6 +2156,10 @@
     {
       "source": "collections",
       "target": "govuk_ab_testing"
+    },
+    {
+      "source": "collections",
+      "target": "govuk_app_config"
     },
     {
       "source": "collections",
@@ -2168,10 +2223,6 @@
     },
     {
       "source": "collections",
-      "target": "statsd-ruby"
-    },
-    {
-      "source": "collections",
       "target": "uglifier"
     },
     {
@@ -2185,10 +2236,6 @@
     {
       "source": "collections-publisher",
       "target": "aasm"
-    },
-    {
-      "source": "collections-publisher",
-      "target": "airbrake"
     },
     {
       "source": "collections-publisher",
@@ -2237,6 +2284,10 @@
     {
       "source": "collections-publisher",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "collections-publisher",
+      "target": "govuk_app_config"
     },
     {
       "source": "collections-publisher",
@@ -2308,10 +2359,6 @@
     },
     {
       "source": "contacts-admin",
-      "target": "airbrake"
-    },
-    {
-      "source": "contacts-admin",
       "target": "ancestry"
     },
     {
@@ -2365,6 +2412,10 @@
     {
       "source": "contacts-admin",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "contacts-admin",
+      "target": "govuk_app_config"
     },
     {
       "source": "contacts-admin",
@@ -2472,7 +2523,19 @@
     },
     {
       "source": "content-performance-manager",
+      "target": "activerecord-import"
+    },
+    {
+      "source": "content-performance-manager",
       "target": "airbrake"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "better_errors"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "binding_of_caller"
     },
     {
       "source": "content-performance-manager",
@@ -2481,6 +2544,10 @@
     {
       "source": "content-performance-manager",
       "target": "capybara"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "coffee-script"
     },
     {
       "source": "content-performance-manager",
@@ -2493,6 +2560,10 @@
     {
       "source": "content-performance-manager",
       "target": "factory_girl_rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "feature"
     },
     {
       "source": "content-performance-manager",
@@ -2600,6 +2671,10 @@
     },
     {
       "source": "content-performance-manager",
+      "target": "simplecov"
+    },
+    {
+      "source": "content-performance-manager",
       "target": "spring"
     },
     {
@@ -2609,6 +2684,10 @@
     {
       "source": "content-performance-manager",
       "target": "spring-watcher-listen"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "teaspoon-jasmine"
     },
     {
       "source": "content-performance-manager",
@@ -2636,14 +2715,6 @@
     },
     {
       "source": "content-store",
-      "target": "airbrake"
-    },
-    {
-      "source": "content-store",
-      "target": "airbrake-ruby"
-    },
-    {
-      "source": "content-store",
       "target": "ci_reporter_rspec"
     },
     {
@@ -2665,6 +2736,10 @@
     {
       "source": "content-store",
       "target": "govuk-lint"
+    },
+    {
+      "source": "content-store",
+      "target": "govuk_app_config"
     },
     {
       "source": "content-store",
@@ -2736,10 +2811,6 @@
     },
     {
       "source": "content-tagger",
-      "target": "airbrake"
-    },
-    {
-      "source": "content-tagger",
       "target": "awesome_print"
     },
     {
@@ -2753,10 +2824,6 @@
     {
       "source": "content-tagger",
       "target": "capybara"
-    },
-    {
-      "source": "content-tagger",
-      "target": "chartkick"
     },
     {
       "source": "content-tagger",
@@ -2785,6 +2852,10 @@
     {
       "source": "content-tagger",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "content-tagger",
+      "target": "govuk_app_config"
     },
     {
       "source": "content-tagger",
@@ -2825,6 +2896,10 @@
     {
       "source": "content-tagger",
       "target": "pry-byebug"
+    },
+    {
+      "source": "content-tagger",
+      "target": "rack-proxy"
     },
     {
       "source": "content-tagger",
@@ -2936,10 +3011,6 @@
     },
     {
       "source": "email-alert-api",
-      "target": "airbrake"
-    },
-    {
-      "source": "email-alert-api",
       "target": "equivalent-xml"
     },
     {
@@ -2957,6 +3028,10 @@
     {
       "source": "email-alert-api",
       "target": "gds-api-adapters"
+    },
+    {
+      "source": "email-alert-api",
+      "target": "govuk_app_config"
     },
     {
       "source": "email-alert-api",
@@ -3020,10 +3095,6 @@
     },
     {
       "source": "email-alert-frontend",
-      "target": "airbrake"
-    },
-    {
-      "source": "email-alert-frontend",
       "target": "better_errors"
     },
     {
@@ -3048,6 +3119,10 @@
     },
     {
       "source": "email-alert-frontend",
+      "target": "govuk_app_config"
+    },
+    {
+      "source": "email-alert-frontend",
       "target": "govuk_elements_rails"
     },
     {
@@ -3069,10 +3144,6 @@
     {
       "source": "email-alert-frontend",
       "target": "pry-byebug"
-    },
-    {
-      "source": "email-alert-frontend",
-      "target": "quiet_assets"
     },
     {
       "source": "email-alert-frontend",
@@ -3108,15 +3179,15 @@
     },
     {
       "source": "email-alert-service",
-      "target": "airbrake"
-    },
-    {
-      "source": "email-alert-service",
       "target": "bunny"
     },
     {
       "source": "email-alert-service",
       "target": "gds-api-adapters"
+    },
+    {
+      "source": "email-alert-service",
+      "target": "govuk_app_config"
     },
     {
       "source": "email-alert-service",
@@ -3161,6 +3232,10 @@
     {
       "source": "feedback",
       "target": "airbrake"
+    },
+    {
+      "source": "feedback",
+      "target": "asset_bom_removal-rails"
     },
     {
       "source": "feedback",
@@ -3308,6 +3383,10 @@
     },
     {
       "source": "finder-frontend",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "finder-frontend",
       "target": "govuk_frontend_toolkit"
     },
     {
@@ -3381,6 +3460,10 @@
     {
       "source": "frontend",
       "target": "airbrake"
+    },
+    {
+      "source": "frontend",
+      "target": "asset_bom_removal-rails"
     },
     {
       "source": "frontend",
@@ -3556,7 +3639,7 @@
     },
     {
       "source": "government-frontend",
-      "target": "airbrake-ruby"
+      "target": "asset_bom_removal-rails"
     },
     {
       "source": "government-frontend",
@@ -3588,15 +3671,15 @@
     },
     {
       "source": "government-frontend",
-      "target": "govuk_elements_rails"
-    },
-    {
-      "source": "government-frontend",
       "target": "govuk_frontend_toolkit"
     },
     {
       "source": "government-frontend",
       "target": "govuk_navigation_helpers"
+    },
+    {
+      "source": "government-frontend",
+      "target": "govuk_publishing_components"
     },
     {
       "source": "government-frontend",
@@ -3677,110 +3760,6 @@
     {
       "source": "government-frontend",
       "target": "wraith"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "airbrake"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "database_cleaner"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "elasticsearch"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "factory_girl_rails"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "gds-api-adapters"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "gds-sso"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "govuk-lint"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "kaminari"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "link_header"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "listen"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "logstasher"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "mlanett-redis-lock"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "mocha"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "mongoid"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "mongoid_rails_migrations"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "plek"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "rails"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "shoulda"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "shoulda-matchers"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "spring"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "spring-watcher-listen"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "test-unit"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "unicorn"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "web-console"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "webmock"
-    },
-    {
-      "source": "govuk_need_api",
-      "target": "whenever"
     },
     {
       "source": "hmrc-manuals-api",
@@ -4048,6 +4027,10 @@
     },
     {
       "source": "info-frontend",
+      "target": "asset_bom_removal-rails"
+    },
+    {
+      "source": "info-frontend",
       "target": "capybara"
     },
     {
@@ -4116,10 +4099,6 @@
     },
     {
       "source": "licence-finder",
-      "target": "airbrake"
-    },
-    {
-      "source": "licence-finder",
       "target": "capybara"
     },
     {
@@ -4145,6 +4124,10 @@
     {
       "source": "licence-finder",
       "target": "govuk-lint"
+    },
+    {
+      "source": "licence-finder",
+      "target": "govuk_app_config"
     },
     {
       "source": "licence-finder",
@@ -4212,10 +4195,6 @@
     },
     {
       "source": "link-checker-api",
-      "target": "airbrake"
-    },
-    {
-      "source": "link-checker-api",
       "target": "byebug"
     },
     {
@@ -4241,6 +4220,10 @@
     {
       "source": "link-checker-api",
       "target": "govuk-lint"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "govuk_app_config"
     },
     {
       "source": "link-checker-api",
@@ -4281,6 +4264,10 @@
     {
       "source": "link-checker-api",
       "target": "sidekiq-scheduler"
+    },
+    {
+      "source": "link-checker-api",
+      "target": "sidekiq-unique-jobs"
     },
     {
       "source": "link-checker-api",
@@ -4540,10 +4527,6 @@
     },
     {
       "source": "manuals-publisher",
-      "target": "airbrake"
-    },
-    {
-      "source": "manuals-publisher",
       "target": "awesome_print"
     },
     {
@@ -4601,6 +4584,10 @@
     {
       "source": "manuals-publisher",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "manuals-publisher",
+      "target": "govuk_app_config"
     },
     {
       "source": "manuals-publisher",
@@ -4820,10 +4807,6 @@
     },
     {
       "source": "policy-publisher",
-      "target": "airbrake"
-    },
-    {
-      "source": "policy-publisher",
       "target": "cucumber-rails"
     },
     {
@@ -4861,6 +4844,10 @@
     {
       "source": "policy-publisher",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "policy-publisher",
+      "target": "govuk_app_config"
     },
     {
       "source": "policy-publisher",
@@ -5156,14 +5143,6 @@
     },
     {
       "source": "publishing-api",
-      "target": "airbrake"
-    },
-    {
-      "source": "publishing-api",
-      "target": "airbrake-ruby"
-    },
-    {
-      "source": "publishing-api",
       "target": "arel"
     },
     {
@@ -5213,6 +5192,10 @@
     {
       "source": "publishing-api",
       "target": "govuk-lint"
+    },
+    {
+      "source": "publishing-api",
+      "target": "govuk_app_config"
     },
     {
       "source": "publishing-api",
@@ -5336,14 +5319,6 @@
     },
     {
       "source": "release",
-      "target": "airbrake"
-    },
-    {
-      "source": "release",
-      "target": "airbrake-ruby"
-    },
-    {
-      "source": "release",
       "target": "aws-ses"
     },
     {
@@ -5405,6 +5380,10 @@
     {
       "source": "release",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "release",
+      "target": "govuk_app_config"
     },
     {
       "source": "release",
@@ -5496,7 +5475,7 @@
     },
     {
       "source": "router-api",
-      "target": "airbrake"
+      "target": "byebug"
     },
     {
       "source": "router-api",
@@ -5516,6 +5495,10 @@
     },
     {
       "source": "router-api",
+      "target": "govuk_app_config"
+    },
+    {
+      "source": "router-api",
       "target": "logstasher"
     },
     {
@@ -5529,6 +5512,10 @@
     {
       "source": "router-api",
       "target": "plek"
+    },
+    {
+      "source": "router-api",
+      "target": "rack-handlers"
     },
     {
       "source": "router-api",
@@ -5552,7 +5539,7 @@
     },
     {
       "source": "rummager",
-      "target": "airbrake"
+      "target": "bunny-mock"
     },
     {
       "source": "rummager",
@@ -5572,6 +5559,10 @@
     },
     {
       "source": "rummager",
+      "target": "govuk_app_config"
+    },
+    {
+      "source": "rummager",
       "target": "govuk_document_types"
     },
     {
@@ -5580,11 +5571,19 @@
     },
     {
       "source": "rummager",
+      "target": "govuk_schemas"
+    },
+    {
+      "source": "rummager",
       "target": "logging"
     },
     {
       "source": "rummager",
-      "target": "minitest-colorize"
+      "target": "loofah"
+    },
+    {
+      "source": "rummager",
+      "target": "minitest"
     },
     {
       "source": "rummager",
@@ -5636,6 +5635,10 @@
     },
     {
       "source": "rummager",
+      "target": "sidekiq-limit_fetch"
+    },
+    {
+      "source": "rummager",
       "target": "sidekiq-statsd"
     },
     {
@@ -5660,7 +5663,7 @@
     },
     {
       "source": "rummager",
-      "target": "test-unit-minitest"
+      "target": "test-unit"
     },
     {
       "source": "rummager",
@@ -5681,10 +5684,6 @@
     {
       "source": "rummager",
       "target": "whenever"
-    },
-    {
-      "source": "search-admin",
-      "target": "airbrake"
     },
     {
       "source": "search-admin",
@@ -5717,6 +5716,10 @@
     {
       "source": "search-admin",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "search-admin",
+      "target": "govuk_app_config"
     },
     {
       "source": "search-admin",
@@ -6156,10 +6159,6 @@
     },
     {
       "source": "signon",
-      "target": "airbrake"
-    },
-    {
-      "source": "signon",
       "target": "alphabetical_paginate"
     },
     {
@@ -6236,6 +6235,10 @@
     },
     {
       "source": "signon",
+      "target": "govuk_app_config"
+    },
+    {
+      "source": "signon",
       "target": "govuk_sidekiq"
     },
     {
@@ -6249,6 +6252,10 @@
     {
       "source": "signon",
       "target": "kaminari"
+    },
+    {
+      "source": "signon",
+      "target": "lhm"
     },
     {
       "source": "signon",
@@ -6333,10 +6340,6 @@
     {
       "source": "signon",
       "target": "sprockets-rails"
-    },
-    {
-      "source": "signon",
-      "target": "statsd-ruby"
     },
     {
       "source": "signon",
@@ -6568,10 +6571,6 @@
     },
     {
       "source": "specialist-publisher",
-      "target": "airbrake"
-    },
-    {
-      "source": "specialist-publisher",
       "target": "better_errors"
     },
     {
@@ -6625,6 +6624,10 @@
     {
       "source": "specialist-publisher",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "specialist-publisher",
+      "target": "govuk_app_config"
     },
     {
       "source": "specialist-publisher",
@@ -6752,6 +6755,10 @@
     },
     {
       "source": "static",
+      "target": "govuk_publishing_components"
+    },
+    {
+      "source": "static",
       "target": "govuk_template"
     },
     {
@@ -6792,10 +6799,6 @@
     },
     {
       "source": "static",
-      "target": "quiet_assets"
-    },
-    {
-      "source": "static",
       "target": "rack_strip_client_ip"
     },
     {
@@ -6813,10 +6816,6 @@
     {
       "source": "static",
       "target": "shoulda"
-    },
-    {
-      "source": "static",
-      "target": "sprockets-rails"
     },
     {
       "source": "static",
@@ -7116,10 +7115,6 @@
     },
     {
       "source": "transition",
-      "target": "airbrake"
-    },
-    {
-      "source": "transition",
       "target": "capybara"
     },
     {
@@ -7153,6 +7148,10 @@
     {
       "source": "transition",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "transition",
+      "target": "govuk_app_config"
     },
     {
       "source": "transition",
@@ -7424,11 +7423,15 @@
     },
     {
       "source": "whitehall",
+      "target": "activemodel-serializers-xml"
+    },
+    {
+      "source": "whitehall",
       "target": "addressable"
     },
     {
       "source": "whitehall",
-      "target": "airbrake"
+      "target": "asset_bom_removal-rails"
     },
     {
       "source": "whitehall",
@@ -7456,11 +7459,19 @@
     },
     {
       "source": "whitehall",
+      "target": "carrierwave-i18n"
+    },
+    {
+      "source": "whitehall",
       "target": "chronic"
     },
     {
       "source": "whitehall",
       "target": "ci_reporter_minitest"
+    },
+    {
+      "source": "whitehall",
+      "target": "coffee-rails"
     },
     {
       "source": "whitehall",
@@ -7524,7 +7535,15 @@
     },
     {
       "source": "whitehall",
+      "target": "govuk_ab_testing"
+    },
+    {
+      "source": "whitehall",
       "target": "govuk_admin_template"
+    },
+    {
+      "source": "whitehall",
+      "target": "govuk_app_config"
     },
     {
       "source": "whitehall",
@@ -7632,10 +7651,6 @@
     },
     {
       "source": "whitehall",
-      "target": "quiet_assets"
-    },
-    {
-      "source": "whitehall",
       "target": "rack"
     },
     {
@@ -7652,6 +7667,10 @@
     },
     {
       "source": "whitehall",
+      "target": "rails-controller-testing"
+    },
+    {
+      "source": "whitehall",
       "target": "rails-i18n"
     },
     {
@@ -7665,6 +7684,10 @@
     {
       "source": "whitehall",
       "target": "rake"
+    },
+    {
+      "source": "whitehall",
+      "target": "record_tag_helper"
     },
     {
       "source": "whitehall",
@@ -7728,11 +7751,11 @@
     },
     {
       "source": "whitehall",
-      "target": "test-queue"
+      "target": "teaspoon-qunit"
     },
     {
       "source": "whitehall",
-      "target": "test_track"
+      "target": "test-queue"
     },
     {
       "source": "whitehall",
