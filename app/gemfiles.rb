@@ -19,11 +19,10 @@ class Gemfiles
     rescue
     end
 
-    applications = YAML.load(HTTP.get('https://raw.githubusercontent.com/alphagov/govuk-developer-docs/master/data/applications.yml'))
-    repos = applications.each do |application|
-      next if application["retired"]
-
-      repo_name = application.fetch('github_repo_name')
+    applications = JSON.parse(HTTP.get('https://docs.publishing.service.gov.uk/apps.json'))
+    applications.each do |application|
+      puts application["app_name"]
+      repo_name = application.dig('links', 'repo_url').split('/').last
       url = "https://raw.githubusercontent.com/alphagov/#{repo_name}/master/Gemfile.lock"
       response = HTTP.get(url)
 
