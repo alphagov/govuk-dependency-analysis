@@ -13,10 +13,15 @@ require_relative 'app/gemfiles'
 require_relative 'app/dependency'
 require_relative 'app/application'
 require_relative 'app/base_data'
+require_relative 'app/jaccard_matrix'
 
 desc "Download the Gemfiles for the applications"
 task :download do
   Gemfiles.download
+end
+
+task :jaccard_matrix do
+  JaccardMatrix.generate
 end
 
 desc "Fetch all gemfile.lock's"
