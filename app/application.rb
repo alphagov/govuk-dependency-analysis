@@ -7,7 +7,7 @@ class Application
   end
 
   def self.all
-    @@data ||= JSON.parse(File.read('public/matrix.json'))
+    @@data ||= BaseData.get
     @@data['applications'].map { |app_data| Application.new(app_data) }
   end
 

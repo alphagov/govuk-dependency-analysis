@@ -14,14 +14,20 @@ require_relative 'app/dependency'
 require_relative 'app/application'
 require_relative 'app/base_data'
 require_relative 'app/jaccard_matrix'
+require_relative 'app/fragmentation'
+require_relative 'app/network'
 
 desc "Download the Gemfiles for the applications"
-task :download do
+task :download_gemfiles do
   Gemfiles.download
 end
 
-task :jaccard_matrix do
-  JaccardMatrix.generate
+desc "Outputs all the applictions and gems they depend on, gems and apps they depend on"
+task :precalculate_data do
+  BaseData.generate
+  Network.generate
+  Fragmentation.generate
+  # JaccardMatrix.generate
 end
 
 desc "Fetch all gemfile.lock's"
@@ -33,32 +39,6 @@ task :fetch_history do
   repo.log('master', 'Gemfile.lock').reverse.each_with_index do |line, i|
     puts `cd ../whitehall && git checkout #{line.sha} -- Gemfile.lock && cp Gemfile.lock ../diversion/cache/gem-histories/whitehall/gemfile-#{line.committed_date.to_i}`
   end
-end
-
-desc "Export the matrix as JSON for the network visualisation"
-task :export_network do
-  output = { nodes: [], links: [] }
-
-  matrix = JSON.parse(File.read("public/matrix.json"))
-
-  matrix["applications"].each do |application|
-    output[:nodes] << {
-      id: application.fetch("id"),
-      group: 'applications',
-      dependency_count: application["direct_dependencies"].size,
-    }
-
-    application["direct_dependencies"].each do |gem_name, attrs|
-      output[:links] << { source: application["id"], target: gem_name }
-    end
-  end
-
-  matrix["gems"].each do |attrs|
-    next unless attrs["depended_on_directly"].size > 0
-    output[:nodes] << { id: attrs["id"], group: 'gems', usage_count: attrs["depended_on_directly"].size }
-  end
-
-  File.write("source/network.json", JSON.pretty_generate(output))
 end
 
 task :export_versions do
@@ -79,33 +59,6 @@ task :export_versions do
   end
 
   File.write("public/versions.json", JSON.pretty_generate(output))
-end
-
-task :export_fragmentation do
-  direct_dependencies = []
-
-  Gemfiles.all.each do |appname, lockfile|
-    lockfile.dependencies.map do |_, d|
-      spec = lockfile.specs.find { |s| s.name == d.name }
-      direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
-    end
-  end
-
-  output = []
-
-  direct_dependencies.uniq(&:name).each do |gem|
-    versions_of_gem_in_apps = direct_dependencies.select { |v| v.name == gem.name }
-    next unless versions_of_gem_in_apps.size > 1
-
-    versions = counts(versions_of_gem_in_apps.map(&:version).sort.map(&:to_s))
-    children = versions.map do |v, count|
-      { name: "#{gem.name} #{v}", size: count }
-    end
-
-    output << { name: gem.name, children: children }
-  end
-
-  File.write("public/fragmentation.json", JSON.pretty_generate(name: "versions", children: output))
 end
 
 task :download_versions do
@@ -129,11 +82,6 @@ task :download_versions do
       puts "Skipping #{repo_name}"
     end
   end
-end
-
-desc "Outputs all the applictions and gems they depend on, gems and apps they depend on"
-task :generate_data do
-  BaseData.generate
 end
 
 task :rubygems_version_info do

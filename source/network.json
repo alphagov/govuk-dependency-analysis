@@ -28,7 +28,7 @@
     {
       "id": "collections",
       "group": "applications",
-      "dependency_count": 28
+      "dependency_count": 27
     },
     {
       "id": "collections-publisher",
@@ -43,7 +43,7 @@
     {
       "id": "content-performance-manager",
       "group": "applications",
-      "dependency_count": 39
+      "dependency_count": 42
     },
     {
       "id": "content-store",
@@ -53,7 +53,7 @@
     {
       "id": "content-tagger",
       "group": "applications",
-      "dependency_count": 35
+      "dependency_count": 34
     },
     {
       "id": "design-principles",
@@ -93,7 +93,7 @@
     {
       "id": "government-frontend",
       "group": "applications",
-      "dependency_count": 33
+      "dependency_count": 32
     },
     {
       "id": "govuk_need_api",
@@ -471,6 +471,11 @@
       "usage_count": 1
     },
     {
+      "id": "sass",
+      "group": "gems",
+      "usage_count": 4
+    },
+    {
       "id": "simplecov",
       "group": "gems",
       "usage_count": 23
@@ -503,7 +508,7 @@
     {
       "id": "rack-proxy",
       "group": "gems",
-      "usage_count": 1
+      "usage_count": 2
     },
     {
       "id": "webmock",
@@ -588,7 +593,7 @@
     {
       "id": "govuk-content-schema-test-helpers",
       "group": "gems",
-      "usage_count": 26
+      "usage_count": 24
     },
     {
       "id": "govuk_ab_testing",
@@ -691,11 +696,6 @@
       "usage_count": 1
     },
     {
-      "id": "sass",
-      "group": "gems",
-      "usage_count": 4
-    },
-    {
       "id": "tilt",
       "group": "gems",
       "usage_count": 1
@@ -773,7 +773,7 @@
     {
       "id": "phantomjs",
       "group": "gems",
-      "usage_count": 3
+      "usage_count": 4
     },
     {
       "id": "aasm",
@@ -966,6 +966,11 @@
       "usage_count": 1
     },
     {
+      "id": "selectize-rails",
+      "group": "gems",
+      "usage_count": 3
+    },
+    {
       "id": "spring-commands-rspec",
       "group": "gems",
       "usage_count": 2
@@ -1024,11 +1029,6 @@
       "id": "chartkick",
       "group": "gems",
       "usage_count": 1
-    },
-    {
-      "id": "faker",
-      "group": "gems",
-      "usage_count": 2
     },
     {
       "id": "govuk_taxonomy_helpers",
@@ -1251,11 +1251,6 @@
       "usage_count": 7
     },
     {
-      "id": "selectize-rails",
-      "group": "gems",
-      "usage_count": 2
-    },
-    {
       "id": "diffy",
       "group": "gems",
       "usage_count": 4
@@ -1297,6 +1292,11 @@
     },
     {
       "id": "colorize",
+      "group": "gems",
+      "usage_count": 1
+    },
+    {
+      "id": "faker",
       "group": "gems",
       "usage_count": 1
     },
@@ -2100,10 +2100,6 @@
     },
     {
       "source": "collections",
-      "target": "govuk-content-schema-test-helpers"
-    },
-    {
-      "source": "collections",
       "target": "govuk-lint"
     },
     {
@@ -2560,6 +2556,10 @@
     },
     {
       "source": "content-performance-manager",
+      "target": "phantomjs"
+    },
+    {
+      "source": "content-performance-manager",
       "target": "plek"
     },
     {
@@ -2576,6 +2576,10 @@
     },
     {
       "source": "content-performance-manager",
+      "target": "rack-proxy"
+    },
+    {
+      "source": "content-performance-manager",
       "target": "rails"
     },
     {
@@ -2589,6 +2593,10 @@
     {
       "source": "content-performance-manager",
       "target": "sass-rails"
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "selectize-rails"
     },
     {
       "source": "content-performance-manager",
@@ -2757,10 +2765,6 @@
     {
       "source": "content-tagger",
       "target": "factory_girl_rails"
-    },
-    {
-      "source": "content-tagger",
-      "target": "faker"
     },
     {
       "source": "content-tagger",
@@ -3573,10 +3577,6 @@
     {
       "source": "government-frontend",
       "target": "gds-api-adapters"
-    },
-    {
-      "source": "government-frontend",
-      "target": "govuk-content-schema-test-helpers"
     },
     {
       "source": "government-frontend",

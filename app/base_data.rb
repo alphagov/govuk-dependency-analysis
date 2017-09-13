@@ -1,11 +1,15 @@
 class BaseData
-  FILENAME = "public/matrix.json".freeze
+  FILENAME = "source/matrix.json".freeze
 
   def self.generate
+    puts "[Base] Generating base matrix"
+
     gems = {}
     applications = []
 
     Gemfiles.all.each do |app_name, lockfile|
+      print '.'
+
       applications << {
         id: app_name,
         direct_dependencies: lockfile.dependencies.map { |_, d| d.name },
@@ -34,6 +38,8 @@ class BaseData
     }
 
     File.write(FILENAME, JSON.pretty_generate(output))
+
+    puts '√'
   end
 
   def self.get

@@ -27,7 +27,7 @@ class Dependency
   end
 
   def self.all
-    @@data ||= JSON.parse(File.read('public/matrix.json'))
+    @@data ||= BaseData.get
     @@data['gems'].map { |gem_data| Dependency.new(gem_data) }
   end
 end
