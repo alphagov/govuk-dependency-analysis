@@ -58,7 +58,7 @@ task :export_network do
     output[:nodes] << { id: attrs["id"], group: 'gems', usage_count: attrs["depended_on_directly"].size }
   end
 
-  File.write("public/network.json", JSON.pretty_generate(output))
+  File.write("source/network.json", JSON.pretty_generate(output))
 end
 
 task :export_versions do
