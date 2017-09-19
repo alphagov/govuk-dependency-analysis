@@ -1,16 +1,14 @@
 ---
-title: GOV.UK dependencies
+title: GOV.UK dependency explorer
 ---
 
-# GOV.UK dependencies
-
-## Applications
+# GOV.UK dependency explorer
 
 We run **<%= stats[:application_count] %> Ruby applications**.
-These depend on <%= stats[:dependency_count] %> gems.
-<%= stats[:einzelgems] %> of those are only used by one application.
+These depend on [<%= stats[:dependency_count] %> gems](/gems.html).
+<%= stats[:einzelgems] %> of those are only used by one application ("einzelgems").
 
-| Name | Number of dependencies | Transitive dependencies | Einzelgems |
+| Name | Direct dependencies | Transitive dependencies | Einzelgems |
 | --- | --- | --- | --- |
 <% Application.all.sort_by(&:transitive_dependency_count).reverse.each do |app| %>
 | <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> |
