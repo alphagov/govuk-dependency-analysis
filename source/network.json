@@ -3,237 +3,237 @@
     {
       "id": "asset-manager",
       "group": "applications",
-      "dependency_count": 23
+      "dependency_count": 122
     },
     {
       "id": "authenticating-proxy",
       "group": "applications",
-      "dependency_count": 14
+      "dependency_count": 81
     },
     {
       "id": "bouncer",
       "group": "applications",
-      "dependency_count": 14
+      "dependency_count": 43
     },
     {
       "id": "calculators",
       "group": "applications",
-      "dependency_count": 32
+      "dependency_count": 125
     },
     {
       "id": "calendars",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 109
     },
     {
       "id": "collections",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 120
     },
     {
       "id": "collections-publisher",
       "group": "applications",
-      "dependency_count": 30
+      "dependency_count": 132
     },
     {
       "id": "contacts-admin",
       "group": "applications",
-      "dependency_count": 41
+      "dependency_count": 152
     },
     {
       "id": "content-performance-manager",
       "group": "applications",
-      "dependency_count": 49
+      "dependency_count": 194
     },
     {
       "id": "content-store",
       "group": "applications",
-      "dependency_count": 24
+      "dependency_count": 117
     },
     {
       "id": "content-tagger",
       "group": "applications",
-      "dependency_count": 34
+      "dependency_count": 145
     },
     {
       "id": "design-principles",
       "group": "applications",
-      "dependency_count": 16
+      "dependency_count": 76
     },
     {
       "id": "email-alert-api",
       "group": "applications",
-      "dependency_count": 21
+      "dependency_count": 95
     },
     {
       "id": "email-alert-frontend",
       "group": "applications",
-      "dependency_count": 21
+      "dependency_count": 106
     },
     {
       "id": "email-alert-service",
       "group": "applications",
-      "dependency_count": 13
+      "dependency_count": 44
     },
     {
       "id": "feedback",
       "group": "applications",
-      "dependency_count": 28
+      "dependency_count": 122
     },
     {
       "id": "finder-frontend",
       "group": "applications",
-      "dependency_count": 27
+      "dependency_count": 122
     },
     {
       "id": "frontend",
       "group": "applications",
-      "dependency_count": 45
+      "dependency_count": 130
     },
     {
       "id": "government-frontend",
       "group": "applications",
-      "dependency_count": 32
+      "dependency_count": 122
     },
     {
       "id": "hmrc-manuals-api",
       "group": "applications",
-      "dependency_count": 24
+      "dependency_count": 128
     },
     {
       "id": "imminence",
       "group": "applications",
-      "dependency_count": 39
+      "dependency_count": 154
     },
     {
       "id": "info-frontend",
       "group": "applications",
-      "dependency_count": 19
+      "dependency_count": 99
     },
     {
       "id": "licence-finder",
       "group": "applications",
-      "dependency_count": 23
+      "dependency_count": 111
     },
     {
       "id": "link-checker-api",
       "group": "applications",
-      "dependency_count": 27
+      "dependency_count": 134
     },
     {
       "id": "local-links-manager",
       "group": "applications",
-      "dependency_count": 34
+      "dependency_count": 153
     },
     {
       "id": "manuals-frontend",
       "group": "applications",
-      "dependency_count": 23
+      "dependency_count": 105
     },
     {
       "id": "manuals-publisher",
       "group": "applications",
-      "dependency_count": 40
+      "dependency_count": 165
     },
     {
       "id": "maslow",
       "group": "applications",
-      "dependency_count": 30
+      "dependency_count": 137
     },
     {
       "id": "policy-publisher",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 134
     },
     {
       "id": "publisher",
       "group": "applications",
-      "dependency_count": 58
+      "dependency_count": 170
     },
     {
       "id": "publishing-api",
       "group": "applications",
-      "dependency_count": 44
+      "dependency_count": 160
     },
     {
       "id": "release",
       "group": "applications",
-      "dependency_count": 39
+      "dependency_count": 128
     },
     {
       "id": "router-api",
       "group": "applications",
-      "dependency_count": 15
+      "dependency_count": 79
     },
     {
       "id": "rummager",
       "group": "applications",
-      "dependency_count": 38
+      "dependency_count": 100
     },
     {
       "id": "search-admin",
       "group": "applications",
-      "dependency_count": 19
+      "dependency_count": 118
     },
     {
       "id": "service-manual-frontend",
       "group": "applications",
-      "dependency_count": 26
+      "dependency_count": 107
     },
     {
       "id": "service-manual-publisher",
       "group": "applications",
-      "dependency_count": 41
+      "dependency_count": 144
     },
     {
       "id": "short-url-manager",
       "group": "applications",
-      "dependency_count": 29
+      "dependency_count": 129
     },
     {
       "id": "signon",
       "group": "applications",
-      "dependency_count": 55
+      "dependency_count": 152
     },
     {
       "id": "smart-answers",
       "group": "applications",
-      "dependency_count": 50
+      "dependency_count": 115
     },
     {
       "id": "specialist-publisher",
       "group": "applications",
-      "dependency_count": 37
+      "dependency_count": 152
     },
     {
       "id": "static",
       "group": "applications",
-      "dependency_count": 29
+      "dependency_count": 120
     },
     {
       "id": "support",
       "group": "applications",
-      "dependency_count": 38
+      "dependency_count": 152
     },
     {
       "id": "support-api",
       "group": "applications",
-      "dependency_count": 28
+      "dependency_count": 125
     },
     {
       "id": "transition",
       "group": "applications",
-      "dependency_count": 42
+      "dependency_count": 165
     },
     {
       "id": "travel-advice-publisher",
       "group": "applications",
-      "dependency_count": 37
+      "dependency_count": 157
     },
     {
       "id": "whitehall",
       "group": "applications",
-      "dependency_count": 92
+      "dependency_count": 215
     },
     {
       "id": "airbrake",

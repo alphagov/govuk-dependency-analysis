@@ -10,7 +10,7 @@ class Network
       output[:nodes] << {
         id: application.fetch("id"),
         group: 'applications',
-        dependency_count: application["direct_dependencies"].size,
+        dependency_count: application["dependencies"].size,
       }
 
       application["direct_dependencies"].each do |gem_name, attrs|

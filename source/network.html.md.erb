@@ -57,7 +57,7 @@ d3.json("network.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function (d) { return d.group == "applications" ? (d.dependency_count * 0.75) : 5 })
+      .attr("r", function (d) { return d.group == "applications" ? (d.dependency_count * 0.19) : 5 })
       .attr("fill", nodeFill)
       .on("mouseover", mouseover)
       .on("mouseout", mouseout)
