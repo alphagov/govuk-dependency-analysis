@@ -9,3 +9,11 @@
 <% gem.depended_on.each do |app| %>
 | <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= BaseData.get["versions"][app.name][gem.name] %> |
 <% end %>
+
+### Applications that don't depend on this
+
+| Name |
+| --- |
+<% gem.apps_not_using_it.each do |app| %>
+| <%= link_to app.name, "/apps/#{app.name}.html" %> |
+<% end %>
