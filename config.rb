@@ -51,7 +51,7 @@ helpers do
   include TableOfContents::Helpers
 
   def stats
-    Stats.get
+    @stats ||= Stats.get
   end
 end
 
