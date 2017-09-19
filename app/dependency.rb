@@ -7,7 +7,7 @@ class Dependency
   end
 
   def depended_on
-    @depended_on ||= @data["depended_on"].map { |gem| Application.find(gem) }.sort_by(&:name)
+    @depended_on ||= @data["depended_on"].map { |app_name| Application.find(app_name) }.sort_by(&:name)
   end
 
   def einzelgem?
