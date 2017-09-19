@@ -6,6 +6,7 @@ class BaseData
 
     gems = {}
     applications = []
+    versions = {}
 
     Gemfiles.all.each do |app_name, lockfile|
       print '.'
@@ -24,6 +25,8 @@ class BaseData
       lockfile.specs.map do |d|
         gems[d.name] ||= { depended_on: [], depended_on_directly: []}
         gems[d.name][:depended_on] << app_name
+        versions[app_name] ||= {}
+        versions[app_name][d.name] = d.version
       end
     end
 
@@ -35,6 +38,7 @@ class BaseData
     output = {
       applications: applications,
       gems: gems_output,
+      versions: versions,
     }
 
     File.write(FILENAME, JSON.pretty_generate(output))

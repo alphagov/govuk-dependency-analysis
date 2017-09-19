@@ -1,9 +1,11 @@
 # <%= gem.name %>
 
-## Applications that depend on this gem
+- <%= link_to "rubygems.org/gems/#{gem.name}", "https://rubygems.org/gems/#{gem.name}" %>
 
-| Name |
-| --- |
+### Applications that depend on this gem
+
+| Name | Version |
+| --- | --- |
 <% gem.depended_on.each do |app| %>
-| <%= link_to app.name, "/apps/#{app.name}.html" %> |
+| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= BaseData.get["versions"][app.name][gem.name] %> |
 <% end %>
