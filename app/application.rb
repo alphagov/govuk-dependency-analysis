@@ -15,6 +15,10 @@ class Application
     all.find { |app| app.name == name }
   end
 
+  def api_data
+    JSON.parse(HTTP.get("https://docs.publishing.service.gov.uk/apps/#{name}.json").body)
+  end
+
   def einzelgem_count
     einzelgems.size
   end
