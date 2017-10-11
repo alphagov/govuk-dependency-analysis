@@ -1,7 +1,6 @@
 require 'yaml'
 require 'json'
 require 'http'
-require 'grit'
 
 Version = Struct.new(:name, :version, :name_and_version)
 
@@ -35,17 +34,6 @@ end
 desc "Create similarity data (takes a while)"
 task :generate_similarity do
   JaccardMatrix.generate
-end
-
-desc "Fetch all gemfile.lock's"
-task :fetch_history do
-  repo = Grit::Repo.new("../whitehall")
-
-  `mkdir -p cache/gem-histories/whitehall`
-
-  repo.log('master', 'Gemfile.lock').reverse.each_with_index do |line, i|
-    puts `cd ../whitehall && git checkout #{line.sha} -- Gemfile.lock && cp Gemfile.lock ../diversion/cache/gem-histories/whitehall/gemfile-#{line.committed_date.to_i}`
-  end
 end
 
 task :export_versions do
