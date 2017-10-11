@@ -17,6 +17,9 @@ require_relative 'app/jaccard_matrix'
 require_relative 'app/fragmentation'
 require_relative 'app/network'
 
+desc "Download & rebuild everything"
+task rebuild: %i[download_gemfiles precalculate_data]
+
 desc "Download the Gemfiles for the applications"
 task :download_gemfiles do
   Gemfiles.download
@@ -27,7 +30,7 @@ task :precalculate_data do
   BaseData.generate
   Network.generate
   Fragmentation.generate
-  # JaccardMatrix.generate
+  JaccardMatrix.generate
 end
 
 desc "Fetch all gemfile.lock's"
