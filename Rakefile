@@ -18,7 +18,7 @@ require_relative 'app/fragmentation'
 require_relative 'app/network'
 
 desc "Download & rebuild everything"
-task rebuild: %i[download_gemfiles precalculate_data]
+task rebuild: %i[download_gemfiles precalculate_data generate_similarity]
 
 desc "Download the Gemfiles for the applications"
 task :download_gemfiles do
@@ -30,6 +30,10 @@ task :precalculate_data do
   BaseData.generate
   Network.generate
   Fragmentation.generate
+end
+
+desc "Create similarity data (takes a while)"
+task :generate_similarity do
   JaccardMatrix.generate
 end
 
