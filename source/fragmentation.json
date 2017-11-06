@@ -73,7 +73,7 @@
         },
         {
           "name": "factory_girl_rails 4.8.0",
-          "size": 10
+          "size": 9
         }
       ]
     },
@@ -107,7 +107,7 @@
         },
         {
           "name": "govuk-lint 0.5.3",
-          "size": 2
+          "size": 1
         },
         {
           "name": "govuk-lint 0.6.1",
@@ -119,7 +119,7 @@
         },
         {
           "name": "govuk-lint 1.2.1",
-          "size": 12
+          "size": 11
         },
         {
           "name": "govuk-lint 2.1.0",
@@ -131,7 +131,7 @@
         },
         {
           "name": "govuk-lint 3.3.0",
-          "size": 7
+          "size": 11
         }
       ]
     },
@@ -140,11 +140,11 @@
       "children": [
         {
           "name": "govuk_app_config 0.2.0",
-          "size": 41
+          "size": 40
         },
         {
           "name": "govuk_app_config 0.3.0",
-          "size": 6
+          "size": 7
         }
       ]
     },
@@ -162,7 +162,7 @@
       "children": [
         {
           "name": "logstasher 0.4.8",
-          "size": 11
+          "size": 10
         },
         {
           "name": "logstasher 0.4.9",
@@ -202,7 +202,7 @@
         },
         {
           "name": "logstasher 1.2.1",
-          "size": 8
+          "size": 9
         }
       ]
     },
@@ -264,7 +264,7 @@
         },
         {
           "name": "nokogiri 1.8.0",
-          "size": 3
+          "size": 4
         },
         {
           "name": "nokogiri 1.8.1",
@@ -285,7 +285,7 @@
         },
         {
           "name": "plek 1.11.0",
-          "size": 11
+          "size": 10
         },
         {
           "name": "plek 1.12.0",
@@ -293,7 +293,7 @@
         },
         {
           "name": "plek 2.0.0",
-          "size": 18
+          "size": 19
         }
       ]
     },
@@ -302,11 +302,11 @@
       "children": [
         {
           "name": "rack_strip_client_ip 0.0.1",
-          "size": 3
+          "size": 2
         },
         {
           "name": "rack_strip_client_ip 0.0.2",
-          "size": 6
+          "size": 7
         }
       ]
     },
@@ -315,10 +315,14 @@
       "children": [
         {
           "name": "rails 4.2.7.1",
-          "size": 6
+          "size": 4
         },
         {
           "name": "rails 4.2.9",
+          "size": 1
+        },
+        {
+          "name": "rails 4.2.10",
           "size": 1
         },
         {
@@ -331,7 +335,7 @@
         },
         {
           "name": "rails 5.0.2",
-          "size": 11
+          "size": 10
         },
         {
           "name": "rails 5.0.3",
@@ -367,7 +371,7 @@
         },
         {
           "name": "rails 5.1.4",
-          "size": 3
+          "size": 5
         }
       ]
     },
@@ -380,10 +384,6 @@
         },
         {
           "name": "rspec-rails 3.3.3",
-          "size": 1
-        },
-        {
-          "name": "rspec-rails 3.4.2",
           "size": 1
         },
         {
@@ -401,6 +401,10 @@
         {
           "name": "rspec-rails 3.6.1",
           "size": 8
+        },
+        {
+          "name": "rspec-rails 3.7.1",
+          "size": 1
         }
       ]
     },
@@ -464,7 +468,7 @@
         },
         {
           "name": "unicorn 4.9.0",
-          "size": 12
+          "size": 11
         },
         {
           "name": "unicorn 5.0.1",
@@ -477,6 +481,10 @@
         {
           "name": "unicorn 5.3.0",
           "size": 12
+        },
+        {
+          "name": "unicorn 5.3.1",
+          "size": 1
         }
       ]
     },
@@ -485,7 +493,7 @@
       "children": [
         {
           "name": "byebug 9.0.6",
-          "size": 5
+          "size": 4
         },
         {
           "name": "byebug 9.1.0",
@@ -497,12 +505,8 @@
       "name": "rack-proxy",
       "children": [
         {
-          "name": "rack-proxy 0.6.0",
-          "size": 1
-        },
-        {
           "name": "rack-proxy 0.6.2",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -569,7 +573,7 @@
         },
         {
           "name": "webmock 1.21.0",
-          "size": 3
+          "size": 2
         },
         {
           "name": "webmock 1.22.1",
@@ -606,6 +610,10 @@
         {
           "name": "webmock 3.0.1",
           "size": 16
+        },
+        {
+          "name": "webmock 3.1.0",
+          "size": 1
         }
       ]
     },
@@ -670,7 +678,7 @@
         },
         {
           "name": "pry 0.10.4",
-          "size": 9
+          "size": 8
         }
       ]
     },
@@ -764,7 +772,7 @@
         },
         {
           "name": "capybara 2.5.0",
-          "size": 4
+          "size": 3
         },
         {
           "name": "capybara 2.6.2",
@@ -797,6 +805,10 @@
         {
           "name": "capybara 2.15.1",
           "size": 7
+        },
+        {
+          "name": "capybara 2.15.4",
+          "size": 1
         }
       ]
     },
@@ -830,7 +842,7 @@
         },
         {
           "name": "gds-api-adapters 48.0.0",
-          "size": 9
+          "size": 8
         },
         {
           "name": "gds-api-adapters 49.1.0",
@@ -841,8 +853,8 @@
           "size": 1
         },
         {
-          "name": "gds-api-adapters 49.3.1",
-          "size": 1
+          "name": "gds-api-adapters 49.6.0",
+          "size": 2
         }
       ]
     },
@@ -855,28 +867,11 @@
         },
         {
           "name": "govuk-content-schema-test-helpers 1.4.0",
-          "size": 16
+          "size": 15
         },
         {
           "name": "govuk-content-schema-test-helpers 1.5.0",
-          "size": 6
-        }
-      ]
-    },
-    {
-      "name": "govuk_ab_testing",
-      "children": [
-        {
-          "name": "govuk_ab_testing 2.1.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_ab_testing 2.2.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_ab_testing 2.4.0",
-          "size": 5
+          "size": 7
         }
       ]
     },
@@ -985,7 +980,7 @@
         },
         {
           "name": "poltergeist 1.6.0",
-          "size": 3
+          "size": 2
         },
         {
           "name": "poltergeist 1.7.0",
@@ -1017,7 +1012,7 @@
         },
         {
           "name": "poltergeist 1.16.0",
-          "size": 8
+          "size": 9
         }
       ]
     },
@@ -1026,15 +1021,15 @@
       "children": [
         {
           "name": "pry-byebug 3.4.0",
-          "size": 4
+          "size": 3
         },
         {
           "name": "pry-byebug 3.4.2",
-          "size": 13
+          "size": 14
         },
         {
           "name": "pry-byebug 3.5.0",
-          "size": 10
+          "size": 11
         }
       ]
     },
@@ -1051,7 +1046,7 @@
         },
         {
           "name": "rails-controller-testing 1.0.2",
-          "size": 13
+          "size": 14
         }
       ]
     },
@@ -1069,11 +1064,11 @@
       "children": [
         {
           "name": "slimmer 11.0.2",
-          "size": 10
+          "size": 9
         },
         {
           "name": "slimmer 11.1.1",
-          "size": 6
+          "size": 7
         }
       ]
     },
@@ -1157,7 +1152,7 @@
         },
         {
           "name": "uglifier 2.7.2",
-          "size": 6
+          "size": 5
         },
         {
           "name": "uglifier 3.0.2",
@@ -1173,7 +1168,7 @@
         },
         {
           "name": "uglifier 3.2.0",
-          "size": 17
+          "size": 18
         }
       ]
     },
@@ -1277,15 +1272,32 @@
       ]
     },
     {
+      "name": "govuk_ab_testing",
+      "children": [
+        {
+          "name": "govuk_ab_testing 2.2.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_ab_testing 2.4.0",
+          "size": 2
+        },
+        {
+          "name": "govuk_ab_testing 2.4.1",
+          "size": 2
+        }
+      ]
+    },
+    {
       "name": "govuk_publishing_components",
       "children": [
         {
           "name": "govuk_publishing_components 1.10.0",
-          "size": 3
+          "size": 2
         },
         {
           "name": "govuk_publishing_components 1.11.0",
-          "size": 1
+          "size": 2
         }
       ]
     },
@@ -1302,11 +1314,15 @@
         },
         {
           "name": "govuk_schemas 2.2.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "govuk_schemas 2.3.0",
           "size": 3
+        },
+        {
+          "name": "govuk_schemas 3.0.0",
+          "size": 1
         }
       ]
     },
@@ -1496,7 +1512,11 @@
         },
         {
           "name": "govspeak 5.0.3",
-          "size": 6
+          "size": 5
+        },
+        {
+          "name": "govspeak 5.1.0",
+          "size": 1
         }
       ]
     },
@@ -1569,7 +1589,7 @@
       "name": "shoulda-matchers",
       "children": [
         {
-          "name": "shoulda-matchers 2.8.0",
+          "name": "shoulda-matchers 3.0.1",
           "size": 1
         },
         {
@@ -1643,12 +1663,8 @@
       "name": "google-api-client",
       "children": [
         {
-          "name": "google-api-client 0.9.19",
-          "size": 1
-        },
-        {
           "name": "google-api-client 0.10.3",
-          "size": 1
+          "size": 2
         },
         {
           "name": "google-api-client 0.11.2",
@@ -1904,6 +1920,19 @@
       ]
     },
     {
+      "name": "notifications-ruby-client",
+      "children": [
+        {
+          "name": "notifications-ruby-client 2.3.0",
+          "size": 1
+        },
+        {
+          "name": "notifications-ruby-client 2.4.0",
+          "size": 1
+        }
+      ]
+    },
+    {
       "name": "redis-namespace",
       "children": [
         {
@@ -2001,12 +2030,8 @@
       "name": "asset_bom_removal-rails",
       "children": [
         {
-          "name": "asset_bom_removal-rails 1.0.0",
-          "size": 1
-        },
-        {
           "name": "asset_bom_removal-rails 1.0.2",
-          "size": 5
+          "size": 6
         }
       ]
     },
@@ -2014,16 +2039,8 @@
       "name": "invalid_utf8_rejector",
       "children": [
         {
-          "name": "invalid_utf8_rejector 0.0.2",
-          "size": 1
-        },
-        {
-          "name": "invalid_utf8_rejector 0.0.3",
-          "size": 1
-        },
-        {
           "name": "invalid_utf8_rejector 0.0.4",
-          "size": 1
+          "size": 3
         }
       ]
     },
@@ -2031,15 +2048,15 @@
       "name": "sass",
       "children": [
         {
-          "name": "sass 3.4.22",
-          "size": 1
-        },
-        {
           "name": "sass 3.4.23",
           "size": 1
         },
         {
           "name": "sass 3.4.24",
+          "size": 1
+        },
+        {
+          "name": "sass 3.4.25",
           "size": 1
         },
         {
@@ -2430,7 +2447,7 @@
       "name": "govuk_document_types",
       "children": [
         {
-          "name": "govuk_document_types 0.1.8",
+          "name": "govuk_document_types 0.1.10",
           "size": 2
         }
       ]

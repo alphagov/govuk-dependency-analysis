@@ -186,7 +186,7 @@
     {
       "source": "asset-manager",
       "target": "content-performance-manager",
-      "value": 43
+      "value": 41
     },
     {
       "source": "asset-manager",
@@ -196,7 +196,7 @@
     {
       "source": "asset-manager",
       "target": "content-tagger",
-      "value": 58
+      "value": 57
     },
     {
       "source": "asset-manager",
@@ -206,7 +206,7 @@
     {
       "source": "asset-manager",
       "target": "email-alert-api",
-      "value": 44
+      "value": 53
     },
     {
       "source": "asset-manager",
@@ -216,17 +216,17 @@
     {
       "source": "asset-manager",
       "target": "email-alert-service",
-      "value": 20
+      "value": 30
     },
     {
       "source": "asset-manager",
       "target": "feedback",
-      "value": 43
+      "value": 41
     },
     {
       "source": "asset-manager",
       "target": "finder-frontend",
-      "value": 43
+      "value": 42
     },
     {
       "source": "asset-manager",
@@ -271,7 +271,7 @@
     {
       "source": "asset-manager",
       "target": "manuals-frontend",
-      "value": 44
+      "value": 45
     },
     {
       "source": "asset-manager",
@@ -371,7 +371,7 @@
     {
       "source": "asset-manager",
       "target": "travel-advice-publisher",
-      "value": 56
+      "value": 60
     },
     {
       "source": "asset-manager",
@@ -431,7 +431,7 @@
     {
       "source": "authenticating-proxy",
       "target": "content-tagger",
-      "value": 51
+      "value": 50
     },
     {
       "source": "authenticating-proxy",
@@ -441,7 +441,7 @@
     {
       "source": "authenticating-proxy",
       "target": "email-alert-api",
-      "value": 51
+      "value": 47
     },
     {
       "source": "authenticating-proxy",
@@ -451,7 +451,7 @@
     {
       "source": "authenticating-proxy",
       "target": "email-alert-service",
-      "value": 21
+      "value": 20
     },
     {
       "source": "authenticating-proxy",
@@ -461,7 +461,7 @@
     {
       "source": "authenticating-proxy",
       "target": "finder-frontend",
-      "value": 42
+      "value": 41
     },
     {
       "source": "authenticating-proxy",
@@ -506,7 +506,7 @@
     {
       "source": "authenticating-proxy",
       "target": "manuals-frontend",
-      "value": 44
+      "value": 45
     },
     {
       "source": "authenticating-proxy",
@@ -606,7 +606,7 @@
     {
       "source": "authenticating-proxy",
       "target": "travel-advice-publisher",
-      "value": 48
+      "value": 49
     },
     {
       "source": "authenticating-proxy",
@@ -676,7 +676,7 @@
     {
       "source": "bouncer",
       "target": "email-alert-api",
-      "value": 36
+      "value": 32
     },
     {
       "source": "bouncer",
@@ -686,12 +686,12 @@
     {
       "source": "bouncer",
       "target": "email-alert-service",
-      "value": 24
+      "value": 22
     },
     {
       "source": "bouncer",
       "target": "feedback",
-      "value": 25
+      "value": 22
     },
     {
       "source": "bouncer",
@@ -741,7 +741,7 @@
     {
       "source": "bouncer",
       "target": "manuals-frontend",
-      "value": 26
+      "value": 27
     },
     {
       "source": "bouncer",
@@ -841,7 +841,7 @@
     {
       "source": "bouncer",
       "target": "travel-advice-publisher",
-      "value": 23
+      "value": 21
     },
     {
       "source": "bouncer",
@@ -881,7 +881,7 @@
     {
       "source": "calculators",
       "target": "collections-publisher",
-      "value": 63
+      "value": 64
     },
     {
       "source": "calculators",
@@ -896,7 +896,7 @@
     {
       "source": "calculators",
       "target": "content-store",
-      "value": 65
+      "value": 66
     },
     {
       "source": "calculators",
@@ -911,22 +911,22 @@
     {
       "source": "calculators",
       "target": "email-alert-api",
-      "value": 57
+      "value": 61
     },
     {
       "source": "calculators",
       "target": "email-alert-frontend",
-      "value": 68
+      "value": 69
     },
     {
       "source": "calculators",
       "target": "email-alert-service",
-      "value": 30
+      "value": 37
     },
     {
       "source": "calculators",
       "target": "feedback",
-      "value": 67
+      "value": 66
     },
     {
       "source": "calculators",
@@ -941,7 +941,7 @@
     {
       "source": "calculators",
       "target": "government-frontend",
-      "value": 62
+      "value": 61
     },
     {
       "source": "calculators",
@@ -951,22 +951,22 @@
     {
       "source": "calculators",
       "target": "imminence",
-      "value": 50
+      "value": 51
     },
     {
       "source": "calculators",
       "target": "info-frontend",
-      "value": 73
+      "value": 74
     },
     {
       "source": "calculators",
       "target": "licence-finder",
-      "value": 68
+      "value": 69
     },
     {
       "source": "calculators",
       "target": "link-checker-api",
-      "value": 61
+      "value": 62
     },
     {
       "source": "calculators",
@@ -981,7 +981,7 @@
     {
       "source": "calculators",
       "target": "manuals-publisher",
-      "value": 55
+      "value": 56
     },
     {
       "source": "calculators",
@@ -991,12 +991,12 @@
     {
       "source": "calculators",
       "target": "policy-publisher",
-      "value": 59
+      "value": 60
     },
     {
       "source": "calculators",
       "target": "publisher",
-      "value": 49
+      "value": 50
     },
     {
       "source": "calculators",
@@ -1021,7 +1021,7 @@
     {
       "source": "calculators",
       "target": "search-admin",
-      "value": 58
+      "value": 59
     },
     {
       "source": "calculators",
@@ -1036,7 +1036,7 @@
     {
       "source": "calculators",
       "target": "short-url-manager",
-      "value": 62
+      "value": 63
     },
     {
       "source": "calculators",
@@ -1046,7 +1046,7 @@
     {
       "source": "calculators",
       "target": "smart-answers",
-      "value": 72
+      "value": 71
     },
     {
       "source": "calculators",
@@ -1066,7 +1066,7 @@
     {
       "source": "calculators",
       "target": "support-api",
-      "value": 66
+      "value": 67
     },
     {
       "source": "calculators",
@@ -1076,7 +1076,7 @@
     {
       "source": "calculators",
       "target": "travel-advice-publisher",
-      "value": 63
+      "value": 61
     },
     {
       "source": "calculators",
@@ -1136,7 +1136,7 @@
     {
       "source": "calendars",
       "target": "content-tagger",
-      "value": 57
+      "value": 56
     },
     {
       "source": "calendars",
@@ -1146,7 +1146,7 @@
     {
       "source": "calendars",
       "target": "email-alert-api",
-      "value": 52
+      "value": 56
     },
     {
       "source": "calendars",
@@ -1156,12 +1156,12 @@
     {
       "source": "calendars",
       "target": "email-alert-service",
-      "value": 28
+      "value": 36
     },
     {
       "source": "calendars",
       "target": "feedback",
-      "value": 64
+      "value": 63
     },
     {
       "source": "calendars",
@@ -1186,7 +1186,7 @@
     {
       "source": "calendars",
       "target": "imminence",
-      "value": 56
+      "value": 57
     },
     {
       "source": "calendars",
@@ -1211,7 +1211,7 @@
     {
       "source": "calendars",
       "target": "manuals-frontend",
-      "value": 68
+      "value": 69
     },
     {
       "source": "calendars",
@@ -1381,7 +1381,7 @@
     {
       "source": "collections",
       "target": "email-alert-api",
-      "value": 47
+      "value": 54
     },
     {
       "source": "collections",
@@ -1391,17 +1391,17 @@
     {
       "source": "collections",
       "target": "email-alert-service",
-      "value": 26
+      "value": 35
     },
     {
       "source": "collections",
       "target": "feedback",
-      "value": 57
+      "value": 59
     },
     {
       "source": "collections",
       "target": "finder-frontend",
-      "value": 81
+      "value": 82
     },
     {
       "source": "collections",
@@ -1421,7 +1421,7 @@
     {
       "source": "collections",
       "target": "imminence",
-      "value": 53
+      "value": 54
     },
     {
       "source": "collections",
@@ -1546,7 +1546,7 @@
     {
       "source": "collections",
       "target": "travel-advice-publisher",
-      "value": 54
+      "value": 58
     },
     {
       "source": "collections",
@@ -1571,7 +1571,7 @@
     {
       "source": "collections-publisher",
       "target": "calculators",
-      "value": 63
+      "value": 64
     },
     {
       "source": "collections-publisher",
@@ -1596,7 +1596,7 @@
     {
       "source": "collections-publisher",
       "target": "content-performance-manager",
-      "value": 60
+      "value": 58
     },
     {
       "source": "collections-publisher",
@@ -1606,7 +1606,7 @@
     {
       "source": "collections-publisher",
       "target": "content-tagger",
-      "value": 82
+      "value": 81
     },
     {
       "source": "collections-publisher",
@@ -1616,7 +1616,7 @@
     {
       "source": "collections-publisher",
       "target": "email-alert-api",
-      "value": 59
+      "value": 66
     },
     {
       "source": "collections-publisher",
@@ -1626,12 +1626,12 @@
     {
       "source": "collections-publisher",
       "target": "email-alert-service",
-      "value": 30
+      "value": 38
     },
     {
       "source": "collections-publisher",
       "target": "feedback",
-      "value": 60
+      "value": 58
     },
     {
       "source": "collections-publisher",
@@ -1656,7 +1656,7 @@
     {
       "source": "collections-publisher",
       "target": "imminence",
-      "value": 63
+      "value": 64
     },
     {
       "source": "collections-publisher",
@@ -1681,7 +1681,7 @@
     {
       "source": "collections-publisher",
       "target": "manuals-frontend",
-      "value": 67
+      "value": 69
     },
     {
       "source": "collections-publisher",
@@ -1781,7 +1781,7 @@
     {
       "source": "collections-publisher",
       "target": "travel-advice-publisher",
-      "value": 72
+      "value": 75
     },
     {
       "source": "collections-publisher",
@@ -1831,7 +1831,7 @@
     {
       "source": "contacts-admin",
       "target": "content-performance-manager",
-      "value": 52
+      "value": 50
     },
     {
       "source": "contacts-admin",
@@ -1841,7 +1841,7 @@
     {
       "source": "contacts-admin",
       "target": "content-tagger",
-      "value": 65
+      "value": 64
     },
     {
       "source": "contacts-admin",
@@ -1851,7 +1851,7 @@
     {
       "source": "contacts-admin",
       "target": "email-alert-api",
-      "value": 43
+      "value": 49
     },
     {
       "source": "contacts-admin",
@@ -1861,17 +1861,17 @@
     {
       "source": "contacts-admin",
       "target": "email-alert-service",
-      "value": 24
+      "value": 31
     },
     {
       "source": "contacts-admin",
       "target": "feedback",
-      "value": 53
+      "value": 52
     },
     {
       "source": "contacts-admin",
       "target": "finder-frontend",
-      "value": 57
+      "value": 56
     },
     {
       "source": "contacts-admin",
@@ -1916,7 +1916,7 @@
     {
       "source": "contacts-admin",
       "target": "manuals-frontend",
-      "value": 55
+      "value": 56
     },
     {
       "source": "contacts-admin",
@@ -1986,7 +1986,7 @@
     {
       "source": "contacts-admin",
       "target": "smart-answers",
-      "value": 56
+      "value": 57
     },
     {
       "source": "contacts-admin",
@@ -2016,7 +2016,7 @@
     {
       "source": "contacts-admin",
       "target": "travel-advice-publisher",
-      "value": 62
+      "value": 65
     },
     {
       "source": "contacts-admin",
@@ -2026,7 +2026,7 @@
     {
       "source": "content-performance-manager",
       "target": "asset-manager",
-      "value": 43
+      "value": 41
     },
     {
       "source": "content-performance-manager",
@@ -2056,12 +2056,12 @@
     {
       "source": "content-performance-manager",
       "target": "collections-publisher",
-      "value": 60
+      "value": 58
     },
     {
       "source": "content-performance-manager",
       "target": "contacts-admin",
-      "value": 52
+      "value": 50
     },
     {
       "source": "content-performance-manager",
@@ -2076,17 +2076,17 @@
     {
       "source": "content-performance-manager",
       "target": "content-tagger",
-      "value": 63
+      "value": 61
     },
     {
       "source": "content-performance-manager",
       "target": "design-principles",
-      "value": 33
+      "value": 32
     },
     {
       "source": "content-performance-manager",
       "target": "email-alert-api",
-      "value": 46
+      "value": 50
     },
     {
       "source": "content-performance-manager",
@@ -2096,12 +2096,12 @@
     {
       "source": "content-performance-manager",
       "target": "email-alert-service",
-      "value": 19
+      "value": 25
     },
     {
       "source": "content-performance-manager",
       "target": "feedback",
-      "value": 49
+      "value": 53
     },
     {
       "source": "content-performance-manager",
@@ -2126,7 +2126,7 @@
     {
       "source": "content-performance-manager",
       "target": "imminence",
-      "value": 52
+      "value": 51
     },
     {
       "source": "content-performance-manager",
@@ -2136,57 +2136,57 @@
     {
       "source": "content-performance-manager",
       "target": "licence-finder",
-      "value": 45
+      "value": 44
     },
     {
       "source": "content-performance-manager",
       "target": "link-checker-api",
-      "value": 61
+      "value": 59
     },
     {
       "source": "content-performance-manager",
       "target": "local-links-manager",
-      "value": 62
+      "value": 60
     },
     {
       "source": "content-performance-manager",
       "target": "manuals-frontend",
-      "value": 45
+      "value": 46
     },
     {
       "source": "content-performance-manager",
       "target": "manuals-publisher",
-      "value": 58
-    },
-    {
-      "source": "content-performance-manager",
-      "target": "maslow",
-      "value": 56
-    },
-    {
-      "source": "content-performance-manager",
-      "target": "policy-publisher",
       "value": 57
     },
     {
       "source": "content-performance-manager",
-      "target": "publisher",
-      "value": 54
+      "target": "maslow",
+      "value": 55
     },
     {
       "source": "content-performance-manager",
-      "target": "publishing-api",
+      "target": "policy-publisher",
       "value": 56
     },
     {
       "source": "content-performance-manager",
+      "target": "publisher",
+      "value": 52
+    },
+    {
+      "source": "content-performance-manager",
+      "target": "publishing-api",
+      "value": 55
+    },
+    {
+      "source": "content-performance-manager",
       "target": "release",
-      "value": 49
+      "value": 47
     },
     {
       "source": "content-performance-manager",
       "target": "router-api",
-      "value": 35
+      "value": 33
     },
     {
       "source": "content-performance-manager",
@@ -2196,7 +2196,7 @@
     {
       "source": "content-performance-manager",
       "target": "search-admin",
-      "value": 52
+      "value": 51
     },
     {
       "source": "content-performance-manager",
@@ -2206,17 +2206,17 @@
     {
       "source": "content-performance-manager",
       "target": "service-manual-publisher",
-      "value": 63
+      "value": 61
     },
     {
       "source": "content-performance-manager",
       "target": "short-url-manager",
-      "value": 56
+      "value": 54
     },
     {
       "source": "content-performance-manager",
       "target": "signon",
-      "value": 48
+      "value": 47
     },
     {
       "source": "content-performance-manager",
@@ -2226,7 +2226,7 @@
     {
       "source": "content-performance-manager",
       "target": "specialist-publisher",
-      "value": 66
+      "value": 65
     },
     {
       "source": "content-performance-manager",
@@ -2236,22 +2236,22 @@
     {
       "source": "content-performance-manager",
       "target": "support",
-      "value": 59
+      "value": 57
     },
     {
       "source": "content-performance-manager",
       "target": "support-api",
-      "value": 51
+      "value": 50
     },
     {
       "source": "content-performance-manager",
       "target": "transition",
-      "value": 67
+      "value": 65
     },
     {
       "source": "content-performance-manager",
       "target": "travel-advice-publisher",
-      "value": 60
+      "value": 59
     },
     {
       "source": "content-performance-manager",
@@ -2276,7 +2276,7 @@
     {
       "source": "content-store",
       "target": "calculators",
-      "value": 65
+      "value": 66
     },
     {
       "source": "content-store",
@@ -2321,7 +2321,7 @@
     {
       "source": "content-store",
       "target": "email-alert-api",
-      "value": 57
+      "value": 63
     },
     {
       "source": "content-store",
@@ -2331,12 +2331,12 @@
     {
       "source": "content-store",
       "target": "email-alert-service",
-      "value": 31
+      "value": 41
     },
     {
       "source": "content-store",
       "target": "feedback",
-      "value": 58
+      "value": 60
     },
     {
       "source": "content-store",
@@ -2386,7 +2386,7 @@
     {
       "source": "content-store",
       "target": "manuals-frontend",
-      "value": 60
+      "value": 61
     },
     {
       "source": "content-store",
@@ -2456,7 +2456,7 @@
     {
       "source": "content-store",
       "target": "smart-answers",
-      "value": 59
+      "value": 60
     },
     {
       "source": "content-store",
@@ -2486,7 +2486,7 @@
     {
       "source": "content-store",
       "target": "travel-advice-publisher",
-      "value": 59
+      "value": 61
     },
     {
       "source": "content-store",
@@ -2496,12 +2496,12 @@
     {
       "source": "content-tagger",
       "target": "asset-manager",
-      "value": 58
+      "value": 57
     },
     {
       "source": "content-tagger",
       "target": "authenticating-proxy",
-      "value": 51
+      "value": 50
     },
     {
       "source": "content-tagger",
@@ -2516,7 +2516,7 @@
     {
       "source": "content-tagger",
       "target": "calendars",
-      "value": 57
+      "value": 56
     },
     {
       "source": "content-tagger",
@@ -2526,17 +2526,17 @@
     {
       "source": "content-tagger",
       "target": "collections-publisher",
-      "value": 82
+      "value": 81
     },
     {
       "source": "content-tagger",
       "target": "contacts-admin",
-      "value": 65
+      "value": 64
     },
     {
       "source": "content-tagger",
       "target": "content-performance-manager",
-      "value": 63
+      "value": 61
     },
     {
       "source": "content-tagger",
@@ -2556,7 +2556,7 @@
     {
       "source": "content-tagger",
       "target": "email-alert-api",
-      "value": 56
+      "value": 64
     },
     {
       "source": "content-tagger",
@@ -2566,12 +2566,12 @@
     {
       "source": "content-tagger",
       "target": "email-alert-service",
-      "value": 27
+      "value": 36
     },
     {
       "source": "content-tagger",
       "target": "feedback",
-      "value": 56
+      "value": 59
     },
     {
       "source": "content-tagger",
@@ -2581,7 +2581,7 @@
     {
       "source": "content-tagger",
       "target": "frontend",
-      "value": 56
+      "value": 55
     },
     {
       "source": "content-tagger",
@@ -2596,32 +2596,32 @@
     {
       "source": "content-tagger",
       "target": "imminence",
-      "value": 65
-    },
-    {
-      "source": "content-tagger",
-      "target": "info-frontend",
-      "value": 58
-    },
-    {
-      "source": "content-tagger",
-      "target": "licence-finder",
-      "value": 62
-    },
-    {
-      "source": "content-tagger",
-      "target": "link-checker-api",
-      "value": 72
-    },
-    {
-      "source": "content-tagger",
-      "target": "local-links-manager",
       "value": 64
     },
     {
       "source": "content-tagger",
-      "target": "manuals-frontend",
+      "target": "info-frontend",
+      "value": 57
+    },
+    {
+      "source": "content-tagger",
+      "target": "licence-finder",
       "value": 61
+    },
+    {
+      "source": "content-tagger",
+      "target": "link-checker-api",
+      "value": 71
+    },
+    {
+      "source": "content-tagger",
+      "target": "local-links-manager",
+      "value": 63
+    },
+    {
+      "source": "content-tagger",
+      "target": "manuals-frontend",
+      "value": 62
     },
     {
       "source": "content-tagger",
@@ -2631,17 +2631,17 @@
     {
       "source": "content-tagger",
       "target": "maslow",
-      "value": 60
+      "value": 59
     },
     {
       "source": "content-tagger",
       "target": "policy-publisher",
-      "value": 69
+      "value": 68
     },
     {
       "source": "content-tagger",
       "target": "publisher",
-      "value": 66
+      "value": 65
     },
     {
       "source": "content-tagger",
@@ -2651,7 +2651,7 @@
     {
       "source": "content-tagger",
       "target": "release",
-      "value": 60
+      "value": 59
     },
     {
       "source": "content-tagger",
@@ -2666,17 +2666,17 @@
     {
       "source": "content-tagger",
       "target": "search-admin",
-      "value": 69
+      "value": 68
     },
     {
       "source": "content-tagger",
       "target": "service-manual-frontend",
-      "value": 60
+      "value": 59
     },
     {
       "source": "content-tagger",
       "target": "service-manual-publisher",
-      "value": 73
+      "value": 72
     },
     {
       "source": "content-tagger",
@@ -2686,32 +2686,32 @@
     {
       "source": "content-tagger",
       "target": "signon",
-      "value": 61
+      "value": 60
     },
     {
       "source": "content-tagger",
       "target": "smart-answers",
-      "value": 58
+      "value": 57
     },
     {
       "source": "content-tagger",
       "target": "specialist-publisher",
-      "value": 76
+      "value": 75
     },
     {
       "source": "content-tagger",
       "target": "static",
-      "value": 50
+      "value": 49
     },
     {
       "source": "content-tagger",
       "target": "support",
-      "value": 71
+      "value": 70
     },
     {
       "source": "content-tagger",
       "target": "support-api",
-      "value": 62
+      "value": 61
     },
     {
       "source": "content-tagger",
@@ -2721,12 +2721,12 @@
     {
       "source": "content-tagger",
       "target": "travel-advice-publisher",
-      "value": 70
+      "value": 74
     },
     {
       "source": "content-tagger",
       "target": "whitehall",
-      "value": 53
+      "value": 52
     },
     {
       "source": "design-principles",
@@ -2771,7 +2771,7 @@
     {
       "source": "design-principles",
       "target": "content-performance-manager",
-      "value": 33
+      "value": 32
     },
     {
       "source": "design-principles",
@@ -2791,7 +2791,7 @@
     {
       "source": "design-principles",
       "target": "email-alert-api",
-      "value": 51
+      "value": 47
     },
     {
       "source": "design-principles",
@@ -2801,17 +2801,17 @@
     {
       "source": "design-principles",
       "target": "email-alert-service",
-      "value": 28
+      "value": 27
     },
     {
       "source": "design-principles",
       "target": "feedback",
-      "value": 56
+      "value": 52
     },
     {
       "source": "design-principles",
       "target": "finder-frontend",
-      "value": 50
+      "value": 49
     },
     {
       "source": "design-principles",
@@ -2831,7 +2831,7 @@
     {
       "source": "design-principles",
       "target": "imminence",
-      "value": 39
+      "value": 38
     },
     {
       "source": "design-principles",
@@ -2856,7 +2856,7 @@
     {
       "source": "design-principles",
       "target": "manuals-frontend",
-      "value": 60
+      "value": 62
     },
     {
       "source": "design-principles",
@@ -2926,7 +2926,7 @@
     {
       "source": "design-principles",
       "target": "smart-answers",
-      "value": 49
+      "value": 50
     },
     {
       "source": "design-principles",
@@ -2966,62 +2966,62 @@
     {
       "source": "email-alert-api",
       "target": "asset-manager",
-      "value": 44
+      "value": 53
     },
     {
       "source": "email-alert-api",
       "target": "authenticating-proxy",
-      "value": 51
-    },
-    {
-      "source": "email-alert-api",
-      "target": "bouncer",
-      "value": 36
-    },
-    {
-      "source": "email-alert-api",
-      "target": "calculators",
-      "value": 57
-    },
-    {
-      "source": "email-alert-api",
-      "target": "calendars",
-      "value": 52
-    },
-    {
-      "source": "email-alert-api",
-      "target": "collections",
       "value": 47
     },
     {
       "source": "email-alert-api",
-      "target": "collections-publisher",
-      "value": 59
+      "target": "bouncer",
+      "value": 32
     },
     {
       "source": "email-alert-api",
-      "target": "contacts-admin",
-      "value": 43
+      "target": "calculators",
+      "value": 61
     },
     {
       "source": "email-alert-api",
-      "target": "content-performance-manager",
-      "value": 46
-    },
-    {
-      "source": "email-alert-api",
-      "target": "content-store",
-      "value": 57
-    },
-    {
-      "source": "email-alert-api",
-      "target": "content-tagger",
+      "target": "calendars",
       "value": 56
     },
     {
       "source": "email-alert-api",
+      "target": "collections",
+      "value": 54
+    },
+    {
+      "source": "email-alert-api",
+      "target": "collections-publisher",
+      "value": 66
+    },
+    {
+      "source": "email-alert-api",
+      "target": "contacts-admin",
+      "value": 49
+    },
+    {
+      "source": "email-alert-api",
+      "target": "content-performance-manager",
+      "value": 50
+    },
+    {
+      "source": "email-alert-api",
+      "target": "content-store",
+      "value": 63
+    },
+    {
+      "source": "email-alert-api",
+      "target": "content-tagger",
+      "value": 64
+    },
+    {
+      "source": "email-alert-api",
       "target": "design-principles",
-      "value": 51
+      "value": 47
     },
     {
       "source": "email-alert-api",
@@ -3031,172 +3031,172 @@
     {
       "source": "email-alert-api",
       "target": "email-alert-frontend",
-      "value": 62
-    },
-    {
-      "source": "email-alert-api",
-      "target": "email-alert-service",
-      "value": 40
-    },
-    {
-      "source": "email-alert-api",
-      "target": "feedback",
-      "value": 50
-    },
-    {
-      "source": "email-alert-api",
-      "target": "finder-frontend",
-      "value": 48
-    },
-    {
-      "source": "email-alert-api",
-      "target": "frontend",
-      "value": 47
-    },
-    {
-      "source": "email-alert-api",
-      "target": "government-frontend",
-      "value": 45
-    },
-    {
-      "source": "email-alert-api",
-      "target": "hmrc-manuals-api",
-      "value": 62
-    },
-    {
-      "source": "email-alert-api",
-      "target": "imminence",
-      "value": 45
-    },
-    {
-      "source": "email-alert-api",
-      "target": "info-frontend",
-      "value": 57
-    },
-    {
-      "source": "email-alert-api",
-      "target": "licence-finder",
       "value": 56
     },
     {
       "source": "email-alert-api",
-      "target": "link-checker-api",
-      "value": 65
+      "target": "email-alert-service",
+      "value": 47
     },
     {
       "source": "email-alert-api",
-      "target": "local-links-manager",
-      "value": 46
+      "target": "feedback",
+      "value": 60
     },
     {
       "source": "email-alert-api",
-      "target": "manuals-frontend",
+      "target": "finder-frontend",
       "value": 54
     },
     {
       "source": "email-alert-api",
-      "target": "manuals-publisher",
-      "value": 48
-    },
-    {
-      "source": "email-alert-api",
-      "target": "maslow",
-      "value": 45
-    },
-    {
-      "source": "email-alert-api",
-      "target": "policy-publisher",
-      "value": 48
-    },
-    {
-      "source": "email-alert-api",
-      "target": "publisher",
-      "value": 42
-    },
-    {
-      "source": "email-alert-api",
-      "target": "publishing-api",
-      "value": 51
-    },
-    {
-      "source": "email-alert-api",
-      "target": "release",
-      "value": 38
-    },
-    {
-      "source": "email-alert-api",
-      "target": "router-api",
-      "value": 55
-    },
-    {
-      "source": "email-alert-api",
-      "target": "rummager",
-      "value": 44
-    },
-    {
-      "source": "email-alert-api",
-      "target": "search-admin",
-      "value": 55
-    },
-    {
-      "source": "email-alert-api",
-      "target": "service-manual-frontend",
-      "value": 50
-    },
-    {
-      "source": "email-alert-api",
-      "target": "service-manual-publisher",
-      "value": 46
-    },
-    {
-      "source": "email-alert-api",
-      "target": "short-url-manager",
-      "value": 54
-    },
-    {
-      "source": "email-alert-api",
-      "target": "signon",
-      "value": 50
-    },
-    {
-      "source": "email-alert-api",
-      "target": "smart-answers",
-      "value": 45
-    },
-    {
-      "source": "email-alert-api",
-      "target": "specialist-publisher",
-      "value": 51
-    },
-    {
-      "source": "email-alert-api",
-      "target": "static",
-      "value": 45
-    },
-    {
-      "source": "email-alert-api",
-      "target": "support",
-      "value": 54
-    },
-    {
-      "source": "email-alert-api",
-      "target": "support-api",
-      "value": 67
-    },
-    {
-      "source": "email-alert-api",
-      "target": "transition",
-      "value": 49
-    },
-    {
-      "source": "email-alert-api",
-      "target": "travel-advice-publisher",
+      "target": "frontend",
       "value": 52
     },
     {
       "source": "email-alert-api",
+      "target": "government-frontend",
+      "value": 52
+    },
+    {
+      "source": "email-alert-api",
+      "target": "hmrc-manuals-api",
+      "value": 69
+    },
+    {
+      "source": "email-alert-api",
+      "target": "imminence",
+      "value": 50
+    },
+    {
+      "source": "email-alert-api",
+      "target": "info-frontend",
+      "value": 63
+    },
+    {
+      "source": "email-alert-api",
+      "target": "licence-finder",
+      "value": 61
+    },
+    {
+      "source": "email-alert-api",
+      "target": "link-checker-api",
+      "value": 73
+    },
+    {
+      "source": "email-alert-api",
+      "target": "local-links-manager",
+      "value": 52
+    },
+    {
+      "source": "email-alert-api",
+      "target": "manuals-frontend",
+      "value": 61
+    },
+    {
+      "source": "email-alert-api",
+      "target": "manuals-publisher",
+      "value": 54
+    },
+    {
+      "source": "email-alert-api",
+      "target": "maslow",
+      "value": 50
+    },
+    {
+      "source": "email-alert-api",
+      "target": "policy-publisher",
+      "value": 54
+    },
+    {
+      "source": "email-alert-api",
+      "target": "publisher",
+      "value": 47
+    },
+    {
+      "source": "email-alert-api",
+      "target": "publishing-api",
+      "value": 57
+    },
+    {
+      "source": "email-alert-api",
+      "target": "release",
+      "value": 44
+    },
+    {
+      "source": "email-alert-api",
+      "target": "router-api",
+      "value": 57
+    },
+    {
+      "source": "email-alert-api",
+      "target": "rummager",
+      "value": 50
+    },
+    {
+      "source": "email-alert-api",
+      "target": "search-admin",
+      "value": 62
+    },
+    {
+      "source": "email-alert-api",
+      "target": "service-manual-frontend",
+      "value": 58
+    },
+    {
+      "source": "email-alert-api",
+      "target": "service-manual-publisher",
+      "value": 53
+    },
+    {
+      "source": "email-alert-api",
+      "target": "short-url-manager",
+      "value": 60
+    },
+    {
+      "source": "email-alert-api",
+      "target": "signon",
+      "value": 54
+    },
+    {
+      "source": "email-alert-api",
+      "target": "smart-answers",
+      "value": 53
+    },
+    {
+      "source": "email-alert-api",
+      "target": "specialist-publisher",
+      "value": 58
+    },
+    {
+      "source": "email-alert-api",
+      "target": "static",
+      "value": 49
+    },
+    {
+      "source": "email-alert-api",
+      "target": "support",
+      "value": 61
+    },
+    {
+      "source": "email-alert-api",
+      "target": "support-api",
+      "value": 73
+    },
+    {
+      "source": "email-alert-api",
+      "target": "transition",
+      "value": 54
+    },
+    {
+      "source": "email-alert-api",
+      "target": "travel-advice-publisher",
+      "value": 58
+    },
+    {
+      "source": "email-alert-api",
       "target": "whitehall",
-      "value": 37
+      "value": 40
     },
     {
       "source": "email-alert-frontend",
@@ -3216,7 +3216,7 @@
     {
       "source": "email-alert-frontend",
       "target": "calculators",
-      "value": 68
+      "value": 69
     },
     {
       "source": "email-alert-frontend",
@@ -3261,7 +3261,7 @@
     {
       "source": "email-alert-frontend",
       "target": "email-alert-api",
-      "value": 62
+      "value": 56
     },
     {
       "source": "email-alert-frontend",
@@ -3271,12 +3271,12 @@
     {
       "source": "email-alert-frontend",
       "target": "email-alert-service",
-      "value": 35
+      "value": 34
     },
     {
       "source": "email-alert-frontend",
       "target": "feedback",
-      "value": 56
+      "value": 57
     },
     {
       "source": "email-alert-frontend",
@@ -3301,7 +3301,7 @@
     {
       "source": "email-alert-frontend",
       "target": "imminence",
-      "value": 46
+      "value": 45
     },
     {
       "source": "email-alert-frontend",
@@ -3326,7 +3326,7 @@
     {
       "source": "email-alert-frontend",
       "target": "manuals-frontend",
-      "value": 68
+      "value": 69
     },
     {
       "source": "email-alert-frontend",
@@ -3396,7 +3396,7 @@
     {
       "source": "email-alert-frontend",
       "target": "smart-answers",
-      "value": 58
+      "value": 59
     },
     {
       "source": "email-alert-frontend",
@@ -3426,7 +3426,7 @@
     {
       "source": "email-alert-frontend",
       "target": "travel-advice-publisher",
-      "value": 52
+      "value": 49
     },
     {
       "source": "email-alert-frontend",
@@ -3436,72 +3436,72 @@
     {
       "source": "email-alert-service",
       "target": "asset-manager",
-      "value": 20
+      "value": 30
     },
     {
       "source": "email-alert-service",
       "target": "authenticating-proxy",
-      "value": 21
+      "value": 20
     },
     {
       "source": "email-alert-service",
       "target": "bouncer",
-      "value": 24
+      "value": 22
     },
     {
       "source": "email-alert-service",
       "target": "calculators",
-      "value": 30
+      "value": 37
     },
     {
       "source": "email-alert-service",
       "target": "calendars",
-      "value": 28
+      "value": 36
     },
     {
       "source": "email-alert-service",
       "target": "collections",
-      "value": 26
+      "value": 35
     },
     {
       "source": "email-alert-service",
       "target": "collections-publisher",
-      "value": 30
+      "value": 38
     },
     {
       "source": "email-alert-service",
       "target": "contacts-admin",
-      "value": 24
-    },
-    {
-      "source": "email-alert-service",
-      "target": "content-performance-manager",
-      "value": 19
-    },
-    {
-      "source": "email-alert-service",
-      "target": "content-store",
       "value": 31
     },
     {
       "source": "email-alert-service",
+      "target": "content-performance-manager",
+      "value": 25
+    },
+    {
+      "source": "email-alert-service",
+      "target": "content-store",
+      "value": 41
+    },
+    {
+      "source": "email-alert-service",
       "target": "content-tagger",
-      "value": 27
+      "value": 36
     },
     {
       "source": "email-alert-service",
       "target": "design-principles",
-      "value": 28
+      "value": 27
     },
     {
       "source": "email-alert-service",
       "target": "email-alert-api",
-      "value": 40
+      "value": 47
     },
     {
       "source": "email-alert-service",
       "target": "email-alert-frontend",
-      "value": 35
+      "value": 34
     },
     {
       "source": "email-alert-service",
@@ -3511,167 +3511,167 @@
     {
       "source": "email-alert-service",
       "target": "feedback",
-      "value": 29
+      "value": 37
     },
     {
       "source": "email-alert-service",
       "target": "finder-frontend",
-      "value": 26
+      "value": 35
     },
     {
       "source": "email-alert-service",
       "target": "frontend",
-      "value": 29
+      "value": 37
     },
     {
       "source": "email-alert-service",
       "target": "government-frontend",
-      "value": 24
+      "value": 34
     },
     {
       "source": "email-alert-service",
       "target": "hmrc-manuals-api",
-      "value": 30
+      "value": 38
     },
     {
       "source": "email-alert-service",
       "target": "imminence",
-      "value": 20
+      "value": 25
     },
     {
       "source": "email-alert-service",
       "target": "info-frontend",
+      "value": 42
+    },
+    {
+      "source": "email-alert-service",
+      "target": "licence-finder",
+      "value": 40
+    },
+    {
+      "source": "email-alert-service",
+      "target": "link-checker-api",
+      "value": 36
+    },
+    {
+      "source": "email-alert-service",
+      "target": "local-links-manager",
+      "value": 30
+    },
+    {
+      "source": "email-alert-service",
+      "target": "manuals-frontend",
+      "value": 43
+    },
+    {
+      "source": "email-alert-service",
+      "target": "manuals-publisher",
+      "value": 31
+    },
+    {
+      "source": "email-alert-service",
+      "target": "maslow",
+      "value": 29
+    },
+    {
+      "source": "email-alert-service",
+      "target": "policy-publisher",
+      "value": 35
+    },
+    {
+      "source": "email-alert-service",
+      "target": "publisher",
+      "value": 26
+    },
+    {
+      "source": "email-alert-service",
+      "target": "publishing-api",
+      "value": 34
+    },
+    {
+      "source": "email-alert-service",
+      "target": "release",
+      "value": 23
+    },
+    {
+      "source": "email-alert-service",
+      "target": "router-api",
+      "value": 27
+    },
+    {
+      "source": "email-alert-service",
+      "target": "rummager",
+      "value": 51
+    },
+    {
+      "source": "email-alert-service",
+      "target": "search-admin",
+      "value": 39
+    },
+    {
+      "source": "email-alert-service",
+      "target": "service-manual-frontend",
+      "value": 37
+    },
+    {
+      "source": "email-alert-service",
+      "target": "service-manual-publisher",
       "value": 32
     },
     {
       "source": "email-alert-service",
-      "target": "licence-finder",
-      "value": 31
-    },
-    {
-      "source": "email-alert-service",
-      "target": "link-checker-api",
-      "value": 28
-    },
-    {
-      "source": "email-alert-service",
-      "target": "local-links-manager",
-      "value": 23
-    },
-    {
-      "source": "email-alert-service",
-      "target": "manuals-frontend",
-      "value": 34
-    },
-    {
-      "source": "email-alert-service",
-      "target": "manuals-publisher",
-      "value": 24
-    },
-    {
-      "source": "email-alert-service",
-      "target": "maslow",
-      "value": 22
-    },
-    {
-      "source": "email-alert-service",
-      "target": "policy-publisher",
-      "value": 28
-    },
-    {
-      "source": "email-alert-service",
-      "target": "publisher",
-      "value": 20
-    },
-    {
-      "source": "email-alert-service",
-      "target": "publishing-api",
-      "value": 27
-    },
-    {
-      "source": "email-alert-service",
-      "target": "release",
-      "value": 15
-    },
-    {
-      "source": "email-alert-service",
-      "target": "router-api",
-      "value": 20
-    },
-    {
-      "source": "email-alert-service",
-      "target": "rummager",
-      "value": 44
-    },
-    {
-      "source": "email-alert-service",
-      "target": "search-admin",
-      "value": 30
-    },
-    {
-      "source": "email-alert-service",
-      "target": "service-manual-frontend",
-      "value": 26
-    },
-    {
-      "source": "email-alert-service",
-      "target": "service-manual-publisher",
-      "value": 23
-    },
-    {
-      "source": "email-alert-service",
       "target": "short-url-manager",
-      "value": 29
+      "value": 37
     },
     {
       "source": "email-alert-service",
       "target": "signon",
-      "value": 25
+      "value": 31
     },
     {
       "source": "email-alert-service",
       "target": "smart-answers",
-      "value": 24
+      "value": 34
     },
     {
       "source": "email-alert-service",
       "target": "specialist-publisher",
-      "value": 24
+      "value": 32
     },
     {
       "source": "email-alert-service",
       "target": "static",
-      "value": 23
-    },
-    {
-      "source": "email-alert-service",
-      "target": "support",
-      "value": 24
-    },
-    {
-      "source": "email-alert-service",
-      "target": "support-api",
       "value": 30
     },
     {
       "source": "email-alert-service",
+      "target": "support",
+      "value": 32
+    },
+    {
+      "source": "email-alert-service",
+      "target": "support-api",
+      "value": 38
+    },
+    {
+      "source": "email-alert-service",
       "target": "transition",
-      "value": 22
+      "value": 28
     },
     {
       "source": "email-alert-service",
       "target": "travel-advice-publisher",
-      "value": 25
+      "value": 34
     },
     {
       "source": "email-alert-service",
       "target": "whitehall",
-      "value": 16
+      "value": 21
     },
     {
       "source": "feedback",
       "target": "asset-manager",
-      "value": 43
+      "value": 41
     },
     {
       "source": "feedback",
@@ -3681,67 +3681,67 @@
     {
       "source": "feedback",
       "target": "bouncer",
-      "value": 25
+      "value": 22
     },
     {
       "source": "feedback",
       "target": "calculators",
-      "value": 67
+      "value": 66
     },
     {
       "source": "feedback",
       "target": "calendars",
-      "value": 64
+      "value": 63
     },
     {
       "source": "feedback",
       "target": "collections",
-      "value": 57
+      "value": 59
     },
     {
       "source": "feedback",
       "target": "collections-publisher",
-      "value": 60
-    },
-    {
-      "source": "feedback",
-      "target": "contacts-admin",
-      "value": 53
-    },
-    {
-      "source": "feedback",
-      "target": "content-performance-manager",
-      "value": 49
-    },
-    {
-      "source": "feedback",
-      "target": "content-store",
       "value": 58
     },
     {
       "source": "feedback",
+      "target": "contacts-admin",
+      "value": 52
+    },
+    {
+      "source": "feedback",
+      "target": "content-performance-manager",
+      "value": 53
+    },
+    {
+      "source": "feedback",
+      "target": "content-store",
+      "value": 60
+    },
+    {
+      "source": "feedback",
       "target": "content-tagger",
-      "value": 56
+      "value": 59
     },
     {
       "source": "feedback",
       "target": "design-principles",
-      "value": 56
+      "value": 52
     },
     {
       "source": "feedback",
       "target": "email-alert-api",
-      "value": 50
+      "value": 60
     },
     {
       "source": "feedback",
       "target": "email-alert-frontend",
-      "value": 56
+      "value": 57
     },
     {
       "source": "feedback",
       "target": "email-alert-service",
-      "value": 29
+      "value": 37
     },
     {
       "source": "feedback",
@@ -3751,22 +3751,22 @@
     {
       "source": "feedback",
       "target": "finder-frontend",
-      "value": 58
+      "value": 59
     },
     {
       "source": "feedback",
       "target": "frontend",
-      "value": 70
+      "value": 64
     },
     {
       "source": "feedback",
       "target": "government-frontend",
-      "value": 56
+      "value": 61
     },
     {
       "source": "feedback",
       "target": "hmrc-manuals-api",
-      "value": 57
+      "value": 56
     },
     {
       "source": "feedback",
@@ -3776,17 +3776,17 @@
     {
       "source": "feedback",
       "target": "info-frontend",
-      "value": 72
-    },
-    {
-      "source": "feedback",
-      "target": "licence-finder",
       "value": 70
     },
     {
       "source": "feedback",
+      "target": "licence-finder",
+      "value": 64
+    },
+    {
+      "source": "feedback",
       "target": "link-checker-api",
-      "value": 51
+      "value": 50
     },
     {
       "source": "feedback",
@@ -3796,27 +3796,27 @@
     {
       "source": "feedback",
       "target": "manuals-frontend",
-      "value": 72
+      "value": 68
     },
     {
       "source": "feedback",
       "target": "manuals-publisher",
-      "value": 50
+      "value": 52
     },
     {
       "source": "feedback",
       "target": "maslow",
-      "value": 51
+      "value": 50
     },
     {
       "source": "feedback",
       "target": "policy-publisher",
-      "value": 56
+      "value": 54
     },
     {
       "source": "feedback",
       "target": "publisher",
-      "value": 47
+      "value": 46
     },
     {
       "source": "feedback",
@@ -3831,87 +3831,87 @@
     {
       "source": "feedback",
       "target": "router-api",
-      "value": 49
+      "value": 50
     },
     {
       "source": "feedback",
       "target": "rummager",
-      "value": 42
+      "value": 40
     },
     {
       "source": "feedback",
       "target": "search-admin",
-      "value": 58
+      "value": 57
     },
     {
       "source": "feedback",
       "target": "service-manual-frontend",
-      "value": 62
+      "value": 64
     },
     {
       "source": "feedback",
       "target": "service-manual-publisher",
-      "value": 53
+      "value": 55
     },
     {
       "source": "feedback",
       "target": "short-url-manager",
-      "value": 58
+      "value": 59
     },
     {
       "source": "feedback",
       "target": "signon",
-      "value": 51
+      "value": 47
     },
     {
       "source": "feedback",
       "target": "smart-answers",
-      "value": 61
+      "value": 62
     },
     {
       "source": "feedback",
       "target": "specialist-publisher",
-      "value": 51
+      "value": 52
     },
     {
       "source": "feedback",
       "target": "static",
-      "value": 58
+      "value": 57
     },
     {
       "source": "feedback",
       "target": "support",
-      "value": 53
+      "value": 52
     },
     {
       "source": "feedback",
       "target": "support-api",
-      "value": 56
+      "value": 54
     },
     {
       "source": "feedback",
       "target": "transition",
-      "value": 55
+      "value": 58
     },
     {
       "source": "feedback",
       "target": "travel-advice-publisher",
-      "value": 55
+      "value": 58
     },
     {
       "source": "feedback",
       "target": "whitehall",
-      "value": 38
+      "value": 40
     },
     {
       "source": "finder-frontend",
       "target": "asset-manager",
-      "value": 43
+      "value": 42
     },
     {
       "source": "finder-frontend",
       "target": "authenticating-proxy",
-      "value": 42
+      "value": 41
     },
     {
       "source": "finder-frontend",
@@ -3931,7 +3931,7 @@
     {
       "source": "finder-frontend",
       "target": "collections",
-      "value": 81
+      "value": 82
     },
     {
       "source": "finder-frontend",
@@ -3941,7 +3941,7 @@
     {
       "source": "finder-frontend",
       "target": "contacts-admin",
-      "value": 57
+      "value": 56
     },
     {
       "source": "finder-frontend",
@@ -3961,12 +3961,12 @@
     {
       "source": "finder-frontend",
       "target": "design-principles",
-      "value": 50
+      "value": 49
     },
     {
       "source": "finder-frontend",
       "target": "email-alert-api",
-      "value": 48
+      "value": 54
     },
     {
       "source": "finder-frontend",
@@ -3976,12 +3976,12 @@
     {
       "source": "finder-frontend",
       "target": "email-alert-service",
-      "value": 26
+      "value": 35
     },
     {
       "source": "finder-frontend",
       "target": "feedback",
-      "value": 58
+      "value": 59
     },
     {
       "source": "finder-frontend",
@@ -3991,47 +3991,47 @@
     {
       "source": "finder-frontend",
       "target": "frontend",
-      "value": 64
+      "value": 65
     },
     {
       "source": "finder-frontend",
       "target": "government-frontend",
-      "value": 69
+      "value": 70
     },
     {
       "source": "finder-frontend",
       "target": "hmrc-manuals-api",
-      "value": 57
+      "value": 58
     },
     {
       "source": "finder-frontend",
       "target": "imminence",
-      "value": 51
+      "value": 50
     },
     {
       "source": "finder-frontend",
       "target": "info-frontend",
-      "value": 64
-    },
-    {
-      "source": "finder-frontend",
-      "target": "licence-finder",
       "value": 63
     },
     {
       "source": "finder-frontend",
+      "target": "licence-finder",
+      "value": 62
+    },
+    {
+      "source": "finder-frontend",
       "target": "link-checker-api",
-      "value": 53
+      "value": 52
     },
     {
       "source": "finder-frontend",
       "target": "local-links-manager",
-      "value": 53
+      "value": 52
     },
     {
       "source": "finder-frontend",
       "target": "manuals-frontend",
-      "value": 71
+      "value": 73
     },
     {
       "source": "finder-frontend",
@@ -4041,7 +4041,7 @@
     {
       "source": "finder-frontend",
       "target": "maslow",
-      "value": 55
+      "value": 56
     },
     {
       "source": "finder-frontend",
@@ -4086,12 +4086,12 @@
     {
       "source": "finder-frontend",
       "target": "service-manual-publisher",
-      "value": 65
+      "value": 64
     },
     {
       "source": "finder-frontend",
       "target": "short-url-manager",
-      "value": 61
+      "value": 60
     },
     {
       "source": "finder-frontend",
@@ -4101,17 +4101,17 @@
     {
       "source": "finder-frontend",
       "target": "smart-answers",
-      "value": 69
+      "value": 68
     },
     {
       "source": "finder-frontend",
       "target": "specialist-publisher",
-      "value": 62
+      "value": 61
     },
     {
       "source": "finder-frontend",
       "target": "static",
-      "value": 66
+      "value": 65
     },
     {
       "source": "finder-frontend",
@@ -4131,12 +4131,12 @@
     {
       "source": "finder-frontend",
       "target": "travel-advice-publisher",
-      "value": 55
+      "value": 58
     },
     {
       "source": "finder-frontend",
       "target": "whitehall",
-      "value": 48
+      "value": 49
     },
     {
       "source": "frontend",
@@ -4191,7 +4191,7 @@
     {
       "source": "frontend",
       "target": "content-tagger",
-      "value": 56
+      "value": 55
     },
     {
       "source": "frontend",
@@ -4201,7 +4201,7 @@
     {
       "source": "frontend",
       "target": "email-alert-api",
-      "value": 47
+      "value": 52
     },
     {
       "source": "frontend",
@@ -4211,17 +4211,17 @@
     {
       "source": "frontend",
       "target": "email-alert-service",
-      "value": 29
+      "value": 37
     },
     {
       "source": "frontend",
       "target": "feedback",
-      "value": 70
+      "value": 64
     },
     {
       "source": "frontend",
       "target": "finder-frontend",
-      "value": 64
+      "value": 65
     },
     {
       "source": "frontend",
@@ -4336,7 +4336,7 @@
     {
       "source": "frontend",
       "target": "smart-answers",
-      "value": 73
+      "value": 72
     },
     {
       "source": "frontend",
@@ -4366,7 +4366,7 @@
     {
       "source": "frontend",
       "target": "travel-advice-publisher",
-      "value": 56
+      "value": 58
     },
     {
       "source": "frontend",
@@ -4391,7 +4391,7 @@
     {
       "source": "government-frontend",
       "target": "calculators",
-      "value": 62
+      "value": 61
     },
     {
       "source": "government-frontend",
@@ -4436,7 +4436,7 @@
     {
       "source": "government-frontend",
       "target": "email-alert-api",
-      "value": 45
+      "value": 52
     },
     {
       "source": "government-frontend",
@@ -4446,17 +4446,17 @@
     {
       "source": "government-frontend",
       "target": "email-alert-service",
-      "value": 24
+      "value": 34
     },
     {
       "source": "government-frontend",
       "target": "feedback",
-      "value": 56
+      "value": 61
     },
     {
       "source": "government-frontend",
       "target": "finder-frontend",
-      "value": 69
+      "value": 70
     },
     {
       "source": "government-frontend",
@@ -4476,7 +4476,7 @@
     {
       "source": "government-frontend",
       "target": "imminence",
-      "value": 43
+      "value": 44
     },
     {
       "source": "government-frontend",
@@ -4571,7 +4571,7 @@
     {
       "source": "government-frontend",
       "target": "smart-answers",
-      "value": 74
+      "value": 73
     },
     {
       "source": "government-frontend",
@@ -4601,7 +4601,7 @@
     {
       "source": "government-frontend",
       "target": "travel-advice-publisher",
-      "value": 49
+      "value": 53
     },
     {
       "source": "government-frontend",
@@ -4671,7 +4671,7 @@
     {
       "source": "hmrc-manuals-api",
       "target": "email-alert-api",
-      "value": 62
+      "value": 69
     },
     {
       "source": "hmrc-manuals-api",
@@ -4681,17 +4681,17 @@
     {
       "source": "hmrc-manuals-api",
       "target": "email-alert-service",
-      "value": 30
+      "value": 38
     },
     {
       "source": "hmrc-manuals-api",
       "target": "feedback",
-      "value": 57
+      "value": 56
     },
     {
       "source": "hmrc-manuals-api",
       "target": "finder-frontend",
-      "value": 57
+      "value": 58
     },
     {
       "source": "hmrc-manuals-api",
@@ -4736,7 +4736,7 @@
     {
       "source": "hmrc-manuals-api",
       "target": "manuals-frontend",
-      "value": 56
+      "value": 57
     },
     {
       "source": "hmrc-manuals-api",
@@ -4861,22 +4861,22 @@
     {
       "source": "imminence",
       "target": "calculators",
-      "value": 50
+      "value": 51
     },
     {
       "source": "imminence",
       "target": "calendars",
-      "value": 56
+      "value": 57
     },
     {
       "source": "imminence",
       "target": "collections",
-      "value": 53
+      "value": 54
     },
     {
       "source": "imminence",
       "target": "collections-publisher",
-      "value": 63
+      "value": 64
     },
     {
       "source": "imminence",
@@ -4886,7 +4886,7 @@
     {
       "source": "imminence",
       "target": "content-performance-manager",
-      "value": 52
+      "value": 51
     },
     {
       "source": "imminence",
@@ -4896,27 +4896,27 @@
     {
       "source": "imminence",
       "target": "content-tagger",
-      "value": 65
+      "value": 64
     },
     {
       "source": "imminence",
       "target": "design-principles",
-      "value": 39
+      "value": 38
     },
     {
       "source": "imminence",
       "target": "email-alert-api",
-      "value": 45
+      "value": 50
     },
     {
       "source": "imminence",
       "target": "email-alert-frontend",
-      "value": 46
+      "value": 45
     },
     {
       "source": "imminence",
       "target": "email-alert-service",
-      "value": 20
+      "value": 25
     },
     {
       "source": "imminence",
@@ -4926,7 +4926,7 @@
     {
       "source": "imminence",
       "target": "finder-frontend",
-      "value": 51
+      "value": 50
     },
     {
       "source": "imminence",
@@ -4936,7 +4936,7 @@
     {
       "source": "imminence",
       "target": "government-frontend",
-      "value": 43
+      "value": 44
     },
     {
       "source": "imminence",
@@ -4951,7 +4951,7 @@
     {
       "source": "imminence",
       "target": "info-frontend",
-      "value": 47
+      "value": 48
     },
     {
       "source": "imminence",
@@ -4971,7 +4971,7 @@
     {
       "source": "imminence",
       "target": "manuals-frontend",
-      "value": 47
+      "value": 48
     },
     {
       "source": "imminence",
@@ -4981,12 +4981,12 @@
     {
       "source": "imminence",
       "target": "maslow",
-      "value": 65
+      "value": 64
     },
     {
       "source": "imminence",
       "target": "policy-publisher",
-      "value": 59
+      "value": 58
     },
     {
       "source": "imminence",
@@ -4996,7 +4996,7 @@
     {
       "source": "imminence",
       "target": "publishing-api",
-      "value": 49
+      "value": 50
     },
     {
       "source": "imminence",
@@ -5011,7 +5011,7 @@
     {
       "source": "imminence",
       "target": "rummager",
-      "value": 35
+      "value": 34
     },
     {
       "source": "imminence",
@@ -5021,17 +5021,17 @@
     {
       "source": "imminence",
       "target": "service-manual-frontend",
-      "value": 46
+      "value": 47
     },
     {
       "source": "imminence",
       "target": "service-manual-publisher",
-      "value": 58
+      "value": 59
     },
     {
       "source": "imminence",
       "target": "short-url-manager",
-      "value": 64
+      "value": 65
     },
     {
       "source": "imminence",
@@ -5056,27 +5056,27 @@
     {
       "source": "imminence",
       "target": "support",
-      "value": 60
+      "value": 59
     },
     {
       "source": "imminence",
       "target": "support-api",
-      "value": 50
+      "value": 51
     },
     {
       "source": "imminence",
       "target": "transition",
-      "value": 62
+      "value": 63
     },
     {
       "source": "imminence",
       "target": "travel-advice-publisher",
-      "value": 70
+      "value": 69
     },
     {
       "source": "imminence",
       "target": "whitehall",
-      "value": 56
+      "value": 57
     },
     {
       "source": "info-frontend",
@@ -5096,7 +5096,7 @@
     {
       "source": "info-frontend",
       "target": "calculators",
-      "value": 73
+      "value": 74
     },
     {
       "source": "info-frontend",
@@ -5131,7 +5131,7 @@
     {
       "source": "info-frontend",
       "target": "content-tagger",
-      "value": 58
+      "value": 57
     },
     {
       "source": "info-frontend",
@@ -5141,7 +5141,7 @@
     {
       "source": "info-frontend",
       "target": "email-alert-api",
-      "value": 57
+      "value": 63
     },
     {
       "source": "info-frontend",
@@ -5151,17 +5151,17 @@
     {
       "source": "info-frontend",
       "target": "email-alert-service",
-      "value": 32
+      "value": 42
     },
     {
       "source": "info-frontend",
       "target": "feedback",
-      "value": 72
+      "value": 70
     },
     {
       "source": "info-frontend",
       "target": "finder-frontend",
-      "value": 64
+      "value": 63
     },
     {
       "source": "info-frontend",
@@ -5181,7 +5181,7 @@
     {
       "source": "info-frontend",
       "target": "imminence",
-      "value": 47
+      "value": 48
     },
     {
       "source": "info-frontend",
@@ -5206,7 +5206,7 @@
     {
       "source": "info-frontend",
       "target": "manuals-frontend",
-      "value": 73
+      "value": 75
     },
     {
       "source": "info-frontend",
@@ -5276,7 +5276,7 @@
     {
       "source": "info-frontend",
       "target": "smart-answers",
-      "value": 62
+      "value": 63
     },
     {
       "source": "info-frontend",
@@ -5306,7 +5306,7 @@
     {
       "source": "info-frontend",
       "target": "travel-advice-publisher",
-      "value": 55
+      "value": 57
     },
     {
       "source": "info-frontend",
@@ -5331,7 +5331,7 @@
     {
       "source": "licence-finder",
       "target": "calculators",
-      "value": 68
+      "value": 69
     },
     {
       "source": "licence-finder",
@@ -5356,7 +5356,7 @@
     {
       "source": "licence-finder",
       "target": "content-performance-manager",
-      "value": 45
+      "value": 44
     },
     {
       "source": "licence-finder",
@@ -5366,7 +5366,7 @@
     {
       "source": "licence-finder",
       "target": "content-tagger",
-      "value": 62
+      "value": 61
     },
     {
       "source": "licence-finder",
@@ -5376,7 +5376,7 @@
     {
       "source": "licence-finder",
       "target": "email-alert-api",
-      "value": 56
+      "value": 61
     },
     {
       "source": "licence-finder",
@@ -5386,17 +5386,17 @@
     {
       "source": "licence-finder",
       "target": "email-alert-service",
-      "value": 31
+      "value": 40
     },
     {
       "source": "licence-finder",
       "target": "feedback",
-      "value": 70
+      "value": 64
     },
     {
       "source": "licence-finder",
       "target": "finder-frontend",
-      "value": 63
+      "value": 62
     },
     {
       "source": "licence-finder",
@@ -5441,7 +5441,7 @@
     {
       "source": "licence-finder",
       "target": "manuals-frontend",
-      "value": 79
+      "value": 80
     },
     {
       "source": "licence-finder",
@@ -5541,7 +5541,7 @@
     {
       "source": "licence-finder",
       "target": "travel-advice-publisher",
-      "value": 60
+      "value": 63
     },
     {
       "source": "licence-finder",
@@ -5566,7 +5566,7 @@
     {
       "source": "link-checker-api",
       "target": "calculators",
-      "value": 61
+      "value": 62
     },
     {
       "source": "link-checker-api",
@@ -5591,7 +5591,7 @@
     {
       "source": "link-checker-api",
       "target": "content-performance-manager",
-      "value": 61
+      "value": 59
     },
     {
       "source": "link-checker-api",
@@ -5601,7 +5601,7 @@
     {
       "source": "link-checker-api",
       "target": "content-tagger",
-      "value": 72
+      "value": 71
     },
     {
       "source": "link-checker-api",
@@ -5611,7 +5611,7 @@
     {
       "source": "link-checker-api",
       "target": "email-alert-api",
-      "value": 65
+      "value": 73
     },
     {
       "source": "link-checker-api",
@@ -5621,17 +5621,17 @@
     {
       "source": "link-checker-api",
       "target": "email-alert-service",
-      "value": 28
+      "value": 36
     },
     {
       "source": "link-checker-api",
       "target": "feedback",
-      "value": 51
+      "value": 50
     },
     {
       "source": "link-checker-api",
       "target": "finder-frontend",
-      "value": 53
+      "value": 52
     },
     {
       "source": "link-checker-api",
@@ -5676,7 +5676,7 @@
     {
       "source": "link-checker-api",
       "target": "manuals-frontend",
-      "value": 56
+      "value": 57
     },
     {
       "source": "link-checker-api",
@@ -5776,7 +5776,7 @@
     {
       "source": "link-checker-api",
       "target": "travel-advice-publisher",
-      "value": 65
+      "value": 66
     },
     {
       "source": "link-checker-api",
@@ -5826,7 +5826,7 @@
     {
       "source": "local-links-manager",
       "target": "content-performance-manager",
-      "value": 62
+      "value": 60
     },
     {
       "source": "local-links-manager",
@@ -5836,7 +5836,7 @@
     {
       "source": "local-links-manager",
       "target": "content-tagger",
-      "value": 64
+      "value": 63
     },
     {
       "source": "local-links-manager",
@@ -5846,7 +5846,7 @@
     {
       "source": "local-links-manager",
       "target": "email-alert-api",
-      "value": 46
+      "value": 52
     },
     {
       "source": "local-links-manager",
@@ -5856,7 +5856,7 @@
     {
       "source": "local-links-manager",
       "target": "email-alert-service",
-      "value": 23
+      "value": 30
     },
     {
       "source": "local-links-manager",
@@ -5866,7 +5866,7 @@
     {
       "source": "local-links-manager",
       "target": "finder-frontend",
-      "value": 53
+      "value": 52
     },
     {
       "source": "local-links-manager",
@@ -5911,7 +5911,7 @@
     {
       "source": "local-links-manager",
       "target": "manuals-frontend",
-      "value": 53
+      "value": 54
     },
     {
       "source": "local-links-manager",
@@ -6011,7 +6011,7 @@
     {
       "source": "local-links-manager",
       "target": "travel-advice-publisher",
-      "value": 58
+      "value": 60
     },
     {
       "source": "local-links-manager",
@@ -6021,17 +6021,17 @@
     {
       "source": "manuals-frontend",
       "target": "asset-manager",
-      "value": 44
+      "value": 45
     },
     {
       "source": "manuals-frontend",
       "target": "authenticating-proxy",
-      "value": 44
+      "value": 45
     },
     {
       "source": "manuals-frontend",
       "target": "bouncer",
-      "value": 26
+      "value": 27
     },
     {
       "source": "manuals-frontend",
@@ -6041,7 +6041,7 @@
     {
       "source": "manuals-frontend",
       "target": "calendars",
-      "value": 68
+      "value": 69
     },
     {
       "source": "manuals-frontend",
@@ -6051,57 +6051,57 @@
     {
       "source": "manuals-frontend",
       "target": "collections-publisher",
-      "value": 67
+      "value": 69
     },
     {
       "source": "manuals-frontend",
       "target": "contacts-admin",
-      "value": 55
+      "value": 56
     },
     {
       "source": "manuals-frontend",
       "target": "content-performance-manager",
-      "value": 45
+      "value": 46
     },
     {
       "source": "manuals-frontend",
       "target": "content-store",
-      "value": 60
-    },
-    {
-      "source": "manuals-frontend",
-      "target": "content-tagger",
       "value": 61
     },
     {
       "source": "manuals-frontend",
+      "target": "content-tagger",
+      "value": 62
+    },
+    {
+      "source": "manuals-frontend",
       "target": "design-principles",
-      "value": 60
+      "value": 62
     },
     {
       "source": "manuals-frontend",
       "target": "email-alert-api",
-      "value": 54
+      "value": 61
     },
     {
       "source": "manuals-frontend",
       "target": "email-alert-frontend",
-      "value": 68
+      "value": 69
     },
     {
       "source": "manuals-frontend",
       "target": "email-alert-service",
-      "value": 34
+      "value": 43
     },
     {
       "source": "manuals-frontend",
       "target": "feedback",
-      "value": 72
+      "value": 68
     },
     {
       "source": "manuals-frontend",
       "target": "finder-frontend",
-      "value": 71
+      "value": 73
     },
     {
       "source": "manuals-frontend",
@@ -6116,32 +6116,32 @@
     {
       "source": "manuals-frontend",
       "target": "hmrc-manuals-api",
-      "value": 56
+      "value": 57
     },
     {
       "source": "manuals-frontend",
       "target": "imminence",
-      "value": 47
+      "value": 48
     },
     {
       "source": "manuals-frontend",
       "target": "info-frontend",
-      "value": 73
+      "value": 75
     },
     {
       "source": "manuals-frontend",
       "target": "licence-finder",
-      "value": 79
+      "value": 80
     },
     {
       "source": "manuals-frontend",
       "target": "link-checker-api",
-      "value": 56
+      "value": 57
     },
     {
       "source": "manuals-frontend",
       "target": "local-links-manager",
-      "value": 53
+      "value": 54
     },
     {
       "source": "manuals-frontend",
@@ -6151,67 +6151,67 @@
     {
       "source": "manuals-frontend",
       "target": "manuals-publisher",
-      "value": 58
+      "value": 59
     },
     {
       "source": "manuals-frontend",
       "target": "maslow",
-      "value": 54
+      "value": 55
     },
     {
       "source": "manuals-frontend",
       "target": "policy-publisher",
-      "value": 63
+      "value": 64
     },
     {
       "source": "manuals-frontend",
       "target": "publisher",
-      "value": 48
-    },
-    {
-      "source": "manuals-frontend",
-      "target": "publishing-api",
-      "value": 46
-    },
-    {
-      "source": "manuals-frontend",
-      "target": "release",
-      "value": 50
-    },
-    {
-      "source": "manuals-frontend",
-      "target": "router-api",
       "value": 49
     },
     {
       "source": "manuals-frontend",
+      "target": "publishing-api",
+      "value": 47
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "release",
+      "value": 51
+    },
+    {
+      "source": "manuals-frontend",
+      "target": "router-api",
+      "value": 50
+    },
+    {
+      "source": "manuals-frontend",
       "target": "rummager",
-      "value": 43
+      "value": 44
     },
     {
       "source": "manuals-frontend",
       "target": "search-admin",
-      "value": 62
+      "value": 63
     },
     {
       "source": "manuals-frontend",
       "target": "service-manual-frontend",
-      "value": 75
+      "value": 76
     },
     {
       "source": "manuals-frontend",
       "target": "service-manual-publisher",
-      "value": 61
-    },
-    {
-      "source": "manuals-frontend",
-      "target": "short-url-manager",
       "value": 62
     },
     {
       "source": "manuals-frontend",
+      "target": "short-url-manager",
+      "value": 63
+    },
+    {
+      "source": "manuals-frontend",
       "target": "signon",
-      "value": 59
+      "value": 60
     },
     {
       "source": "manuals-frontend",
@@ -6221,32 +6221,32 @@
     {
       "source": "manuals-frontend",
       "target": "specialist-publisher",
-      "value": 57
+      "value": 58
     },
     {
       "source": "manuals-frontend",
       "target": "static",
-      "value": 64
+      "value": 65
     },
     {
       "source": "manuals-frontend",
       "target": "support",
-      "value": 53
+      "value": 54
     },
     {
       "source": "manuals-frontend",
       "target": "support-api",
-      "value": 56
+      "value": 57
     },
     {
       "source": "manuals-frontend",
       "target": "transition",
-      "value": 50
+      "value": 51
     },
     {
       "source": "manuals-frontend",
       "target": "travel-advice-publisher",
-      "value": 55
+      "value": 59
     },
     {
       "source": "manuals-frontend",
@@ -6271,7 +6271,7 @@
     {
       "source": "manuals-publisher",
       "target": "calculators",
-      "value": 55
+      "value": 56
     },
     {
       "source": "manuals-publisher",
@@ -6296,7 +6296,7 @@
     {
       "source": "manuals-publisher",
       "target": "content-performance-manager",
-      "value": 58
+      "value": 57
     },
     {
       "source": "manuals-publisher",
@@ -6316,7 +6316,7 @@
     {
       "source": "manuals-publisher",
       "target": "email-alert-api",
-      "value": 48
+      "value": 54
     },
     {
       "source": "manuals-publisher",
@@ -6326,12 +6326,12 @@
     {
       "source": "manuals-publisher",
       "target": "email-alert-service",
-      "value": 24
+      "value": 31
     },
     {
       "source": "manuals-publisher",
       "target": "feedback",
-      "value": 50
+      "value": 52
     },
     {
       "source": "manuals-publisher",
@@ -6381,7 +6381,7 @@
     {
       "source": "manuals-publisher",
       "target": "manuals-frontend",
-      "value": 58
+      "value": 59
     },
     {
       "source": "manuals-publisher",
@@ -6481,7 +6481,7 @@
     {
       "source": "manuals-publisher",
       "target": "travel-advice-publisher",
-      "value": 70
+      "value": 73
     },
     {
       "source": "manuals-publisher",
@@ -6531,7 +6531,7 @@
     {
       "source": "maslow",
       "target": "content-performance-manager",
-      "value": 56
+      "value": 55
     },
     {
       "source": "maslow",
@@ -6541,7 +6541,7 @@
     {
       "source": "maslow",
       "target": "content-tagger",
-      "value": 60
+      "value": 59
     },
     {
       "source": "maslow",
@@ -6551,7 +6551,7 @@
     {
       "source": "maslow",
       "target": "email-alert-api",
-      "value": 45
+      "value": 50
     },
     {
       "source": "maslow",
@@ -6561,17 +6561,17 @@
     {
       "source": "maslow",
       "target": "email-alert-service",
-      "value": 22
+      "value": 29
     },
     {
       "source": "maslow",
       "target": "feedback",
-      "value": 51
+      "value": 50
     },
     {
       "source": "maslow",
       "target": "finder-frontend",
-      "value": 55
+      "value": 56
     },
     {
       "source": "maslow",
@@ -6591,7 +6591,7 @@
     {
       "source": "maslow",
       "target": "imminence",
-      "value": 65
+      "value": 64
     },
     {
       "source": "maslow",
@@ -6616,7 +6616,7 @@
     {
       "source": "maslow",
       "target": "manuals-frontend",
-      "value": 54
+      "value": 55
     },
     {
       "source": "maslow",
@@ -6716,7 +6716,7 @@
     {
       "source": "maslow",
       "target": "travel-advice-publisher",
-      "value": 68
+      "value": 70
     },
     {
       "source": "maslow",
@@ -6741,7 +6741,7 @@
     {
       "source": "policy-publisher",
       "target": "calculators",
-      "value": 59
+      "value": 60
     },
     {
       "source": "policy-publisher",
@@ -6766,7 +6766,7 @@
     {
       "source": "policy-publisher",
       "target": "content-performance-manager",
-      "value": 57
+      "value": 56
     },
     {
       "source": "policy-publisher",
@@ -6776,7 +6776,7 @@
     {
       "source": "policy-publisher",
       "target": "content-tagger",
-      "value": 69
+      "value": 68
     },
     {
       "source": "policy-publisher",
@@ -6786,7 +6786,7 @@
     {
       "source": "policy-publisher",
       "target": "email-alert-api",
-      "value": 48
+      "value": 54
     },
     {
       "source": "policy-publisher",
@@ -6796,12 +6796,12 @@
     {
       "source": "policy-publisher",
       "target": "email-alert-service",
-      "value": 28
+      "value": 35
     },
     {
       "source": "policy-publisher",
       "target": "feedback",
-      "value": 56
+      "value": 54
     },
     {
       "source": "policy-publisher",
@@ -6826,7 +6826,7 @@
     {
       "source": "policy-publisher",
       "target": "imminence",
-      "value": 59
+      "value": 58
     },
     {
       "source": "policy-publisher",
@@ -6851,7 +6851,7 @@
     {
       "source": "policy-publisher",
       "target": "manuals-frontend",
-      "value": 63
+      "value": 64
     },
     {
       "source": "policy-publisher",
@@ -6951,7 +6951,7 @@
     {
       "source": "policy-publisher",
       "target": "travel-advice-publisher",
-      "value": 64
+      "value": 67
     },
     {
       "source": "policy-publisher",
@@ -6976,7 +6976,7 @@
     {
       "source": "publisher",
       "target": "calculators",
-      "value": 49
+      "value": 50
     },
     {
       "source": "publisher",
@@ -7001,7 +7001,7 @@
     {
       "source": "publisher",
       "target": "content-performance-manager",
-      "value": 54
+      "value": 52
     },
     {
       "source": "publisher",
@@ -7011,7 +7011,7 @@
     {
       "source": "publisher",
       "target": "content-tagger",
-      "value": 66
+      "value": 65
     },
     {
       "source": "publisher",
@@ -7021,7 +7021,7 @@
     {
       "source": "publisher",
       "target": "email-alert-api",
-      "value": 42
+      "value": 47
     },
     {
       "source": "publisher",
@@ -7031,12 +7031,12 @@
     {
       "source": "publisher",
       "target": "email-alert-service",
-      "value": 20
+      "value": 26
     },
     {
       "source": "publisher",
       "target": "feedback",
-      "value": 47
+      "value": 46
     },
     {
       "source": "publisher",
@@ -7086,7 +7086,7 @@
     {
       "source": "publisher",
       "target": "manuals-frontend",
-      "value": 48
+      "value": 49
     },
     {
       "source": "publisher",
@@ -7186,7 +7186,7 @@
     {
       "source": "publisher",
       "target": "travel-advice-publisher",
-      "value": 73
+      "value": 76
     },
     {
       "source": "publisher",
@@ -7236,7 +7236,7 @@
     {
       "source": "publishing-api",
       "target": "content-performance-manager",
-      "value": 56
+      "value": 55
     },
     {
       "source": "publishing-api",
@@ -7256,7 +7256,7 @@
     {
       "source": "publishing-api",
       "target": "email-alert-api",
-      "value": 51
+      "value": 57
     },
     {
       "source": "publishing-api",
@@ -7266,7 +7266,7 @@
     {
       "source": "publishing-api",
       "target": "email-alert-service",
-      "value": 27
+      "value": 34
     },
     {
       "source": "publishing-api",
@@ -7296,7 +7296,7 @@
     {
       "source": "publishing-api",
       "target": "imminence",
-      "value": 49
+      "value": 50
     },
     {
       "source": "publishing-api",
@@ -7321,7 +7321,7 @@
     {
       "source": "publishing-api",
       "target": "manuals-frontend",
-      "value": 46
+      "value": 47
     },
     {
       "source": "publishing-api",
@@ -7421,7 +7421,7 @@
     {
       "source": "publishing-api",
       "target": "travel-advice-publisher",
-      "value": 60
+      "value": 62
     },
     {
       "source": "publishing-api",
@@ -7471,7 +7471,7 @@
     {
       "source": "release",
       "target": "content-performance-manager",
-      "value": 49
+      "value": 47
     },
     {
       "source": "release",
@@ -7481,7 +7481,7 @@
     {
       "source": "release",
       "target": "content-tagger",
-      "value": 60
+      "value": 59
     },
     {
       "source": "release",
@@ -7491,7 +7491,7 @@
     {
       "source": "release",
       "target": "email-alert-api",
-      "value": 38
+      "value": 44
     },
     {
       "source": "release",
@@ -7501,7 +7501,7 @@
     {
       "source": "release",
       "target": "email-alert-service",
-      "value": 15
+      "value": 23
     },
     {
       "source": "release",
@@ -7556,7 +7556,7 @@
     {
       "source": "release",
       "target": "manuals-frontend",
-      "value": 50
+      "value": 51
     },
     {
       "source": "release",
@@ -7656,7 +7656,7 @@
     {
       "source": "release",
       "target": "travel-advice-publisher",
-      "value": 59
+      "value": 61
     },
     {
       "source": "release",
@@ -7706,7 +7706,7 @@
     {
       "source": "router-api",
       "target": "content-performance-manager",
-      "value": 35
+      "value": 33
     },
     {
       "source": "router-api",
@@ -7726,7 +7726,7 @@
     {
       "source": "router-api",
       "target": "email-alert-api",
-      "value": 55
+      "value": 57
     },
     {
       "source": "router-api",
@@ -7736,12 +7736,12 @@
     {
       "source": "router-api",
       "target": "email-alert-service",
-      "value": 20
+      "value": 27
     },
     {
       "source": "router-api",
       "target": "feedback",
-      "value": 49
+      "value": 50
     },
     {
       "source": "router-api",
@@ -7791,7 +7791,7 @@
     {
       "source": "router-api",
       "target": "manuals-frontend",
-      "value": 49
+      "value": 50
     },
     {
       "source": "router-api",
@@ -7861,7 +7861,7 @@
     {
       "source": "router-api",
       "target": "smart-answers",
-      "value": 43
+      "value": 44
     },
     {
       "source": "router-api",
@@ -7961,7 +7961,7 @@
     {
       "source": "rummager",
       "target": "email-alert-api",
-      "value": 44
+      "value": 50
     },
     {
       "source": "rummager",
@@ -7971,12 +7971,12 @@
     {
       "source": "rummager",
       "target": "email-alert-service",
-      "value": 44
+      "value": 51
     },
     {
       "source": "rummager",
       "target": "feedback",
-      "value": 42
+      "value": 40
     },
     {
       "source": "rummager",
@@ -8001,7 +8001,7 @@
     {
       "source": "rummager",
       "target": "imminence",
-      "value": 35
+      "value": 34
     },
     {
       "source": "rummager",
@@ -8026,7 +8026,7 @@
     {
       "source": "rummager",
       "target": "manuals-frontend",
-      "value": 43
+      "value": 44
     },
     {
       "source": "rummager",
@@ -8096,7 +8096,7 @@
     {
       "source": "rummager",
       "target": "smart-answers",
-      "value": 39
+      "value": 40
     },
     {
       "source": "rummager",
@@ -8151,7 +8151,7 @@
     {
       "source": "search-admin",
       "target": "calculators",
-      "value": 58
+      "value": 59
     },
     {
       "source": "search-admin",
@@ -8176,7 +8176,7 @@
     {
       "source": "search-admin",
       "target": "content-performance-manager",
-      "value": 52
+      "value": 51
     },
     {
       "source": "search-admin",
@@ -8186,7 +8186,7 @@
     {
       "source": "search-admin",
       "target": "content-tagger",
-      "value": 69
+      "value": 68
     },
     {
       "source": "search-admin",
@@ -8196,7 +8196,7 @@
     {
       "source": "search-admin",
       "target": "email-alert-api",
-      "value": 55
+      "value": 62
     },
     {
       "source": "search-admin",
@@ -8206,12 +8206,12 @@
     {
       "source": "search-admin",
       "target": "email-alert-service",
-      "value": 30
+      "value": 39
     },
     {
       "source": "search-admin",
       "target": "feedback",
-      "value": 58
+      "value": 57
     },
     {
       "source": "search-admin",
@@ -8261,7 +8261,7 @@
     {
       "source": "search-admin",
       "target": "manuals-frontend",
-      "value": 62
+      "value": 63
     },
     {
       "source": "search-admin",
@@ -8361,7 +8361,7 @@
     {
       "source": "search-admin",
       "target": "travel-advice-publisher",
-      "value": 63
+      "value": 66
     },
     {
       "source": "search-admin",
@@ -8421,7 +8421,7 @@
     {
       "source": "service-manual-frontend",
       "target": "content-tagger",
-      "value": 60
+      "value": 59
     },
     {
       "source": "service-manual-frontend",
@@ -8431,7 +8431,7 @@
     {
       "source": "service-manual-frontend",
       "target": "email-alert-api",
-      "value": 50
+      "value": 58
     },
     {
       "source": "service-manual-frontend",
@@ -8441,12 +8441,12 @@
     {
       "source": "service-manual-frontend",
       "target": "email-alert-service",
-      "value": 26
+      "value": 37
     },
     {
       "source": "service-manual-frontend",
       "target": "feedback",
-      "value": 62
+      "value": 64
     },
     {
       "source": "service-manual-frontend",
@@ -8471,7 +8471,7 @@
     {
       "source": "service-manual-frontend",
       "target": "imminence",
-      "value": 46
+      "value": 47
     },
     {
       "source": "service-manual-frontend",
@@ -8496,7 +8496,7 @@
     {
       "source": "service-manual-frontend",
       "target": "manuals-frontend",
-      "value": 75
+      "value": 76
     },
     {
       "source": "service-manual-frontend",
@@ -8596,7 +8596,7 @@
     {
       "source": "service-manual-frontend",
       "target": "travel-advice-publisher",
-      "value": 51
+      "value": 55
     },
     {
       "source": "service-manual-frontend",
@@ -8646,7 +8646,7 @@
     {
       "source": "service-manual-publisher",
       "target": "content-performance-manager",
-      "value": 63
+      "value": 61
     },
     {
       "source": "service-manual-publisher",
@@ -8656,7 +8656,7 @@
     {
       "source": "service-manual-publisher",
       "target": "content-tagger",
-      "value": 73
+      "value": 72
     },
     {
       "source": "service-manual-publisher",
@@ -8666,7 +8666,7 @@
     {
       "source": "service-manual-publisher",
       "target": "email-alert-api",
-      "value": 46
+      "value": 53
     },
     {
       "source": "service-manual-publisher",
@@ -8676,17 +8676,17 @@
     {
       "source": "service-manual-publisher",
       "target": "email-alert-service",
-      "value": 23
+      "value": 32
     },
     {
       "source": "service-manual-publisher",
       "target": "feedback",
-      "value": 53
+      "value": 55
     },
     {
       "source": "service-manual-publisher",
       "target": "finder-frontend",
-      "value": 65
+      "value": 64
     },
     {
       "source": "service-manual-publisher",
@@ -8706,7 +8706,7 @@
     {
       "source": "service-manual-publisher",
       "target": "imminence",
-      "value": 58
+      "value": 59
     },
     {
       "source": "service-manual-publisher",
@@ -8731,7 +8731,7 @@
     {
       "source": "service-manual-publisher",
       "target": "manuals-frontend",
-      "value": 61
+      "value": 62
     },
     {
       "source": "service-manual-publisher",
@@ -8801,7 +8801,7 @@
     {
       "source": "service-manual-publisher",
       "target": "smart-answers",
-      "value": 61
+      "value": 62
     },
     {
       "source": "service-manual-publisher",
@@ -8831,7 +8831,7 @@
     {
       "source": "service-manual-publisher",
       "target": "travel-advice-publisher",
-      "value": 67
+      "value": 71
     },
     {
       "source": "service-manual-publisher",
@@ -8856,7 +8856,7 @@
     {
       "source": "short-url-manager",
       "target": "calculators",
-      "value": 62
+      "value": 63
     },
     {
       "source": "short-url-manager",
@@ -8881,7 +8881,7 @@
     {
       "source": "short-url-manager",
       "target": "content-performance-manager",
-      "value": 56
+      "value": 54
     },
     {
       "source": "short-url-manager",
@@ -8901,7 +8901,7 @@
     {
       "source": "short-url-manager",
       "target": "email-alert-api",
-      "value": 54
+      "value": 60
     },
     {
       "source": "short-url-manager",
@@ -8911,17 +8911,17 @@
     {
       "source": "short-url-manager",
       "target": "email-alert-service",
-      "value": 29
+      "value": 37
     },
     {
       "source": "short-url-manager",
       "target": "feedback",
-      "value": 58
+      "value": 59
     },
     {
       "source": "short-url-manager",
       "target": "finder-frontend",
-      "value": 61
+      "value": 60
     },
     {
       "source": "short-url-manager",
@@ -8941,7 +8941,7 @@
     {
       "source": "short-url-manager",
       "target": "imminence",
-      "value": 64
+      "value": 65
     },
     {
       "source": "short-url-manager",
@@ -8966,7 +8966,7 @@
     {
       "source": "short-url-manager",
       "target": "manuals-frontend",
-      "value": 62
+      "value": 63
     },
     {
       "source": "short-url-manager",
@@ -9066,7 +9066,7 @@
     {
       "source": "short-url-manager",
       "target": "travel-advice-publisher",
-      "value": 71
+      "value": 74
     },
     {
       "source": "short-url-manager",
@@ -9116,7 +9116,7 @@
     {
       "source": "signon",
       "target": "content-performance-manager",
-      "value": 48
+      "value": 47
     },
     {
       "source": "signon",
@@ -9126,7 +9126,7 @@
     {
       "source": "signon",
       "target": "content-tagger",
-      "value": 61
+      "value": 60
     },
     {
       "source": "signon",
@@ -9136,7 +9136,7 @@
     {
       "source": "signon",
       "target": "email-alert-api",
-      "value": 50
+      "value": 54
     },
     {
       "source": "signon",
@@ -9146,12 +9146,12 @@
     {
       "source": "signon",
       "target": "email-alert-service",
-      "value": 25
+      "value": 31
     },
     {
       "source": "signon",
       "target": "feedback",
-      "value": 51
+      "value": 47
     },
     {
       "source": "signon",
@@ -9201,7 +9201,7 @@
     {
       "source": "signon",
       "target": "manuals-frontend",
-      "value": 59
+      "value": 60
     },
     {
       "source": "signon",
@@ -9326,7 +9326,7 @@
     {
       "source": "smart-answers",
       "target": "calculators",
-      "value": 72
+      "value": 71
     },
     {
       "source": "smart-answers",
@@ -9346,7 +9346,7 @@
     {
       "source": "smart-answers",
       "target": "contacts-admin",
-      "value": 56
+      "value": 57
     },
     {
       "source": "smart-answers",
@@ -9356,52 +9356,52 @@
     {
       "source": "smart-answers",
       "target": "content-store",
-      "value": 59
+      "value": 60
     },
     {
       "source": "smart-answers",
       "target": "content-tagger",
-      "value": 58
+      "value": 57
     },
     {
       "source": "smart-answers",
       "target": "design-principles",
-      "value": 49
+      "value": 50
     },
     {
       "source": "smart-answers",
       "target": "email-alert-api",
-      "value": 45
+      "value": 53
     },
     {
       "source": "smart-answers",
       "target": "email-alert-frontend",
-      "value": 58
+      "value": 59
     },
     {
       "source": "smart-answers",
       "target": "email-alert-service",
-      "value": 24
+      "value": 34
     },
     {
       "source": "smart-answers",
       "target": "feedback",
-      "value": 61
+      "value": 62
     },
     {
       "source": "smart-answers",
       "target": "finder-frontend",
-      "value": 69
+      "value": 68
     },
     {
       "source": "smart-answers",
       "target": "frontend",
-      "value": 73
+      "value": 72
     },
     {
       "source": "smart-answers",
       "target": "government-frontend",
-      "value": 74
+      "value": 73
     },
     {
       "source": "smart-answers",
@@ -9416,7 +9416,7 @@
     {
       "source": "smart-answers",
       "target": "info-frontend",
-      "value": 62
+      "value": 63
     },
     {
       "source": "smart-answers",
@@ -9471,12 +9471,12 @@
     {
       "source": "smart-answers",
       "target": "router-api",
-      "value": 43
+      "value": 44
     },
     {
       "source": "smart-answers",
       "target": "rummager",
-      "value": 39
+      "value": 40
     },
     {
       "source": "smart-answers",
@@ -9491,7 +9491,7 @@
     {
       "source": "smart-answers",
       "target": "service-manual-publisher",
-      "value": 61
+      "value": 62
     },
     {
       "source": "smart-answers",
@@ -9526,17 +9526,17 @@
     {
       "source": "smart-answers",
       "target": "support-api",
-      "value": 54
+      "value": 55
     },
     {
       "source": "smart-answers",
       "target": "transition",
-      "value": 45
+      "value": 46
     },
     {
       "source": "smart-answers",
       "target": "travel-advice-publisher",
-      "value": 56
+      "value": 60
     },
     {
       "source": "smart-answers",
@@ -9586,7 +9586,7 @@
     {
       "source": "specialist-publisher",
       "target": "content-performance-manager",
-      "value": 66
+      "value": 65
     },
     {
       "source": "specialist-publisher",
@@ -9596,7 +9596,7 @@
     {
       "source": "specialist-publisher",
       "target": "content-tagger",
-      "value": 76
+      "value": 75
     },
     {
       "source": "specialist-publisher",
@@ -9606,7 +9606,7 @@
     {
       "source": "specialist-publisher",
       "target": "email-alert-api",
-      "value": 51
+      "value": 58
     },
     {
       "source": "specialist-publisher",
@@ -9616,17 +9616,17 @@
     {
       "source": "specialist-publisher",
       "target": "email-alert-service",
-      "value": 24
+      "value": 32
     },
     {
       "source": "specialist-publisher",
       "target": "feedback",
-      "value": 51
+      "value": 52
     },
     {
       "source": "specialist-publisher",
       "target": "finder-frontend",
-      "value": 62
+      "value": 61
     },
     {
       "source": "specialist-publisher",
@@ -9671,7 +9671,7 @@
     {
       "source": "specialist-publisher",
       "target": "manuals-frontend",
-      "value": 57
+      "value": 58
     },
     {
       "source": "specialist-publisher",
@@ -9771,7 +9771,7 @@
     {
       "source": "specialist-publisher",
       "target": "travel-advice-publisher",
-      "value": 72
+      "value": 76
     },
     {
       "source": "specialist-publisher",
@@ -9831,7 +9831,7 @@
     {
       "source": "static",
       "target": "content-tagger",
-      "value": 50
+      "value": 49
     },
     {
       "source": "static",
@@ -9841,7 +9841,7 @@
     {
       "source": "static",
       "target": "email-alert-api",
-      "value": 45
+      "value": 49
     },
     {
       "source": "static",
@@ -9851,17 +9851,17 @@
     {
       "source": "static",
       "target": "email-alert-service",
-      "value": 23
+      "value": 30
     },
     {
       "source": "static",
       "target": "feedback",
-      "value": 58
+      "value": 57
     },
     {
       "source": "static",
       "target": "finder-frontend",
-      "value": 66
+      "value": 65
     },
     {
       "source": "static",
@@ -9906,7 +9906,7 @@
     {
       "source": "static",
       "target": "manuals-frontend",
-      "value": 64
+      "value": 65
     },
     {
       "source": "static",
@@ -10056,7 +10056,7 @@
     {
       "source": "support",
       "target": "content-performance-manager",
-      "value": 59
+      "value": 57
     },
     {
       "source": "support",
@@ -10066,7 +10066,7 @@
     {
       "source": "support",
       "target": "content-tagger",
-      "value": 71
+      "value": 70
     },
     {
       "source": "support",
@@ -10076,7 +10076,7 @@
     {
       "source": "support",
       "target": "email-alert-api",
-      "value": 54
+      "value": 61
     },
     {
       "source": "support",
@@ -10086,12 +10086,12 @@
     {
       "source": "support",
       "target": "email-alert-service",
-      "value": 24
+      "value": 32
     },
     {
       "source": "support",
       "target": "feedback",
-      "value": 53
+      "value": 52
     },
     {
       "source": "support",
@@ -10116,7 +10116,7 @@
     {
       "source": "support",
       "target": "imminence",
-      "value": 60
+      "value": 59
     },
     {
       "source": "support",
@@ -10141,7 +10141,7 @@
     {
       "source": "support",
       "target": "manuals-frontend",
-      "value": 53
+      "value": 54
     },
     {
       "source": "support",
@@ -10241,7 +10241,7 @@
     {
       "source": "support",
       "target": "travel-advice-publisher",
-      "value": 70
+      "value": 71
     },
     {
       "source": "support",
@@ -10266,7 +10266,7 @@
     {
       "source": "support-api",
       "target": "calculators",
-      "value": 66
+      "value": 67
     },
     {
       "source": "support-api",
@@ -10291,7 +10291,7 @@
     {
       "source": "support-api",
       "target": "content-performance-manager",
-      "value": 51
+      "value": 50
     },
     {
       "source": "support-api",
@@ -10301,7 +10301,7 @@
     {
       "source": "support-api",
       "target": "content-tagger",
-      "value": 62
+      "value": 61
     },
     {
       "source": "support-api",
@@ -10311,7 +10311,7 @@
     {
       "source": "support-api",
       "target": "email-alert-api",
-      "value": 67
+      "value": 73
     },
     {
       "source": "support-api",
@@ -10321,12 +10321,12 @@
     {
       "source": "support-api",
       "target": "email-alert-service",
-      "value": 30
+      "value": 38
     },
     {
       "source": "support-api",
       "target": "feedback",
-      "value": 56
+      "value": 54
     },
     {
       "source": "support-api",
@@ -10351,7 +10351,7 @@
     {
       "source": "support-api",
       "target": "imminence",
-      "value": 50
+      "value": 51
     },
     {
       "source": "support-api",
@@ -10376,7 +10376,7 @@
     {
       "source": "support-api",
       "target": "manuals-frontend",
-      "value": 56
+      "value": 57
     },
     {
       "source": "support-api",
@@ -10446,7 +10446,7 @@
     {
       "source": "support-api",
       "target": "smart-answers",
-      "value": 54
+      "value": 55
     },
     {
       "source": "support-api",
@@ -10476,7 +10476,7 @@
     {
       "source": "support-api",
       "target": "travel-advice-publisher",
-      "value": 61
+      "value": 60
     },
     {
       "source": "support-api",
@@ -10526,7 +10526,7 @@
     {
       "source": "transition",
       "target": "content-performance-manager",
-      "value": 67
+      "value": 65
     },
     {
       "source": "transition",
@@ -10546,7 +10546,7 @@
     {
       "source": "transition",
       "target": "email-alert-api",
-      "value": 49
+      "value": 54
     },
     {
       "source": "transition",
@@ -10556,12 +10556,12 @@
     {
       "source": "transition",
       "target": "email-alert-service",
-      "value": 22
+      "value": 28
     },
     {
       "source": "transition",
       "target": "feedback",
-      "value": 55
+      "value": 58
     },
     {
       "source": "transition",
@@ -10586,7 +10586,7 @@
     {
       "source": "transition",
       "target": "imminence",
-      "value": 62
+      "value": 63
     },
     {
       "source": "transition",
@@ -10611,7 +10611,7 @@
     {
       "source": "transition",
       "target": "manuals-frontend",
-      "value": 50
+      "value": 51
     },
     {
       "source": "transition",
@@ -10681,7 +10681,7 @@
     {
       "source": "transition",
       "target": "smart-answers",
-      "value": 45
+      "value": 46
     },
     {
       "source": "transition",
@@ -10711,7 +10711,7 @@
     {
       "source": "transition",
       "target": "travel-advice-publisher",
-      "value": 60
+      "value": 62
     },
     {
       "source": "transition",
@@ -10721,22 +10721,22 @@
     {
       "source": "travel-advice-publisher",
       "target": "asset-manager",
-      "value": 56
+      "value": 60
     },
     {
       "source": "travel-advice-publisher",
       "target": "authenticating-proxy",
-      "value": 48
+      "value": 49
     },
     {
       "source": "travel-advice-publisher",
       "target": "bouncer",
-      "value": 23
+      "value": 21
     },
     {
       "source": "travel-advice-publisher",
       "target": "calculators",
-      "value": 63
+      "value": 61
     },
     {
       "source": "travel-advice-publisher",
@@ -10746,32 +10746,32 @@
     {
       "source": "travel-advice-publisher",
       "target": "collections",
-      "value": 54
+      "value": 58
     },
     {
       "source": "travel-advice-publisher",
       "target": "collections-publisher",
-      "value": 72
+      "value": 75
     },
     {
       "source": "travel-advice-publisher",
       "target": "contacts-admin",
-      "value": 62
+      "value": 65
     },
     {
       "source": "travel-advice-publisher",
       "target": "content-performance-manager",
-      "value": 60
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "content-store",
       "value": 59
     },
     {
       "source": "travel-advice-publisher",
+      "target": "content-store",
+      "value": 61
+    },
+    {
+      "source": "travel-advice-publisher",
       "target": "content-tagger",
-      "value": 70
+      "value": 74
     },
     {
       "source": "travel-advice-publisher",
@@ -10781,37 +10781,37 @@
     {
       "source": "travel-advice-publisher",
       "target": "email-alert-api",
-      "value": 52
+      "value": 58
     },
     {
       "source": "travel-advice-publisher",
       "target": "email-alert-frontend",
-      "value": 52
+      "value": 49
     },
     {
       "source": "travel-advice-publisher",
       "target": "email-alert-service",
-      "value": 25
+      "value": 34
     },
     {
       "source": "travel-advice-publisher",
       "target": "feedback",
-      "value": 55
+      "value": 58
     },
     {
       "source": "travel-advice-publisher",
       "target": "finder-frontend",
-      "value": 55
+      "value": 58
     },
     {
       "source": "travel-advice-publisher",
       "target": "frontend",
-      "value": 56
+      "value": 58
     },
     {
       "source": "travel-advice-publisher",
       "target": "government-frontend",
-      "value": 49
+      "value": 53
     },
     {
       "source": "travel-advice-publisher",
@@ -10821,62 +10821,62 @@
     {
       "source": "travel-advice-publisher",
       "target": "imminence",
-      "value": 70
+      "value": 69
     },
     {
       "source": "travel-advice-publisher",
       "target": "info-frontend",
-      "value": 55
+      "value": 57
     },
     {
       "source": "travel-advice-publisher",
       "target": "licence-finder",
-      "value": 60
+      "value": 63
     },
     {
       "source": "travel-advice-publisher",
       "target": "link-checker-api",
-      "value": 65
+      "value": 66
     },
     {
       "source": "travel-advice-publisher",
       "target": "local-links-manager",
-      "value": 58
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "manuals-frontend",
-      "value": 55
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "manuals-publisher",
-      "value": 70
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "maslow",
-      "value": 68
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "policy-publisher",
-      "value": 64
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "publisher",
-      "value": 73
-    },
-    {
-      "source": "travel-advice-publisher",
-      "target": "publishing-api",
       "value": 60
     },
     {
       "source": "travel-advice-publisher",
-      "target": "release",
+      "target": "manuals-frontend",
       "value": 59
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "manuals-publisher",
+      "value": 73
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "maslow",
+      "value": 70
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "policy-publisher",
+      "value": 67
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "publisher",
+      "value": 76
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "publishing-api",
+      "value": 62
+    },
+    {
+      "source": "travel-advice-publisher",
+      "target": "release",
+      "value": 61
     },
     {
       "source": "travel-advice-publisher",
@@ -10891,22 +10891,22 @@
     {
       "source": "travel-advice-publisher",
       "target": "search-admin",
-      "value": 63
+      "value": 66
     },
     {
       "source": "travel-advice-publisher",
       "target": "service-manual-frontend",
-      "value": 51
+      "value": 55
     },
     {
       "source": "travel-advice-publisher",
       "target": "service-manual-publisher",
-      "value": 67
+      "value": 71
     },
     {
       "source": "travel-advice-publisher",
       "target": "short-url-manager",
-      "value": 71
+      "value": 74
     },
     {
       "source": "travel-advice-publisher",
@@ -10916,12 +10916,12 @@
     {
       "source": "travel-advice-publisher",
       "target": "smart-answers",
-      "value": 56
+      "value": 60
     },
     {
       "source": "travel-advice-publisher",
       "target": "specialist-publisher",
-      "value": 72
+      "value": 76
     },
     {
       "source": "travel-advice-publisher",
@@ -10931,17 +10931,17 @@
     {
       "source": "travel-advice-publisher",
       "target": "support",
-      "value": 70
+      "value": 71
     },
     {
       "source": "travel-advice-publisher",
       "target": "support-api",
-      "value": 61
+      "value": 60
     },
     {
       "source": "travel-advice-publisher",
       "target": "transition",
-      "value": 60
+      "value": 62
     },
     {
       "source": "travel-advice-publisher",
@@ -10951,7 +10951,7 @@
     {
       "source": "travel-advice-publisher",
       "target": "whitehall",
-      "value": 55
+      "value": 52
     },
     {
       "source": "whitehall",
@@ -11006,7 +11006,7 @@
     {
       "source": "whitehall",
       "target": "content-tagger",
-      "value": 53
+      "value": 52
     },
     {
       "source": "whitehall",
@@ -11016,7 +11016,7 @@
     {
       "source": "whitehall",
       "target": "email-alert-api",
-      "value": 37
+      "value": 40
     },
     {
       "source": "whitehall",
@@ -11026,17 +11026,17 @@
     {
       "source": "whitehall",
       "target": "email-alert-service",
-      "value": 16
+      "value": 21
     },
     {
       "source": "whitehall",
       "target": "feedback",
-      "value": 38
+      "value": 40
     },
     {
       "source": "whitehall",
       "target": "finder-frontend",
-      "value": 48
+      "value": 49
     },
     {
       "source": "whitehall",
@@ -11056,7 +11056,7 @@
     {
       "source": "whitehall",
       "target": "imminence",
-      "value": 56
+      "value": 57
     },
     {
       "source": "whitehall",
@@ -11181,7 +11181,7 @@
     {
       "source": "whitehall",
       "target": "travel-advice-publisher",
-      "value": 55
+      "value": 52
     },
     {
       "source": "whitehall",

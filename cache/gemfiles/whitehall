@@ -147,7 +147,7 @@ GEM
     ffi (1.9.18)
     friendly_id (5.2.1)
       activerecord (>= 4.0.0)
-    gds-api-adapters (47.9.1)
+    gds-api-adapters (49.6.0)
       link_header
       lrucache (~> 0.1.1)
       null_logger
@@ -169,13 +169,13 @@ GEM
       activemodel (>= 4.2, < 5.2)
       activerecord (>= 4.2, < 5.2)
       request_store (~> 1.0)
-    govspeak (5.0.3)
+    govspeak (5.1.0)
       actionview (>= 4.1, < 6)
       addressable (>= 2.3.8, < 3)
       commander (~> 4.4)
       htmlentities (~> 4)
       i18n (~> 0.7)
-      kramdown (~> 1.12.0)
+      kramdown (~> 1.15.0)
       money (~> 6.7)
       nokogiri (~> 1.5)
       sanitize (~> 2.1.0)
@@ -240,7 +240,7 @@ GEM
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
     kgio (2.11.0)
-    kramdown (1.12.0)
+    kramdown (1.15.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     link_header (0.0.8)
@@ -265,7 +265,7 @@ GEM
     mini_magick (3.8.1)
       subexec (~> 0.2.1)
     mini_mime (0.1.4)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
     minitest-fail-fast (0.1.0)
       minitest (~> 5)
@@ -284,8 +284,8 @@ GEM
     netrc (0.11.0)
     newrelic_rpm (4.4.0.336)
     nio4r (2.1.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     null_logger (0.0.1)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
@@ -326,8 +326,10 @@ GEM
     pry-byebug (3.5.0)
       byebug (~> 9.1)
       pry (~> 0.10)
+    pry-rails (0.3.5)
+      pry (>= 0.9.10)
     rack (2.0.3)
-    rack-cache (1.7.0)
+    rack-cache (1.7.1)
       rack (>= 0.4)
     rack-protection (2.0.0)
       rack
@@ -528,10 +530,10 @@ DEPENDENCIES
   factory_girl
   faraday
   friendly_id (~> 5.2.1)
-  gds-api-adapters (~> 47.9)
+  gds-api-adapters
   gds-sso (~> 13.2)
   globalize (= 5.1.0.beta2)
-  govspeak (~> 5.0.3)
+  govspeak (~> 5.1.0)
   govuk-content-schema-test-helpers
   govuk-lint
   govuk_ab_testing (~> 2.4x)
@@ -563,6 +565,7 @@ DEPENDENCIES
   plek (~> 2.0)
   poltergeist
   pry-byebug
+  pry-rails
   rack (~> 2.0)
   rack-test
   rack_strip_client_ip (~> 0.0.2)
