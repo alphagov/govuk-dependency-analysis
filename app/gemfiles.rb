@@ -14,7 +14,7 @@ class Gemfiles
 
   def self.download
     begin
-      sh "mkdir #{DIRECTORY}"
+      sh "mkdir -p #{DIRECTORY}"
       sh "rm #{DIRECTORY}/*"
     rescue
     end
