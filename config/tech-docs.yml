@@ -8,6 +8,7 @@ phase: Alpha
 
 # Links to show on right-hand-side of header
 header_links:
+  Stats: /stats.html
   Apps: /
   Gems: /gems.html
   Fragmentation: /fragmentation.html

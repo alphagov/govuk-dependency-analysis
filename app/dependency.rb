@@ -10,6 +10,10 @@ class Dependency
     @depended_on ||= @data["depended_on"].map { |app_name| Application.find(app_name) }.sort_by(&:name)
   end
 
+  def apps_not_using_it
+    @apps_not_using_it ||= Application.all.reject { |a| depended_on.map(&:name).include?(a.name) }
+  end
+
   def einzelgem?
     depended_on.size == 1
   end

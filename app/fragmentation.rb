@@ -31,4 +31,8 @@ class Fragmentation
 
     puts '√'
   end
+
+  def self.get
+    JSON.parse(File.read("source/fragmentation.json"))
+  end
 end

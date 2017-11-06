@@ -1,0 +1,15 @@
+---
+title: Dependency stats
+layout: core
+---
+
+# Stats &amp; KPIs
+
+| KPI | Stat |
+| --- | --- |
+| Applications | <%= stats[:application_count] %> |
+| Number of dependencies | <%= stats[:dependency_count] %> |
+| Number of direct dependencies | <%= stats[:direct_dependency_count] %> |
+| Number of transitive dependencies | <%= stats[:transitive_dependency_count] %> |
+| Einzelgems | <%= stats[:einzelgems] %> |
+| Number of different versions specified in `Gemfile` | <%= Fragmentation.get["children"].flat_map { |x| x["children"] }.size %> |

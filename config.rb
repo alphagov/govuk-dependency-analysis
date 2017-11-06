@@ -45,6 +45,7 @@ require_relative 'app/base_data'
 require_relative 'app/stats'
 require_relative 'app/application'
 require_relative 'app/dependency'
+require_relative 'app/fragmentation'
 
 helpers do
   require 'table_of_contents/helpers'
