@@ -63,11 +63,11 @@ configure :build do
 end
 
 ::Application.all.each do |app|
-  proxy "/apps/#{app.name}.html", "/templates/app_template.html", locals: { app: app }
+  proxy "/apps/#{app.name}.html", "/templates/app_template.html", locals: { application: app }, ignore: true
 end
 
 Dependency.all.each do |dep|
-  proxy "/gems/#{dep.name}.html", "/templates/gem_template.html", locals: { gem: dep }
+  proxy "/gems/#{dep.name}.html", "/templates/gem_template.html", locals: { dep: dep }, ignore: true
 end
 
 config[:tech_docs] = YAML.load_file('config/tech-docs.yml')
