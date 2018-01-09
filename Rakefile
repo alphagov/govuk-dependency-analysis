@@ -15,9 +15,10 @@ require_relative 'app/base_data'
 require_relative 'app/jaccard_matrix'
 require_relative 'app/fragmentation'
 require_relative 'app/network'
+require_relative 'app/vulnerabilities'
 
 desc "Download & rebuild everything"
-task rebuild: %i[download_gemfiles precalculate_data generate_similarity]
+task rebuild: %i[download_gemfiles precalculate_data generate_similarity update_vulnerabilities]
 
 desc "Download the Gemfiles for the applications"
 task :download_gemfiles do
@@ -34,4 +35,9 @@ end
 desc "Create similarity data (takes a while)"
 task :generate_similarity do
   JaccardMatrix.generate
+end
+
+desc "Update vulnerabilities"
+task :update_vulnerabilities do
+  Vulnerabilities.generate
 end

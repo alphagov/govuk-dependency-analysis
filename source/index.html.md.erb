@@ -8,8 +8,8 @@ We run **<%= stats[:application_count] %> Ruby applications**.
 These depend on [<%= stats[:dependency_count] %> gems](/gems.html).
 <%= stats[:einzelgems] %> of those are only used by one application ("einzelgems").
 
-| Name | Direct dependencies | Transitive dependencies | Einzelgems |
-| --- | --- | --- | --- |
+| Name | Direct dependencies | Transitive dependencies | Einzelgems | Vulnerabilities |
+| --- | --- | --- | --- | --- |
 <% Application.all.sort_by(&:transitive_dependency_count).reverse.each do |app| %>
-| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> |
+| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= app.direct_dependency_count %> | <%= app.transitive_dependency_count %> | <%= app.einzelgem_count %> | <%= app.vulnerability_count %>
 <% end %>
