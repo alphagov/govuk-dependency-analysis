@@ -5,11 +5,11 @@
       "name": "aws-sdk",
       "children": [
         {
-          "name": "aws-sdk 2.6.11",
+          "name": "aws-sdk 2.10.105",
           "size": 1
         },
         {
-          "name": "aws-sdk 2.10.10",
+          "name": "aws-sdk 3.0.1",
           "size": 1
         }
       ]
@@ -18,11 +18,11 @@
       "name": "carrierwave",
       "children": [
         {
-          "name": "carrierwave 0.10.0",
+          "name": "carrierwave 0.11.2",
           "size": 1
         },
         {
-          "name": "carrierwave 1.1.0",
+          "name": "carrierwave 1.2.2",
           "size": 1
         }
       ]
@@ -31,49 +31,21 @@
       "name": "database_cleaner",
       "children": [
         {
-          "name": "database_cleaner 1.5.0",
-          "size": 1
-        },
-        {
-          "name": "database_cleaner 1.5.1",
-          "size": 2
-        },
-        {
           "name": "database_cleaner 1.5.3",
-          "size": 8
-        },
-        {
-          "name": "database_cleaner 1.6.0",
           "size": 1
         },
         {
-          "name": "database_cleaner 1.6.1",
-          "size": 12
+          "name": "database_cleaner 1.6.2",
+          "size": 23
         }
       ]
     },
     {
-      "name": "factory_girl_rails",
+      "name": "factory_bot_rails",
       "children": [
         {
-          "name": "factory_girl_rails 3.3.0",
-          "size": 1
-        },
-        {
-          "name": "factory_girl_rails 4.2.1",
-          "size": 1
-        },
-        {
-          "name": "factory_girl_rails 4.5.0",
+          "name": "factory_bot_rails 4.8.2",
           "size": 6
-        },
-        {
-          "name": "factory_girl_rails 4.7.0",
-          "size": 6
-        },
-        {
-          "name": "factory_girl_rails 4.8.0",
-          "size": 9
         }
       ]
     },
@@ -81,16 +53,16 @@
       "name": "gds-sso",
       "children": [
         {
-          "name": "gds-sso 11.2.0",
-          "size": 1
-        },
-        {
           "name": "gds-sso 13.0.0",
-          "size": 6
+          "size": 2
         },
         {
           "name": "gds-sso 13.2.0",
-          "size": 17
+          "size": 4
+        },
+        {
+          "name": "gds-sso 13.5.0",
+          "size": 19
         }
       ]
     },
@@ -98,40 +70,28 @@
       "name": "govuk-lint",
       "children": [
         {
-          "name": "govuk-lint 0.3.0",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.5.1",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.5.3",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.6.1",
-          "size": 1
-        },
-        {
           "name": "govuk-lint 0.8.1",
-          "size": 3
+          "size": 1
         },
         {
           "name": "govuk-lint 1.2.1",
-          "size": 11
-        },
-        {
-          "name": "govuk-lint 2.1.0",
-          "size": 8
-        },
-        {
-          "name": "govuk-lint 3.2.0",
-          "size": 6
+          "size": 1
         },
         {
           "name": "govuk-lint 3.3.0",
-          "size": 11
+          "size": 1
+        },
+        {
+          "name": "govuk-lint 3.3.1",
+          "size": 3
+        },
+        {
+          "name": "govuk-lint 3.4.0",
+          "size": 33
+        },
+        {
+          "name": "govuk-lint 3.5.0",
+          "size": 5
         }
       ]
     },
@@ -140,11 +100,23 @@
       "children": [
         {
           "name": "govuk_app_config 0.2.0",
-          "size": 40
+          "size": 16
         },
         {
           "name": "govuk_app_config 0.3.0",
-          "size": 7
+          "size": 5
+        },
+        {
+          "name": "govuk_app_config 1.1.0",
+          "size": 8
+        },
+        {
+          "name": "govuk_app_config 1.2.0",
+          "size": 2
+        },
+        {
+          "name": "govuk_app_config 1.2.1",
+          "size": 15
         }
       ]
     },
@@ -153,56 +125,11 @@
       "children": [
         {
           "name": "govuk_sidekiq 2.0.0",
-          "size": 15
-        }
-      ]
-    },
-    {
-      "name": "logstasher",
-      "children": [
-        {
-          "name": "logstasher 0.4.8",
-          "size": 10
-        },
-        {
-          "name": "logstasher 0.4.9",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.5.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.5.3",
-          "size": 2
-        },
-        {
-          "name": "logstasher 0.6.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.6.1",
-          "size": 2
-        },
-        {
-          "name": "logstasher 0.6.2",
-          "size": 8
-        },
-        {
-          "name": "logstasher 0.6.5",
-          "size": 4
-        },
-        {
-          "name": "logstasher 0.9.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 1.1.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 1.2.1",
           "size": 9
+        },
+        {
+          "name": "govuk_sidekiq 3.0.0",
+          "size": 8
         }
       ]
     },
@@ -210,36 +137,20 @@
       "name": "mongoid",
       "children": [
         {
-          "name": "mongoid 5.1.6",
-          "size": 1
-        },
-        {
-          "name": "mongoid 5.2.1",
-          "size": 1
-        },
-        {
-          "name": "mongoid 6.0.0",
-          "size": 1
-        },
-        {
-          "name": "mongoid 6.0.2",
-          "size": 1
-        },
-        {
           "name": "mongoid 6.0.3",
           "size": 1
         },
         {
           "name": "mongoid 6.1.0",
-          "size": 3
-        },
-        {
-          "name": "mongoid 6.1.1",
           "size": 1
         },
         {
-          "name": "mongoid 6.2.1",
+          "name": "mongoid 6.1.1",
           "size": 2
+        },
+        {
+          "name": "mongoid 6.2.1",
+          "size": 8
         }
       ]
     },
@@ -247,28 +158,12 @@
       "name": "nokogiri",
       "children": [
         {
-          "name": "nokogiri 1.6.6.4",
-          "size": 1
-        },
-        {
-          "name": "nokogiri 1.6.7.2",
-          "size": 1
-        },
-        {
-          "name": "nokogiri 1.7.1",
-          "size": 1
-        },
-        {
           "name": "nokogiri 1.7.2",
-          "size": 2
-        },
-        {
-          "name": "nokogiri 1.8.0",
-          "size": 4
+          "size": 1
         },
         {
           "name": "nokogiri 1.8.1",
-          "size": 2
+          "size": 10
         }
       ]
     },
@@ -276,24 +171,16 @@
       "name": "plek",
       "children": [
         {
-          "name": "plek 1.9.0",
-          "size": 1
-        },
-        {
-          "name": "plek 1.10.0",
-          "size": 1
-        },
-        {
           "name": "plek 1.11.0",
-          "size": 10
+          "size": 2
         },
         {
           "name": "plek 1.12.0",
-          "size": 14
+          "size": 1
         },
         {
           "name": "plek 2.0.0",
-          "size": 19
+          "size": 41
         }
       ]
     },
@@ -301,12 +188,8 @@
       "name": "rack_strip_client_ip",
       "children": [
         {
-          "name": "rack_strip_client_ip 0.0.1",
-          "size": 2
-        },
-        {
           "name": "rack_strip_client_ip 0.0.2",
-          "size": 7
+          "size": 9
         }
       ]
     },
@@ -314,64 +197,45 @@
       "name": "rails",
       "children": [
         {
-          "name": "rails 4.2.7.1",
-          "size": 4
-        },
-        {
-          "name": "rails 4.2.9",
-          "size": 1
-        },
-        {
-          "name": "rails 4.2.10",
-          "size": 1
-        },
-        {
-          "name": "rails 5.0.0.1",
-          "size": 3
-        },
-        {
           "name": "rails 5.0.1",
           "size": 1
         },
         {
           "name": "rails 5.0.2",
-          "size": 10
+          "size": 3
         },
         {
           "name": "rails 5.0.3",
-          "size": 3
-        },
-        {
-          "name": "rails 5.0.4",
-          "size": 2
-        },
-        {
-          "name": "rails 5.0.5",
-          "size": 3
-        },
-        {
-          "name": "rails 5.0.6",
           "size": 1
         },
         {
+          "name": "rails 5.0.5",
+          "size": 1
+        },
+        {
+          "name": "rails 5.0.6",
+          "size": 9
+        },
+        {
           "name": "rails 5.1.0",
-          "size": 3
+          "size": 1
         },
         {
           "name": "rails 5.1.1",
-          "size": 4
-        },
-        {
-          "name": "rails 5.1.2",
-          "size": 2
-        },
-        {
-          "name": "rails 5.1.3",
           "size": 1
         },
         {
           "name": "rails 5.1.4",
-          "size": 5
+          "size": 26
+        }
+      ]
+    },
+    {
+      "name": "rails-controller-testing",
+      "children": [
+        {
+          "name": "rails-controller-testing 1.0.2",
+          "size": 24
         }
       ]
     },
@@ -379,32 +243,16 @@
       "name": "rspec-rails",
       "children": [
         {
-          "name": "rspec-rails 3.1.0",
-          "size": 1
-        },
-        {
-          "name": "rspec-rails 3.3.3",
-          "size": 1
-        },
-        {
-          "name": "rspec-rails 3.5.1",
+          "name": "rspec-rails 3.5.2",
           "size": 2
         },
         {
-          "name": "rspec-rails 3.5.2",
-          "size": 14
-        },
-        {
-          "name": "rspec-rails 3.6.0",
-          "size": 5
-        },
-        {
           "name": "rspec-rails 3.6.1",
-          "size": 8
+          "size": 1
         },
         {
-          "name": "rspec-rails 3.7.1",
-          "size": 1
+          "name": "rspec-rails 3.7.2",
+          "size": 28
         }
       ]
     },
@@ -412,12 +260,8 @@
       "name": "sdoc",
       "children": [
         {
-          "name": "sdoc 0.4.1",
-          "size": 1
-        },
-        {
           "name": "sdoc 0.4.2",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -435,11 +279,11 @@
       "children": [
         {
           "name": "state_machines-mongoid 0.1.1",
-          "size": 3
+          "size": 1
         },
         {
           "name": "state_machines-mongoid 0.2.0",
-          "size": 1
+          "size": 3
         }
       ]
     },
@@ -448,7 +292,7 @@
       "children": [
         {
           "name": "unicorn 4.3.1",
-          "size": 2
+          "size": 1
         },
         {
           "name": "unicorn 4.4.0",
@@ -456,35 +300,15 @@
         },
         {
           "name": "unicorn 4.8.0",
-          "size": 2
-        },
-        {
-          "name": "unicorn 4.8.2",
-          "size": 3
-        },
-        {
-          "name": "unicorn 4.8.3",
-          "size": 4
-        },
-        {
-          "name": "unicorn 4.9.0",
-          "size": 11
-        },
-        {
-          "name": "unicorn 5.0.1",
-          "size": 5
-        },
-        {
-          "name": "unicorn 5.1.0",
-          "size": 5
-        },
-        {
-          "name": "unicorn 5.3.0",
-          "size": 12
+          "size": 1
         },
         {
           "name": "unicorn 5.3.1",
-          "size": 1
+          "size": 6
+        },
+        {
+          "name": "unicorn 5.4.0",
+          "size": 20
         }
       ]
     },
@@ -492,12 +316,8 @@
       "name": "byebug",
       "children": [
         {
-          "name": "byebug 9.0.6",
-          "size": 4
-        },
-        {
           "name": "byebug 9.1.0",
-          "size": 4
+          "size": 8
         }
       ]
     },
@@ -505,7 +325,7 @@
       "name": "rack-proxy",
       "children": [
         {
-          "name": "rack-proxy 0.6.2",
+          "name": "rack-proxy 0.6.3",
           "size": 3
         }
       ]
@@ -515,7 +335,11 @@
       "children": [
         {
           "name": "rack-test 0.6.3",
-          "size": 4
+          "size": 1
+        },
+        {
+          "name": "rack-test 0.8.2",
+          "size": 3
         }
       ]
     },
@@ -523,36 +347,16 @@
       "name": "simplecov",
       "children": [
         {
-          "name": "simplecov 0.8.2",
-          "size": 3
-        },
-        {
           "name": "simplecov 0.9.1",
           "size": 1
         },
         {
-          "name": "simplecov 0.9.2",
+          "name": "simplecov 0.10.0",
           "size": 1
         },
         {
-          "name": "simplecov 0.10.0",
-          "size": 5
-        },
-        {
-          "name": "simplecov 0.12.0",
-          "size": 4
-        },
-        {
-          "name": "simplecov 0.14.1",
-          "size": 2
-        },
-        {
-          "name": "simplecov 0.15.0",
-          "size": 5
-        },
-        {
           "name": "simplecov 0.15.1",
-          "size": 3
+          "size": 22
         }
       ]
     },
@@ -560,60 +364,24 @@
       "name": "webmock",
       "children": [
         {
-          "name": "webmock 1.17.4",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.18.0",
-          "size": 3
-        },
-        {
           "name": "webmock 1.20.4",
-          "size": 3
-        },
-        {
-          "name": "webmock 1.21.0",
-          "size": 2
-        },
-        {
-          "name": "webmock 1.22.1",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.22.3",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.22.6",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.24.2",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.24.6",
-          "size": 4
-        },
-        {
-          "name": "webmock 2.1.0",
-          "size": 7
-        },
-        {
-          "name": "webmock 2.3.1",
           "size": 1
         },
         {
           "name": "webmock 2.3.2",
-          "size": 2
+          "size": 5
         },
         {
-          "name": "webmock 3.0.1",
-          "size": 16
+          "name": "webmock 3.1.1",
+          "size": 23
         },
         {
-          "name": "webmock 3.1.0",
+          "name": "webmock 3.2.0",
           "size": 1
+        },
+        {
+          "name": "webmock 3.2.1",
+          "size": 14
         }
       ]
     },
@@ -648,20 +416,8 @@
       "name": "pg",
       "children": [
         {
-          "name": "pg 0.18.4",
-          "size": 2
-        },
-        {
-          "name": "pg 0.19.0",
-          "size": 3
-        },
-        {
-          "name": "pg 0.20.0",
-          "size": 3
-        },
-        {
           "name": "pg 0.21.0",
-          "size": 4
+          "size": 12
         }
       ]
     },
@@ -673,11 +429,11 @@
           "size": 1
         },
         {
-          "name": "pry 0.10.3",
+          "name": "pry 0.10.4",
           "size": 1
         },
         {
-          "name": "pry 0.10.4",
+          "name": "pry 0.11.3",
           "size": 8
         }
       ]
@@ -686,12 +442,8 @@
       "name": "rack",
       "children": [
         {
-          "name": "rack 2.0.1",
-          "size": 1
-        },
-        {
           "name": "rack 2.0.3",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -699,20 +451,12 @@
       "name": "rake",
       "children": [
         {
-          "name": "rake 10.1.0",
-          "size": 1
-        },
-        {
-          "name": "rake 10.4.1",
-          "size": 1
-        },
-        {
           "name": "rake 10.5.0",
           "size": 1
         },
         {
-          "name": "rake 12.0.0",
-          "size": 2
+          "name": "rake 12.3.0",
+          "size": 4
         }
       ]
     },
@@ -720,16 +464,8 @@
       "name": "rspec",
       "children": [
         {
-          "name": "rspec 3.4.0",
-          "size": 1
-        },
-        {
-          "name": "rspec 3.5.0",
-          "size": 1
-        },
-        {
-          "name": "rspec 3.6.0",
-          "size": 2
+          "name": "rspec 3.7.0",
+          "size": 4
         }
       ]
     },
@@ -737,20 +473,16 @@
       "name": "better_errors",
       "children": [
         {
-          "name": "better_errors 1.1.0",
-          "size": 1
-        },
-        {
           "name": "better_errors 2.1.0",
           "size": 1
         },
         {
-          "name": "better_errors 2.1.1",
-          "size": 6
+          "name": "better_errors 2.3.0",
+          "size": 1
         },
         {
-          "name": "better_errors 2.3.0",
-          "size": 12
+          "name": "better_errors 2.4.0",
+          "size": 18
         }
       ]
     },
@@ -759,7 +491,11 @@
       "children": [
         {
           "name": "binding_of_caller 0.7.2",
-          "size": 19
+          "size": 1
+        },
+        {
+          "name": "binding_of_caller 0.7.3",
+          "size": 18
         }
       ]
     },
@@ -767,48 +503,20 @@
       "name": "capybara",
       "children": [
         {
-          "name": "capybara 2.4.1",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.5.0",
-          "size": 3
-        },
-        {
-          "name": "capybara 2.6.2",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.8.1",
-          "size": 4
-        },
-        {
-          "name": "capybara 2.10.1",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.11.0",
-          "size": 1
-        },
-        {
           "name": "capybara 2.13.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "capybara 2.14.0",
-          "size": 7
-        },
-        {
-          "name": "capybara 2.14.3",
           "size": 1
         },
         {
-          "name": "capybara 2.15.1",
-          "size": 7
+          "name": "capybara 2.16.1",
+          "size": 19
         },
         {
-          "name": "capybara 2.15.4",
-          "size": 1
+          "name": "capybara 2.17.0",
+          "size": 7
         }
       ]
     },
@@ -817,7 +525,7 @@
       "children": [
         {
           "name": "ci_reporter_rspec 1.0.0",
-          "size": 12
+          "size": 11
         }
       ]
     },
@@ -825,36 +533,24 @@
       "name": "gds-api-adapters",
       "children": [
         {
-          "name": "gds-api-adapters 34.1.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 46.0.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 47.2.0",
-          "size": 2
-        },
-        {
           "name": "gds-api-adapters 47.9.1",
-          "size": 25
+          "size": 3
         },
         {
-          "name": "gds-api-adapters 48.0.0",
-          "size": 8
-        },
-        {
-          "name": "gds-api-adapters 49.1.0",
+          "name": "gds-api-adapters 49.8.0",
           "size": 1
         },
         {
-          "name": "gds-api-adapters 49.3.0",
+          "name": "gds-api-adapters 50.6.0",
           "size": 1
         },
         {
-          "name": "gds-api-adapters 49.6.0",
-          "size": 2
+          "name": "gds-api-adapters 50.7.0",
+          "size": 1
+        },
+        {
+          "name": "gds-api-adapters 50.8.0",
+          "size": 34
         }
       ]
     },
@@ -863,15 +559,19 @@
       "children": [
         {
           "name": "govuk-content-schema-test-helpers 1.3.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "govuk-content-schema-test-helpers 1.4.0",
-          "size": 15
+          "size": 1
         },
         {
           "name": "govuk-content-schema-test-helpers 1.5.0",
-          "size": 7
+          "size": 5
+        },
+        {
+          "name": "govuk-content-schema-test-helpers 1.6.0",
+          "size": 19
         }
       ]
     },
@@ -879,12 +579,8 @@
       "name": "govuk_elements_rails",
       "children": [
         {
-          "name": "govuk_elements_rails 3.0.2",
-          "size": 1
-        },
-        {
-          "name": "govuk_elements_rails 3.1.0",
-          "size": 2
+          "name": "govuk_elements_rails 3.1.2",
+          "size": 3
         }
       ]
     },
@@ -892,56 +588,12 @@
       "name": "govuk_frontend_toolkit",
       "children": [
         {
-          "name": "govuk_frontend_toolkit 0.44.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.2.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.4.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.6.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.6.1",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.3.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.12.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.17.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.18.4",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 5.1.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 6.0.3",
-          "size": 1
-        },
-        {
           "name": "govuk_frontend_toolkit 6.0.4",
-          "size": 2
+          "size": 1
         },
         {
-          "name": "govuk_frontend_toolkit 7.0.1",
-          "size": 5
+          "name": "govuk_frontend_toolkit 7.2.0",
+          "size": 17
         }
       ]
     },
@@ -950,11 +602,23 @@
       "children": [
         {
           "name": "govuk_navigation_helpers 2.0.0",
-          "size": 3
+          "size": 1
         },
         {
           "name": "govuk_navigation_helpers 6.3.0",
-          "size": 7
+          "size": 1
+        },
+        {
+          "name": "govuk_navigation_helpers 7.3.0",
+          "size": 2
+        },
+        {
+          "name": "govuk_navigation_helpers 8.1.1",
+          "size": 4
+        },
+        {
+          "name": "govuk_navigation_helpers 8.2.0",
+          "size": 2
         }
       ]
     },
@@ -962,22 +626,14 @@
       "name": "listen",
       "children": [
         {
-          "name": "listen 3.0.8",
-          "size": 3
-        },
-        {
           "name": "listen 3.1.5",
-          "size": 4
+          "size": 7
         }
       ]
     },
     {
       "name": "poltergeist",
       "children": [
-        {
-          "name": "poltergeist 1.5.0",
-          "size": 2
-        },
         {
           "name": "poltergeist 1.6.0",
           "size": 2
@@ -988,31 +644,15 @@
         },
         {
           "name": "poltergeist 1.8.1",
-          "size": 2
-        },
-        {
-          "name": "poltergeist 1.9.0",
           "size": 1
-        },
-        {
-          "name": "poltergeist 1.12.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.13.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.14.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.15.0",
-          "size": 3
         },
         {
           "name": "poltergeist 1.16.0",
-          "size": 9
+          "size": 3
+        },
+        {
+          "name": "poltergeist 1.17.0",
+          "size": 17
         }
       ]
     },
@@ -1020,33 +660,12 @@
       "name": "pry-byebug",
       "children": [
         {
-          "name": "pry-byebug 3.4.0",
-          "size": 3
-        },
-        {
-          "name": "pry-byebug 3.4.2",
-          "size": 14
-        },
-        {
           "name": "pry-byebug 3.5.0",
-          "size": 11
-        }
-      ]
-    },
-    {
-      "name": "rails-controller-testing",
-      "children": [
-        {
-          "name": "rails-controller-testing 0.1.1",
           "size": 1
         },
         {
-          "name": "rails-controller-testing 1.0.1",
-          "size": 5
-        },
-        {
-          "name": "rails-controller-testing 1.0.2",
-          "size": 14
+          "name": "pry-byebug 3.5.1",
+          "size": 27
         }
       ]
     },
@@ -1055,7 +674,11 @@
       "children": [
         {
           "name": "sass-rails 5.0.6",
-          "size": 34
+          "size": 1
+        },
+        {
+          "name": "sass-rails 5.0.7",
+          "size": 32
         }
       ]
     },
@@ -1064,11 +687,11 @@
       "children": [
         {
           "name": "slimmer 11.0.2",
-          "size": 9
+          "size": 2
         },
         {
           "name": "slimmer 11.1.1",
-          "size": 7
+          "size": 13
         }
       ]
     },
@@ -1076,20 +699,8 @@
       "name": "spring",
       "children": [
         {
-          "name": "spring 1.1.3",
-          "size": 1
-        },
-        {
-          "name": "spring 2.0.0",
-          "size": 1
-        },
-        {
-          "name": "spring 2.0.1",
-          "size": 2
-        },
-        {
           "name": "spring 2.0.2",
-          "size": 2
+          "size": 6
         }
       ]
     },
@@ -1115,33 +726,21 @@
         },
         {
           "name": "timecop 0.7.1",
-          "size": 2
-        },
-        {
-          "name": "timecop 0.7.3",
-          "size": 2
-        },
-        {
-          "name": "timecop 0.8.0",
           "size": 1
         },
         {
           "name": "timecop 0.8.1",
-          "size": 10
+          "size": 1
         },
         {
           "name": "timecop 0.9.1",
-          "size": 7
+          "size": 22
         }
       ]
     },
     {
       "name": "uglifier",
       "children": [
-        {
-          "name": "uglifier 2.5.0",
-          "size": 1
-        },
         {
           "name": "uglifier 2.5.3",
           "size": 1
@@ -1152,23 +751,31 @@
         },
         {
           "name": "uglifier 2.7.2",
-          "size": 5
-        },
-        {
-          "name": "uglifier 3.0.2",
-          "size": 1
-        },
-        {
-          "name": "uglifier 3.0.3",
-          "size": 1
+          "size": 3
         },
         {
           "name": "uglifier 3.0.4",
-          "size": 5
+          "size": 2
         },
         {
           "name": "uglifier 3.2.0",
-          "size": 18
+          "size": 12
+        },
+        {
+          "name": "uglifier 4.0.1",
+          "size": 1
+        },
+        {
+          "name": "uglifier 4.0.2",
+          "size": 4
+        },
+        {
+          "name": "uglifier 4.1.2",
+          "size": 4
+        },
+        {
+          "name": "uglifier 4.1.3",
+          "size": 4
         }
       ]
     },
@@ -1177,15 +784,11 @@
       "children": [
         {
           "name": "web-console 2.3.0",
-          "size": 4
-        },
-        {
-          "name": "web-console 3.5.0",
           "size": 1
         },
         {
           "name": "web-console 3.5.1",
-          "size": 5
+          "size": 9
         }
       ]
     },
@@ -1202,16 +805,41 @@
       "name": "json",
       "children": [
         {
-          "name": "json 1.8.3",
-          "size": 1
-        },
-        {
           "name": "json 1.8.6",
           "size": 1
         },
         {
           "name": "json 2.1.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "logstasher",
+      "children": [
+        {
+          "name": "logstasher 0.4.8",
+          "size": 2
+        },
+        {
+          "name": "logstasher 0.6.1",
           "size": 1
+        },
+        {
+          "name": "logstasher 0.6.2",
+          "size": 3
+        },
+        {
+          "name": "logstasher 1.1.1",
+          "size": 1
+        },
+        {
+          "name": "logstasher 1.2.1",
+          "size": 1
+        },
+        {
+          "name": "logstasher 1.2.2",
+          "size": 17
         }
       ]
     },
@@ -1219,20 +847,16 @@
       "name": "mocha",
       "children": [
         {
-          "name": "mocha 0.13.3",
-          "size": 1
-        },
-        {
           "name": "mocha 1.1.0",
-          "size": 6
+          "size": 2
         },
         {
           "name": "mocha 1.2.1",
-          "size": 3
+          "size": 1
         },
         {
           "name": "mocha 1.3.0",
-          "size": 3
+          "size": 9
         }
       ]
     },
@@ -1240,12 +864,8 @@
       "name": "rails-i18n",
       "children": [
         {
-          "name": "rails-i18n 4.0.9",
-          "size": 1
-        },
-        {
           "name": "rails-i18n 5.0.4",
-          "size": 5
+          "size": 6
         }
       ]
     },
@@ -1262,12 +882,8 @@
       "name": "cucumber-rails",
       "children": [
         {
-          "name": "cucumber-rails 1.4.5",
-          "size": 4
-        },
-        {
           "name": "cucumber-rails 1.5.0",
-          "size": 5
+          "size": 9
         }
       ]
     },
@@ -1275,16 +891,8 @@
       "name": "govuk_ab_testing",
       "children": [
         {
-          "name": "govuk_ab_testing 2.2.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_ab_testing 2.4.0",
-          "size": 2
-        },
-        {
           "name": "govuk_ab_testing 2.4.1",
-          "size": 2
+          "size": 5
         }
       ]
     },
@@ -1292,11 +900,15 @@
       "name": "govuk_publishing_components",
       "children": [
         {
-          "name": "govuk_publishing_components 1.10.0",
+          "name": "govuk_publishing_components 3.0.2",
           "size": 2
         },
         {
-          "name": "govuk_publishing_components 1.11.0",
+          "name": "govuk_publishing_components 3.2.0",
+          "size": 3
+        },
+        {
+          "name": "govuk_publishing_components 3.3.0",
           "size": 2
         }
       ]
@@ -1305,24 +917,16 @@
       "name": "govuk_schemas",
       "children": [
         {
-          "name": "govuk_schemas 2.1.0",
-          "size": 1
-        },
-        {
           "name": "govuk_schemas 2.1.1",
           "size": 1
         },
         {
-          "name": "govuk_schemas 2.2.0",
-          "size": 1
-        },
-        {
           "name": "govuk_schemas 2.3.0",
-          "size": 3
+          "size": 4
         },
         {
-          "name": "govuk_schemas 3.0.0",
-          "size": 1
+          "name": "govuk_schemas 3.1.0",
+          "size": 2
         }
       ]
     },
@@ -1330,16 +934,33 @@
       "name": "jasmine-rails",
       "children": [
         {
-          "name": "jasmine-rails 0.7.0",
+          "name": "jasmine-rails 0.14.2",
           "size": 1
         },
         {
-          "name": "jasmine-rails 0.14.1",
-          "size": 3
+          "name": "jasmine-rails 0.14.7",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "factory_girl_rails",
+      "children": [
+        {
+          "name": "factory_girl_rails 4.2.1",
+          "size": 1
         },
         {
-          "name": "jasmine-rails 0.14.2",
-          "size": 3
+          "name": "factory_girl_rails 4.5.0",
+          "size": 2
+        },
+        {
+          "name": "factory_girl_rails 4.7.0",
+          "size": 2
+        },
+        {
+          "name": "factory_girl_rails 4.9.0",
+          "size": 13
         }
       ]
     },
@@ -1357,31 +978,23 @@
       "children": [
         {
           "name": "govuk_admin_template 4.3.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "govuk_admin_template 4.4.1",
           "size": 1
         },
         {
-          "name": "govuk_admin_template 4.4.2",
-          "size": 3
-        },
-        {
-          "name": "govuk_admin_template 5.0.1",
-          "size": 4
-        },
-        {
           "name": "govuk_admin_template 6.0.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_admin_template 6.1.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "govuk_admin_template 6.2.0",
-          "size": 5
+          "size": 2
+        },
+        {
+          "name": "govuk_admin_template 6.4.0",
+          "size": 15
         }
       ]
     },
@@ -1393,20 +1006,8 @@
           "size": 1
         },
         {
-          "name": "mysql2 0.3.20",
-          "size": 1
-        },
-        {
-          "name": "mysql2 0.4.4",
-          "size": 1
-        },
-        {
-          "name": "mysql2 0.4.5",
-          "size": 2
-        },
-        {
-          "name": "mysql2 0.4.9",
-          "size": 1
+          "name": "mysql2 0.4.10",
+          "size": 5
         }
       ]
     },
@@ -1439,12 +1040,8 @@
       "name": "sinatra",
       "children": [
         {
-          "name": "sinatra 1.0",
-          "size": 1
-        },
-        {
           "name": "sinatra 2.0.0",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -1456,7 +1053,7 @@
           "size": 1
         },
         {
-          "name": "ancestry 2.1.0",
+          "name": "ancestry 3.0.1",
           "size": 1
         }
       ]
@@ -1465,12 +1062,8 @@
       "name": "fakefs",
       "children": [
         {
-          "name": "fakefs 0.9.0",
-          "size": 1
-        },
-        {
-          "name": "fakefs 0.9.1",
-          "size": 1
+          "name": "fakefs 0.11.3",
+          "size": 2
         }
       ]
     },
@@ -1482,7 +1075,7 @@
           "size": 1
         },
         {
-          "name": "friendly_id 5.2.1",
+          "name": "friendly_id 5.2.3",
           "size": 2
         }
       ]
@@ -1492,31 +1085,15 @@
       "children": [
         {
           "name": "govspeak 3.3.0",
-          "size": 2
-        },
-        {
-          "name": "govspeak 3.4.0",
           "size": 1
         },
         {
-          "name": "govspeak 3.5.2",
-          "size": 1
+          "name": "govspeak 5.2.2",
+          "size": 8
         },
         {
-          "name": "govspeak 3.6.2",
-          "size": 2
-        },
-        {
-          "name": "govspeak 5.0.2",
-          "size": 1
-        },
-        {
-          "name": "govspeak 5.0.3",
-          "size": 5
-        },
-        {
-          "name": "govspeak 5.1.0",
-          "size": 1
+          "name": "govspeak 5.3.0",
+          "size": 4
         }
       ]
     },
@@ -1524,11 +1101,11 @@
       "name": "json-schema",
       "children": [
         {
-          "name": "json-schema 2.5.1",
+          "name": "json-schema 2.5.2",
           "size": 1
         },
         {
-          "name": "json-schema 2.5.2",
+          "name": "json-schema 2.8.0",
           "size": 2
         }
       ]
@@ -1546,12 +1123,8 @@
       "name": "mlanett-redis-lock",
       "children": [
         {
-          "name": "mlanett-redis-lock 0.2.2",
-          "size": 1
-        },
-        {
           "name": "mlanett-redis-lock 0.2.7",
-          "size": 6
+          "size": 7
         }
       ]
     },
@@ -1563,7 +1136,7 @@
           "size": 1
         },
         {
-          "name": "paper_trail 7.0.2",
+          "name": "paper_trail 8.1.2",
           "size": 1
         }
       ]
@@ -1572,16 +1145,8 @@
       "name": "pry-rails",
       "children": [
         {
-          "name": "pry-rails 0.3.4",
-          "size": 3
-        },
-        {
-          "name": "pry-rails 0.3.5",
-          "size": 1
-        },
-        {
           "name": "pry-rails 0.3.6",
-          "size": 4
+          "size": 8
         }
       ]
     },
@@ -1593,8 +1158,8 @@
           "size": 1
         },
         {
-          "name": "shoulda-matchers 3.1.1",
-          "size": 5
+          "name": "shoulda-matchers 3.1.2",
+          "size": 6
         }
       ]
     },
@@ -1602,12 +1167,8 @@
       "name": "simple_form",
       "children": [
         {
-          "name": "simple_form 3.3.1",
-          "size": 1
-        },
-        {
           "name": "simple_form 3.5.0",
-          "size": 1
+          "size": 2
         }
       ]
     },
@@ -1615,16 +1176,7 @@
       "name": "therubyracer",
       "children": [
         {
-          "name": "therubyracer 0.12.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "thin",
-      "children": [
-        {
-          "name": "thin 1.7.0",
+          "name": "therubyracer 0.12.3",
           "size": 2
         }
       ]
@@ -1637,12 +1189,8 @@
           "size": 1
         },
         {
-          "name": "whenever 0.9.4",
-          "size": 1
-        },
-        {
-          "name": "whenever 0.9.7",
-          "size": 9
+          "name": "whenever 0.10.0",
+          "size": 10
         }
       ]
     },
@@ -1650,12 +1198,8 @@
       "name": "activerecord-import",
       "children": [
         {
-          "name": "activerecord-import 0.18.3",
-          "size": 1
-        },
-        {
-          "name": "activerecord-import 0.19.1",
-          "size": 2
+          "name": "activerecord-import 0.21.0",
+          "size": 4
         }
       ]
     },
@@ -1663,15 +1207,15 @@
       "name": "google-api-client",
       "children": [
         {
-          "name": "google-api-client 0.10.3",
-          "size": 2
-        },
-        {
-          "name": "google-api-client 0.11.2",
+          "name": "google-api-client 0.18.1",
           "size": 1
         },
         {
-          "name": "google-api-client 0.13.6",
+          "name": "google-api-client 0.19.0",
+          "size": 2
+        },
+        {
+          "name": "google-api-client 0.19.2",
           "size": 1
         }
       ]
@@ -1680,12 +1224,8 @@
       "name": "jbuilder",
       "children": [
         {
-          "name": "jbuilder 2.6.0",
-          "size": 1
-        },
-        {
           "name": "jbuilder 2.7.0",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -1693,12 +1233,8 @@
       "name": "jquery-rails",
       "children": [
         {
-          "name": "jquery-rails 4.1.1",
-          "size": 1
-        },
-        {
           "name": "jquery-rails 4.3.1",
-          "size": 1
+          "size": 2
         }
       ]
     },
@@ -1706,16 +1242,12 @@
       "name": "kaminari",
       "children": [
         {
-          "name": "kaminari 0.16.3",
-          "size": 1
-        },
-        {
           "name": "kaminari 0.17.0",
           "size": 3
         },
         {
-          "name": "kaminari 1.0.1",
-          "size": 6
+          "name": "kaminari 1.1.1",
+          "size": 7
         }
       ]
     },
@@ -1728,7 +1260,7 @@
         },
         {
           "name": "phantomjs 2.1.1.0",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -1736,12 +1268,8 @@
       "name": "selectize-rails",
       "children": [
         {
-          "name": "selectize-rails 0.12.1",
-          "size": 1
-        },
-        {
-          "name": "selectize-rails 0.12.4",
-          "size": 2
+          "name": "selectize-rails 0.12.4.1",
+          "size": 3
         }
       ]
     },
@@ -1755,15 +1283,11 @@
       ]
     },
     {
-      "name": "factory_girl",
+      "name": "factory_bot",
       "children": [
         {
-          "name": "factory_girl 3.3.0",
-          "size": 1
-        },
-        {
-          "name": "factory_girl 4.8.0",
-          "size": 4
+          "name": "factory_bot 4.8.2",
+          "size": 2
         }
       ]
     },
@@ -1771,7 +1295,7 @@
       "name": "hashdiff",
       "children": [
         {
-          "name": "hashdiff 0.3.6",
+          "name": "hashdiff 0.3.7",
           "size": 3
         }
       ]
@@ -1780,12 +1304,8 @@
       "name": "mongoid_rails_migrations",
       "children": [
         {
-          "name": "mongoid_rails_migrations 1.0.1",
-          "size": 1
-        },
-        {
           "name": "mongoid_rails_migrations 1.1.0",
-          "size": 7
+          "size": 8
         }
       ]
     },
@@ -1793,12 +1313,8 @@
       "name": "pact",
       "children": [
         {
-          "name": "pact 1.9.4",
-          "size": 1
-        },
-        {
-          "name": "pact 1.15.0",
-          "size": 1
+          "name": "pact 1.20.0",
+          "size": 2
         }
       ]
     },
@@ -1807,7 +1323,7 @@
       "children": [
         {
           "name": "statsd-ruby 1.4.0",
-          "size": 7
+          "size": 6
         }
       ]
     },
@@ -1833,12 +1349,8 @@
       "name": "bootstrap-kaminari-views",
       "children": [
         {
-          "name": "bootstrap-kaminari-views 0.0.3",
-          "size": 1
-        },
-        {
           "name": "bootstrap-kaminari-views 0.0.5",
-          "size": 6
+          "size": 7
         }
       ]
     },
@@ -1864,23 +1376,6 @@
       ]
     },
     {
-      "name": "test-unit",
-      "children": [
-        {
-          "name": "test-unit 3.1.3",
-          "size": 2
-        },
-        {
-          "name": "test-unit 3.2.3",
-          "size": 2
-        },
-        {
-          "name": "test-unit 3.2.5",
-          "size": 1
-        }
-      ]
-    },
-    {
       "name": "equivalent-xml",
       "children": [
         {
@@ -1893,16 +1388,8 @@
       "name": "faraday",
       "children": [
         {
-          "name": "faraday 0.9.2",
-          "size": 1
-        },
-        {
-          "name": "faraday 0.12.1",
-          "size": 1
-        },
-        {
           "name": "faraday 0.12.2",
-          "size": 2
+          "size": 4
         }
       ]
     },
@@ -1910,12 +1397,8 @@
       "name": "foreman",
       "children": [
         {
-          "name": "foreman 0.78.0",
-          "size": 1
-        },
-        {
           "name": "foreman 0.84.0",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -1923,59 +1406,35 @@
       "name": "notifications-ruby-client",
       "children": [
         {
-          "name": "notifications-ruby-client 2.3.0",
-          "size": 1
-        },
-        {
-          "name": "notifications-ruby-client 2.4.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "redis-namespace",
-      "children": [
-        {
-          "name": "redis-namespace 1.5.1",
-          "size": 1
-        },
-        {
-          "name": "redis-namespace 1.5.2",
-          "size": 2
-        },
-        {
-          "name": "redis-namespace 1.5.3",
+          "name": "notifications-ruby-client 2.6.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "sidekiq",
+      "name": "ruby-prof",
       "children": [
         {
-          "name": "sidekiq 3.2.1",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 3.4.2",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 4.1.4",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 5.0.0",
-          "size": 1
+          "name": "ruby-prof 0.17.0",
+          "size": 2
         }
       ]
     },
     {
-      "name": "sidekiq-statsd",
+      "name": "sidekiq-scheduler",
       "children": [
         {
-          "name": "sidekiq-statsd 0.1.5",
+          "name": "sidekiq-scheduler 2.1.10",
           "size": 3
+        }
+      ]
+    },
+    {
+      "name": "with_advisory_lock",
+      "children": [
+        {
+          "name": "with_advisory_lock 3.2.0",
+          "size": 2
         }
       ]
     },
@@ -1983,12 +1442,8 @@
       "name": "launchy",
       "children": [
         {
-          "name": "launchy 2.4.2",
-          "size": 1
-        },
-        {
           "name": "launchy 2.4.3",
-          "size": 9
+          "size": 10
         }
       ]
     },
@@ -2000,7 +1455,7 @@
           "size": 1
         },
         {
-          "name": "bunny 2.6.5",
+          "name": "bunny 2.9.0",
           "size": 1
         }
       ]
@@ -2009,20 +1464,25 @@
       "name": "redis",
       "children": [
         {
-          "name": "redis 3.1.0",
-          "size": 1
-        },
-        {
-          "name": "redis 3.2.1",
+          "name": "redis 3.3.5",
           "size": 2
         },
         {
-          "name": "redis 3.3.1",
+          "name": "redis 4.0.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "redis-namespace",
+      "children": [
+        {
+          "name": "redis-namespace 1.5.3",
           "size": 1
         },
         {
-          "name": "redis 3.3.3",
-          "size": 1
+          "name": "redis-namespace 1.6.0",
+          "size": 2
         }
       ]
     },
@@ -2048,20 +1508,25 @@
       "name": "sass",
       "children": [
         {
-          "name": "sass 3.4.23",
-          "size": 1
-        },
-        {
-          "name": "sass 3.4.24",
-          "size": 1
-        },
-        {
           "name": "sass 3.4.25",
           "size": 1
         },
         {
-          "name": "sass 3.5.1",
+          "name": "sass 3.5.4",
           "size": 1
+        },
+        {
+          "name": "sass 3.5.5",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "test-unit",
+      "children": [
+        {
+          "name": "test-unit 3.2.7",
+          "size": 4
         }
       ]
     },
@@ -2078,12 +1543,8 @@
       "name": "shared_mustache",
       "children": [
         {
-          "name": "shared_mustache 0.1.3",
-          "size": 1
-        },
-        {
           "name": "shared_mustache 1.0.1",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -2092,11 +1553,11 @@
       "children": [
         {
           "name": "addressable 2.3.8",
-          "size": 3
+          "size": 1
         },
         {
-          "name": "addressable 2.4.0",
-          "size": 1
+          "name": "addressable 2.5.2",
+          "size": 3
         }
       ]
     },
@@ -2105,10 +1566,6 @@
       "children": [
         {
           "name": "ci_reporter 1.7.0",
-          "size": 1
-        },
-        {
-          "name": "ci_reporter 1.7.3",
           "size": 1
         },
         {
@@ -2131,11 +1588,11 @@
       "children": [
         {
           "name": "shoulda-context 1.2.1",
-          "size": 3
+          "size": 1
         },
         {
           "name": "shoulda-context 1.2.2",
-          "size": 2
+          "size": 4
         }
       ]
     },
@@ -2147,12 +1604,8 @@
           "size": 1
         },
         {
-          "name": "sprockets-rails 3.2.0",
-          "size": 1
-        },
-        {
           "name": "sprockets-rails 3.2.1",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -2164,7 +1617,7 @@
           "size": 1
         },
         {
-          "name": "uk_postcode 2.1.1",
+          "name": "uk_postcode 2.1.2",
           "size": 1
         }
       ]
@@ -2173,12 +1626,8 @@
       "name": "dalli",
       "children": [
         {
-          "name": "dalli 2.7.2",
-          "size": 1
-        },
-        {
           "name": "dalli 2.7.6",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -2195,7 +1644,7 @@
       "name": "wraith",
       "children": [
         {
-          "name": "wraith 4.0.1",
+          "name": "wraith 4.2.1",
           "size": 2
         }
       ]
@@ -2214,10 +1663,23 @@
       "children": [
         {
           "name": "rspec-collection_matchers 1.1.2",
-          "size": 3
+          "size": 1
         },
         {
           "name": "rspec-collection_matchers 1.1.3",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "sidekiq",
+      "children": [
+        {
+          "name": "sidekiq 3.2.1",
+          "size": 1
+        },
+        {
+          "name": "sidekiq 3.4.2",
           "size": 1
         }
       ]
@@ -2227,15 +1689,11 @@
       "children": [
         {
           "name": "formtastic 2.3.0",
-          "size": 3
-        },
-        {
-          "name": "formtastic 3.1.3",
-          "size": 1
+          "size": 2
         },
         {
           "name": "formtastic 3.1.5",
-          "size": 1
+          "size": 3
         }
       ]
     },
@@ -2244,11 +1702,11 @@
       "children": [
         {
           "name": "formtastic-bootstrap 3.0.0",
-          "size": 3
+          "size": 2
         },
         {
           "name": "formtastic-bootstrap 3.1.1",
-          "size": 3
+          "size": 4
         }
       ]
     },
@@ -2257,7 +1715,11 @@
       "children": [
         {
           "name": "inherited_resources 1.7.2",
-          "size": 2
+          "size": 1
+        },
+        {
+          "name": "inherited_resources 1.8.0",
+          "size": 1
         }
       ]
     },
@@ -2274,7 +1736,20 @@
       "name": "minitest-reporters",
       "children": [
         {
-          "name": "minitest-reporters 1.1.14",
+          "name": "minitest-reporters 1.1.19",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "state_machines",
+      "children": [
+        {
+          "name": "state_machines 0.4.0",
+          "size": 1
+        },
+        {
+          "name": "state_machines 0.5.0",
           "size": 2
         }
       ]
@@ -2283,12 +1758,8 @@
       "name": "rspec-its",
       "children": [
         {
-          "name": "rspec-its 1.0.1",
-          "size": 1
-        },
-        {
           "name": "rspec-its 1.2.0",
-          "size": 1
+          "size": 3
         }
       ]
     },
@@ -2300,7 +1771,7 @@
           "size": 1
         },
         {
-          "name": "elasticsearch 5.0.4",
+          "name": "elasticsearch 6.0.0",
           "size": 1
         }
       ]
@@ -2309,12 +1780,8 @@
       "name": "deprecated_columns",
       "children": [
         {
-          "name": "deprecated_columns 0.1.0",
-          "size": 1
-        },
-        {
           "name": "deprecated_columns 0.1.1",
-          "size": 2
+          "size": 3
         }
       ]
     },
@@ -2322,12 +1789,8 @@
       "name": "sidekiq-unique-jobs",
       "children": [
         {
-          "name": "sidekiq-unique-jobs 5.0.8",
-          "size": 1
-        },
-        {
           "name": "sidekiq-unique-jobs 5.0.10",
-          "size": 1
+          "size": 2
         }
       ]
     },
@@ -2341,15 +1804,24 @@
       ]
     },
     {
-      "name": "raindrops",
+      "name": "cucumber",
       "children": [
         {
-          "name": "raindrops 0.18.0",
+          "name": "cucumber 2.4.0",
           "size": 1
         },
         {
-          "name": "raindrops 0.19.0",
+          "name": "cucumber 3.1.0",
           "size": 1
+        }
+      ]
+    },
+    {
+      "name": "raindrops",
+      "children": [
+        {
+          "name": "raindrops 0.19.0",
+          "size": 2
         }
       ]
     },
@@ -2357,7 +1829,7 @@
       "name": "cancancan",
       "children": [
         {
-          "name": "cancancan 1.16.0",
+          "name": "cancancan 2.1.2",
           "size": 2
         }
       ]
@@ -2366,20 +1838,21 @@
       "name": "jasmine",
       "children": [
         {
-          "name": "jasmine 2.1.0",
-          "size": 1
-        },
-        {
           "name": "jasmine 2.5.2",
-          "size": 2
-        },
-        {
-          "name": "jasmine 2.6.0",
-          "size": 3
+          "size": 1
         },
         {
           "name": "jasmine 2.8.0",
-          "size": 1
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "factory_girl",
+      "children": [
+        {
+          "name": "factory_girl 4.9.0",
+          "size": 3
         }
       ]
     },
@@ -2387,20 +1860,8 @@
       "name": "diffy",
       "children": [
         {
-          "name": "diffy 3.0.6",
-          "size": 1
-        },
-        {
-          "name": "diffy 3.0.7",
-          "size": 1
-        },
-        {
-          "name": "diffy 3.1.0",
-          "size": 1
-        },
-        {
           "name": "diffy 3.2.0",
-          "size": 1
+          "size": 4
         }
       ]
     },
@@ -2431,23 +1892,10 @@
       ]
     },
     {
-      "name": "state_machines",
-      "children": [
-        {
-          "name": "state_machines 0.4.0",
-          "size": 1
-        },
-        {
-          "name": "state_machines 0.5.0",
-          "size": 1
-        }
-      ]
-    },
-    {
       "name": "govuk_document_types",
       "children": [
         {
-          "name": "govuk_document_types 0.1.10",
+          "name": "govuk_document_types 0.2.0",
           "size": 2
         }
       ]
@@ -2456,7 +1904,7 @@
       "name": "stackprof",
       "children": [
         {
-          "name": "stackprof 0.2.10",
+          "name": "stackprof 0.2.11",
           "size": 2
         }
       ]
@@ -2483,7 +1931,11 @@
       "children": [
         {
           "name": "rinku 2.0.3",
-          "size": 2
+          "size": 1
+        },
+        {
+          "name": "rinku 2.0.4",
+          "size": 1
         }
       ]
     },
@@ -2491,12 +1943,8 @@
       "name": "pundit",
       "children": [
         {
-          "name": "pundit 0.3.0",
-          "size": 1
-        },
-        {
           "name": "pundit 1.1.0",
-          "size": 1
+          "size": 2
         }
       ]
     },
@@ -2504,12 +1952,8 @@
       "name": "gds_zendesk",
       "children": [
         {
-          "name": "gds_zendesk 2.2.0",
-          "size": 1
-        },
-        {
-          "name": "gds_zendesk 2.4.0",
-          "size": 1
+          "name": "gds_zendesk 3.0.0",
+          "size": 2
         }
       ]
     }
