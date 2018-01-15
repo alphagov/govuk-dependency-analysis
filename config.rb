@@ -46,6 +46,7 @@ require_relative 'app/stats'
 require_relative 'app/application'
 require_relative 'app/dependency'
 require_relative 'app/fragmentation'
+require_relative 'app/vulnerabilities'
 
 helpers do
   require 'table_of_contents/helpers'
@@ -62,11 +63,11 @@ configure :build do
 end
 
 ::Application.all.each do |app|
-  proxy "/apps/#{app.name}.html", "/templates/app_template.html", locals: { app: app }
+  proxy "/apps/#{app.name}.html", "/templates/app_template.html", locals: { application: app }, ignore: true
 end
 
-Dependency.all.each do |gem|
-  proxy "/gems/#{gem.name}.html", "/templates/gem_template.html", locals: { gem: gem }
+Dependency.all.each do |dep|
+  proxy "/gems/#{dep.name}.html", "/templates/gem_template.html", locals: { dep: dep }, ignore: true
 end
 
 config[:tech_docs] = YAML.load_file('config/tech-docs.yml')

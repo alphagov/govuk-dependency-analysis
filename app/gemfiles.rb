@@ -1,3 +1,5 @@
+require 'bundler'
+
 class Gemfiles
   DIRECTORY = "cache/gemfiles"
 
@@ -13,6 +15,8 @@ class Gemfiles
   end
 
   def self.download
+    puts '[Gemfiles] Downloading Gemfiles'
+
     begin
       sh "mkdir -p #{DIRECTORY}"
       sh "rm #{DIRECTORY}/*"
@@ -21,16 +25,16 @@ class Gemfiles
 
     applications = JSON.parse(HTTP.get('https://docs.publishing.service.gov.uk/apps.json'))
     applications.each do |application|
-      puts application["app_name"]
+      print "#{application["app_name"]}... "
       repo_name = application.dig('links', 'repo_url').split('/').last
       url = "https://raw.githubusercontent.com/alphagov/#{repo_name}/master/Gemfile.lock"
       response = HTTP.get(url)
 
       if response.code == 200
-        print '.'
+        puts "√"
         File.write("#{DIRECTORY}/#{repo_name}", response)
       else
-        puts "Skipping #{repo_name}"
+        puts "skipped"
       end
     end
   end

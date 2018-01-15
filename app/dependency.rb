@@ -27,11 +27,13 @@ class Dependency
   end
 
   def self.find(name)
-    all.find { |gem| gem.name == name }
+    @@gem_hash ||= {}
+    @@gem_hash[name] ||= all.find { |gem| gem.name == name }
   end
 
   def self.all
-    @@data ||= BaseData.get
-    @@data['gems'].map { |gem_data| Dependency.new(gem_data) }
+    @@gems ||= begin
+      BaseData.get['gems'].map { |gem_data| Dependency.new(gem_data) }
+    end
   end
 end
