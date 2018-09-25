@@ -2,28 +2,11 @@
   "name": "versions",
   "children": [
     {
-      "name": "aws-sdk",
+      "name": "ci_reporter_rspec",
       "children": [
         {
-          "name": "aws-sdk 2.6.11",
-          "size": 1
-        },
-        {
-          "name": "aws-sdk 2.10.10",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "carrierwave",
-      "children": [
-        {
-          "name": "carrierwave 0.10.0",
-          "size": 1
-        },
-        {
-          "name": "carrierwave 1.1.0",
-          "size": 1
+          "name": "ci_reporter_rspec 1.0.0",
+          "size": 9
         }
       ]
     },
@@ -31,66 +14,43 @@
       "name": "database_cleaner",
       "children": [
         {
-          "name": "database_cleaner 1.5.0",
-          "size": 1
-        },
-        {
-          "name": "database_cleaner 1.5.1",
+          "name": "database_cleaner 1.6.2",
           "size": 2
         },
         {
-          "name": "database_cleaner 1.5.3",
-          "size": 8
-        },
-        {
-          "name": "database_cleaner 1.6.0",
-          "size": 1
-        },
-        {
-          "name": "database_cleaner 1.6.1",
-          "size": 12
+          "name": "database_cleaner 1.7.0",
+          "size": 24
         }
       ]
     },
     {
-      "name": "factory_girl_rails",
+      "name": "factory_bot",
       "children": [
         {
-          "name": "factory_girl_rails 3.3.0",
-          "size": 1
-        },
-        {
-          "name": "factory_girl_rails 4.2.1",
-          "size": 1
-        },
-        {
-          "name": "factory_girl_rails 4.5.0",
-          "size": 6
-        },
-        {
-          "name": "factory_girl_rails 4.7.0",
-          "size": 6
-        },
-        {
-          "name": "factory_girl_rails 4.8.0",
-          "size": 9
+          "name": "factory_bot 4.11.1",
+          "size": 4
         }
       ]
     },
     {
-      "name": "gds-sso",
+      "name": "gds-api-adapters",
       "children": [
         {
-          "name": "gds-sso 11.2.0",
+          "name": "gds-api-adapters 51.2.0",
           "size": 1
         },
         {
-          "name": "gds-sso 13.0.0",
-          "size": 6
-        },
+          "name": "gds-api-adapters 53.1.0",
+          "size": 42
+        }
+      ]
+    },
+    {
+      "name": "govuk-content-schema-test-helpers",
+      "children": [
         {
-          "name": "gds-sso 13.2.0",
-          "size": 17
+          "name": "govuk-content-schema-test-helpers 1.6.1",
+          "size": 28
         }
       ]
     },
@@ -98,40 +58,12 @@
       "name": "govuk-lint",
       "children": [
         {
-          "name": "govuk-lint 0.3.0",
-          "size": 1
+          "name": "govuk-lint 3.8.0",
+          "size": 2
         },
         {
-          "name": "govuk-lint 0.5.1",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.5.3",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.6.1",
-          "size": 1
-        },
-        {
-          "name": "govuk-lint 0.8.1",
-          "size": 3
-        },
-        {
-          "name": "govuk-lint 1.2.1",
-          "size": 11
-        },
-        {
-          "name": "govuk-lint 2.1.0",
-          "size": 8
-        },
-        {
-          "name": "govuk-lint 3.2.0",
-          "size": 6
-        },
-        {
-          "name": "govuk-lint 3.3.0",
-          "size": 11
+          "name": "govuk-lint 3.9.0",
+          "size": 46
         }
       ]
     },
@@ -139,70 +71,34 @@
       "name": "govuk_app_config",
       "children": [
         {
-          "name": "govuk_app_config 0.2.0",
-          "size": 40
-        },
-        {
-          "name": "govuk_app_config 0.3.0",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "govuk_sidekiq",
-      "children": [
-        {
-          "name": "govuk_sidekiq 2.0.0",
-          "size": 15
-        }
-      ]
-    },
-    {
-      "name": "logstasher",
-      "children": [
-        {
-          "name": "logstasher 0.4.8",
-          "size": 10
-        },
-        {
-          "name": "logstasher 0.4.9",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.5.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.5.3",
+          "name": "govuk_app_config 1.3.0",
           "size": 2
         },
         {
-          "name": "logstasher 0.6.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 0.6.1",
-          "size": 2
-        },
-        {
-          "name": "logstasher 0.6.2",
+          "name": "govuk_app_config 1.8.0",
           "size": 8
         },
         {
-          "name": "logstasher 0.6.5",
+          "name": "govuk_app_config 1.9.1",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "name": "hashdiff",
+      "children": [
+        {
+          "name": "hashdiff 0.3.7",
           "size": 4
-        },
+        }
+      ]
+    },
+    {
+      "name": "mongo",
+      "children": [
         {
-          "name": "logstasher 0.9.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 1.1.0",
-          "size": 1
-        },
-        {
-          "name": "logstasher 1.2.1",
-          "size": 9
+          "name": "mongo 2.4.3",
+          "size": 4
         }
       ]
     },
@@ -210,64 +106,33 @@
       "name": "mongoid",
       "children": [
         {
-          "name": "mongoid 5.1.6",
-          "size": 1
-        },
-        {
-          "name": "mongoid 5.2.1",
-          "size": 1
-        },
-        {
-          "name": "mongoid 6.0.0",
-          "size": 1
-        },
-        {
-          "name": "mongoid 6.0.2",
-          "size": 1
-        },
-        {
           "name": "mongoid 6.0.3",
           "size": 1
         },
         {
-          "name": "mongoid 6.1.0",
-          "size": 3
-        },
-        {
           "name": "mongoid 6.1.1",
-          "size": 1
+          "size": 2
         },
         {
           "name": "mongoid 6.2.1",
-          "size": 2
+          "size": 9
         }
       ]
     },
     {
-      "name": "nokogiri",
+      "name": "mongoid_rails_migrations",
       "children": [
         {
-          "name": "nokogiri 1.6.6.4",
-          "size": 1
-        },
+          "name": "mongoid_rails_migrations 1.1.0",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "pact",
+      "children": [
         {
-          "name": "nokogiri 1.6.7.2",
-          "size": 1
-        },
-        {
-          "name": "nokogiri 1.7.1",
-          "size": 1
-        },
-        {
-          "name": "nokogiri 1.7.2",
-          "size": 2
-        },
-        {
-          "name": "nokogiri 1.8.0",
-          "size": 4
-        },
-        {
-          "name": "nokogiri 1.8.1",
+          "name": "pact 1.34.0",
           "size": 2
         }
       ]
@@ -276,37 +141,21 @@
       "name": "plek",
       "children": [
         {
-          "name": "plek 1.9.0",
-          "size": 1
-        },
-        {
-          "name": "plek 1.10.0",
-          "size": 1
-        },
-        {
-          "name": "plek 1.11.0",
-          "size": 10
-        },
-        {
-          "name": "plek 1.12.0",
-          "size": 14
-        },
-        {
-          "name": "plek 2.0.0",
-          "size": 19
+          "name": "plek 2.1.1",
+          "size": 48
         }
       ]
     },
     {
-      "name": "rack_strip_client_ip",
+      "name": "pry-byebug",
       "children": [
         {
-          "name": "rack_strip_client_ip 0.0.1",
-          "size": 2
+          "name": "pry-byebug 3.5.1",
+          "size": 15
         },
         {
-          "name": "rack_strip_client_ip 0.0.2",
-          "size": 7
+          "name": "pry-byebug 3.6.0",
+          "size": 14
         }
       ]
     },
@@ -314,64 +163,32 @@
       "name": "rails",
       "children": [
         {
-          "name": "rails 4.2.7.1",
-          "size": 4
-        },
-        {
-          "name": "rails 4.2.9",
-          "size": 1
-        },
-        {
-          "name": "rails 4.2.10",
-          "size": 1
-        },
-        {
-          "name": "rails 5.0.0.1",
-          "size": 3
-        },
-        {
-          "name": "rails 5.0.1",
-          "size": 1
-        },
-        {
           "name": "rails 5.0.2",
-          "size": 10
+          "size": 1
         },
         {
-          "name": "rails 5.0.3",
-          "size": 3
-        },
-        {
-          "name": "rails 5.0.4",
-          "size": 2
-        },
-        {
-          "name": "rails 5.0.5",
-          "size": 3
-        },
-        {
-          "name": "rails 5.0.6",
+          "name": "rails 5.0.7",
           "size": 1
         },
         {
           "name": "rails 5.1.0",
-          "size": 3
-        },
-        {
-          "name": "rails 5.1.1",
-          "size": 4
-        },
-        {
-          "name": "rails 5.1.2",
-          "size": 2
-        },
-        {
-          "name": "rails 5.1.3",
           "size": 1
         },
         {
           "name": "rails 5.1.4",
-          "size": 5
+          "size": 1
+        },
+        {
+          "name": "rails 5.1.6",
+          "size": 3
+        },
+        {
+          "name": "rails 5.2.0",
+          "size": 1
+        },
+        {
+          "name": "rails 5.2.1",
+          "size": 38
         }
       ]
     },
@@ -379,45 +196,21 @@
       "name": "rspec-rails",
       "children": [
         {
-          "name": "rspec-rails 3.1.0",
+          "name": "rspec-rails 3.7.2",
           "size": 1
         },
         {
-          "name": "rspec-rails 3.3.3",
-          "size": 1
-        },
-        {
-          "name": "rspec-rails 3.5.1",
-          "size": 2
-        },
-        {
-          "name": "rspec-rails 3.5.2",
-          "size": 14
-        },
-        {
-          "name": "rspec-rails 3.6.0",
-          "size": 5
-        },
-        {
-          "name": "rspec-rails 3.6.1",
-          "size": 8
-        },
-        {
-          "name": "rspec-rails 3.7.1",
-          "size": 1
+          "name": "rspec-rails 3.8.0",
+          "size": 33
         }
       ]
     },
     {
-      "name": "sdoc",
+      "name": "simplecov",
       "children": [
         {
-          "name": "sdoc 0.4.1",
-          "size": 1
-        },
-        {
-          "name": "sdoc 0.4.2",
-          "size": 3
+          "name": "simplecov 0.16.1",
+          "size": 28
         }
       ]
     },
@@ -426,133 +219,25 @@
       "children": [
         {
           "name": "simplecov-rcov 0.2.3",
-          "size": 24
+          "size": 23
         }
       ]
     },
     {
-      "name": "state_machines-mongoid",
+      "name": "timecop",
       "children": [
         {
-          "name": "state_machines-mongoid 0.1.1",
-          "size": 3
-        },
-        {
-          "name": "state_machines-mongoid 0.2.0",
-          "size": 1
+          "name": "timecop 0.9.1",
+          "size": 29
         }
       ]
     },
     {
-      "name": "unicorn",
+      "name": "uuidtools",
       "children": [
         {
-          "name": "unicorn 4.3.1",
+          "name": "uuidtools 2.1.5",
           "size": 2
-        },
-        {
-          "name": "unicorn 4.4.0",
-          "size": 1
-        },
-        {
-          "name": "unicorn 4.8.0",
-          "size": 2
-        },
-        {
-          "name": "unicorn 4.8.2",
-          "size": 3
-        },
-        {
-          "name": "unicorn 4.8.3",
-          "size": 4
-        },
-        {
-          "name": "unicorn 4.9.0",
-          "size": 11
-        },
-        {
-          "name": "unicorn 5.0.1",
-          "size": 5
-        },
-        {
-          "name": "unicorn 5.1.0",
-          "size": 5
-        },
-        {
-          "name": "unicorn 5.3.0",
-          "size": 12
-        },
-        {
-          "name": "unicorn 5.3.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "byebug",
-      "children": [
-        {
-          "name": "byebug 9.0.6",
-          "size": 4
-        },
-        {
-          "name": "byebug 9.1.0",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "rack-proxy",
-      "children": [
-        {
-          "name": "rack-proxy 0.6.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "rack-test",
-      "children": [
-        {
-          "name": "rack-test 0.6.3",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "simplecov",
-      "children": [
-        {
-          "name": "simplecov 0.8.2",
-          "size": 3
-        },
-        {
-          "name": "simplecov 0.9.1",
-          "size": 1
-        },
-        {
-          "name": "simplecov 0.9.2",
-          "size": 1
-        },
-        {
-          "name": "simplecov 0.10.0",
-          "size": 5
-        },
-        {
-          "name": "simplecov 0.12.0",
-          "size": 4
-        },
-        {
-          "name": "simplecov 0.14.1",
-          "size": 2
-        },
-        {
-          "name": "simplecov 0.15.0",
-          "size": 5
-        },
-        {
-          "name": "simplecov 0.15.1",
-          "size": 3
         }
       ]
     },
@@ -560,78 +245,224 @@
       "name": "webmock",
       "children": [
         {
-          "name": "webmock 1.17.4",
+          "name": "webmock 3.3.0",
           "size": 1
         },
         {
-          "name": "webmock 1.18.0",
-          "size": 3
-        },
-        {
-          "name": "webmock 1.20.4",
-          "size": 3
-        },
-        {
-          "name": "webmock 1.21.0",
-          "size": 2
-        },
-        {
-          "name": "webmock 1.22.1",
+          "name": "webmock 3.4.1",
           "size": 1
         },
         {
-          "name": "webmock 1.22.3",
+          "name": "webmock 3.4.2",
+          "size": 46
+        }
+      ]
+    },
+    {
+      "name": "whenever",
+      "children": [
+        {
+          "name": "whenever 0.10.0",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "activerecord-import",
+      "children": [
+        {
+          "name": "activerecord-import 0.22.0",
           "size": 1
         },
         {
-          "name": "webmock 1.22.6",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.24.2",
-          "size": 1
-        },
-        {
-          "name": "webmock 1.24.6",
+          "name": "activerecord-import 0.25.0",
           "size": 4
+        }
+      ]
+    },
+    {
+      "name": "capybara",
+      "children": [
+        {
+          "name": "capybara 2.17.0",
+          "size": 1
         },
         {
-          "name": "webmock 2.1.0",
+          "name": "capybara 2.18.0",
+          "size": 1
+        },
+        {
+          "name": "capybara 3.8.1",
+          "size": 13
+        }
+      ]
+    },
+    {
+      "name": "cucumber-rails",
+      "children": [
+        {
+          "name": "cucumber-rails 1.5.0",
+          "size": 2
+        },
+        {
+          "name": "cucumber-rails 1.6.0",
           "size": 7
-        },
+        }
+      ]
+    },
+    {
+      "name": "factory_bot_rails",
+      "children": [
         {
-          "name": "webmock 2.3.1",
+          "name": "factory_bot_rails 4.11.0",
           "size": 1
         },
         {
-          "name": "webmock 2.3.2",
+          "name": "factory_bot_rails 4.11.1",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "name": "gds-sso",
+      "children": [
+        {
+          "name": "gds-sso 13.5.1",
+          "size": 1
+        },
+        {
+          "name": "gds-sso 13.6.0",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "name": "google-api-client",
+      "children": [
+        {
+          "name": "google-api-client 0.19.6",
+          "size": 1
+        },
+        {
+          "name": "google-api-client 0.23.9",
+          "size": 1
+        },
+        {
+          "name": "google-api-client 0.24.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "govuk_admin_template",
+      "children": [
+        {
+          "name": "govuk_admin_template 6.5.0",
+          "size": 3
+        },
+        {
+          "name": "govuk_admin_template 6.6.0",
+          "size": 18
+        }
+      ]
+    },
+    {
+      "name": "govuk_sidekiq",
+      "children": [
+        {
+          "name": "govuk_sidekiq 3.0.0",
           "size": 2
         },
         {
-          "name": "webmock 3.0.1",
+          "name": "govuk_sidekiq 3.0.1",
+          "size": 1
+        },
+        {
+          "name": "govuk_sidekiq 3.0.2",
           "size": 16
+        }
+      ]
+    },
+    {
+      "name": "govuk_test",
+      "children": [
+        {
+          "name": "govuk_test 0.1.0",
+          "size": 1
         },
         {
-          "name": "webmock 3.1.0",
+          "name": "govuk_test 0.2.0",
           "size": 1
+        },
+        {
+          "name": "govuk_test 0.2.1",
+          "size": 19
         }
       ]
     },
     {
-      "name": "erubis",
+      "name": "gretel",
       "children": [
         {
-          "name": "erubis 2.7.0",
-          "size": 2
+          "name": "gretel 3.0.9",
+          "size": 4
         }
       ]
     },
     {
-      "name": "mr-sparkle",
+      "name": "htmlentities",
       "children": [
         {
-          "name": "mr-sparkle 0.3.0",
-          "size": 2
+          "name": "htmlentities 4.3.4",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "jasmine",
+      "children": [
+        {
+          "name": "jasmine 2.5.2",
+          "size": 1
+        },
+        {
+          "name": "jasmine 2.9.0",
+          "size": 1
+        },
+        {
+          "name": "jasmine 2.99.0",
+          "size": 1
+        },
+        {
+          "name": "jasmine 3.2.0",
+          "size": 7
+        }
+      ]
+    },
+    {
+      "name": "kaminari",
+      "children": [
+        {
+          "name": "kaminari 1.1.1",
+          "size": 13
+        }
+      ]
+    },
+    {
+      "name": "launchy",
+      "children": [
+        {
+          "name": "launchy 2.4.3",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "mlanett-redis-lock",
+      "children": [
+        {
+          "name": "mlanett-redis-lock 0.2.7",
+          "size": 7
         }
       ]
     },
@@ -645,23 +476,28 @@
       ]
     },
     {
+      "name": "paper_trail",
+      "children": [
+        {
+          "name": "paper_trail 4.1.0",
+          "size": 1
+        },
+        {
+          "name": "paper_trail 10.0.1",
+          "size": 2
+        }
+      ]
+    },
+    {
       "name": "pg",
       "children": [
         {
-          "name": "pg 0.18.4",
-          "size": 2
-        },
-        {
-          "name": "pg 0.19.0",
-          "size": 3
-        },
-        {
-          "name": "pg 0.20.0",
-          "size": 3
-        },
-        {
           "name": "pg 0.21.0",
-          "size": 4
+          "size": 5
+        },
+        {
+          "name": "pg 1.1.3",
+          "size": 10
         }
       ]
     },
@@ -669,367 +505,12 @@
       "name": "pry",
       "children": [
         {
-          "name": "pry 0.10.0",
-          "size": 1
-        },
-        {
-          "name": "pry 0.10.3",
-          "size": 1
-        },
-        {
           "name": "pry 0.10.4",
-          "size": 8
-        }
-      ]
-    },
-    {
-      "name": "rack",
-      "children": [
-        {
-          "name": "rack 2.0.1",
           "size": 1
         },
         {
-          "name": "rack 2.0.3",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "rake",
-      "children": [
-        {
-          "name": "rake 10.1.0",
-          "size": 1
-        },
-        {
-          "name": "rake 10.4.1",
-          "size": 1
-        },
-        {
-          "name": "rake 10.5.0",
-          "size": 1
-        },
-        {
-          "name": "rake 12.0.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "rspec",
-      "children": [
-        {
-          "name": "rspec 3.4.0",
-          "size": 1
-        },
-        {
-          "name": "rspec 3.5.0",
-          "size": 1
-        },
-        {
-          "name": "rspec 3.6.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "better_errors",
-      "children": [
-        {
-          "name": "better_errors 1.1.0",
-          "size": 1
-        },
-        {
-          "name": "better_errors 2.1.0",
-          "size": 1
-        },
-        {
-          "name": "better_errors 2.1.1",
-          "size": 6
-        },
-        {
-          "name": "better_errors 2.3.0",
-          "size": 12
-        }
-      ]
-    },
-    {
-      "name": "binding_of_caller",
-      "children": [
-        {
-          "name": "binding_of_caller 0.7.2",
-          "size": 19
-        }
-      ]
-    },
-    {
-      "name": "capybara",
-      "children": [
-        {
-          "name": "capybara 2.4.1",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.5.0",
-          "size": 3
-        },
-        {
-          "name": "capybara 2.6.2",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.8.1",
-          "size": 4
-        },
-        {
-          "name": "capybara 2.10.1",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.11.0",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.13.0",
-          "size": 2
-        },
-        {
-          "name": "capybara 2.14.0",
-          "size": 7
-        },
-        {
-          "name": "capybara 2.14.3",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.15.1",
-          "size": 7
-        },
-        {
-          "name": "capybara 2.15.4",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "ci_reporter_rspec",
-      "children": [
-        {
-          "name": "ci_reporter_rspec 1.0.0",
-          "size": 12
-        }
-      ]
-    },
-    {
-      "name": "gds-api-adapters",
-      "children": [
-        {
-          "name": "gds-api-adapters 34.1.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 46.0.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 47.2.0",
-          "size": 2
-        },
-        {
-          "name": "gds-api-adapters 47.9.1",
-          "size": 25
-        },
-        {
-          "name": "gds-api-adapters 48.0.0",
-          "size": 8
-        },
-        {
-          "name": "gds-api-adapters 49.1.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 49.3.0",
-          "size": 1
-        },
-        {
-          "name": "gds-api-adapters 49.6.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "govuk-content-schema-test-helpers",
-      "children": [
-        {
-          "name": "govuk-content-schema-test-helpers 1.3.0",
-          "size": 2
-        },
-        {
-          "name": "govuk-content-schema-test-helpers 1.4.0",
-          "size": 15
-        },
-        {
-          "name": "govuk-content-schema-test-helpers 1.5.0",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "govuk_elements_rails",
-      "children": [
-        {
-          "name": "govuk_elements_rails 3.0.2",
-          "size": 1
-        },
-        {
-          "name": "govuk_elements_rails 3.1.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "govuk_frontend_toolkit",
-      "children": [
-        {
-          "name": "govuk_frontend_toolkit 0.44.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.2.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.4.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.6.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 1.6.1",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.3.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.12.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.17.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 4.18.4",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 5.1.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 6.0.3",
-          "size": 1
-        },
-        {
-          "name": "govuk_frontend_toolkit 6.0.4",
-          "size": 2
-        },
-        {
-          "name": "govuk_frontend_toolkit 7.0.1",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "govuk_navigation_helpers",
-      "children": [
-        {
-          "name": "govuk_navigation_helpers 2.0.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_navigation_helpers 6.3.0",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "listen",
-      "children": [
-        {
-          "name": "listen 3.0.8",
-          "size": 3
-        },
-        {
-          "name": "listen 3.1.5",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "poltergeist",
-      "children": [
-        {
-          "name": "poltergeist 1.5.0",
-          "size": 2
-        },
-        {
-          "name": "poltergeist 1.6.0",
-          "size": 2
-        },
-        {
-          "name": "poltergeist 1.7.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.8.1",
-          "size": 2
-        },
-        {
-          "name": "poltergeist 1.9.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.12.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.13.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.14.0",
-          "size": 1
-        },
-        {
-          "name": "poltergeist 1.15.0",
-          "size": 3
-        },
-        {
-          "name": "poltergeist 1.16.0",
+          "name": "pry 0.11.3",
           "size": 9
-        }
-      ]
-    },
-    {
-      "name": "pry-byebug",
-      "children": [
-        {
-          "name": "pry-byebug 3.4.0",
-          "size": 3
-        },
-        {
-          "name": "pry-byebug 3.4.2",
-          "size": 14
-        },
-        {
-          "name": "pry-byebug 3.5.0",
-          "size": 11
         }
       ]
     },
@@ -1037,16 +518,30 @@
       "name": "rails-controller-testing",
       "children": [
         {
-          "name": "rails-controller-testing 0.1.1",
+          "name": "rails-controller-testing 1.0.2",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "name": "rspec-collection_matchers",
+      "children": [
+        {
+          "name": "rspec-collection_matchers 1.1.3",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "sass",
+      "children": [
+        {
+          "name": "sass 3.5.6",
           "size": 1
         },
         {
-          "name": "rails-controller-testing 1.0.1",
-          "size": 5
-        },
-        {
-          "name": "rails-controller-testing 1.0.2",
-          "size": 14
+          "name": "sass 3.5.7",
+          "size": 3
         }
       ]
     },
@@ -1054,359 +549,8 @@
       "name": "sass-rails",
       "children": [
         {
-          "name": "sass-rails 5.0.6",
+          "name": "sass-rails 5.0.7",
           "size": 34
-        }
-      ]
-    },
-    {
-      "name": "slimmer",
-      "children": [
-        {
-          "name": "slimmer 11.0.2",
-          "size": 9
-        },
-        {
-          "name": "slimmer 11.1.1",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "spring",
-      "children": [
-        {
-          "name": "spring 1.1.3",
-          "size": 1
-        },
-        {
-          "name": "spring 2.0.0",
-          "size": 1
-        },
-        {
-          "name": "spring 2.0.1",
-          "size": 2
-        },
-        {
-          "name": "spring 2.0.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "spring-watcher-listen",
-      "children": [
-        {
-          "name": "spring-watcher-listen 2.0.1",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "timecop",
-      "children": [
-        {
-          "name": "timecop 0.4.5",
-          "size": 1
-        },
-        {
-          "name": "timecop 0.5.9.2",
-          "size": 1
-        },
-        {
-          "name": "timecop 0.7.1",
-          "size": 2
-        },
-        {
-          "name": "timecop 0.7.3",
-          "size": 2
-        },
-        {
-          "name": "timecop 0.8.0",
-          "size": 1
-        },
-        {
-          "name": "timecop 0.8.1",
-          "size": 10
-        },
-        {
-          "name": "timecop 0.9.1",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "uglifier",
-      "children": [
-        {
-          "name": "uglifier 2.5.0",
-          "size": 1
-        },
-        {
-          "name": "uglifier 2.5.3",
-          "size": 1
-        },
-        {
-          "name": "uglifier 2.7.1",
-          "size": 3
-        },
-        {
-          "name": "uglifier 2.7.2",
-          "size": 5
-        },
-        {
-          "name": "uglifier 3.0.2",
-          "size": 1
-        },
-        {
-          "name": "uglifier 3.0.3",
-          "size": 1
-        },
-        {
-          "name": "uglifier 3.0.4",
-          "size": 5
-        },
-        {
-          "name": "uglifier 3.2.0",
-          "size": 18
-        }
-      ]
-    },
-    {
-      "name": "web-console",
-      "children": [
-        {
-          "name": "web-console 2.3.0",
-          "size": 4
-        },
-        {
-          "name": "web-console 3.5.0",
-          "size": 1
-        },
-        {
-          "name": "web-console 3.5.1",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "ci_reporter_minitest",
-      "children": [
-        {
-          "name": "ci_reporter_minitest 1.0.0",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "json",
-      "children": [
-        {
-          "name": "json 1.8.3",
-          "size": 1
-        },
-        {
-          "name": "json 1.8.6",
-          "size": 1
-        },
-        {
-          "name": "json 2.1.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "mocha",
-      "children": [
-        {
-          "name": "mocha 0.13.3",
-          "size": 1
-        },
-        {
-          "name": "mocha 1.1.0",
-          "size": 6
-        },
-        {
-          "name": "mocha 1.2.1",
-          "size": 3
-        },
-        {
-          "name": "mocha 1.3.0",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "rails-i18n",
-      "children": [
-        {
-          "name": "rails-i18n 4.0.9",
-          "size": 1
-        },
-        {
-          "name": "rails-i18n 5.0.4",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "shoulda",
-      "children": [
-        {
-          "name": "shoulda 3.5.0",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "cucumber-rails",
-      "children": [
-        {
-          "name": "cucumber-rails 1.4.5",
-          "size": 4
-        },
-        {
-          "name": "cucumber-rails 1.5.0",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "govuk_ab_testing",
-      "children": [
-        {
-          "name": "govuk_ab_testing 2.2.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_ab_testing 2.4.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_ab_testing 2.4.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "govuk_publishing_components",
-      "children": [
-        {
-          "name": "govuk_publishing_components 1.10.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_publishing_components 1.11.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "govuk_schemas",
-      "children": [
-        {
-          "name": "govuk_schemas 2.1.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_schemas 2.1.1",
-          "size": 1
-        },
-        {
-          "name": "govuk_schemas 2.2.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_schemas 2.3.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_schemas 3.0.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "jasmine-rails",
-      "children": [
-        {
-          "name": "jasmine-rails 0.7.0",
-          "size": 1
-        },
-        {
-          "name": "jasmine-rails 0.14.1",
-          "size": 3
-        },
-        {
-          "name": "jasmine-rails 0.14.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "generic_form_builder",
-      "children": [
-        {
-          "name": "generic_form_builder 0.13.0",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "govuk_admin_template",
-      "children": [
-        {
-          "name": "govuk_admin_template 4.3.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_admin_template 4.4.1",
-          "size": 1
-        },
-        {
-          "name": "govuk_admin_template 4.4.2",
-          "size": 3
-        },
-        {
-          "name": "govuk_admin_template 5.0.1",
-          "size": 4
-        },
-        {
-          "name": "govuk_admin_template 6.0.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_admin_template 6.1.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_admin_template 6.2.0",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "mysql2",
-      "children": [
-        {
-          "name": "mysql2 0.3.18",
-          "size": 1
-        },
-        {
-          "name": "mysql2 0.3.20",
-          "size": 1
-        },
-        {
-          "name": "mysql2 0.4.4",
-          "size": 1
-        },
-        {
-          "name": "mysql2 0.4.5",
-          "size": 2
-        },
-        {
-          "name": "mysql2 0.4.9",
-          "size": 1
         }
       ]
     },
@@ -1422,29 +566,64 @@
           "size": 1
         },
         {
-          "name": "select2-rails 3.5.9.3",
-          "size": 1
-        },
-        {
           "name": "select2-rails 3.5.10",
           "size": 3
         },
         {
           "name": "select2-rails 4.0.3",
-          "size": 2
+          "size": 3
         }
       ]
     },
     {
-      "name": "sinatra",
+      "name": "shoulda-matchers",
       "children": [
         {
-          "name": "sinatra 1.0",
+          "name": "shoulda-matchers 3.0.1",
           "size": 1
         },
         {
-          "name": "sinatra 2.0.0",
-          "size": 2
+          "name": "shoulda-matchers 3.1.2",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "uglifier",
+      "children": [
+        {
+          "name": "uglifier 4.1.5",
+          "size": 1
+        },
+        {
+          "name": "uglifier 4.1.18",
+          "size": 1
+        },
+        {
+          "name": "uglifier 4.1.19",
+          "size": 35
+        }
+      ]
+    },
+    {
+      "name": "web-console",
+      "children": [
+        {
+          "name": "web-console 3.5.1",
+          "size": 1
+        },
+        {
+          "name": "web-console 3.7.0",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "addressable",
+      "children": [
+        {
+          "name": "addressable 2.5.2",
+          "size": 5
         }
       ]
     },
@@ -1452,38 +631,328 @@
       "name": "ancestry",
       "children": [
         {
-          "name": "ancestry 2.0.0",
-          "size": 1
-        },
-        {
-          "name": "ancestry 2.1.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "fakefs",
-      "children": [
-        {
-          "name": "fakefs 0.9.0",
-          "size": 1
-        },
-        {
-          "name": "fakefs 0.9.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "friendly_id",
-      "children": [
-        {
-          "name": "friendly_id 5.1.0",
-          "size": 1
-        },
-        {
-          "name": "friendly_id 5.2.1",
+          "name": "ancestry 3.0.2",
           "size": 2
+        }
+      ]
+    },
+    {
+      "name": "better_errors",
+      "children": [
+        {
+          "name": "better_errors 2.5.0",
+          "size": 21
+        }
+      ]
+    },
+    {
+      "name": "binding_of_caller",
+      "children": [
+        {
+          "name": "binding_of_caller 0.8.0",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "name": "bootstrap-kaminari-views",
+      "children": [
+        {
+          "name": "bootstrap-kaminari-views 0.0.5",
+          "size": 7
+        }
+      ]
+    },
+    {
+      "name": "deprecated_columns",
+      "children": [
+        {
+          "name": "deprecated_columns 0.1.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "json",
+      "children": [
+        {
+          "name": "json 2.1.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "minitest",
+      "children": [
+        {
+          "name": "minitest 5.10.3",
+          "size": 1
+        },
+        {
+          "name": "minitest 5.11.3",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "mocha",
+      "children": [
+        {
+          "name": "mocha 1.7.0",
+          "size": 12
+        }
+      ]
+    },
+    {
+      "name": "mysql2",
+      "children": [
+        {
+          "name": "mysql2 0.4.10",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "nokogiri",
+      "children": [
+        {
+          "name": "nokogiri 1.8.2",
+          "size": 1
+        },
+        {
+          "name": "nokogiri 1.8.4",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "poltergeist",
+      "children": [
+        {
+          "name": "poltergeist 1.17.0",
+          "size": 1
+        },
+        {
+          "name": "poltergeist 1.18.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "pundit",
+      "children": [
+        {
+          "name": "pundit 2.0.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rake",
+      "children": [
+        {
+          "name": "rake 12.3.0",
+          "size": 1
+        },
+        {
+          "name": "rake 12.3.1",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "redis",
+      "children": [
+        {
+          "name": "redis 3.3.5",
+          "size": 1
+        },
+        {
+          "name": "redis 4.0.2",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "shoulda-context",
+      "children": [
+        {
+          "name": "shoulda-context 1.2.2",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "sprockets-rails",
+      "children": [
+        {
+          "name": "sprockets-rails 3.2.1",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "uuid",
+      "children": [
+        {
+          "name": "uuid 2.3.9",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "byebug",
+      "children": [
+        {
+          "name": "byebug 9.1.0",
+          "size": 1
+        },
+        {
+          "name": "byebug 10.0.2",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "faraday",
+      "children": [
+        {
+          "name": "faraday 0.12.2",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "listen",
+      "children": [
+        {
+          "name": "listen 3.1.5",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "rspec-its",
+      "children": [
+        {
+          "name": "rspec-its 1.2.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "sidekiq-scheduler",
+      "children": [
+        {
+          "name": "sidekiq-scheduler 3.0.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "sidekiq-unique-jobs",
+      "children": [
+        {
+          "name": "sidekiq-unique-jobs 4.0.18",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "ci_reporter_minitest",
+      "children": [
+        {
+          "name": "ci_reporter_minitest 1.0.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "govuk_frontend_toolkit",
+      "children": [
+        {
+          "name": "govuk_frontend_toolkit 7.6.0",
+          "size": 18
+        }
+      ]
+    },
+    {
+      "name": "govuk_publishing_components",
+      "children": [
+        {
+          "name": "govuk_publishing_components 9.26.0",
+          "size": 3
+        },
+        {
+          "name": "govuk_publishing_components 9.26.1",
+          "size": 15
+        }
+      ]
+    },
+    {
+      "name": "rack_strip_client_ip",
+      "children": [
+        {
+          "name": "rack_strip_client_ip 0.0.2",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "name": "rails-i18n",
+      "children": [
+        {
+          "name": "rails-i18n 5.1.1",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "shoulda",
+      "children": [
+        {
+          "name": "shoulda 3.5.0",
+          "size": 1
+        },
+        {
+          "name": "shoulda 3.6.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "slimmer",
+      "children": [
+        {
+          "name": "slimmer 13.0.0",
+          "size": 15
+        }
+      ]
+    },
+    {
+      "name": "cancancan",
+      "children": [
+        {
+          "name": "cancancan 2.3.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "formtastic",
+      "children": [
+        {
+          "name": "formtastic 3.1.5",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "formtastic-bootstrap",
+      "children": [
+        {
+          "name": "formtastic-bootstrap 3.1.1",
+          "size": 5
         }
       ]
     },
@@ -1491,45 +960,12 @@
       "name": "govspeak",
       "children": [
         {
-          "name": "govspeak 3.3.0",
-          "size": 2
-        },
-        {
-          "name": "govspeak 3.4.0",
+          "name": "govspeak 5.5.0",
           "size": 1
         },
         {
-          "name": "govspeak 3.5.2",
-          "size": 1
-        },
-        {
-          "name": "govspeak 3.6.2",
-          "size": 2
-        },
-        {
-          "name": "govspeak 5.0.2",
-          "size": 1
-        },
-        {
-          "name": "govspeak 5.0.3",
-          "size": 5
-        },
-        {
-          "name": "govspeak 5.1.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "json-schema",
-      "children": [
-        {
-          "name": "json-schema 2.5.1",
-          "size": 1
-        },
-        {
-          "name": "json-schema 2.5.2",
-          "size": 2
+          "name": "govspeak 5.6.0",
+          "size": 13
         }
       ]
     },
@@ -1543,136 +979,20 @@
       ]
     },
     {
-      "name": "mlanett-redis-lock",
+      "name": "test-unit",
       "children": [
         {
-          "name": "mlanett-redis-lock 0.2.2",
-          "size": 1
-        },
-        {
-          "name": "mlanett-redis-lock 0.2.7",
-          "size": 6
-        }
-      ]
-    },
-    {
-      "name": "paper_trail",
-      "children": [
-        {
-          "name": "paper_trail 4.1.0",
-          "size": 1
-        },
-        {
-          "name": "paper_trail 7.0.2",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "pry-rails",
-      "children": [
-        {
-          "name": "pry-rails 0.3.4",
-          "size": 3
-        },
-        {
-          "name": "pry-rails 0.3.5",
-          "size": 1
-        },
-        {
-          "name": "pry-rails 0.3.6",
+          "name": "test-unit 3.2.8",
           "size": 4
         }
       ]
     },
     {
-      "name": "shoulda-matchers",
+      "name": "dalli",
       "children": [
         {
-          "name": "shoulda-matchers 3.0.1",
-          "size": 1
-        },
-        {
-          "name": "shoulda-matchers 3.1.1",
-          "size": 5
-        }
-      ]
-    },
-    {
-      "name": "simple_form",
-      "children": [
-        {
-          "name": "simple_form 3.3.1",
-          "size": 1
-        },
-        {
-          "name": "simple_form 3.5.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "therubyracer",
-      "children": [
-        {
-          "name": "therubyracer 0.12.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "thin",
-      "children": [
-        {
-          "name": "thin 1.7.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "whenever",
-      "children": [
-        {
-          "name": "whenever 0.8.2",
-          "size": 1
-        },
-        {
-          "name": "whenever 0.9.4",
-          "size": 1
-        },
-        {
-          "name": "whenever 0.9.7",
-          "size": 9
-        }
-      ]
-    },
-    {
-      "name": "activerecord-import",
-      "children": [
-        {
-          "name": "activerecord-import 0.18.3",
-          "size": 1
-        },
-        {
-          "name": "activerecord-import 0.19.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "google-api-client",
-      "children": [
-        {
-          "name": "google-api-client 0.10.3",
-          "size": 2
-        },
-        {
-          "name": "google-api-client 0.11.2",
-          "size": 1
-        },
-        {
-          "name": "google-api-client 0.13.6",
-          "size": 1
+          "name": "dalli 2.7.8",
+          "size": 4
         }
       ]
     },
@@ -1680,142 +1000,97 @@
       "name": "jbuilder",
       "children": [
         {
-          "name": "jbuilder 2.6.0",
-          "size": 1
-        },
-        {
           "name": "jbuilder 2.7.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "jquery-rails",
-      "children": [
-        {
-          "name": "jquery-rails 4.1.1",
-          "size": 1
-        },
-        {
-          "name": "jquery-rails 4.3.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "kaminari",
-      "children": [
-        {
-          "name": "kaminari 0.16.3",
-          "size": 1
-        },
-        {
-          "name": "kaminari 0.17.0",
-          "size": 3
-        },
-        {
-          "name": "kaminari 1.0.1",
-          "size": 6
-        }
-      ]
-    },
-    {
-      "name": "phantomjs",
-      "children": [
-        {
-          "name": "phantomjs 1.9.8.0",
-          "size": 1
-        },
-        {
-          "name": "phantomjs 2.1.1.0",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "selectize-rails",
-      "children": [
-        {
-          "name": "selectize-rails 0.12.1",
-          "size": 1
-        },
-        {
-          "name": "selectize-rails 0.12.4",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "spring-commands-rspec",
-      "children": [
-        {
-          "name": "spring-commands-rspec 1.0.4",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "factory_girl",
-      "children": [
-        {
-          "name": "factory_girl 3.3.0",
-          "size": 1
-        },
-        {
-          "name": "factory_girl 4.8.0",
           "size": 4
         }
       ]
     },
     {
-      "name": "hashdiff",
+      "name": "pry-rails",
       "children": [
         {
-          "name": "hashdiff 0.3.6",
+          "name": "pry-rails 0.3.6",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "name": "redis-namespace",
+      "children": [
+        {
+          "name": "redis-namespace 1.6.0",
           "size": 3
         }
       ]
     },
     {
-      "name": "mongoid_rails_migrations",
+      "name": "sdoc",
       "children": [
         {
-          "name": "mongoid_rails_migrations 1.0.1",
-          "size": 1
-        },
-        {
-          "name": "mongoid_rails_migrations 1.1.0",
-          "size": 7
+          "name": "sdoc 1.0.0",
+          "size": 3
         }
       ]
     },
     {
-      "name": "pact",
+      "name": "asset_bom_removal-rails",
       "children": [
         {
-          "name": "pact 1.9.4",
-          "size": 1
-        },
-        {
-          "name": "pact 1.15.0",
-          "size": 1
+          "name": "asset_bom_removal-rails 1.0.2",
+          "size": 6
         }
       ]
     },
     {
-      "name": "statsd-ruby",
+      "name": "ci_reporter",
       "children": [
         {
-          "name": "statsd-ruby 1.4.0",
-          "size": 7
+          "name": "ci_reporter 2.0.0",
+          "size": 3
         }
       ]
     },
     {
-      "name": "uuidtools",
+      "name": "govuk_ab_testing",
       "children": [
         {
-          "name": "uuidtools 2.1.5",
+          "name": "govuk_ab_testing 2.4.1",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "govuk_schemas",
+      "children": [
+        {
+          "name": "govuk_schemas 3.2.0",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "name": "invalid_utf8_rejector",
+      "children": [
+        {
+          "name": "invalid_utf8_rejector 0.0.4",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "therubyracer",
+      "children": [
+        {
+          "name": "therubyracer 0.12.3",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "uk_postcode",
+      "children": [
+        {
+          "name": "uk_postcode 2.1.2",
           "size": 2
         }
       ]
@@ -1830,15 +1105,101 @@
       ]
     },
     {
-      "name": "bootstrap-kaminari-views",
+      "name": "chronic",
       "children": [
         {
-          "name": "bootstrap-kaminari-views 0.0.3",
-          "size": 1
-        },
+          "name": "chronic 0.10.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "govuk_document_types",
+      "children": [
         {
-          "name": "bootstrap-kaminari-views 0.0.5",
+          "name": "govuk_document_types 0.8.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "jasmine-rails",
+      "children": [
+        {
+          "name": "jasmine-rails 0.14.8",
           "size": 6
+        }
+      ]
+    },
+    {
+      "name": "shared_mustache",
+      "children": [
+        {
+          "name": "shared_mustache 1.0.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "fakefs",
+      "children": [
+        {
+          "name": "fakefs 0.18.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "gds_zendesk",
+      "children": [
+        {
+          "name": "gds_zendesk 3.0.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "spring",
+      "children": [
+        {
+          "name": "spring 2.0.2",
+          "size": 7
+        }
+      ]
+    },
+    {
+      "name": "spring-watcher-listen",
+      "children": [
+        {
+          "name": "spring-watcher-listen 2.0.1",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "diffy",
+      "children": [
+        {
+          "name": "diffy 3.2.1",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "erubis",
+      "children": [
+        {
+          "name": "erubis 2.7.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "inherited_resources",
+      "children": [
+        {
+          "name": "inherited_resources 1.9.0",
+          "size": 2
         }
       ]
     },
@@ -1850,414 +1211,12 @@
           "size": 1
         },
         {
-          "name": "jquery-ui-rails 5.0.1",
-          "size": 1
-        },
-        {
           "name": "jquery-ui-rails 5.0.5",
-          "size": 2
+          "size": 1
         },
         {
           "name": "jquery-ui-rails 6.0.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "test-unit",
-      "children": [
-        {
-          "name": "test-unit 3.1.3",
-          "size": 2
-        },
-        {
-          "name": "test-unit 3.2.3",
-          "size": 2
-        },
-        {
-          "name": "test-unit 3.2.5",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "equivalent-xml",
-      "children": [
-        {
-          "name": "equivalent-xml 0.6.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "faraday",
-      "children": [
-        {
-          "name": "faraday 0.9.2",
-          "size": 1
-        },
-        {
-          "name": "faraday 0.12.1",
-          "size": 1
-        },
-        {
-          "name": "faraday 0.12.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "foreman",
-      "children": [
-        {
-          "name": "foreman 0.78.0",
-          "size": 1
-        },
-        {
-          "name": "foreman 0.84.0",
           "size": 3
-        }
-      ]
-    },
-    {
-      "name": "notifications-ruby-client",
-      "children": [
-        {
-          "name": "notifications-ruby-client 2.3.0",
-          "size": 1
-        },
-        {
-          "name": "notifications-ruby-client 2.4.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "redis-namespace",
-      "children": [
-        {
-          "name": "redis-namespace 1.5.1",
-          "size": 1
-        },
-        {
-          "name": "redis-namespace 1.5.2",
-          "size": 2
-        },
-        {
-          "name": "redis-namespace 1.5.3",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "sidekiq",
-      "children": [
-        {
-          "name": "sidekiq 3.2.1",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 3.4.2",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 4.1.4",
-          "size": 1
-        },
-        {
-          "name": "sidekiq 5.0.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "sidekiq-statsd",
-      "children": [
-        {
-          "name": "sidekiq-statsd 0.1.5",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "launchy",
-      "children": [
-        {
-          "name": "launchy 2.4.2",
-          "size": 1
-        },
-        {
-          "name": "launchy 2.4.3",
-          "size": 9
-        }
-      ]
-    },
-    {
-      "name": "bunny",
-      "children": [
-        {
-          "name": "bunny 1.5.1",
-          "size": 1
-        },
-        {
-          "name": "bunny 2.6.5",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "redis",
-      "children": [
-        {
-          "name": "redis 3.1.0",
-          "size": 1
-        },
-        {
-          "name": "redis 3.2.1",
-          "size": 2
-        },
-        {
-          "name": "redis 3.3.1",
-          "size": 1
-        },
-        {
-          "name": "redis 3.3.3",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "asset_bom_removal-rails",
-      "children": [
-        {
-          "name": "asset_bom_removal-rails 1.0.2",
-          "size": 6
-        }
-      ]
-    },
-    {
-      "name": "invalid_utf8_rejector",
-      "children": [
-        {
-          "name": "invalid_utf8_rejector 0.0.4",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "sass",
-      "children": [
-        {
-          "name": "sass 3.4.23",
-          "size": 1
-        },
-        {
-          "name": "sass 3.4.24",
-          "size": 1
-        },
-        {
-          "name": "sass 3.4.25",
-          "size": 1
-        },
-        {
-          "name": "sass 3.5.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "chronic",
-      "children": [
-        {
-          "name": "chronic 0.10.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "shared_mustache",
-      "children": [
-        {
-          "name": "shared_mustache 0.1.3",
-          "size": 1
-        },
-        {
-          "name": "shared_mustache 1.0.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "addressable",
-      "children": [
-        {
-          "name": "addressable 2.3.8",
-          "size": 3
-        },
-        {
-          "name": "addressable 2.4.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "ci_reporter",
-      "children": [
-        {
-          "name": "ci_reporter 1.7.0",
-          "size": 1
-        },
-        {
-          "name": "ci_reporter 1.7.3",
-          "size": 1
-        },
-        {
-          "name": "ci_reporter 2.0.0",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "htmlentities",
-      "children": [
-        {
-          "name": "htmlentities 4.3.4",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "shoulda-context",
-      "children": [
-        {
-          "name": "shoulda-context 1.2.1",
-          "size": 3
-        },
-        {
-          "name": "shoulda-context 1.2.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "sprockets-rails",
-      "children": [
-        {
-          "name": "sprockets-rails 3.1.1",
-          "size": 1
-        },
-        {
-          "name": "sprockets-rails 3.2.0",
-          "size": 1
-        },
-        {
-          "name": "sprockets-rails 3.2.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "uk_postcode",
-      "children": [
-        {
-          "name": "uk_postcode 1.0.1",
-          "size": 1
-        },
-        {
-          "name": "uk_postcode 2.1.1",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "dalli",
-      "children": [
-        {
-          "name": "dalli 2.7.2",
-          "size": 1
-        },
-        {
-          "name": "dalli 2.7.6",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "rails_translation_manager",
-      "children": [
-        {
-          "name": "rails_translation_manager 0.0.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "wraith",
-      "children": [
-        {
-          "name": "wraith 4.0.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "responders",
-      "children": [
-        {
-          "name": "responders 2.4.0",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "rspec-collection_matchers",
-      "children": [
-        {
-          "name": "rspec-collection_matchers 1.1.2",
-          "size": 3
-        },
-        {
-          "name": "rspec-collection_matchers 1.1.3",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "formtastic",
-      "children": [
-        {
-          "name": "formtastic 2.3.0",
-          "size": 3
-        },
-        {
-          "name": "formtastic 3.1.3",
-          "size": 1
-        },
-        {
-          "name": "formtastic 3.1.5",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "formtastic-bootstrap",
-      "children": [
-        {
-          "name": "formtastic-bootstrap 3.0.0",
-          "size": 3
-        },
-        {
-          "name": "formtastic-bootstrap 3.1.1",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "inherited_resources",
-      "children": [
-        {
-          "name": "inherited_resources 1.7.2",
-          "size": 2
         }
       ]
     },
@@ -2274,146 +1233,8 @@
       "name": "minitest-reporters",
       "children": [
         {
-          "name": "minitest-reporters 1.1.14",
+          "name": "minitest-reporters 1.3.4",
           "size": 2
-        }
-      ]
-    },
-    {
-      "name": "rspec-its",
-      "children": [
-        {
-          "name": "rspec-its 1.0.1",
-          "size": 1
-        },
-        {
-          "name": "rspec-its 1.2.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "elasticsearch",
-      "children": [
-        {
-          "name": "elasticsearch 2.0.2",
-          "size": 1
-        },
-        {
-          "name": "elasticsearch 5.0.4",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "deprecated_columns",
-      "children": [
-        {
-          "name": "deprecated_columns 0.1.0",
-          "size": 1
-        },
-        {
-          "name": "deprecated_columns 0.1.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "sidekiq-unique-jobs",
-      "children": [
-        {
-          "name": "sidekiq-unique-jobs 5.0.8",
-          "size": 1
-        },
-        {
-          "name": "sidekiq-unique-jobs 5.0.10",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "gretel",
-      "children": [
-        {
-          "name": "gretel 3.0.9",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "raindrops",
-      "children": [
-        {
-          "name": "raindrops 0.18.0",
-          "size": 1
-        },
-        {
-          "name": "raindrops 0.19.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "cancancan",
-      "children": [
-        {
-          "name": "cancancan 1.16.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "jasmine",
-      "children": [
-        {
-          "name": "jasmine 2.1.0",
-          "size": 1
-        },
-        {
-          "name": "jasmine 2.5.2",
-          "size": 2
-        },
-        {
-          "name": "jasmine 2.6.0",
-          "size": 3
-        },
-        {
-          "name": "jasmine 2.8.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "diffy",
-      "children": [
-        {
-          "name": "diffy 3.0.6",
-          "size": 1
-        },
-        {
-          "name": "diffy 3.0.7",
-          "size": 1
-        },
-        {
-          "name": "diffy 3.1.0",
-          "size": 1
-        },
-        {
-          "name": "diffy 3.2.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "momentjs-rails",
-      "children": [
-        {
-          "name": "momentjs-rails 2.5.1",
-          "size": 1
-        },
-        {
-          "name": "momentjs-rails 2.17.1",
-          "size": 1
         }
       ]
     },
@@ -2421,12 +1242,30 @@
       "name": "nested_form",
       "children": [
         {
-          "name": "nested_form 0.3.1",
+          "name": "nested_form 0.3.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rack",
+      "children": [
+        {
+          "name": "rack 2.0.4",
           "size": 1
         },
         {
-          "name": "nested_form 0.3.2",
-          "size": 1
+          "name": "rack 2.0.5",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "selectize-rails",
+      "children": [
+        {
+          "name": "selectize-rails 0.12.5",
+          "size": 3
         }
       ]
     },
@@ -2439,41 +1278,125 @@
         },
         {
           "name": "state_machines 0.5.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "govuk_document_types",
-      "children": [
-        {
-          "name": "govuk_document_types 0.1.10",
           "size": 2
         }
       ]
     },
     {
-      "name": "stackprof",
+      "name": "state_machines-mongoid",
       "children": [
         {
-          "name": "stackprof 0.2.10",
+          "name": "state_machines-mongoid 0.1.1",
+          "size": 1
+        },
+        {
+          "name": "state_machines-mongoid 0.2.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "responders",
+      "children": [
+        {
+          "name": "responders 2.4.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "bootsnap",
+      "children": [
+        {
+          "name": "bootsnap 1.3.2",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "carrierwave",
+      "children": [
+        {
+          "name": "carrierwave 0.11.2",
+          "size": 1
+        },
+        {
+          "name": "carrierwave 1.2.3",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "cucumber",
+      "children": [
+        {
+          "name": "cucumber 2.4.0",
+          "size": 1
+        },
+        {
+          "name": "cucumber 3.1.2",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "equivalent-xml",
+      "children": [
+        {
+          "name": "equivalent-xml 0.6.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "minitest",
+      "name": "friendly_id",
       "children": [
         {
-          "name": "minitest 5.5.1",
+          "name": "friendly_id 5.2.3",
           "size": 1
         },
         {
-          "name": "minitest 5.8.5",
+          "name": "friendly_id 5.2.4",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "logstasher",
+      "children": [
+        {
+          "name": "logstasher 1.2.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rack-test",
+      "children": [
+        {
+          "name": "rack-test 0.8.2",
           "size": 1
         },
         {
-          "name": "minitest 5.10.3",
+          "name": "rack-test 1.1.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "rails_translation_manager",
+      "children": [
+        {
+          "name": "rails_translation_manager 0.1.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "raindrops",
+      "children": [
+        {
+          "name": "raindrops 0.19.0",
           "size": 2
         }
       ]
@@ -2482,34 +1405,370 @@
       "name": "rinku",
       "children": [
         {
-          "name": "rinku 2.0.3",
+          "name": "rinku 2.0.4",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "ruby-prof",
+      "children": [
+        {
+          "name": "ruby-prof 0.17.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "pundit",
+      "name": "ruby-progressbar",
       "children": [
         {
-          "name": "pundit 0.3.0",
+          "name": "ruby-progressbar 1.10.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "stackprof",
+      "children": [
+        {
+          "name": "stackprof 0.2.12",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "statsd-ruby",
+      "children": [
+        {
+          "name": "statsd-ruby 1.4.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "unicorn",
+      "children": [
+        {
+          "name": "unicorn 5.4.1",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "rack-proxy",
+      "children": [
+        {
+          "name": "rack-proxy 0.6.4",
           "size": 1
         },
         {
-          "name": "pundit 1.1.0",
+          "name": "rack-proxy 0.6.5",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "json-schema",
+      "children": [
+        {
+          "name": "json-schema 2.8.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "simple_form",
+      "children": [
+        {
+          "name": "simple_form 4.0.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "mr-sparkle",
+      "children": [
+        {
+          "name": "mr-sparkle 0.3.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rspec",
+      "children": [
+        {
+          "name": "rspec 3.7.0",
+          "size": 1
+        },
+        {
+          "name": "rspec 3.8.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "parser",
+      "children": [
+        {
+          "name": "parser 2.5.1.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "chartkick",
+      "children": [
+        {
+          "name": "chartkick 3.0.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "aws-sdk",
+      "children": [
+        {
+          "name": "aws-sdk 2.11.3",
+          "size": 1
+        },
+        {
+          "name": "aws-sdk 3.0.1",
           "size": 1
         }
       ]
     },
     {
-      "name": "gds_zendesk",
+      "name": "bunny",
       "children": [
         {
-          "name": "gds_zendesk 2.2.0",
+          "name": "bunny 2.12.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "faker",
+      "children": [
+        {
+          "name": "faker 1.9.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "spring-commands-rspec",
+      "children": [
+        {
+          "name": "spring-commands-rspec 1.0.4",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "with_advisory_lock",
+      "children": [
+        {
+          "name": "with_advisory_lock 4.0.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "aws-sdk-s3",
+      "children": [
+        {
+          "name": "aws-sdk-s3 1.20.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "foreman",
+      "children": [
+        {
+          "name": "foreman 0.85.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "notifications-ruby-client",
+      "children": [
+        {
+          "name": "notifications-ruby-client 2.9.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "generic_form_builder",
+      "children": [
+        {
+          "name": "generic_form_builder 0.13.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "rspec-core",
+      "children": [
+        {
+          "name": "rspec-core 3.8.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rspec-expectations",
+      "children": [
+        {
+          "name": "rspec-expectations 3.8.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "rspec-mocks",
+      "children": [
+        {
+          "name": "rspec-mocks 3.8.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "climate_control",
+      "children": [
+        {
+          "name": "climate_control 0.2.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "jwt",
+      "children": [
+        {
+          "name": "jwt 1.5.6",
           "size": 1
         },
         {
-          "name": "gds_zendesk 2.4.0",
+          "name": "jwt 2.1.0",
           "size": 1
+        }
+      ]
+    },
+    {
+      "name": "redcarpet",
+      "children": [
+        {
+          "name": "redcarpet 3.4.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "coffee-script",
+      "children": [
+        {
+          "name": "coffee-script 2.4.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "draper",
+      "children": [
+        {
+          "name": "draper 3.0.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "govuk_message_queue_consumer",
+      "children": [
+        {
+          "name": "govuk_message_queue_consumer 3.2.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "guard-rspec",
+      "children": [
+        {
+          "name": "guard-rspec 4.7.3",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "httparty",
+      "children": [
+        {
+          "name": "httparty 0.16.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "jquery-rails",
+      "children": [
+        {
+          "name": "jquery-rails 4.3.3",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "phantomjs",
+      "children": [
+        {
+          "name": "phantomjs 2.1.1.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "puma",
+      "children": [
+        {
+          "name": "puma 3.12.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "elasticsearch",
+      "children": [
+        {
+          "name": "elasticsearch 2.0.2",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch 6.1.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "govuk_elements_rails",
+      "children": [
+        {
+          "name": "govuk_elements_rails 3.1.3",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "wraith",
+      "children": [
+        {
+          "name": "wraith 4.2.3",
+          "size": 2
         }
       ]
     }
