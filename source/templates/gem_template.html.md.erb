@@ -1,19 +1,19 @@
-# <%= dep.name %>
+# <%= gem.name %>
 
-- <%= link_to "rubygems.org/gems/#{dep.name}", "https://rubygems.org/gems/#{dep.name}" %>
+- <%= link_to "rubygems.org/gems/#{gem.name}", "https://rubygems.org/gems/#{gem.name}" %>
 
 ### Applications that depend on this gem
 
 | Name | Version |
 | --- | --- |
-<% dep.depended_on.each do |app| %>
-| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= BaseData.get["versions"][app.name][dep.name] %> |
+<% gem.depended_on.each do |app| %>
+| <%= link_to app.name, "/apps/#{app.name}.html" %> | <%= BaseData.get["versions"][app.name][gem.name] %> |
 <% end %>
 
 ### Applications that don't depend on this
 
 | Name |
 | --- |
-<% dep.apps_not_using_it.each do |app| %>
+<% gem.apps_not_using_it.each do |app| %>
 | <%= link_to app.name, "/apps/#{app.name}.html" %> |
 <% end %>

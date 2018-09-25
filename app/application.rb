@@ -46,12 +46,4 @@ class Application
   def transitive_dependency_count
     dependency_count - direct_dependency_count
   end
-
-  def vulnerabilities
-    Vulnerabilities.find(name)
-  end
-
-  def vulnerability_count
-    vulnerabilities.size
-  end
 end

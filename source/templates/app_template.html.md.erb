@@ -1,29 +1,21 @@
-# <%= application.name %>
+# <%= app.name %>
 
-- <%= link_to "Docs", application.api_data.dig("links", "html_url") %>
-- <%= link_to "GitHub", application.api_data.dig("links", "repo_url") %>
-- <%= link_to "Gemfile", application.api_data.dig("links", "repo_url") + "/blob/master/Gemfile" %>
-
-## Vulnerabilities
-
-| Gem | Vulnerable version | Summary | Patched versions |
-| --- | --- | --- | --- |
-<% application.vulnerabilities.each do |vuln| %>
-| <%= link_to vuln['name'], "/gems/#{vuln['name']}.html" %> | <%= vuln['version'] %> | <%= link_to vuln['advisory'], vuln['url'] %>: <%= vuln['title'].gsub("\n", '<br />') %><br /><%= vuln['description'].gsub("\n", '<br />') %> | <%= vuln['patched_versions'].join('<br />') %> |
-<% end %>
+- <%= link_to "Docs", app.api_data.dig("links", "html_url") %>
+- <%= link_to "GitHub", app.api_data.dig("links", "repo_url") %>
+- <%= link_to "Gemfile", app.api_data.dig("links", "repo_url") + "/blob/master/Gemfile" %>
 
 ## Direct dependencies
 
 | Name | Number of apps that use this |
 | --- | --- |
-<% application.direct_dependencies.each do |dep| %>
-| <%= link_to dep.name, "/gems/#{dep.name}.html" %> | <%= dep.depended_on.size %> |
+<% app.direct_dependencies.each do |gem| %>
+| <%= link_to gem.name, "/gems/#{gem.name}.html" %> | <%= gem.depended_on.size %> |
 <% end %>
 
 ## Einzelgems
 
 | Name |
 | --- |
-<% application.einzelgems.each do |dep| %>
-| <%= link_to dep.name, "/gems/#{dep.name}.html" %> |
+<% app.einzelgems.each do |gem| %>
+| <%= link_to gem.name, "/gems/#{gem.name}.html" %> |
 <% end %>
