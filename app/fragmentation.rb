@@ -7,6 +7,12 @@ class Fragmentation
     Gemfiles.all.each do |appname, lockfile|
       lockfile.dependencies.map do |_, d|
         spec = lockfile.specs.find { |s| s.name == d.name }
+
+        if spec.nil?
+          puts "[x] Couldn't find spec for #{d.name} (#{appname})"
+          next
+        end
+
         direct_dependencies << Version.new(spec.name, spec.version, spec.to_s)
       end
     end
