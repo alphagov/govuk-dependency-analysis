@@ -2,6 +2,595 @@
   "name": "versions",
   "children": [
     {
+      "name": "activerecord-import",
+      "children": [
+        {
+          "name": "activerecord-import 0.25.0",
+          "size": 1
+        },
+        {
+          "name": "activerecord-import 1.0.3",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "awesome_print",
+      "children": [
+        {
+          "name": "awesome_print 1.8.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "better_errors",
+      "children": [
+        {
+          "name": "better_errors 2.5.0",
+          "size": 1
+        },
+        {
+          "name": "better_errors 2.5.1",
+          "size": 22
+        }
+      ]
+    },
+    {
+      "name": "binding_of_caller",
+      "children": [
+        {
+          "name": "binding_of_caller 0.8.0",
+          "size": 22
+        }
+      ]
+    },
+    {
+      "name": "byebug",
+      "children": [
+        {
+          "name": "byebug 9.1.0",
+          "size": 1
+        },
+        {
+          "name": "byebug 10.0.2",
+          "size": 1
+        },
+        {
+          "name": "byebug 11.0.0",
+          "size": 1
+        },
+        {
+          "name": "byebug 11.0.1",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "name": "database_cleaner",
+      "children": [
+        {
+          "name": "database_cleaner 1.7.0",
+          "size": 25
+        }
+      ]
+    },
+    {
+      "name": "factory_bot_rails",
+      "children": [
+        {
+          "name": "factory_bot_rails 4.11.1",
+          "size": 1
+        },
+        {
+          "name": "factory_bot_rails 5.1.1",
+          "size": 28
+        }
+      ]
+    },
+    {
+      "name": "gds-api-adapters",
+      "children": [
+        {
+          "name": "gds-api-adapters 53.1.0",
+          "size": 3
+        },
+        {
+          "name": "gds-api-adapters 57.4.2",
+          "size": 1
+        },
+        {
+          "name": "gds-api-adapters 59.3.0",
+          "size": 1
+        },
+        {
+          "name": "gds-api-adapters 61.0.0",
+          "size": 42
+        }
+      ]
+    },
+    {
+      "name": "gds-sso",
+      "children": [
+        {
+          "name": "gds-sso 13.6.0",
+          "size": 2
+        },
+        {
+          "name": "gds-sso 14.2.0",
+          "size": 31
+        }
+      ]
+    },
+    {
+      "name": "google-api-client",
+      "children": [
+        {
+          "name": "google-api-client 0.23.9",
+          "size": 1
+        },
+        {
+          "name": "google-api-client 0.34.1",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "govuk_app_config",
+      "children": [
+        {
+          "name": "govuk_app_config 1.8.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_app_config 1.9.1",
+          "size": 2
+        },
+        {
+          "name": "govuk_app_config 2.0.1",
+          "size": 50
+        }
+      ]
+    },
+    {
+      "name": "govuk_message_queue_consumer",
+      "children": [
+        {
+          "name": "govuk_message_queue_consumer 3.2.1",
+          "size": 2
+        },
+        {
+          "name": "govuk_message_queue_consumer 3.5.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "govuk_schemas",
+      "children": [
+        {
+          "name": "govuk_schemas 3.2.0",
+          "size": 3
+        },
+        {
+          "name": "govuk_schemas 4.0.0",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "govuk_sidekiq",
+      "children": [
+        {
+          "name": "govuk_sidekiq 3.0.2",
+          "size": 2
+        },
+        {
+          "name": "govuk_sidekiq 3.0.3",
+          "size": 23
+        }
+      ]
+    },
+    {
+      "name": "httparty",
+      "children": [
+        {
+          "name": "httparty 0.16.2",
+          "size": 1
+        },
+        {
+          "name": "httparty 0.17.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "jbuilder",
+      "children": [
+        {
+          "name": "jbuilder 2.7.0",
+          "size": 2
+        },
+        {
+          "name": "jbuilder 2.8.0",
+          "size": 1
+        },
+        {
+          "name": "jbuilder 2.9.1",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "kaminari",
+      "children": [
+        {
+          "name": "kaminari 1.0.1",
+          "size": 1
+        },
+        {
+          "name": "kaminari 1.1.1",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "name": "listen",
+      "children": [
+        {
+          "name": "listen 3.1.5",
+          "size": 2
+        },
+        {
+          "name": "listen 3.2.0",
+          "size": 12
+        }
+      ]
+    },
+    {
+      "name": "nokogiri",
+      "children": [
+        {
+          "name": "nokogiri 1.8.4",
+          "size": 2
+        },
+        {
+          "name": "nokogiri 1.10.4",
+          "size": 1
+        },
+        {
+          "name": "nokogiri 1.10.5",
+          "size": 13
+        }
+      ]
+    },
+    {
+      "name": "odyssey",
+      "children": [
+        {
+          "name": "odyssey 0.2.0",
+          "size": 1
+        },
+        {
+          "name": "odyssey 0.3.1",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "pg",
+      "children": [
+        {
+          "name": "pg 0.21.0",
+          "size": 2
+        },
+        {
+          "name": "pg 1.1.3",
+          "size": 2
+        },
+        {
+          "name": "pg 1.1.4",
+          "size": 15
+        }
+      ]
+    },
+    {
+      "name": "plek",
+      "children": [
+        {
+          "name": "plek 2.1.1",
+          "size": 3
+        },
+        {
+          "name": "plek 3.0.0",
+          "size": 48
+        }
+      ]
+    },
+    {
+      "name": "pry-byebug",
+      "children": [
+        {
+          "name": "pry-byebug 3.5.0",
+          "size": 1
+        },
+        {
+          "name": "pry-byebug 3.5.1",
+          "size": 1
+        },
+        {
+          "name": "pry-byebug 3.6.0",
+          "size": 3
+        },
+        {
+          "name": "pry-byebug 3.7.0",
+          "size": 30
+        }
+      ]
+    },
+    {
+      "name": "pry-rails",
+      "children": [
+        {
+          "name": "pry-rails 0.3.6",
+          "size": 1
+        },
+        {
+          "name": "pry-rails 0.3.9",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "rack",
+      "children": [
+        {
+          "name": "rack 2.0.5",
+          "size": 1
+        },
+        {
+          "name": "rack 2.0.7",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "rack-proxy",
+      "children": [
+        {
+          "name": "rack-proxy 0.6.4",
+          "size": 1
+        },
+        {
+          "name": "rack-proxy 0.6.5",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "rails",
+      "children": [
+        {
+          "name": "rails 5.1.6.2",
+          "size": 1
+        },
+        {
+          "name": "rails 5.1.7",
+          "size": 1
+        },
+        {
+          "name": "rails 5.2.1",
+          "size": 2
+        },
+        {
+          "name": "rails 5.2.2.1",
+          "size": 1
+        },
+        {
+          "name": "rails 5.2.3",
+          "size": 24
+        },
+        {
+          "name": "rails 5.2.4",
+          "size": 10
+        },
+        {
+          "name": "rails 6.0.0",
+          "size": 1
+        },
+        {
+          "name": "rails 6.0.1",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "rails-controller-testing",
+      "children": [
+        {
+          "name": "rails-controller-testing 1.0.2",
+          "size": 1
+        },
+        {
+          "name": "rails-controller-testing 1.0.4",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "name": "rspec-its",
+      "children": [
+        {
+          "name": "rspec-its 1.3.0",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "rspec-rails",
+      "children": [
+        {
+          "name": "rspec-rails 3.6.1",
+          "size": 1
+        },
+        {
+          "name": "rspec-rails 3.8.0",
+          "size": 2
+        },
+        {
+          "name": "rspec-rails 3.8.2",
+          "size": 1
+        },
+        {
+          "name": "rspec-rails 3.9.0",
+          "size": 30
+        },
+        {
+          "name": "rspec-rails 4.0.0.beta3",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "rubocop-govuk",
+      "children": [
+        {
+          "name": "rubocop-govuk 1.0.0",
+          "size": 24
+        },
+        {
+          "name": "rubocop-govuk 2.0.0",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "name": "ruby-progressbar",
+      "children": [
+        {
+          "name": "ruby-progressbar 1.10.0",
+          "size": 1
+        },
+        {
+          "name": "ruby-progressbar 1.10.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "shoulda-matchers",
+      "children": [
+        {
+          "name": "shoulda-matchers 3.1.2",
+          "size": 2
+        },
+        {
+          "name": "shoulda-matchers 4.1.2",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "simplecov",
+      "children": [
+        {
+          "name": "simplecov 0.13.0",
+          "size": 2
+        },
+        {
+          "name": "simplecov 0.16.1",
+          "size": 2
+        },
+        {
+          "name": "simplecov 0.17.1",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "name": "spring",
+      "children": [
+        {
+          "name": "spring 2.0.2",
+          "size": 3
+        },
+        {
+          "name": "spring 2.1.0",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "spring-commands-rspec",
+      "children": [
+        {
+          "name": "spring-commands-rspec 1.0.4",
+          "size": 7
+        }
+      ]
+    },
+    {
+      "name": "spring-watcher-listen",
+      "children": [
+        {
+          "name": "spring-watcher-listen 2.0.1",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "name": "timecop",
+      "children": [
+        {
+          "name": "timecop 0.9.1",
+          "size": 36
+        }
+      ]
+    },
+    {
+      "name": "uuid",
+      "children": [
+        {
+          "name": "uuid 2.3.9",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "web-console",
+      "children": [
+        {
+          "name": "web-console 3.7.0",
+          "size": 11
+        },
+        {
+          "name": "web-console 4.0.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "webmock",
+      "children": [
+        {
+          "name": "webmock 3.4.2",
+          "size": 4
+        },
+        {
+          "name": "webmock 3.5.1",
+          "size": 2
+        },
+        {
+          "name": "webmock 3.7.5",
+          "size": 1
+        },
+        {
+          "name": "webmock 3.7.6",
+          "size": 48
+        }
+      ]
+    },
+    {
       "name": "ci_reporter_rspec",
       "children": [
         {
@@ -11,15 +600,11 @@
       ]
     },
     {
-      "name": "database_cleaner",
+      "name": "climate_control",
       "children": [
         {
-          "name": "database_cleaner 1.6.2",
-          "size": 2
-        },
-        {
-          "name": "database_cleaner 1.7.0",
-          "size": 24
+          "name": "climate_control 0.2.0",
+          "size": 11
         }
       ]
     },
@@ -27,21 +612,16 @@
       "name": "factory_bot",
       "children": [
         {
-          "name": "factory_bot 4.11.1",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "gds-api-adapters",
-      "children": [
-        {
-          "name": "gds-api-adapters 51.2.0",
+          "name": "factory_bot 4.8.2",
           "size": 1
         },
         {
-          "name": "gds-api-adapters 53.1.0",
-          "size": 42
+          "name": "factory_bot 4.11.1",
+          "size": 1
+        },
+        {
+          "name": "factory_bot 5.1.1",
+          "size": 4
         }
       ]
     },
@@ -58,38 +638,12 @@
       "name": "govuk-lint",
       "children": [
         {
-          "name": "govuk-lint 3.8.0",
-          "size": 2
-        },
-        {
           "name": "govuk-lint 3.9.0",
-          "size": 46
-        }
-      ]
-    },
-    {
-      "name": "govuk_app_config",
-      "children": [
-        {
-          "name": "govuk_app_config 1.3.0",
-          "size": 2
+          "size": 3
         },
         {
-          "name": "govuk_app_config 1.8.0",
-          "size": 8
-        },
-        {
-          "name": "govuk_app_config 1.9.1",
-          "size": 40
-        }
-      ]
-    },
-    {
-      "name": "hashdiff",
-      "children": [
-        {
-          "name": "hashdiff 0.3.7",
-          "size": 4
+          "name": "govuk-lint 4.3.0",
+          "size": 19
         }
       ]
     },
@@ -98,7 +652,7 @@
       "children": [
         {
           "name": "mongo 2.4.3",
-          "size": 4
+          "size": 5
         }
       ]
     },
@@ -106,16 +660,12 @@
       "name": "mongoid",
       "children": [
         {
-          "name": "mongoid 6.0.3",
-          "size": 1
-        },
-        {
           "name": "mongoid 6.1.1",
           "size": 2
         },
         {
           "name": "mongoid 6.2.1",
-          "size": 9
+          "size": 10
         }
       ]
     },
@@ -124,7 +674,11 @@
       "children": [
         {
           "name": "mongoid_rails_migrations 1.1.0",
-          "size": 8
+          "size": 7
+        },
+        {
+          "name": "mongoid_rails_migrations 1.2.1",
+          "size": 1
         }
       ]
     },
@@ -132,85 +686,8 @@
       "name": "pact",
       "children": [
         {
-          "name": "pact 1.34.0",
+          "name": "pact 1.42.3",
           "size": 2
-        }
-      ]
-    },
-    {
-      "name": "plek",
-      "children": [
-        {
-          "name": "plek 2.1.1",
-          "size": 48
-        }
-      ]
-    },
-    {
-      "name": "pry-byebug",
-      "children": [
-        {
-          "name": "pry-byebug 3.5.1",
-          "size": 15
-        },
-        {
-          "name": "pry-byebug 3.6.0",
-          "size": 14
-        }
-      ]
-    },
-    {
-      "name": "rails",
-      "children": [
-        {
-          "name": "rails 5.0.2",
-          "size": 1
-        },
-        {
-          "name": "rails 5.0.7",
-          "size": 1
-        },
-        {
-          "name": "rails 5.1.0",
-          "size": 1
-        },
-        {
-          "name": "rails 5.1.4",
-          "size": 1
-        },
-        {
-          "name": "rails 5.1.6",
-          "size": 3
-        },
-        {
-          "name": "rails 5.2.0",
-          "size": 1
-        },
-        {
-          "name": "rails 5.2.1",
-          "size": 38
-        }
-      ]
-    },
-    {
-      "name": "rspec-rails",
-      "children": [
-        {
-          "name": "rspec-rails 3.7.2",
-          "size": 1
-        },
-        {
-          "name": "rspec-rails 3.8.0",
-          "size": 33
-        }
-      ]
-    },
-    {
-      "name": "simplecov",
-      "children": [
-        {
-          "name": "simplecov 0.16.1",
-          "size": 28
         }
       ]
     },
@@ -219,16 +696,7 @@
       "children": [
         {
           "name": "simplecov-rcov 0.2.3",
-          "size": 23
-        }
-      ]
-    },
-    {
-      "name": "timecop",
-      "children": [
-        {
-          "name": "timecop 0.9.1",
-          "size": 29
+          "size": 19
         }
       ]
     },
@@ -242,58 +710,24 @@
       ]
     },
     {
-      "name": "webmock",
-      "children": [
-        {
-          "name": "webmock 3.3.0",
-          "size": 1
-        },
-        {
-          "name": "webmock 3.4.1",
-          "size": 1
-        },
-        {
-          "name": "webmock 3.4.2",
-          "size": 46
-        }
-      ]
-    },
-    {
       "name": "whenever",
       "children": [
         {
           "name": "whenever 0.10.0",
+          "size": 1
+        },
+        {
+          "name": "whenever 1.0.0",
           "size": 11
         }
       ]
     },
     {
-      "name": "activerecord-import",
+      "name": "aws-sdk-s3",
       "children": [
         {
-          "name": "activerecord-import 0.22.0",
-          "size": 1
-        },
-        {
-          "name": "activerecord-import 0.25.0",
+          "name": "aws-sdk-s3 1.57.0",
           "size": 4
-        }
-      ]
-    },
-    {
-      "name": "capybara",
-      "children": [
-        {
-          "name": "capybara 2.17.0",
-          "size": 1
-        },
-        {
-          "name": "capybara 2.18.0",
-          "size": 1
-        },
-        {
-          "name": "capybara 3.8.1",
-          "size": 13
         }
       ]
     },
@@ -302,54 +736,15 @@
       "children": [
         {
           "name": "cucumber-rails 1.5.0",
-          "size": 2
+          "size": 1
         },
         {
           "name": "cucumber-rails 1.6.0",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "factory_bot_rails",
-      "children": [
-        {
-          "name": "factory_bot_rails 4.11.0",
           "size": 1
         },
         {
-          "name": "factory_bot_rails 4.11.1",
-          "size": 26
-        }
-      ]
-    },
-    {
-      "name": "gds-sso",
-      "children": [
-        {
-          "name": "gds-sso 13.5.1",
-          "size": 1
-        },
-        {
-          "name": "gds-sso 13.6.0",
-          "size": 27
-        }
-      ]
-    },
-    {
-      "name": "google-api-client",
-      "children": [
-        {
-          "name": "google-api-client 0.19.6",
-          "size": 1
-        },
-        {
-          "name": "google-api-client 0.23.9",
-          "size": 1
-        },
-        {
-          "name": "google-api-client 0.24.1",
-          "size": 3
+          "name": "cucumber-rails 2.0.0",
+          "size": 6
         }
       ]
     },
@@ -358,28 +753,15 @@
       "children": [
         {
           "name": "govuk_admin_template 6.5.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_admin_template 6.6.0",
-          "size": 18
-        }
-      ]
-    },
-    {
-      "name": "govuk_sidekiq",
-      "children": [
-        {
-          "name": "govuk_sidekiq 3.0.0",
-          "size": 2
-        },
-        {
-          "name": "govuk_sidekiq 3.0.1",
           "size": 1
         },
         {
-          "name": "govuk_sidekiq 3.0.2",
-          "size": 16
+          "name": "govuk_admin_template 6.6.0",
+          "size": 2
+        },
+        {
+          "name": "govuk_admin_template 6.7.0",
+          "size": 19
         }
       ]
     },
@@ -387,16 +769,20 @@
       "name": "govuk_test",
       "children": [
         {
-          "name": "govuk_test 0.1.0",
-          "size": 1
-        },
-        {
-          "name": "govuk_test 0.2.0",
-          "size": 1
-        },
-        {
           "name": "govuk_test 0.2.1",
-          "size": 19
+          "size": 1
+        },
+        {
+          "name": "govuk_test 0.5.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_test 1.0.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_test 1.0.3",
+          "size": 26
         }
       ]
     },
@@ -414,7 +800,7 @@
       "children": [
         {
           "name": "htmlentities 4.3.4",
-          "size": 4
+          "size": 5
         }
       ]
     },
@@ -422,29 +808,8 @@
       "name": "jasmine",
       "children": [
         {
-          "name": "jasmine 2.5.2",
-          "size": 1
-        },
-        {
-          "name": "jasmine 2.9.0",
-          "size": 1
-        },
-        {
-          "name": "jasmine 2.99.0",
-          "size": 1
-        },
-        {
-          "name": "jasmine 3.2.0",
-          "size": 7
-        }
-      ]
-    },
-    {
-      "name": "kaminari",
-      "children": [
-        {
-          "name": "kaminari 1.1.1",
-          "size": 13
+          "name": "jasmine 3.5.0",
+          "size": 10
         }
       ]
     },
@@ -453,7 +818,7 @@
       "children": [
         {
           "name": "launchy 2.4.3",
-          "size": 10
+          "size": 9
         }
       ]
     },
@@ -479,25 +844,8 @@
       "name": "paper_trail",
       "children": [
         {
-          "name": "paper_trail 4.1.0",
-          "size": 1
-        },
-        {
-          "name": "paper_trail 10.0.1",
+          "name": "paper_trail 10.3.1",
           "size": 2
-        }
-      ]
-    },
-    {
-      "name": "pg",
-      "children": [
-        {
-          "name": "pg 0.21.0",
-          "size": 5
-        },
-        {
-          "name": "pg 1.1.3",
-          "size": 10
         }
       ]
     },
@@ -510,16 +858,11 @@
         },
         {
           "name": "pry 0.11.3",
-          "size": 9
-        }
-      ]
-    },
-    {
-      "name": "rails-controller-testing",
-      "children": [
+          "size": 1
+        },
         {
-          "name": "rails-controller-testing 1.0.2",
-          "size": 26
+          "name": "pry 0.12.2",
+          "size": 16
         }
       ]
     },
@@ -527,7 +870,7 @@
       "name": "rspec-collection_matchers",
       "children": [
         {
-          "name": "rspec-collection_matchers 1.1.3",
+          "name": "rspec-collection_matchers 1.2.0",
           "size": 4
         }
       ]
@@ -536,12 +879,12 @@
       "name": "sass",
       "children": [
         {
-          "name": "sass 3.5.6",
+          "name": "sass 3.7.2",
           "size": 1
         },
         {
-          "name": "sass 3.5.7",
-          "size": 3
+          "name": "sass 3.7.4",
+          "size": 4
         }
       ]
     },
@@ -549,8 +892,24 @@
       "name": "sass-rails",
       "children": [
         {
+          "name": "sass-rails 5.0.6",
+          "size": 1
+        },
+        {
           "name": "sass-rails 5.0.7",
-          "size": 34
+          "size": 16
+        },
+        {
+          "name": "sass-rails 5.0.8",
+          "size": 3
+        },
+        {
+          "name": "sass-rails 5.1.0",
+          "size": 4
+        },
+        {
+          "name": "sass-rails 6.0.0",
+          "size": 14
         }
       ]
     },
@@ -576,15 +935,11 @@
       ]
     },
     {
-      "name": "shoulda-matchers",
+      "name": "sprockets",
       "children": [
         {
-          "name": "shoulda-matchers 3.0.1",
-          "size": 1
-        },
-        {
-          "name": "shoulda-matchers 3.1.2",
-          "size": 8
+          "name": "sprockets 3.7.2",
+          "size": 2
         }
       ]
     },
@@ -592,29 +947,20 @@
       "name": "uglifier",
       "children": [
         {
-          "name": "uglifier 4.1.5",
-          "size": 1
-        },
-        {
-          "name": "uglifier 4.1.18",
+          "name": "uglifier 3.2.0",
           "size": 1
         },
         {
           "name": "uglifier 4.1.19",
-          "size": 35
-        }
-      ]
-    },
-    {
-      "name": "web-console",
-      "children": [
+          "size": 2
+        },
         {
-          "name": "web-console 3.5.1",
+          "name": "uglifier 4.1.20",
           "size": 1
         },
         {
-          "name": "web-console 3.7.0",
-          "size": 10
+          "name": "uglifier 4.2.0",
+          "size": 36
         }
       ]
     },
@@ -622,7 +968,11 @@
       "name": "addressable",
       "children": [
         {
-          "name": "addressable 2.5.2",
+          "name": "addressable 2.6.0",
+          "size": 1
+        },
+        {
+          "name": "addressable 2.7.0",
           "size": 5
         }
       ]
@@ -631,26 +981,17 @@
       "name": "ancestry",
       "children": [
         {
-          "name": "ancestry 3.0.2",
+          "name": "ancestry 3.0.7",
           "size": 2
         }
       ]
     },
     {
-      "name": "better_errors",
+      "name": "bootsnap",
       "children": [
         {
-          "name": "better_errors 2.5.0",
-          "size": 21
-        }
-      ]
-    },
-    {
-      "name": "binding_of_caller",
-      "children": [
-        {
-          "name": "binding_of_caller 0.8.0",
-          "size": 20
+          "name": "bootsnap 1.4.5",
+          "size": 7
         }
       ]
     },
@@ -664,6 +1005,44 @@
       ]
     },
     {
+      "name": "browser",
+      "children": [
+        {
+          "name": "browser 2.5.3",
+          "size": 1
+        },
+        {
+          "name": "browser 2.7.1",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "capybara",
+      "children": [
+        {
+          "name": "capybara 2.15.1",
+          "size": 1
+        },
+        {
+          "name": "capybara 2.18.0",
+          "size": 2
+        },
+        {
+          "name": "capybara 3.8.1",
+          "size": 1
+        },
+        {
+          "name": "capybara 3.26.0",
+          "size": 1
+        },
+        {
+          "name": "capybara 3.29.0",
+          "size": 11
+        }
+      ]
+    },
+    {
       "name": "deprecated_columns",
       "children": [
         {
@@ -673,11 +1052,53 @@
       ]
     },
     {
+      "name": "faraday",
+      "children": [
+        {
+          "name": "faraday 0.13.1",
+          "size": 1
+        },
+        {
+          "name": "faraday 0.17.0",
+          "size": 3
+        },
+        {
+          "name": "faraday 0.17.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "govuk_publishing_components",
+      "children": [
+        {
+          "name": "govuk_publishing_components 17.21.0",
+          "size": 2
+        },
+        {
+          "name": "govuk_publishing_components 21.5.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_publishing_components 21.13.1",
+          "size": 6
+        },
+        {
+          "name": "govuk_publishing_components 21.13.2",
+          "size": 12
+        }
+      ]
+    },
+    {
       "name": "json",
       "children": [
         {
           "name": "json 2.1.0",
-          "size": 3
+          "size": 1
+        },
+        {
+          "name": "json 2.2.0",
+          "size": 4
         }
       ]
     },
@@ -685,12 +1106,8 @@
       "name": "minitest",
       "children": [
         {
-          "name": "minitest 5.10.3",
-          "size": 1
-        },
-        {
-          "name": "minitest 5.11.3",
-          "size": 4
+          "name": "minitest 5.13.0",
+          "size": 5
         }
       ]
     },
@@ -698,7 +1115,7 @@
       "name": "mocha",
       "children": [
         {
-          "name": "mocha 1.7.0",
+          "name": "mocha 1.9.0",
           "size": 12
         }
       ]
@@ -708,20 +1125,11 @@
       "children": [
         {
           "name": "mysql2 0.4.10",
-          "size": 6
-        }
-      ]
-    },
-    {
-      "name": "nokogiri",
-      "children": [
-        {
-          "name": "nokogiri 1.8.2",
-          "size": 1
+          "size": 4
         },
         {
-          "name": "nokogiri 1.8.4",
-          "size": 11
+          "name": "mysql2 0.5.2",
+          "size": 2
         }
       ]
     },
@@ -742,7 +1150,7 @@
       "name": "pundit",
       "children": [
         {
-          "name": "pundit 2.0.0",
+          "name": "pundit 2.1.0",
           "size": 2
         }
       ]
@@ -751,12 +1159,24 @@
       "name": "rake",
       "children": [
         {
-          "name": "rake 12.3.0",
-          "size": 1
+          "name": "rake 12.3.1",
+          "size": 3
         },
         {
-          "name": "rake 12.3.1",
-          "size": 5
+          "name": "rake 12.3.2",
+          "size": 2
+        },
+        {
+          "name": "rake 12.3.3",
+          "size": 3
+        },
+        {
+          "name": "rake 13.0.0",
+          "size": 2
+        },
+        {
+          "name": "rake 13.0.1",
+          "size": 4
         }
       ]
     },
@@ -764,12 +1184,8 @@
       "name": "redis",
       "children": [
         {
-          "name": "redis 3.3.5",
-          "size": 1
-        },
-        {
-          "name": "redis 4.0.2",
-          "size": 4
+          "name": "redis 4.1.3",
+          "size": 5
         }
       ]
     },
@@ -792,60 +1208,11 @@
       ]
     },
     {
-      "name": "uuid",
-      "children": [
-        {
-          "name": "uuid 2.3.9",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "byebug",
-      "children": [
-        {
-          "name": "byebug 9.1.0",
-          "size": 1
-        },
-        {
-          "name": "byebug 10.0.2",
-          "size": 11
-        }
-      ]
-    },
-    {
-      "name": "faraday",
-      "children": [
-        {
-          "name": "faraday 0.12.2",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "listen",
-      "children": [
-        {
-          "name": "listen 3.1.5",
-          "size": 11
-        }
-      ]
-    },
-    {
-      "name": "rspec-its",
-      "children": [
-        {
-          "name": "rspec-its 1.2.0",
-          "size": 3
-        }
-      ]
-    },
-    {
       "name": "sidekiq-scheduler",
       "children": [
         {
           "name": "sidekiq-scheduler 3.0.0",
-          "size": 3
+          "size": 5
         }
       ]
     },
@@ -868,28 +1235,6 @@
       ]
     },
     {
-      "name": "govuk_frontend_toolkit",
-      "children": [
-        {
-          "name": "govuk_frontend_toolkit 7.6.0",
-          "size": 18
-        }
-      ]
-    },
-    {
-      "name": "govuk_publishing_components",
-      "children": [
-        {
-          "name": "govuk_publishing_components 9.26.0",
-          "size": 3
-        },
-        {
-          "name": "govuk_publishing_components 9.26.1",
-          "size": 15
-        }
-      ]
-    },
-    {
       "name": "rack_strip_client_ip",
       "children": [
         {
@@ -902,7 +1247,16 @@
       "name": "rails-i18n",
       "children": [
         {
-          "name": "rails-i18n 5.1.1",
+          "name": "rails-i18n 5.1.3",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "scss_lint-govuk",
+      "children": [
+        {
+          "name": "scss_lint-govuk 0.2.0",
           "size": 6
         }
       ]
@@ -924,8 +1278,63 @@
       "name": "slimmer",
       "children": [
         {
-          "name": "slimmer 13.0.0",
+          "name": "slimmer 13.2.0",
           "size": 15
+        }
+      ]
+    },
+    {
+      "name": "puma",
+      "children": [
+        {
+          "name": "puma 3.10.0",
+          "size": 1
+        },
+        {
+          "name": "puma 3.12.0",
+          "size": 2
+        },
+        {
+          "name": "puma 3.12.1",
+          "size": 1
+        },
+        {
+          "name": "puma 4.2.1",
+          "size": 1
+        },
+        {
+          "name": "puma 4.3.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "sinatra",
+      "children": [
+        {
+          "name": "sinatra 2.0.4",
+          "size": 4
+        },
+        {
+          "name": "sinatra 2.0.5",
+          "size": 2
+        },
+        {
+          "name": "sinatra 2.0.7",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "zendesk_api",
+      "children": [
+        {
+          "name": "zendesk_api 1.14.4",
+          "size": 1
+        },
+        {
+          "name": "zendesk_api 1.19.0",
+          "size": 1
         }
       ]
     },
@@ -934,7 +1343,20 @@
       "children": [
         {
           "name": "cancancan 2.3.0",
+          "size": 1
+        },
+        {
+          "name": "cancancan 3.0.1",
           "size": 2
+        }
+      ]
+    },
+    {
+      "name": "dalli",
+      "children": [
+        {
+          "name": "dalli 2.7.10",
+          "size": 7
         }
       ]
     },
@@ -960,21 +1382,12 @@
       "name": "govspeak",
       "children": [
         {
-          "name": "govspeak 5.5.0",
+          "name": "govspeak 5.6.0",
           "size": 1
         },
         {
-          "name": "govspeak 5.6.0",
-          "size": 13
-        }
-      ]
-    },
-    {
-      "name": "lrucache",
-      "children": [
-        {
-          "name": "lrucache 0.1.4",
-          "size": 3
+          "name": "govspeak 6.5.1",
+          "size": 14
         }
       ]
     },
@@ -982,35 +1395,87 @@
       "name": "test-unit",
       "children": [
         {
-          "name": "test-unit 3.2.8",
+          "name": "test-unit 3.3.4",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "coffee-rails",
+      "children": [
+        {
+          "name": "coffee-rails 4.2.2",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "govuk_frontend_toolkit",
+      "children": [
+        {
+          "name": "govuk_frontend_toolkit 8.1.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_frontend_toolkit 8.2.0",
+          "size": 3
+        },
+        {
+          "name": "govuk_frontend_toolkit 9.0.0",
           "size": 4
         }
       ]
     },
     {
-      "name": "dalli",
+      "name": "logging",
       "children": [
         {
-          "name": "dalli 2.7.8",
-          "size": 4
+          "name": "logging 2.2.2",
+          "size": 3
         }
       ]
     },
     {
-      "name": "jbuilder",
+      "name": "rainbow",
       "children": [
         {
-          "name": "jbuilder 2.7.0",
-          "size": 4
+          "name": "rainbow 3.0.0",
+          "size": 3
         }
       ]
     },
     {
-      "name": "pry-rails",
+      "name": "rest-client",
       "children": [
         {
-          "name": "pry-rails 0.3.6",
-          "size": 9
+          "name": "rest-client 2.0.2",
+          "size": 2
+        },
+        {
+          "name": "rest-client 2.1.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "turbolinks",
+      "children": [
+        {
+          "name": "turbolinks 5.2.0",
+          "size": 1
+        },
+        {
+          "name": "turbolinks 5.2.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "googleauth",
+      "children": [
+        {
+          "name": "googleauth 0.10.0",
+          "size": 3
         }
       ]
     },
@@ -1037,7 +1502,7 @@
       "children": [
         {
           "name": "asset_bom_removal-rails 1.0.2",
-          "size": 6
+          "size": 5
         }
       ]
     },
@@ -1060,15 +1525,6 @@
       ]
     },
     {
-      "name": "govuk_schemas",
-      "children": [
-        {
-          "name": "govuk_schemas 3.2.0",
-          "size": 9
-        }
-      ]
-    },
-    {
       "name": "invalid_utf8_rejector",
       "children": [
         {
@@ -1078,11 +1534,15 @@
       ]
     },
     {
-      "name": "therubyracer",
+      "name": "notifications-ruby-client",
       "children": [
         {
-          "name": "therubyracer 0.12.3",
-          "size": 2
+          "name": "notifications-ruby-client 4.0.0",
+          "size": 1
+        },
+        {
+          "name": "notifications-ruby-client 5.1.0",
+          "size": 3
         }
       ]
     },
@@ -1090,17 +1550,8 @@
       "name": "uk_postcode",
       "children": [
         {
-          "name": "uk_postcode 2.1.2",
+          "name": "uk_postcode 2.1.5",
           "size": 2
-        }
-      ]
-    },
-    {
-      "name": "awesome_print",
-      "children": [
-        {
-          "name": "awesome_print 1.8.0",
-          "size": 3
         }
       ]
     },
@@ -1109,6 +1560,15 @@
       "children": [
         {
           "name": "chronic 0.10.2",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "dotenv-rails",
+      "children": [
+        {
+          "name": "dotenv-rails 2.7.5",
           "size": 2
         }
       ]
@@ -1118,7 +1578,11 @@
       "children": [
         {
           "name": "govuk_document_types 0.8.0",
-          "size": 3
+          "size": 1
+        },
+        {
+          "name": "govuk_document_types 0.9.2",
+          "size": 5
         }
       ]
     },
@@ -1126,26 +1590,17 @@
       "name": "jasmine-rails",
       "children": [
         {
-          "name": "jasmine-rails 0.14.8",
+          "name": "jasmine-rails 0.15.0",
           "size": 6
         }
       ]
     },
     {
-      "name": "shared_mustache",
+      "name": "fog-aws",
       "children": [
         {
-          "name": "shared_mustache 1.0.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "fakefs",
-      "children": [
-        {
-          "name": "fakefs 0.18.0",
-          "size": 2
+          "name": "fog-aws 3.5.2",
+          "size": 3
         }
       ]
     },
@@ -1159,20 +1614,92 @@
       ]
     },
     {
-      "name": "spring",
+      "name": "octokit",
       "children": [
         {
-          "name": "spring 2.0.2",
-          "size": 7
+          "name": "octokit 4.12.0",
+          "size": 2
+        },
+        {
+          "name": "octokit 4.13.0",
+          "size": 1
+        },
+        {
+          "name": "octokit 4.14.0",
+          "size": 1
         }
       ]
     },
     {
-      "name": "spring-watcher-listen",
+      "name": "rack-test",
       "children": [
         {
-          "name": "spring-watcher-listen 2.0.1",
+          "name": "rack-test 0.8.3",
+          "size": 2
+        },
+        {
+          "name": "rack-test 1.1.0",
           "size": 5
+        }
+      ]
+    },
+    {
+      "name": "rspec",
+      "children": [
+        {
+          "name": "rspec 3.6.0",
+          "size": 1
+        },
+        {
+          "name": "rspec 3.7.0",
+          "size": 1
+        },
+        {
+          "name": "rspec 3.8.0",
+          "size": 5
+        },
+        {
+          "name": "rspec 3.9.0",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "slack-poster",
+      "children": [
+        {
+          "name": "slack-poster 1.0.1",
+          "size": 1
+        },
+        {
+          "name": "slack-poster 2.2.1",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "unicorn",
+      "children": [
+        {
+          "name": "unicorn 5.4.1",
+          "size": 2
+        },
+        {
+          "name": "unicorn 5.5.1",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "vcr",
+      "children": [
+        {
+          "name": "vcr 4.0.0",
+          "size": 1
+        },
+        {
+          "name": "vcr 5.0.0",
+          "size": 1
         }
       ]
     },
@@ -1180,7 +1707,7 @@
       "name": "diffy",
       "children": [
         {
-          "name": "diffy 3.2.1",
+          "name": "diffy 3.3.0",
           "size": 4
         }
       ]
@@ -1198,8 +1725,21 @@
       "name": "inherited_resources",
       "children": [
         {
-          "name": "inherited_resources 1.9.0",
+          "name": "inherited_resources 1.11.0",
           "size": 2
+        }
+      ]
+    },
+    {
+      "name": "jasmine-core",
+      "children": [
+        {
+          "name": "jasmine-core 2.99.2",
+          "size": 1
+        },
+        {
+          "name": "jasmine-core 3.5.0",
+          "size": 1
         }
       ]
     },
@@ -1233,29 +1773,7 @@
       "name": "minitest-reporters",
       "children": [
         {
-          "name": "minitest-reporters 1.3.4",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "nested_form",
-      "children": [
-        {
-          "name": "nested_form 0.3.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "rack",
-      "children": [
-        {
-          "name": "rack 2.0.4",
-          "size": 1
-        },
-        {
-          "name": "rack 2.0.5",
+          "name": "minitest-reporters 1.4.2",
           "size": 3
         }
       ]
@@ -1265,7 +1783,11 @@
       "children": [
         {
           "name": "selectize-rails 0.12.5",
-          "size": 3
+          "size": 1
+        },
+        {
+          "name": "selectize-rails 0.12.6",
+          "size": 2
         }
       ]
     },
@@ -1299,17 +1821,25 @@
       "name": "responders",
       "children": [
         {
-          "name": "responders 2.4.0",
+          "name": "responders 3.0.0",
           "size": 3
         }
       ]
     },
     {
-      "name": "bootsnap",
+      "name": "brakeman",
       "children": [
         {
-          "name": "bootsnap 1.3.2",
-          "size": 4
+          "name": "brakeman 4.2.1",
+          "size": 1
+        },
+        {
+          "name": "brakeman 4.7.0",
+          "size": 1
+        },
+        {
+          "name": "brakeman 4.7.2",
+          "size": 2
         }
       ]
     },
@@ -1321,7 +1851,7 @@
           "size": 1
         },
         {
-          "name": "carrierwave 1.2.3",
+          "name": "carrierwave 1.3.1",
           "size": 1
         }
       ]
@@ -1352,34 +1882,56 @@
       "name": "friendly_id",
       "children": [
         {
-          "name": "friendly_id 5.2.3",
-          "size": 1
-        },
-        {
           "name": "friendly_id 5.2.4",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "logstasher",
-      "children": [
-        {
-          "name": "logstasher 1.2.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "rack-test",
-      "children": [
-        {
-          "name": "rack-test 0.8.2",
           "size": 1
         },
         {
-          "name": "rack-test 1.1.0",
-          "size": 3
+          "name": "friendly_id 5.3.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "fuzzy_match",
+      "children": [
+        {
+          "name": "fuzzy_match 2.1.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "mime-types",
+      "children": [
+        {
+          "name": "mime-types 3.1",
+          "size": 1
+        },
+        {
+          "name": "mime-types 3.3",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "mini_magick",
+      "children": [
+        {
+          "name": "mini_magick 4.9.5",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "pdf-reader",
+      "children": [
+        {
+          "name": "pdf-reader 2.3.0",
+          "size": 1
+        },
+        {
+          "name": "pdf-reader 2.4.0",
+          "size": 2
         }
       ]
     },
@@ -1393,20 +1945,11 @@
       ]
     },
     {
-      "name": "raindrops",
-      "children": [
-        {
-          "name": "raindrops 0.19.0",
-          "size": 2
-        }
-      ]
-    },
-    {
       "name": "rinku",
       "children": [
         {
-          "name": "rinku 2.0.4",
-          "size": 3
+          "name": "rinku 2.0.6",
+          "size": 4
         }
       ]
     },
@@ -1414,16 +1957,20 @@
       "name": "ruby-prof",
       "children": [
         {
-          "name": "ruby-prof 0.17.0",
+          "name": "ruby-prof 1.0.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "ruby-progressbar",
+      "name": "rubyzip",
       "children": [
         {
-          "name": "ruby-progressbar 1.10.0",
+          "name": "rubyzip 1.3.0",
+          "size": 1
+        },
+        {
+          "name": "rubyzip 2.0.0",
           "size": 2
         }
       ]
@@ -1432,8 +1979,116 @@
       "name": "stackprof",
       "children": [
         {
-          "name": "stackprof 0.2.12",
+          "name": "stackprof 0.2.13",
           "size": 2
+        }
+      ]
+    },
+    {
+      "name": "activesupport",
+      "children": [
+        {
+          "name": "activesupport 5.2.1",
+          "size": 2
+        },
+        {
+          "name": "activesupport 5.2.2",
+          "size": 1
+        },
+        {
+          "name": "activesupport 6.0.1",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "bunny-mock",
+      "children": [
+        {
+          "name": "bunny-mock 1.7.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "elasticsearch",
+      "children": [
+        {
+          "name": "elasticsearch 2.0.2",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch 5.0.4",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch 5.0.5",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch 6.3.1",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch 7.0.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "loofah",
+      "children": [
+        {
+          "name": "loofah 2.2.2",
+          "size": 1
+        },
+        {
+          "name": "loofah 2.4.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "mr-sparkle",
+      "children": [
+        {
+          "name": "mr-sparkle 0.3.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "oj",
+      "children": [
+        {
+          "name": "oj 3.9.2",
+          "size": 1
+        },
+        {
+          "name": "oj 3.10.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "rack-logstasher",
+      "children": [
+        {
+          "name": "rack-logstasher 1.0.0",
+          "size": 1
+        },
+        {
+          "name": "rack-logstasher 1.0.1",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "sidekiq-limit_fetch",
+      "children": [
+        {
+          "name": "sidekiq-limit_fetch 3.4.0",
+          "size": 3
         }
       ]
     },
@@ -1447,24 +2102,24 @@
       ]
     },
     {
-      "name": "unicorn",
+      "name": "unf",
       "children": [
         {
-          "name": "unicorn 5.4.1",
-          "size": 4
+          "name": "unf 0.1.4",
+          "size": 2
         }
       ]
     },
     {
-      "name": "rack-proxy",
+      "name": "fakefs",
       "children": [
         {
-          "name": "rack-proxy 0.6.4",
+          "name": "fakefs 0.19.2",
           "size": 1
         },
         {
-          "name": "rack-proxy 0.6.5",
-          "size": 3
+          "name": "fakefs 0.20.1",
+          "size": 1
         }
       ]
     },
@@ -1472,8 +2127,8 @@
       "name": "json-schema",
       "children": [
         {
-          "name": "json-schema 2.8.0",
-          "size": 3
+          "name": "json-schema 2.8.1",
+          "size": 5
         }
       ]
     },
@@ -1481,30 +2136,21 @@
       "name": "simple_form",
       "children": [
         {
-          "name": "simple_form 4.0.1",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "mr-sparkle",
-      "children": [
+          "name": "simple_form 4.1.0",
+          "size": 1
+        },
         {
-          "name": "mr-sparkle 0.3.0",
+          "name": "simple_form 5.0.1",
           "size": 2
         }
       ]
     },
     {
-      "name": "rspec",
+      "name": "thin",
       "children": [
         {
-          "name": "rspec 3.7.0",
-          "size": 1
-        },
-        {
-          "name": "rspec 3.8.0",
-          "size": 3
+          "name": "thin 1.7.2",
+          "size": 2
         }
       ]
     },
@@ -1512,7 +2158,7 @@
       "name": "parser",
       "children": [
         {
-          "name": "parser 2.5.1.2",
+          "name": "parser 2.6.5.0",
           "size": 2
         }
       ]
@@ -1522,7 +2168,11 @@
       "children": [
         {
           "name": "chartkick 3.0.1",
-          "size": 3
+          "size": 1
+        },
+        {
+          "name": "chartkick 3.3.0",
+          "size": 2
         }
       ]
     },
@@ -1543,7 +2193,7 @@
       "name": "bunny",
       "children": [
         {
-          "name": "bunny 2.12.0",
+          "name": "bunny 2.14.3",
           "size": 2
         }
       ]
@@ -1552,17 +2202,21 @@
       "name": "faker",
       "children": [
         {
-          "name": "faker 1.9.1",
-          "size": 2
+          "name": "faker 2.2.1",
+          "size": 1
+        },
+        {
+          "name": "faker 2.7.0",
+          "size": 1
         }
       ]
     },
     {
-      "name": "spring-commands-rspec",
+      "name": "hashdiff",
       "children": [
         {
-          "name": "spring-commands-rspec 1.0.4",
-          "size": 3
+          "name": "hashdiff 1.0.0",
+          "size": 4
         }
       ]
     },
@@ -1570,35 +2224,26 @@
       "name": "with_advisory_lock",
       "children": [
         {
-          "name": "with_advisory_lock 4.0.0",
+          "name": "with_advisory_lock 4.6.0",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "jasmine_selenium_runner",
+      "children": [
+        {
+          "name": "jasmine_selenium_runner 3.0.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "aws-sdk-s3",
+      "name": "guard-rspec",
       "children": [
         {
-          "name": "aws-sdk-s3 1.20.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "foreman",
-      "children": [
-        {
-          "name": "foreman 0.85.0",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "notifications-ruby-client",
-      "children": [
-        {
-          "name": "notifications-ruby-client 2.9.0",
-          "size": 2
+          "name": "guard-rspec 4.7.3",
+          "size": 3
         }
       ]
     },
@@ -1615,7 +2260,7 @@
       "name": "rspec-core",
       "children": [
         {
-          "name": "rspec-core 3.8.0",
+          "name": "rspec-core 3.9.0",
           "size": 2
         }
       ]
@@ -1624,7 +2269,7 @@
       "name": "rspec-expectations",
       "children": [
         {
-          "name": "rspec-expectations 3.8.1",
+          "name": "rspec-expectations 3.9.0",
           "size": 2
         }
       ]
@@ -1633,17 +2278,17 @@
       "name": "rspec-mocks",
       "children": [
         {
-          "name": "rspec-mocks 3.8.0",
+          "name": "rspec-mocks 3.9.0",
           "size": 2
         }
       ]
     },
     {
-      "name": "climate_control",
+      "name": "foreman",
       "children": [
         {
-          "name": "climate_control 0.2.0",
-          "size": 3
+          "name": "foreman 0.86.0",
+          "size": 2
         }
       ]
     },
@@ -1651,12 +2296,8 @@
       "name": "jwt",
       "children": [
         {
-          "name": "jwt 1.5.6",
-          "size": 1
-        },
-        {
-          "name": "jwt 2.1.0",
-          "size": 1
+          "name": "jwt 2.2.1",
+          "size": 3
         }
       ]
     },
@@ -1665,7 +2306,141 @@
       "children": [
         {
           "name": "redcarpet 3.4.0",
+          "size": 1
+        },
+        {
+          "name": "redcarpet 3.5.0",
           "size": 2
+        }
+      ]
+    },
+    {
+      "name": "codeclimate-test-reporter",
+      "children": [
+        {
+          "name": "codeclimate-test-reporter 1.0.8",
+          "size": 1
+        },
+        {
+          "name": "codeclimate-test-reporter 1.0.9",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "elasticsearch-model",
+      "children": [
+        {
+          "name": "elasticsearch-model 5.0.1",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch-model 6.0.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "elasticsearch-rails",
+      "children": [
+        {
+          "name": "elasticsearch-rails 5.0.1",
+          "size": 1
+        },
+        {
+          "name": "elasticsearch-rails 6.0.0",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "govuk_elements_rails",
+      "children": [
+        {
+          "name": "govuk_elements_rails 3.1.0",
+          "size": 1
+        },
+        {
+          "name": "govuk_elements_rails 3.1.3",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "govuk_template",
+      "children": [
+        {
+          "name": "govuk_template 0.23.1",
+          "size": 1
+        },
+        {
+          "name": "govuk_template 0.26.0",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "jquery-rails",
+      "children": [
+        {
+          "name": "jquery-rails 4.3.1",
+          "size": 1
+        },
+        {
+          "name": "jquery-rails 4.3.3",
+          "size": 1
+        },
+        {
+          "name": "jquery-rails 4.3.5",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "lograge",
+      "children": [
+        {
+          "name": "lograge 0.10.0",
+          "size": 1
+        },
+        {
+          "name": "lograge 0.11.2",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "logstash-event",
+      "children": [
+        {
+          "name": "logstash-event 1.2.02",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "pry-stack_explorer",
+      "children": [
+        {
+          "name": "pry-stack_explorer 0.4.9.2",
+          "size": 1
+        },
+        {
+          "name": "pry-stack_explorer 0.4.9.3",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "sentry-raven",
+      "children": [
+        {
+          "name": "sentry-raven 2.7.1",
+          "size": 1
+        },
+        {
+          "name": "sentry-raven 2.11.3",
+          "size": 1
         }
       ]
     },
@@ -1683,43 +2458,11 @@
       "children": [
         {
           "name": "draper 3.0.1",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "govuk_message_queue_consumer",
-      "children": [
+          "size": 1
+        },
         {
-          "name": "govuk_message_queue_consumer 3.2.1",
-          "size": 3
-        }
-      ]
-    },
-    {
-      "name": "guard-rspec",
-      "children": [
-        {
-          "name": "guard-rspec 4.7.3",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "httparty",
-      "children": [
-        {
-          "name": "httparty 0.16.2",
-          "size": 2
-        }
-      ]
-    },
-    {
-      "name": "jquery-rails",
-      "children": [
-        {
-          "name": "jquery-rails 4.3.3",
-          "size": 3
+          "name": "draper 3.1.0",
+          "size": 1
         }
       ]
     },
@@ -1728,37 +2471,6 @@
       "children": [
         {
           "name": "phantomjs 2.1.1.0",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "puma",
-      "children": [
-        {
-          "name": "puma 3.12.0",
-          "size": 4
-        }
-      ]
-    },
-    {
-      "name": "elasticsearch",
-      "children": [
-        {
-          "name": "elasticsearch 2.0.2",
-          "size": 1
-        },
-        {
-          "name": "elasticsearch 6.1.0",
-          "size": 1
-        }
-      ]
-    },
-    {
-      "name": "govuk_elements_rails",
-      "children": [
-        {
-          "name": "govuk_elements_rails 3.1.3",
           "size": 3
         }
       ]
@@ -1767,7 +2479,7 @@
       "name": "wraith",
       "children": [
         {
-          "name": "wraith 4.2.3",
+          "name": "wraith 4.2.4",
           "size": 2
         }
       ]
